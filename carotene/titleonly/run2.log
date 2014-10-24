@@ -1,0 +1,661 @@
+processing categories in: /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc11-categories.txt
+Project Manager vs. Project Manager
+Human Resources (HR) Generalist vs. Human Resources (HR) Generalist
+Chief Financial Officer (CFO) vs. Chief Financial Officer (CFO)
+Clinical Research Associate (CRA) vs. Clinical Research Associate (CRA)
+Human Resources (HR) Business Partner vs. Human Resources (HR) Business Partner
+Chief Operating Officer (COO) vs. Chief Operating Officer (COO)
+Assistant Store Manager vs. Assistant Store Manager
+Chief Executive Officer (CEO) vs. Chief Executive Officer (CEO)
+Surgery Center Administrator vs. Surgery Center Administrator
+Child Care Center Director vs. Child Care Center Director
+Information Technology (IT) Manager vs. Information Technology (IT) Manager
+Senior Vice President (SVP) vs. Senior Vice President (SVP)
+Behavioral Health Care Manager vs. Behavioral Health Care Manager
+Research and Development (R&D) Manager vs. Research and Development (R&D) Manager
+Project Management Office (PMO) Manager vs. Project Management Office (PMO) Manager
+Chief Technology Officer (CTO) vs. Chief Technology Officer (CTO)
+Healthcare Facility Administrator vs. Healthcare Facility Administrator
+Corporate Vice President (VP) vs. Corporate Vice President (VP)
+Quality Assurance (QA) Coordinator vs. Quality Assurance (QA) Coordinator
+Staff Officer vs. Staff Officer
+Merchandise Execution Leader vs. Merchandise Execution Leader
+Nurse Manager Intensive Care Unit (ICU) vs. Nurse Manager Intensive Care Unit (ICU)
+Accuracy (%): 4.49897750511 (22/489)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc13-categories.txt
+Sales Management Trainee vs. Sales Management Trainee
+Wealth Management Advisor vs. Wealth Management Advisor
+Human Resources Supervisor vs. Human Resources Supervisor
+Insurance Claims Specialist vs. Insurance Claims Specialist
+Branch Sales Manager vs. Branch Sales Manager
+Tax Senior - Public vs. Tax Senior - Public
+Derivatives FpML Analyst vs. Derivatives FpML Analyst
+Mortgage Processing Supervisor vs. Mortgage Processing Supervisor
+National Luminologist Trainer vs. National Luminologist Trainer
+Real Estate Appraiser vs. Real Estate Appraiser
+Event Planner vs. Event Planner
+Human Resources Lead vs. Human Resources Lead
+Seasonal Tax Preparer vs. Seasonal Tax Preparer
+Provider Contract Specialist vs. Provider Contract Specialist
+Change Management Analyst vs. Change Management Analyst
+Human Resources Analyst vs. Human Resources Analyst
+Assurance Services Senior Associate vs. Assurance Services Senior Associate
+Certified Public Accountant (CPA) vs. Certified Public Accountant (CPA)
+Supply Chain Planner vs. Supply Chain Planner
+Risk Management Analyst vs. Risk Management Analyst
+Risk Control Consultant vs. Risk Control Consultant
+Mortgage Loan Originator vs. Mortgage Loan Originator
+General Ledger Accountant vs. General Ledger Accountant
+Asset Management Analyst vs. Asset Management Analyst
+Business Process Consultant vs. Business Process Consultant
+Team Member Trainer vs. Team Member Trainer
+Process Improvement Analyst vs. Process Improvement Analyst
+Personal Financial Representative vs. Personal Financial Representative
+Loan Representative vs. Loan Representative
+Accuracy (%): 9.47712418301 (29/306)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc15-categories.txt
+Project Manager vs. Project Manager
+IT Help Desk Specialist vs. IT Help Desk Specialist
+User Interface Developer vs. User Interface Developer
+Test Automation Engineer vs. Test Automation Engineer
+Front-End Developer vs. Front-End Developer
+User Experience Designer vs. User Experience Designer
+Senior Test Engineer vs. Senior Test Engineer
+Identity Management Engineer vs. Identity Management Engineer
+Data Center Technician vs. Data Center Technician
+Supply Chain Analyst vs. Supply Chain Analyst
+Software Implementation Consultant vs. Software Implementation Consultant
+Client Support Specialist vs. Client Support Specialist
+Microsoft Exchange Engineer vs. Microsoft Exchange Engineer
+Medical Device Integration Analyst vs. Medical Device Integration Analyst
+Business Objects Developer vs. Business Objects Developer
+Microsoft Exchange Administrator vs. Microsoft Exchange Administrator
+Visual Basic Developer vs. Visual Basic Developer
+Microsoft Dynamics Developer vs. Microsoft Dynamics Developer
+Hyperion Planning Support Lead vs. Hyperion Planning Support Lead
+Oracle SCM Planning Subject Matter Expert vs. Oracle SCM Planning Subject Matter Expert
+Lotus Notes DevOps Engineer vs. Lotus Notes DevOps Engineer
+Active Directory Engineer vs. Active Directory Engineer
+Microsoft Access Developer vs. Microsoft Access Developer
+SAP Basis Administrator vs. SAP Basis Administrator
+IT Quality Assurance Analyst vs. IT Quality Assurance Analyst
+Service Desk Analyst vs. Service Desk Analyst
+QTP Automation Engineer vs. QTP Automation Engineer
+Lead Information Security Engineer vs. Lead Information Security Engineer
+Data Warehouse Lead vs. Data Warehouse Lead
+Manual QA Tester vs. Manual QA Tester
+AS400 RPG Programmer vs. AS400 RPG Programmer
+Business Systems Support Analyst vs. Business Systems Support Analyst
+Senior Business Intelligence Engineer vs. Senior Business Intelligence Engineer
+Service-Oriented Architecture (SOA) Architect vs. Service-Oriented Architecture (SOA) Architect
+Picture Archiving and Communication System (PACS) Administrator vs. Picture Archiving and Communication System (PACS) Administrator
+Local Area Network (LAN) Administrator vs. Local Area Network (LAN) Administrator
+Advanced Business Application Programming (ABAP) Developer vs. Advanced Business Application Programming (ABAP) Developer
+Operations Support Representative vs. Operations Support Representative
+Cyber Incident Responder vs. Cyber Incident Responder
+Agile Coach vs. Agile Coach
+Information Technology (IT) Systems Analyst vs. Information Technology (IT) Systems Analyst
+Windows Server Administrator vs. Windows Server Administrator
+Software Development Leader vs. Software Development Leader
+Epic Application Analyst vs. Epic Application Analyst
+Clinical Applications Analyst vs. Clinical Applications Analyst
+Quality Assurance (QA) Technician vs. Quality Assurance (QA) Technician
+Quality Assurance (QA) Coordinator vs. Quality Assurance (QA) Coordinator
+Process Improvement Analyst vs. Process Improvement Analyst
+Accuracy (%): 12.1212121212 (48/396)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc17-categories.txt
+Radio Frequency Engineer vs. Radio Frequency Engineer
+Electro-Mechanical Technician vs. Electro-Mechanical Technician
+Senior Test Engineer vs. Senior Test Engineer
+Entry Level Electrical Engineer vs. Entry Level Electrical Engineer
+Continuous Improvement Engineer vs. Continuous Improvement Engineer
+Water Resource Engineer vs. Water Resource Engineer
+Injection Molding Process Engineer vs. Injection Molding Process Engineer
+Survey Party Chief vs. Survey Party Chief
+Electrical Test Engineer vs. Electrical Test Engineer
+Human Factors Engineer vs. Human Factors Engineer
+Technical Services Engineer vs. Technical Services Engineer
+Project Manager vs. Project Manager
+Automotive Body Engineer vs. Automotive Body Engineer
+Signal Processing Engineer vs. Signal Processing Engineer
+Lead Test Engineer vs. Lead Test Engineer
+Paint Process Engineer vs. Paint Process Engineer
+Research and Development (R&D) Engineer vs. Research and Development (R&D) Engineer
+Quality Assurance (QA) Technician vs. Quality Assurance (QA) Technician
+Environmental Services Technician vs. Environmental Services Technician
+Accuracy (%): 8.5201793722 (19/223)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc19-categories.txt
+Clinical Research Associate (CRA) vs. Clinical Research Associate (CRA)
+Medical Science Liaison vs. Medical Science Liaison
+Research and Development (R&D) Technician vs. Research and Development (R&D) Technician
+Cell Culture Scientist vs. Cell Culture Scientist
+Latent Print Technician vs. Latent Print Technician
+Air Quality Specialist vs. Air Quality Specialist
+Molecular Biology Research Associate vs. Molecular Biology Research Associate
+Hazardous Waste Technician vs. Hazardous Waste Technician
+Research and Development (R&D) Scientist vs. Research and Development (R&D) Scientist
+Air Monitoring Specialist vs. Air Monitoring Specialist
+Lead Specimen Accessioner vs. Lead Specimen Accessioner
+Clinical Trials Specialist vs. Clinical Trials Specialist
+Environmental Services Technician vs. Environmental Services Technician
+Accuracy (%): 10.7438016529 (13/121)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc21-categories.txt
+Licensed Clinical Social Worker (LCSW) vs. Licensed Clinical Social Worker (LCSW)
+Substance Abuse Counselor (SA Counselor) vs. Substance Abuse Counselor (SA Counselor)
+Social Work Case Manager vs. Social Work Case Manager
+Direct Support Professional (DSP) vs. Direct Support Professional (DSP)
+Case Management Specialist vs. Case Management Specialist
+Parent Aide Specialist vs. Parent Aide Specialist
+Applied Behavior Analysis (ABA) Therapist vs. Applied Behavior Analysis (ABA) Therapist
+Therapeutic Staff Support vs. Therapeutic Staff Support
+Community Outreach Representative vs. Community Outreach Representative
+Mental Health Technician vs. Mental Health Technician
+Chemical Dependency Counselor vs. Chemical Dependency Counselor
+Licensed Social Worker (LSW) vs. Licensed Social Worker (LSW)
+TEAP Substance Abuse Specialist vs. TEAP Substance Abuse Specialist
+Mental Health Case Manager vs. Mental Health Case Manager
+Family Intervention Specialist vs. Family Intervention Specialist
+Recovery Resiliency Manager vs. Recovery Resiliency Manager
+Qualified Mental Retardation Professional (QMRP) vs. Qualified Mental Retardation Professional (QMRP)
+Academic Affairs Specialist vs. Academic Affairs Specialist
+Intensive In-Home Team Lead vs. Intensive In-Home Team Lead
+High School Presenter vs. High School Presenter
+Life Skills Worker vs. Life Skills Worker
+Certified Peer Specialist (CPS) vs. Certified Peer Specialist (CPS)
+Public Health Analyst vs. Public Health Analyst
+Behavioral Health Case Manager vs. Behavioral Health Case Manager
+Life Enrichment Assistant vs. Life Enrichment Assistant
+Home Care Social Worker vs. Home Care Social Worker
+Licensed Master Social Worker (LMSW) vs. Licensed Master Social Worker (LMSW)
+Accuracy (%): 15.6069364162 (27/173)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc23-categories.txt
+Corporate Paralegal vs. Corporate Paralegal
+Real Estate Paralegal vs. Real Estate Paralegal
+Title Examiner vs. Title Examiner
+Assistant General Counsel vs. Assistant General Counsel
+Intellectual Property Paralegal vs. Intellectual Property Paralegal
+Staff Attorney vs. Staff Attorney
+Bankruptcy Specialist vs. Bankruptcy Specialist
+Real Estate Attorney vs. Real Estate Attorney
+Intellectual Property Counsel vs. Intellectual Property Counsel
+Litigation Support Specialist vs. Litigation Support Specialist
+Insurance Defense Attorney vs. Insurance Defense Attorney
+Managing Attorney vs. Managing Attorney
+Labor and Employment Attorney vs. Labor and Employment Attorney
+Title Closer vs. Title Closer
+Personal Injury Paralegal vs. Personal Injury Paralegal
+Worker's Compensation Counsel vs. Worker's Compensation Counsel
+Litigation Support Analyst vs. Litigation Support Analyst
+Intellectual Property Attorney vs. Intellectual Property Attorney
+Trusts and Estates Paralegal vs. Trusts and Estates Paralegal
+Worker's Compensation Paralegal vs. Worker's Compensation Paralegal
+Mergers and Acquisitions Attorney vs. Mergers and Acquisitions Attorney
+Intellectual Property Specialist vs. Intellectual Property Specialist
+Insurance Defense Paralegal vs. Insurance Defense Paralegal
+Family Law Paralegal vs. Family Law Paralegal
+Tax Attorney vs. Tax Attorney
+Document Review Paralegal vs. Document Review Paralegal
+Estate Planning Paralegal vs. Estate Planning Paralegal
+Mortgage Title Representative vs. Mortgage Title Representative
+Court Researcher vs. Court Researcher
+Director of Patents and Trademarks vs. Director of Patents and Trademarks
+Attorney Editor vs. Attorney Editor
+Estate Planning Attorney vs. Estate Planning Attorney
+Worker's Compensation Attorney vs. Worker's Compensation Attorney
+Employment Law Paralegal vs. Employment Law Paralegal
+Trusts and Estates Attorney vs. Trusts and Estates Attorney
+Leasing Paralegal vs. Leasing Paralegal
+Bankruptcy Manager vs. Bankruptcy Manager
+Utilities Paralegal vs. Utilities Paralegal
+Employment Law Counsel vs. Employment Law Counsel
+Collections Attorney vs. Collections Attorney
+E-Discovery Paralegal vs. E-Discovery Paralegal
+Family Law Attorney vs. Family Law Attorney
+Bankruptcy Analyst vs. Bankruptcy Analyst
+Nurse Paralegal vs. Nurse Paralegal
+Medical Malpractice Paralegal vs. Medical Malpractice Paralegal
+Financial Services Attorney vs. Financial Services Attorney
+Bankruptcy Supervisor vs. Bankruptcy Supervisor
+Assistant Division Counsel vs. Assistant Division Counsel
+Environmental Attorney vs. Environmental Attorney
+Hedge Fund Paralegal vs. Hedge Fund Paralegal
+Chief Counsel vs. Chief Counsel
+Marketing Paralegal vs. Marketing Paralegal
+Litigation Support Assistant vs. Litigation Support Assistant
+Labor and Employment Paralegal vs. Labor and Employment Paralegal
+Construction Defect Counsel vs. Construction Defect Counsel
+Regional Counsel vs. Regional Counsel
+Product Liability Attorney vs. Product Liability Attorney
+Deputy General Counsel vs. Deputy General Counsel
+Risk Management Paralegal vs. Risk Management Paralegal
+Client Partner vs. Client Partner
+Accuracy (%): 38.7096774194 (60/155)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc25-categories.txt
+Child Care Teacher vs. Child Care Teacher
+Early Childhood Special Education Teacher vs. Early Childhood Special Education Teacher
+Medical College Admission Test (MCAT) Instructor vs. Medical College Admission Test (MCAT) Instructor
+Middle School Mathematics Teacher vs. Middle School Mathematics Teacher
+Elementary School Teacher vs. Elementary School Teacher
+Secondary Math Teacher vs. Secondary Math Teacher
+Medical Billing and Coding Instructor vs. Medical Billing and Coding Instructor
+Head Start Teacher vs. Head Start Teacher
+Social Studies Teacher vs. Social Studies Teacher
+Language Arts Teacher vs. Language Arts Teacher
+English as a Second Language (ESL) Teacher vs. English as a Second Language (ESL) Teacher
+Criminal Justice Instructor vs. Criminal Justice Instructor
+Massage Therapy Instructor vs. Massage Therapy Instructor
+Medical Assisting Faculty vs. Medical Assisting Faculty
+Department Chair vs. Department Chair
+Early Assessment Program (EAP) Test Rater vs. Early Assessment Program (EAP) Test Rater
+High School Mathematics Teacher vs. High School Mathematics Teacher
+Graduate Record Examinations (GRE) Instructor vs. Graduate Record Examinations (GRE) Instructor
+English as a Second Language (ESL) Instructor vs. English as a Second Language (ESL) Instructor
+Law School Admission Test (LSAT) Instructor vs. Law School Admission Test (LSAT) Instructor
+Special Education Generalist vs. Special Education Generalist
+X-Ray Instructor vs. X-Ray Instructor
+Dental Hygiene Instructor vs. Dental Hygiene Instructor
+General Education Development (GED) Instructor vs. General Education Development (GED) Instructor
+Library Director vs. Library Director
+Physical Education (PE) Teacher vs. Physical Education (PE) Teacher
+Dental Assisting Faculty vs. Dental Assisting Faculty
+Cryptologic Language Instructor vs. Cryptologic Language Instructor
+Office Administration Instructor vs. Office Administration Instructor
+High School Teacher vs. High School Teacher
+Foreign Language Teacher vs. Foreign Language Teacher
+Library Specialist vs. Library Specialist
+General Education Development (GED) Faculty vs. General Education Development (GED) Faculty
+Web Design Instructor vs. Web Design Instructor
+Environmental Science Instructor vs. Environmental Science Instructor
+Culinary Arts Instructor vs. Culinary Arts Instructor
+4th Grade Teacher vs. 4th Grade Teacher
+Anatomy Physiology Instructor vs. Anatomy Physiology Instructor
+3rd Grade Teacher vs. 3rd Grade Teacher
+High School Physics Teacher vs. High School Physics Teacher
+Graduate Management Admission Test (GMAT) Instructor vs. Graduate Management Admission Test (GMAT) Instructor
+Dental Admissions Test (DAT) Instructor vs. Dental Admissions Test (DAT) Instructor
+Technology Coordinator vs. Technology Coordinator
+Content Director vs. Content Director
+Accuracy (%): 25.8823529412 (44/170)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc27-categories.txt
+Senior Technical Writer vs. Senior Technical Writer
+Audio Visual (AV) Technician vs. Audio Visual (AV) Technician
+Spanish Translator vs. Spanish Translator
+Video Production Specialist vs. Video Production Specialist
+Master Control Operator (MCO) vs. Master Control Operator (MCO)
+Technical Publications Specialist vs. Technical Publications Specialist
+General Assignment Reporter vs. General Assignment Reporter
+Digital Media Specialist vs. Digital Media Specialist
+Marketing Communications Associate vs. Marketing Communications Associate
+Entry Level Technical Writer vs. Entry Level Technical Writer
+Social Media Marketing Specialist vs. Social Media Marketing Specialist
+Women's Soccer Coach vs. Women's Soccer Coach
+Accuracy (%): 7.27272727273 (12/165)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc29-categories.txt
+Licensed Practical Nurse (LPN) vs. Licensed Practical Nurse (LPN)
+Emergency Room (ER) Nurse vs. Emergency Room (ER) Nurse
+Intensive Care Unit (ICU) Nurse vs. Intensive Care Unit (ICU) Nurse
+Emergency Medical Technician (EMT) vs. Emergency Medical Technician (EMT)
+Progressive Care Unit (PCU) Nurse vs. Progressive Care Unit (PCU) Nurse
+Neonatal Intensive Care Unit (NICU) Nurse vs. Neonatal Intensive Care Unit (NICU) Nurse
+Minimum Data Set (MDS) Coordinator vs. Minimum Data Set (MDS) Coordinator
+Clinical Documentation Specialist vs. Clinical Documentation Specialist
+Pediatric Intensive Care Unit (PICU) Nurse vs. Pediatric Intensive Care Unit (PICU) Nurse
+HEDIS Review Nurse vs. HEDIS Review Nurse
+Travel Nurse - Cardiac Catheterization Laboratory vs. Travel Nurse - Cardiac Catheterization Laboratory
+Post-Anesthesia Care unit (PACU) Nurse vs. Post-Anesthesia Care unit (PACU) Nurse
+Recreational Therapist vs. Recreational Therapist
+Travel Physical Therapist (PT) vs. Travel Physical Therapist (PT)
+Mental Health Technician vs. Mental Health Technician
+Cardiac Catheterization Laboratory Nurse vs. Cardiac Catheterization Laboratory Nurse
+Remote Medical Coder vs. Remote Medical Coder
+Advance Practice Registered Nurse (APRN) vs. Advance Practice Registered Nurse (APRN)
+Special Procedures Nurse vs. Special Procedures Nurse
+Nursing Staff Development Coordinator vs. Nursing Staff Development Coordinator
+Physician Assistant (PA) vs. Physician Assistant (PA)
+Magnetic Resonance Imaging (MRI) Technician vs. Magnetic Resonance Imaging (MRI) Technician
+Electronic Medical Record (EMR) Analyst vs. Electronic Medical Record (EMR) Analyst
+Computed Topography (CT) Technologist vs. Computed Topography (CT) Technologist
+Computed Topography (CT) Technician vs. Computed Topography (CT) Technician
+Certified Registered Nurse Anesthetist (CRNA) vs. Certified Registered Nurse Anesthetist (CRNA)
+Speech Language Pathologist vs. Speech Language Pathologist
+Nutrition Services Worker vs. Nutrition Services Worker
+Home Infusion Nurse vs. Home Infusion Nurse
+Licensed Vocational Nurse (LVN) vs. Licensed Vocational Nurse (LVN)
+Certified Professional Coder vs. Certified Professional Coder
+Family Practice Physician vs. Family Practice Physician
+Emergency Department Technician vs. Emergency Department Technician
+Nurse Manager Intensive Care Unit (ICU) vs. Nurse Manager Intensive Care Unit (ICU)
+Team Member Trainer vs. Team Member Trainer
+Safety Inspector vs. Safety Inspector
+Accuracy (%): 13.1386861314 (36/274)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc31-categories.txt
+Certified Nursing Assistant (CNA) vs. Certified Nursing Assistant (CNA)
+Physical Therapist Assistant (PTA) vs. Physical Therapist Assistant (PTA)
+Certified Occupational Therapy Assistant (COTA) vs. Certified Occupational Therapy Assistant (COTA)
+Home Health Aide (HHA) vs. Home Health Aide (HHA)
+Sterile Processing Technician vs. Sterile Processing Technician
+Occupational Therapy Assistant (OTA) vs. Occupational Therapy Assistant (OTA)
+Certified Medical Assistant (CMA) vs. Certified Medical Assistant (CMA)
+Nutrition Services Aide vs. Nutrition Services Aide
+State Tested Nursing Assistant (STNA) vs. State Tested Nursing Assistant (STNA)
+Medical Equipment Technician vs. Medical Equipment Technician
+Geriatric Nursing Assistant (GNA) vs. Geriatric Nursing Assistant (GNA)
+Certified Medication Aide (CMA) vs. Certified Medication Aide (CMA)
+Nutrition Services Technician vs. Nutrition Services Technician
+Medical Support Specialist vs. Medical Support Specialist
+Clinical Support Associate vs. Clinical Support Associate
+Care Team Assistant (CTA) vs. Care Team Assistant (CTA)
+Sterile Supply Technician vs. Sterile Supply Technician
+Licensed Physical Therapist Assistant (LPTA) vs. Licensed Physical Therapist Assistant (LPTA)
+Hospital Service Technician vs. Hospital Service Technician
+Accuracy (%): 22.8915662651 (19/83)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc33-categories.txt
+Custom Protection Officer vs. Custom Protection Officer
+Intelligence Analyst vs. Intelligence Analyst
+Retail Door Guard vs. Retail Door Guard
+Loss Prevention Lead vs. Loss Prevention Lead
+Office of Personnel Management (OPM) Credentialed Investigator vs. Office of Personnel Management (OPM) Credentialed Investigator
+Transportation Security Officer (TSO) vs. Transportation Security Officer (TSO)
+Loss Prevention Agent vs. Loss Prevention Agent
+Bank Protection Officer vs. Bank Protection Officer
+Loss Prevention Associate vs. Loss Prevention Associate
+Police Records Manager vs. Police Records Manager
+Improvised Explosive Device (IED) Insurgent Analyst vs. Improvised Explosive Device (IED) Insurgent Analyst
+All-Source Intelligence Analyst vs. All-Source Intelligence Analyst
+Loss Prevention Specialist vs. Loss Prevention Specialist
+Property Resource Officer vs. Property Resource Officer
+Signals Intelligence (SIGINT) Analyst vs. Signals Intelligence (SIGINT) Analyst
+Law Enforcement Officer vs. Law Enforcement Officer
+Public Safety Officer vs. Public Safety Officer
+Weapons Technical Intelligence (WTI) Analyst vs. Weapons Technical Intelligence (WTI) Analyst
+Asset Protection Manager vs. Asset Protection Manager
+Critical Facility Officer vs. Critical Facility Officer
+Latent Print Examiner vs. Latent Print Examiner
+Healthcare Security Officer vs. Healthcare Security Officer
+Fire Sprinkler Inspector vs. Fire Sprinkler Inspector
+Armed Flex Officer vs. Armed Flex Officer
+Residential Security Officer vs. Residential Security Officer
+Fraud Detection Associate vs. Fraud Detection Associate
+Store Detective vs. Store Detective
+Safety Inspector vs. Safety Inspector
+Control Officer vs. Control Officer
+Accuracy (%): 31.5217391304 (29/92)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc35-categories.txt
+Restaurant Crew Team Member vs. Restaurant Crew Team Member
+Food Service Worker vs. Food Service Worker
+Banquet Server vs. Banquet Server
+Fresh Foods Clerk vs. Fresh Foods Clerk
+Dining Room Manager vs. Dining Room Manager
+Food Operations Manager vs. Food Operations Manager
+Dining Room Server vs. Dining Room Server
+Fresh Foods Cake Decorator vs. Fresh Foods Cake Decorator
+Deli-Bakery Clerk vs. Deli-Bakery Clerk
+Fresh Foods Manager vs. Fresh Foods Manager
+Speciality Coffee Assistant Manager vs. Speciality Coffee Assistant Manager
+Cafeteria Worker vs. Cafeteria Worker
+Fresh Foods Chef vs. Fresh Foods Chef
+Food and Beverage Attendant vs. Food and Beverage Attendant
+Nutrition Services Supervisor vs. Nutrition Services Supervisor
+Prepared Foods Team Leader vs. Prepared Foods Team Leader
+Dining Services Manager vs. Dining Services Manager
+Multi-Unit Restaurant Manager vs. Multi-Unit Restaurant Manager
+Breakfast Attendant vs. Breakfast Attendant
+Counter Person vs. Counter Person
+Deli Clerk vs. Deli Clerk
+Accuracy (%): 21.6494845361 (21/97)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc37-categories.txt
+Carpet Cleaning Technician vs. Carpet Cleaning Technician
+Grounds Keeper vs. Grounds Keeper
+Pest Control Technician vs. Pest Control Technician
+Sanitation Worker vs. Sanitation Worker
+Tree Climber vs. Tree Climber
+Room Attendant vs. Room Attendant
+Landscape Laborer vs. Landscape Laborer
+Pest Route Technician vs. Pest Route Technician
+Lawn Technician vs. Lawn Technician
+Hospital Housekeeper vs. Hospital Housekeeper
+Pool Monitor vs. Pool Monitor
+Environmental Services Supervisor vs. Environmental Services Supervisor
+Common Area Attendant vs. Common Area Attendant
+Yard Worker vs. Yard Worker
+Irrigation Technician vs. Irrigation Technician
+Cage Washer Technician vs. Cage Washer Technician
+Pest Control Specialist vs. Pest Control Specialist
+Landscape Foreman vs. Landscape Foreman
+Termite Inspector vs. Termite Inspector
+Banquet Houseperson vs. Banquet Houseperson
+Termite Technician vs. Termite Technician
+Landscape Operations Manager vs. Landscape Operations Manager
+Tree Trimmer vs. Tree Trimmer
+Irrigation Specialist vs. Irrigation Specialist
+Housekeeping Room Inspector vs. Housekeeping Room Inspector
+Turndown Attendant vs. Turndown Attendant
+Pest Route Specialist vs. Pest Route Specialist
+Property Caretaker vs. Property Caretaker
+General Cleaner vs. General Cleaner
+Environmental Services Worker vs. Environmental Services Worker
+Accuracy (%): 48.3870967742 (30/62)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc39-categories.txt
+Resident Advisor vs. Resident Advisor
+Personal Care Aide vs. Personal Care Aide
+Nail Technician vs. Nail Technician
+Group Fitness Instructor vs. Group Fitness Instructor
+Beauty Advisor vs. Beauty Advisor
+Nursery Worker vs. Nursery Worker
+Personal Care Attendant vs. Personal Care Attendant
+Child Life Specialist vs. Child Life Specialist
+Table Games Dealer vs. Table Games Dealer
+Skin Care Instructor vs. Skin Care Instructor
+Child Care Attendant vs. Child Care Attendant
+Wardrobe Attendant vs. Wardrobe Attendant
+Gate Attendant vs. Gate Attendant
+Beauty Skin Care Consultant vs. Beauty Skin Care Consultant
+Assisted Living Supervisor vs. Assisted Living Supervisor
+Master Fitness Trainer vs. Master Fitness Trainer
+Life Enrichment Assistant vs. Life Enrichment Assistant
+Table Games Floor Supervisor vs. Table Games Floor Supervisor
+Slot Service Specialist vs. Slot Service Specialist
+Golf Caddie vs. Golf Caddie
+Dog Walker vs. Dog Walker
+Personal Care Assistant vs. Personal Care Assistant
+Home Care Coordinator vs. Home Care Coordinator
+Team Member Trainer vs. Team Member Trainer
+Accuracy (%): 23.5294117647 (24/102)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc41-categories.txt
+Assistant Store Manager vs. Assistant Store Manager
+Sales Management Trainee vs. Sales Management Trainee
+Inside Sales Representative vs. Inside Sales Representative
+Auto Center Manager vs. Auto Center Manager
+Real Estate Sales Representative vs. Real Estate Sales Representative
+Sales Team Leader vs. Sales Team Leader
+Equipment Sales Representative vs. Equipment Sales Representative
+Outside Sales Media Consultant vs. Outside Sales Media Consultant
+Inbound Sales Representative vs. Inbound Sales Representative
+Fine Jewelry Sales Associate vs. Fine Jewelry Sales Associate
+Clinical Sales Consultant vs. Clinical Sales Consultant
+Real Estate Agent vs. Real Estate Agent
+Sales Team Member vs. Sales Team Member
+Retail Wireless Consultant vs. Retail Wireless Consultant
+Retail Cosmetics Sales Beauty Advisor vs. Retail Cosmetics Sales Beauty Advisor
+Professional Services Consultant vs. Professional Services Consultant
+Field Sales Consultant vs. Field Sales Consultant
+Exit Booth Agent vs. Exit Booth Agent
+Customer Sales Distributor vs. Customer Sales Distributor
+Courtesy Clerk vs. Courtesy Clerk
+Advertising Sales Executive vs. Advertising Sales Executive
+Business Development Representative vs. Business Development Representative
+Personal Financial Representative vs. Personal Financial Representative
+Merchandise Execution Leader vs. Merchandise Execution Leader
+Loan Representative vs. Loan Representative
+Deli Clerk vs. Deli Clerk
+Counter Person vs. Counter Person
+Contact Center Representative vs. Contact Center Representative
+Appointment Setter vs. Appointment Setter
+Financial Services Representative vs. Financial Services Representative
+Accuracy (%): 20.6896551724 (30/145)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc43-categories.txt
+Call Center Agent vs. Call Center Agent
+Data Entry Clerk vs. Data Entry Clerk
+Human Resources Assistant vs. Human Resources Assistant
+Customer Care Representative (CCR) vs. Customer Care Representative (CCR)
+Merchandise Support Associate vs. Merchandise Support Associate
+Inventory Control Specialist vs. Inventory Control Specialist
+Customer Care Specialist vs. Customer Care Specialist
+Call Center Supervisor vs. Call Center Supervisor
+Front Office Specialist vs. Front Office Specialist
+Production Planner vs. Production Planner
+Patient Access Representative vs. Patient Access Representative
+Guest Services Representative vs. Guest Services Representative
+Technical Services Associate vs. Technical Services Associate
+Loan Servicing Specialist vs. Loan Servicing Specialist
+Foreclosure Claims Specialist vs. Foreclosure Claims Specialist
+Merchandise Claims and Control Associate vs. Merchandise Claims and Control Associate
+Emergency Room Registrar vs. Emergency Room Registrar
+Order Puller vs. Order Puller
+Credit Collections Analyst vs. Credit Collections Analyst
+Payment Poster vs. Payment Poster
+Bilingual Call Center Agent vs. Bilingual Call Center Agent
+Private Branch Exchange (PBX) Operator vs. Private Branch Exchange (PBX) Operator
+Guest Services Manager vs. Guest Services Manager
+Patient Services Coordinator vs. Patient Services Coordinator
+Help Desk Assistant vs. Help Desk Assistant
+Front Office Agent vs. Front Office Agent
+Assistant to the Vice President vs. Assistant to the Vice President
+Guest Services Agent vs. Guest Services Agent
+Front Desk Clerk vs. Front Desk Clerk
+Customer Assistance Representative vs. Customer Assistance Representative
+Staff Officer vs. Staff Officer
+Loan Representative vs. Loan Representative
+Contact Center Representative vs. Contact Center Representative
+Appointment Setter vs. Appointment Setter
+Financial Services Representative vs. Financial Services Representative
+Accuracy (%): 11.7056856187 (35/299)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc45-categories.txt
+Custom Applicator vs. Custom Applicator
+Harvest Worker vs. Harvest Worker
+Field Laborer vs. Field Laborer
+Livestock Handler vs. Livestock Handler
+Animal Facility Supervisor vs. Animal Facility Supervisor
+Farm Crew Leader vs. Farm Crew Leader
+Meat and Poultry Inspector vs. Meat and Poultry Inspector
+Animal Care Supervisor vs. Animal Care Supervisor
+Horse Stable Worker vs. Horse Stable Worker
+Agricultural Operations Supervisor vs. Agricultural Operations Supervisor
+Dairy Milking Machine Operator vs. Dairy Milking Machine Operator
+Hardwood Lumber Grader vs. Hardwood Lumber Grader
+Vineyard Equipment Operator vs. Vineyard Equipment Operator
+Agriculture Field Worker vs. Agriculture Field Worker
+Dairy Plant Operator vs. Dairy Plant Operator
+Nursery Worker vs. Nursery Worker
+Food Inspector vs. Food Inspector
+Tree Climber vs. Tree Climber
+Accuracy (%): 40.0 (18/45)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc47-categories.txt
+Solar Photovoltaic (PV) Installer vs. Solar Photovoltaic (PV) Installer
+Sheet Metal Assembler vs. Sheet Metal Assembler
+Sheet Metal Worker vs. Sheet Metal Worker
+Track Maintenance Laborer vs. Track Maintenance Laborer
+Sheet Metal Fabricator vs. Sheet Metal Fabricator
+Drywall Construction Estimator vs. Drywall Construction Estimator
+Ordnance Recovery Technician vs. Ordnance Recovery Technician
+Fire Sprinkler Fitter vs. Fire Sprinkler Fitter
+Cabinet Builder vs. Cabinet Builder
+Construction Materials Technician vs. Construction Materials Technician
+Heating, Ventilation, and Air Conditioning (HVAC) Sheet Metal Installer vs. Heating, Ventilation, and Air Conditioning (HVAC) Sheet Metal Installer
+Coiled Tubing Operator vs. Coiled Tubing Operator
+Construction Safety Officer vs. Construction Safety Officer
+Assistant Construction Project Manager vs. Assistant Construction Project Manager
+Assistant Elevator Manager vs. Assistant Elevator Manager
+Hazardous Waste Operations and Emergency Response (HAZWOPER) Laborer vs. Hazardous Waste Operations and Emergency Response (HAZWOPER) Laborer
+Oil Field Crew Member vs. Oil Field Crew Member
+Safety Inspector vs. Safety Inspector
+Accuracy (%): 10.5882352941 (18/170)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc49-categories.txt
+Satellite TV Technician vs. Satellite TV Technician
+Security Alarm Technician vs. Security Alarm Technician
+Building Maintenance Worker vs. Building Maintenance Worker
+Apartment Maintenance Technician vs. Apartment Maintenance Technician
+Body Shop Estimator vs. Body Shop Estimator
+Garage Door Installer vs. Garage Door Installer
+Television Repair Technician vs. Television Repair Technician
+Security Systems Installer vs. Security Systems Installer
+Journeyman Lineman vs. Journeyman Lineman
+HVAC Controls Technician vs. HVAC Controls Technician
+Auto Body Painter vs. Auto Body Painter
+School Bus Technician vs. School Bus Technician
+Helicopter Inspector vs. Helicopter Inspector
+Car Audio Technician vs. Car Audio Technician
+Multi-craft Maintenance Technician vs. Multi-craft Maintenance Technician
+Central Office Technician vs. Central Office Technician
+HVAC Refrigeration Technician vs. HVAC Refrigeration Technician
+Lawn Garden Repair Technician vs. Lawn Garden Repair Technician
+Installation Test Technician vs. Installation Test Technician
+Heating, Ventilation, and Air Conditioning (HVAC) Mechanic vs. Heating, Ventilation, and Air Conditioning (HVAC) Mechanic
+Automotive Service Excellence (ASE) Technician vs. Automotive Service Excellence (ASE) Technician
+General Service Technician vs. General Service Technician
+Commercial Service Technician vs. Commercial Service Technician
+Equipment Repairer vs. Equipment Repairer
+Hospital Service Technician vs. Hospital Service Technician
+Biomedical Equipment Technician vs. Biomedical Equipment Technician
+Accuracy (%): 16.149068323 (26/161)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc51-categories.txt
+Production Supervisor vs. Production Supervisor
+Quality Control Inspector vs. Quality Control Inspector
+Injection Mold Technician vs. Injection Mold Technician
+Mold Maker vs. Mold Maker
+Injection Mold Operator vs. Injection Mold Operator
+Structural Fitter vs. Structural Fitter
+Cabinet Maker vs. Cabinet Maker
+Cake Decorator vs. Cake Decorator
+Materials Tester vs. Materials Tester
+Meat Cutter vs. Meat Cutter
+Manufacturing Team Lead vs. Manufacturing Team Lead
+Small Parts Assembler vs. Small Parts Assembler
+Stationary Engineer vs. Stationary Engineer
+Ship Fitter vs. Ship Fitter
+Tube Bender vs. Tube Bender
+Water Treatment Operator vs. Water Treatment Operator
+Laundry Attendant vs. Laundry Attendant
+General Labor Operations vs. General Labor Operations
+Quality Assurance (QA) Technician vs. Quality Assurance (QA) Technician
+Quality Assurance (QA) Coordinator vs. Quality Assurance (QA) Coordinator
+Accuracy (%): 10.752688172 (20/186)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc53-categories.txt
+Route Sales Representative vs. Route Sales Representative
+Commercial Driver's License (CDL) Driver vs. Commercial Driver's License (CDL) Driver
+Tractor Trailer Driver vs. Tractor Trailer Driver
+Cherry Picker Operator vs. Cherry Picker Operator
+Vehicle Service Attendant vs. Vehicle Service Attendant
+Fuel Transport Driver vs. Fuel Transport Driver
+Refuse Route Driver vs. Refuse Route Driver
+Auto Parts Handler vs. Auto Parts Handler
+Reach Truck Operator vs. Reach Truck Operator
+Product Delivery Specialist vs. Product Delivery Specialist
+Aircraft Inspector vs. Aircraft Inspector
+Yard Jockey vs. Yard Jockey
+Freight Operations Supervisor vs. Freight Operations Supervisor
+High Reach Forklift Operator vs. High Reach Forklift Operator
+Hiker/Vehicle Transporter vs. Hiker/Vehicle Transporter
+Non-Commercial Driver's License (Non-CDL) Driver vs. Non-Commercial Driver's License (Non-CDL) Driver
+Assistant Transportation Manager vs. Assistant Transportation Manager
+Over the Road (OTR) Driver vs. Over the Road (OTR) Driver
+Traffic Control Technician vs. Traffic Control Technician
+Route Service Representative vs. Route Service Representative
+Local Cartage Driver vs. Local Cartage Driver
+Gas Station Team Member vs. Gas Station Team Member
+Safety Inspector vs. Safety Inspector
+Accuracy (%): 19.6581196581 (23/117)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc55-categories.txt
+Commissioned Officer vs. Commissioned Officer
+Military Officer vs. Military Officer
+Battalion Air Officer vs. Battalion Air Officer
+Field Artillery Firefinder Radar Operator vs. Field Artillery Firefinder Radar Operator
+Combat Shooting and Tactical Vehicle Operations Instructor vs. Combat Shooting and Tactical Vehicle Operations Instructor
+Airborne Sensor Operator vs. Airborne Sensor Operator
+Security Forces Operations Analyst vs. Security Forces Operations Analyst
+Air Force Checkmate Lead vs. Air Force Checkmate Lead
+Staff Officer vs. Staff Officer
+Control Officer vs. Control Officer
+Accuracy (%): 47.619047619 (10/21)
+Total Accuracy (%): 15.1283316881 (613/4052)

@@ -1,0 +1,250 @@
+Carotene Title by Qinlong	First Title Match by Qinlong	Carotene ID by Qinlong	Confidence by Qinlong
+Speciality Coffee Assistant Manager	0	35.64	0.42647937
+Payroll Administrator	1	43.3	1
+Sales Supervisor	1	41.1	0.8394429
+Database Developer	1	15.37	0.6921836
+Administrative Clerk	1	43.37	1
+Registered Nurse	1	29	1
+Machine Operator	1	51.1	1
+Microsoft Dynamics Developer	1	15.167	1
+Fabricator	1	51.57	0.30765823
+Field Supervisor	1	47.5	0.2407994
+Staff Accountant	1	13.30129	1
+General Ledger Accountant	0	13.11242	0.6789184
+Home Health Aide (HHA)	1	31.5	0.5559413
+Transmission Engineer	1	17.129	1
+Dietitian	1	29.142	0.78148746
+Sales Representative	1	41.2	0.44408768
+Sales Representative	1	41.2	0.5
+Geologist	1	19.46	0.7695761
+Microbiologist	1	19.34	1
+Restaurant Manager	1	35	1
+Credit Analyst	1	13.14	0.6406932
+Engineering Technician	1	17.7	1
+Maintenance Mechanic	1	49	0.5
+Food Service Director	1	11.119	1
+Certified Nursing Assistant (CNA)	1	31	0.56533253
+Contracts Manager	1	13.66	1
+Operations Technician	1	49.62	0.93496096
+Truck Driver	1	53	0.90895563
+Project Manager	1	11.1	1
+Registered Nurse	1	29	0.8107981
+Sales Manager	0	41.67	0.9409811
+Credit Analyst	1	13.14	1
+Sales Manager	0	41.67	1
+Systems Analyst	1	15.9	0.6994451
+Senior Trainer	1	13.81	0.5019757
+Maintenance Manager	1	49.2	0.946882
+Information Technology (IT) Systems Analyst	0	15.30016	1
+Registered Nurse	1	29	0.7205418
+Benefits Representative	0	13.31507	0.3335566
+IT Support Analyst	1	15.14	0.52628773
+Compliance Consultant	1	13.93	1
+Event Security Officer	1	33.54	0.7640571
+AS400 RPG Programmer	1	15.302	0.51120406
+Systems Analyst	0	15.9	0.43191564
+Marketing Manager	1	11.5	0.8862799
+Financial Analyst	1	13.3	1
+Quality Engineer	1	17.30039	1
+Employee Health Nurse	0	29.119	0.873052
+Project Manager	0	11.1	0.2043584
+Customer Service Representative	1	43	0.5
+Medical Sales Representative	0	41.79	0.70681673
+Customer Service Manager	1	43.30136	0.48318675
+Power Systems Engineer	1	17.169	0.32796627
+Sales Supervisor	0	41.1	0.5
+Emergency Medical Technician (EMT)	0	29.22	1
+Composite Engineer	1	17.181	0.5553725
+Retail Sales Consultant	1	41.3002	1
+Licensed Practical Nurse (LPN)	1	29.3	1
+Account Executive	1	41.8	1
+Pharmacist	1	29.26	1
+Art Director	0	27.11	1
+Contract Manager	1	11.39	1
+Home Health Aide (HHA)	1	31.5	0.7978162
+Sales Team Member	1	41.30914	1
+Quality Assurance Engineer	1	17	0.48589927
+Sales Representative	1	41.2	0.5
+GIS Analyst	1	15.145	1
+Medical Sales Representative	1	41.79	0.4782704
+Human Resources (HR) Manager	1	11.11	1
+Account Executive	1	41.8	1
+Insurance Sales Agent	1	41.4	1
+Machine Operator	1	51.1	0.6078195
+Commercial Driver's License (CDL) Driver	1	53.15	0.9205854
+Corporate Accountant	1	13.10469	1
+IT Quality Assurance Analyst	1	15.234	0.5
+Route Sales Representative	1	53.7	1
+Security Officer	1	33	0.67673326
+Sterile Processing Technician	1	31.12	0.9108995
+Senior Electrical Engineer	1	17.19	0.46618956
+Clinical Consultant	1	29.31101	0.664628
+Bartender	0	35.22	0.57878613
+Sales Representative	1	41.2	0.8835244
+Technical Lead	1	15.28	1
+Operations Consultant	0	13.126	0.34646067
+Maintenance Mechanic	1	49	1
+Maintenance Mechanic	1	49	1
+MRI Technologist	1	29.53	0.6918689
+Marketing Specialist	0	27.8	0.812447
+Enterprise Architect	1	15.54	1
+Enterprise Architect	1	15.54	0.5
+Accounting Analyst	1	43.3014	0.31232795
+Sales Specialist	1	41.17	1
+Cisco Engineer	1	15.281	0.5
+Medical Coding Specialist	1	29.56	1
+Software Engineer	1	15	0.5
+Entry Level Electrical Engineer	0	17.66	0.5066494
+Fraud Analyst	1	13.7	0.5343369
+Network Engineer	1	15.8	0.34463406
+Registered Nurse	1	29	0.74114764
+Sales Manager	0	41.67	0.5
+Head Start Teacher	1	25.49	0.18120387
+Truck Driver	1	53	0.4551442
+Direct Sales Representative	1	41.30359	1
+Outside Sales Media Consultant	1	41.58	1
+Data Entry Clerk	1	43.7	1
+Manufacturing Engineer	1	17.5	0.57141906
+Regulatory Analyst	1	13.25	0.85
+Phlebotomist	1	31.1	1
+Auditor	0	13.143	0.50824696
+SQL Developer	0	15.13	0.49606186
+Manager - IT Change Management	0	15.238	0.89357954
+Speech Therapist	1	29.8	0.8200856
+Sales Manager	1	41.67	0.54706097
+Sales Manager	1	11	0.5553373
+Automotive Sales Service Advisor	0	43.21	0.8831876
+Nurse Supervisor	1	29.7	0.68234605
+Administrative Assistant	1	43.1	1
+Book Keeper	0	43.3	1
+Sales Manager	0	41.67	0.50000006
+Equipment Sales Representative	1	41.56	0.74975604
+Documentation Specialist	1	27.18	1
+.Net Developer	1	15.7	1
+Automotive Service Manager	1	49.31216	1
+Information Systems Security Engineer	0	15.32	0.40297055
+Cashier	1	41	1
+Insurance Sales Agent	1	41.4	1
+SharePoint Developer	1	15.26	0.74050534
+Front-End Developer	0	15.36	0.635666
+Courier	1	53.72	1
+Loan Closer	1	43.41	0.5
+Truck Driver	1	53	0.5
+Credit Analyst	1	13.14	1
+Oracle Developer	1	15.39	1
+Contact Center Representative	0	43.31167	1
+Assistant Store Manager	1	41.3	0.5
+Customer Service Representative	1	43	1
+Enterprise Architect	1	15.54	1
+Mortgage Closer	0	13.65	0.610896
+User Experience Designer	1	15.52	0.49999997
+Financial Advisor	1	13.1	1
+Director of Operations	1	11.17	0.6279471
+Sales Engineer	1	41.25	0.8866423
+Training and Development Specialist	0	13.6	0.5729522
+Insurance Sales Agent	1	41.4	1
+Sales Representative	1	41.2	1
+Physical Therapist	1	29.1	1
+Business Development Manager	0	11.13	0.48690093
+Category Manager	1	11.73	1
+Quality Assurance Engineer	1	17	0.62700623
+Registered Nurse	1	29	0.72519433
+Security Engineer	1	15.19	0.92035425
+Event Coordinator	0	13.10334	0.37652415
+Asset Protection Manager	0	33.59	1
+Entry Level Technical Writer	0	27.155	1
+Insurance Sales Agent	1	41.4	1
+Chief Engineer	1	11.30358	0.61434513
+Satellite TV Technician	1	49.8	1
+Stockroom Associate	0	43.11	1
+Staffing Manager	1	11.86	1
+Research and Development (R&D) Engineer	1	17.30354	0.89633584
+Sales Representative	1	41.2	0.57422835
+Executive Director	1	11.25	1
+Restaurant Manager	1	11.3	0.52837557
+Registered Nurse	1	29	0.53073543
+General Ledger Accountant	0	13.11242	0.4039851
+IT Support Engineer	1	15.18	0.26889795
+Social Media Manager	1	11.31	0.34639874
+Medical Coding Manager	0	29.94	0.4865578
+Dining Services Manager	1	35.87	0.5
+Financial Analyst	1	13.3	0.4414039
+Sales Team Member	1	41.30914	1
+Hardware Engineer	1	17.18	1
+Laborer	0	53.8	0.28533447
+Financial Analyst	1	13.3	0.7046202
+Welder	0	51.18	0.46698833
+Safety Coordinator	1	17.47	1
+Project Manager	0	15.1	0.4936857
+Java Developer	1	15.2	0.41699338
+Entry Level Technical Writer	0	27.155	1
+Pharmacy Technician	0	29.5	0.7818131
+Cashier	1	41	1
+Account Manager	1	11.4	0.83882755
+IT Help Desk Specialist	0	15.12	0.78032726
+Customer Service Representative	1	43	1
+Insurance Sales Agent	0	41.4	0.8001111
+Project Manager	1	15.1	0.6257473
+Quality Assurance (QA) Manager	1	11.46	1
+Support Engineer	1	15.30066	0.55898196
+Occupational Therapist	1	29.4	1
+Office Coordinator	1	43.43	1
+Sales Manager	1	11	1
+Sales Manager	0	11	0.5289803
+Unit Secretary	1	43.105	1
+Customer Care Representative (CCR)	1	43.16	0.739125
+Loan Officer	1	13.8	1
+Transportation Supervisor	1	53.21	1
+Insurance Sales Agent	1	41.4	1
+Entry Level Technical Writer	0	27.155	0.6395962
+Entry Level Technical Writer	0	27.155	1
+Director of Emergency Services	1	11.143	1
+Commercial Driver's License (CDL) Driver	1	53.15	0.6315113
+Insurance Sales Agent	1	41.4	0.5
+Marketing Manager	1	11.5	1
+Quality Assurance Engineer	1	17	0.74666923
+Office Manager	1	43.14	1
+Customer Service Representative	1	43	0.46244377
+Customer Service Representative	1	43	1
+Human Resources Assistant	0	43.15	1
+Program Manager	1	11.7	0.55987126
+Account Executive	1	41.8	1
+Business Development Manager	0	11.13	0.9016799
+Registered Nurse	1	29	0.473054
+Insurance Sales Agent	1	41.4	1
+Automotive Service Excellence (ASE) Technician	1	49.1071	0.45068312
+Maintenance Mechanic	1	49	0.7545892
+GIS Analyst	1	15.145	0.89649457
+Fraud Investigator	1	33.34	1
+Accounts Payable Supervisor	1	43.1	0.49129984
+Financial Analyst	1	13.3	0.886655
+Engagement Manager	1	11.13	0.86906135
+Mechanical Engineer	1	17.1	1
+Restaurant Manager	1	11.3	0.52837557
+Director of Quality Improvement	0	11.232	1
+Communications Manager	0	11.55	0.70923656
+Product Engineer	0	17.4	0.44430614
+Maintenance Mechanic	0	49	1
+Store Manager	1	11.18	0.90760386
+Customer Service Representative	1	43	1
+Youth Counselor	1	21.53	1
+Cashier	1	41	0.5
+Administrative Assistant	1	43.1	0.7071588
+Automotive Sales Representative	1	41.9	1
+Retail Sales Associate	0	41.1	0.5
+Sales Specialist	1	41.17	1
+Sales Manager	1	41.67	0.29688644
+Civil Engineer	1	17.14	0.9053424
+CNC Machinist	1	51	0.874166
+Truck Driver	1	53	1
+Sales Manager	0	41.67	0.90250367
+Collections Representative	1	43.26	1
+Yard Driver	1	53.47	1
+Fire Sprinkler Fitter	1	47.9	1
+Registered Nurse	1	29	0.5
+Software Engineer	1	15	0.91509086
+Customer Service Representative	1	43	1
+IT Support Engineer	1	15.18	1
+Clinical Nurse Consultant	1	29.77	0.7313236
+Phlebotomy Technician	1	31.30849	1
+CAE Engineer	1	17.125	1

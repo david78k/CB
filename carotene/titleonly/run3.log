@@ -1,0 +1,3410 @@
+processing categories in: /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc11-categories.txt
+Sales Manager	Chief Financial Officer (CFO)
+General Manager	Chief Financial Officer (CFO)
+Restaurant Manager	Banquet Server
+Account Manager	Chief Financial Officer (CFO)
+Marketing Manager	Chief Financial Officer (CFO)
+Product Manager	Chief Financial Officer (CFO)
+Program Manager	Chief Financial Officer (CFO)
+Operations Manager	Chief Financial Officer (CFO)
+Branch Manager	Chief Financial Officer (CFO)
+District Manager	Chief Financial Officer (CFO)
+Human Resources (HR) Manager	Human Resources (HR) Generalist
+Vice President	Chief Financial Officer (CFO)
+Business Development Manager	Chief Financial Officer (CFO)
+Sales Executive	Assistant Store Manager
+Director of Nursing	Chief Financial Officer (CFO)
+Director of Operations	Chief Financial Officer (CFO)
+Store Manager	Assistant Store Manager
+Property Manager	Chief Financial Officer (CFO)
+Finance Manager	Chief Financial Officer (CFO)
+Sales Director	Chief Financial Officer (CFO)
+Relationship Manager	Chief Financial Officer (CFO)
+Clinical Manager	Chief Financial Officer (CFO)
+Marketing Director	Chief Financial Officer (CFO)
+Executive Director	Chief Financial Officer (CFO)
+Engineering Manager	Chief Financial Officer (CFO)
+Medical Director	Chief Financial Officer (CFO)
+Assistant Director	Chief Financial Officer (CFO)
+Community Manager	Chief Financial Officer (CFO)
+Construction Manager	Construction Safety Officer
+Risk Manager	Chief Financial Officer (CFO)
+Practice Manager	Chief Financial Officer (CFO)
+Nurse Manager	Chief Financial Officer (CFO)
+Director of Product Development	Chief Financial Officer (CFO)
+Training Manager	Chief Financial Officer (CFO)
+Clinical Research Coordinator	Chief Financial Officer (CFO)
+Contract Manager	Chief Financial Officer (CFO)
+Audit Manager	Chief Financial Officer (CFO)
+Office Manager	Production Planner
+Director of Finance	Chief Financial Officer (CFO)
+Credit Manager	Chief Financial Officer (CFO)
+Compliance Manager	Chief Financial Officer (CFO)
+Project Coordinator	Project Manager
+Quality Assurance (QA) Manager	Quality Assurance Engineer
+Supply Chain Manager	Chief Financial Officer (CFO)
+Business Development Director	Chief Financial Officer (CFO)
+Human Resources (HR) Director	Human Resources (HR) Generalist
+Purchasing Manager	Chief Financial Officer (CFO)
+Account Director	Chief Financial Officer (CFO)
+Business Development Executive	Chief Financial Officer (CFO)
+College President	Chief Financial Officer (CFO)
+Health Services Director	Chief Financial Officer (CFO)
+Communications Manager	Chief Financial Officer (CFO)
+Inventory Manager	Chief Financial Officer (CFO)
+Territory Manager	Chief Financial Officer (CFO)
+Tax Manager	Chief Financial Officer (CFO)
+Acquisitions Manager	Chief Financial Officer (CFO)
+Warehouse Manager	Route Sales Representative
+Merchandise Manager	Chief Financial Officer (CFO)
+Logistics Manager	Chief Financial Officer (CFO)
+Director of Admissions	Chief Financial Officer (CFO)
+Loan Administration Manager	Chief Financial Officer (CFO)
+Plant Manager	Production Supervisor
+Brand Manager	Chief Financial Officer (CFO)
+Systems Manager	Chief Financial Officer (CFO)
+Procurement Manager	Chief Financial Officer (CFO)
+Nursing Home Administrator	Chief Financial Officer (CFO)
+Category Manager	Chief Financial Officer (CFO)
+Sourcing Manager	Chief Financial Officer (CFO)
+Director of Rehabilitation	Chief Financial Officer (CFO)
+Financial Center Manager	Chief Financial Officer (CFO)
+Portfolio Manager	Chief Financial Officer (CFO)
+Financial Reporting Manager	Chief Financial Officer (CFO)
+Asset Manager	Chief Financial Officer (CFO)
+Collections Manager	Chief Financial Officer (CFO)
+Materials Manager	Chief Financial Officer (CFO)
+Benefits Manager	Chief Financial Officer (CFO)
+Manager of Financial Analysis and Planning	Chief Financial Officer (CFO)
+Staffing Manager	Chief Financial Officer (CFO)
+Care Manager	Chief Financial Officer (CFO)
+Recruiting Manager	Chief Financial Officer (CFO)
+Director of Engineering	Chief Financial Officer (CFO)
+Residential Manager	Licensed Clinical Social Worker (LCSW)
+Proposal Manager	Chief Financial Officer (CFO)
+Project Director	Chief Financial Officer (CFO)
+Events Manager	Chief Financial Officer (CFO)
+Lending Manager	Chief Financial Officer (CFO)
+Human Resources (HR) Leader	Human Resources (HR) Generalist
+Compliance Officer	Event Planner
+Treasury Manager	Chief Financial Officer (CFO)
+Compliance Director	Chief Financial Officer (CFO)
+Director of Education	Chief Financial Officer (CFO)
+Funeral Director	Chief Financial Officer (CFO)
+Contracts Administrator	Event Planner
+Transportation Manager	Route Sales Representative
+School Director	Chief Financial Officer (CFO)
+Payroll Manager	Chief Financial Officer (CFO)
+Executive Chef	Banquet Server
+Medical Center Manager	Chief Financial Officer (CFO)
+Social Services Director	Chief Financial Officer (CFO)
+Client Services Manager	Chief Financial Officer (CFO)
+Project Administrator	Chief Financial Officer (CFO)
+Benefits Administrator	Chief Financial Officer (CFO)
+Food Service Director	Chief Financial Officer (CFO)
+Laboratory Manager	Production Supervisor
+Revenue Manager	Chief Financial Officer (CFO)
+Chief Nursing Officer	Chief Financial Officer (CFO)
+Quality Control Manager	Chief Financial Officer (CFO)
+Director of Pharmacy	Chief Financial Officer (CFO)
+Project Leader	Project Manager
+Compensation Manager	Chief Financial Officer (CFO)
+Director of Benefits and Compensation	Chief Financial Officer (CFO)
+Engagement Manager	Chief Financial Officer (CFO)
+Assistant Vice President (AVP)	Assistant to the Vice President
+Division Director	Chief Financial Officer (CFO)
+Director of Communications	Chief Financial Officer (CFO)
+Leasing Manager	Chief Financial Officer (CFO)
+Commodity Manager	Chief Financial Officer (CFO)
+Real Estate Manager	Chief Financial Officer (CFO)
+Director of Emergency Services	Chief Financial Officer (CFO)
+Acute Care Manager	Chief Financial Officer (CFO)
+Regional Operations Manager	Chief Financial Officer (CFO)
+Patient Services Manager	Chief Financial Officer (CFO)
+Loss Prevention Manager	Intelligence Analyst
+Construction Superintendent	Chief Financial Officer (CFO)
+Vice President (VP) of Sales	Chief Financial Officer (CFO)
+Billing Manager	Chief Financial Officer (CFO)
+Performance Improvement Manager	Chief Financial Officer (CFO)
+Supply Chain Director	Chief Financial Officer (CFO)
+Capture Manager	Chief Financial Officer (CFO)
+Fitness Manager	Chief Financial Officer (CFO)
+Technical Director	Spanish Translator
+Human Resources (HR) Administrator	Human Resources (HR) Generalist
+Development Officer	Chief Financial Officer (CFO)
+Director of Quality Management	Chief Financial Officer (CFO)
+Maintenance Director	Apartment Maintenance Technician
+Child Care Director	Chief Financial Officer (CFO)
+Vice President (VP) of Operations	Chief Financial Officer (CFO)
+Fleet Manager	Chief Financial Officer (CFO)
+Campaign Manager	Chief Financial Officer (CFO)
+Community Relations Director	Chief Financial Officer (CFO)
+Property Administrator	Chief Financial Officer (CFO)
+Vice President (VP) of Finance	Chief Financial Officer (CFO)
+Tax Director	Chief Financial Officer (CFO)
+Catering Manager	Banquet Server
+Safety Director	Chief Financial Officer (CFO)
+Vice President (VP) of Marketing	Chief Financial Officer (CFO)
+Rehabilitation Manager	Chief Financial Officer (CFO)
+Clinic Administrator	Chief Financial Officer (CFO)
+Demand Manager	Chief Financial Officer (CFO)
+Director of Recruitment	Chief Financial Officer (CFO)
+Chef Manager	Banquet Server
+Sales Leader	Chief Financial Officer (CFO)
+Resident Manager	Chief Financial Officer (CFO)
+Director of Student Services	Chief Financial Officer (CFO)
+Lease Administrator	Chief Financial Officer (CFO)
+Finance and Insurance Manager	Chief Financial Officer (CFO)
+Call Center Manager	Production Planner
+Dietary Manager	Banquet Server
+Director of Client Services	Chief Financial Officer (CFO)
+Director of Manufacturing	Chief Financial Officer (CFO)
+Environmental Services Manager	Landscape Operations Manager
+Food Service Manager	Banquet Server
+Director of Claims	Chief Financial Officer (CFO)
+Director of Quality Assurance	Chief Financial Officer (CFO)
+Manager of Emergency Services	Chief Financial Officer (CFO)
+Laboratory Director	Chief Financial Officer (CFO)
+Director of Quality Improvement	Chief Financial Officer (CFO)
+Director of Patient Care	Chief Financial Officer (CFO)
+Director of Revenue Cycle	Chief Financial Officer (CFO)
+Facilities Administrator	Chief Financial Officer (CFO)
+Residence Director	Licensed Clinical Social Worker (LCSW)
+Director of Application Development	Chief Financial Officer (CFO)
+Real Estate Director	Chief Financial Officer (CFO)
+Director of Analytics	Medical Science Liaison
+Director of Procurement	Chief Financial Officer (CFO)
+Audit Director	Chief Financial Officer (CFO)
+Apartment Manager	Chief Financial Officer (CFO)
+Area Director	Chief Financial Officer (CFO)
+Credit Risk Manager	Chief Financial Officer (CFO)
+Director of Contracts	Chief Financial Officer (CFO)
+Director of Financial Reporting	Chief Financial Officer (CFO)
+Business Administrator	Chief Financial Officer (CFO)
+Academic Director	Head Start Teacher
+Cash Manager	Chief Financial Officer (CFO)
+Vendor Manager	Chief Financial Officer (CFO)
+Channel Manager	Chief Financial Officer (CFO)
+Business Intelligence Manager	Chief Financial Officer (CFO)
+Search Manager	Chief Financial Officer (CFO)
+Health Services Administrator	Chief Financial Officer (CFO)
+Area Manager	Chief Financial Officer (CFO)
+Promotions Manager	Chief Financial Officer (CFO)
+Analytics Manager	Medical Science Liaison
+Regulatory Manager	Chief Financial Officer (CFO)
+Distribution Manager	Chief Financial Officer (CFO)
+Manufacturing Manager	Production Supervisor
+Hospitality Manager	Chief Financial Officer (CFO)
+Regional Director	Chief Financial Officer (CFO)
+Kitchen Manager	Banquet Server
+Facilities Manager	Apartment Maintenance Technician
+Learning Manager	Chief Financial Officer (CFO)
+Administrative Director	Chief Financial Officer (CFO)
+E-commerce Manager	Chief Financial Officer (CFO)
+Pharmacy Manager	Licensed Practical Nurse (LPN)
+Regional Business Manager	Chief Financial Officer (CFO)
+Director of Facilities	Chief Financial Officer (CFO)
+Community Relations Director	Chief Financial Officer (CFO)
+Segment Marketing Manager	Chief Financial Officer (CFO)
+Director of Technology	Chief Financial Officer (CFO)
+Director of Risk Management	Chief Financial Officer (CFO)
+Maintenance Manager	Apartment Maintenance Technician
+Director of Hospice	Chief Financial Officer (CFO)
+Claims Manager	Production Planner
+Investment Manager	Chief Financial Officer (CFO)
+Business Banking Relationship Manager	Relationship Manager
+Vice President (VP) of Engineering	Chief Financial Officer (CFO)
+Vice President (VP) of Business Development	Chief Financial Officer (CFO)
+Grants Administrator	Event Planner
+Director of Transportation	Chief Financial Officer (CFO)
+Director of Training	Chief Financial Officer (CFO)
+Director of Strategy	Chief Financial Officer (CFO)
+Director of Resident Services	Chief Financial Officer (CFO)
+Director of Research	Chief Financial Officer (CFO)
+Director of Regulatory Affairs	Chief Financial Officer (CFO)
+Director of Public Relations	Chief Financial Officer (CFO)
+Director of Patient Access	Chief Financial Officer (CFO)
+Director of Materials	Chief Financial Officer (CFO)
+Director of Infrastructure	Chief Financial Officer (CFO)
+Director of Information Management	Chief Financial Officer (CFO)
+Director of Fundraising	Chief Financial Officer (CFO)
+Director of Financial Services	Chief Financial Officer (CFO)
+Director of Clinical Research	Chief Financial Officer (CFO)
+Director of Care Management	Chief Financial Officer (CFO)
+Delivery Director	Chief Financial Officer (CFO)
+Alliance Director	Chief Financial Officer (CFO)
+Zone Manager	Chief Financial Officer (CFO)
+Transaction Manager	Chief Financial Officer (CFO)
+Training Leader	Chief Financial Officer (CFO)
+Traffic Manager	Chief Financial Officer (CFO)
+Technology Manager	Chief Financial Officer (CFO)
+Task Manager	Chief Financial Officer (CFO)
+Systems Integration Manager	Chief Financial Officer (CFO)
+Supplier Relationship Manager	Chief Financial Officer (CFO)
+Subcontracts Manager	Chief Financial Officer (CFO)
+Strategy Leader	Chief Financial Officer (CFO)
+Store Director	Assistant Store Manager
+Sourcing Leader	Chief Financial Officer (CFO)
+Solutions Executive	Chief Financial Officer (CFO)
+Shared Services Manager	Chief Financial Officer (CFO)
+School Principal	Chief Financial Officer (CFO)
+Sales Administrator	Chief Financial Officer (CFO)
+Risk and Assurance Manager	Chief Financial Officer (CFO)
+Resource Leader	Production Supervisor
+Resort Manager	Chief Financial Officer (CFO)
+Research Leader	Chief Financial Officer (CFO)
+Reporting Manager	Chief Financial Officer (CFO)
+Relations Officer	Chief Financial Officer (CFO)
+Reimbursement Manager	Chief Financial Officer (CFO)
+Regional Sales Executive	Chief Financial Officer (CFO)
+Professional Services Manager	Chief Financial Officer (CFO)
+Product Line Manager	Chief Financial Officer (CFO)
+Practice Coordinator	Chief Financial Officer (CFO)
+Planning Administrator	Chief Financial Officer (CFO)
+Patient Access Manager	Chief Financial Officer (CFO)
+Partnership Manager	Chief Financial Officer (CFO)
+Partner Manager	Chief Financial Officer (CFO)
+Nurse Manager Oncology	Chief Financial Officer (CFO)
+Modeling Manager	Chief Financial Officer (CFO)
+Medical Supervisor	Licensed Practical Nurse (LPN)
+Marketing Executive	Chief Financial Officer (CFO)
+Investment Officer	Chief Financial Officer (CFO)
+Intelligence Manager	Chief Financial Officer (CFO)
+Improvement Manager	Chief Financial Officer (CFO)
+Imaging Manager	Chief Financial Officer (CFO)
+Hospital Area Manager	Chief Financial Officer (CFO)
+Health Service Executive	Chief Financial Officer (CFO)
+Head of Operations	Event Planner
+Grants Manager	Chief Financial Officer (CFO)
+Fund Administrator	Chief Financial Officer (CFO)
+Fulfillment Manager	Chief Financial Officer (CFO)
+Financial Controller	Chief Financial Officer (CFO)
+Financial Administrator	Chief Financial Officer (CFO)
+Field Manager	Chief Financial Officer (CFO)
+Distribution Group Leader	Production Supervisor
+Deployment Manager	Chief Financial Officer (CFO)
+Club Manager	Chief Financial Officer (CFO)
+Clinical Trials Manager	Chief Financial Officer (CFO)
+Clinical Nutrition Manager	Chief Financial Officer (CFO)
+Chief Medical Officer	Chief Financial Officer (CFO)
+Branch Leader	Chief Financial Officer (CFO)
+Banking Center Manager	Chief Financial Officer (CFO)
+Agency Manager	Assistant Store Manager
+Director of Retail	Chief Financial Officer (CFO)
+Director of Reimbursement	Chief Financial Officer (CFO)
+Director of Logistics	Chief Financial Officer (CFO)
+Director of Integration	Chief Financial Officer (CFO)
+Director of Innovation	Chief Financial Officer (CFO)
+Director of Benefits	Chief Financial Officer (CFO)
+Training Administrator	Chief Financial Officer (CFO)
+Technical Services Manager	Chief Financial Officer (CFO)
+Subcontracts Administrator	Event Planner
+Strategy Manager	Chief Financial Officer (CFO)
+Sourcing Director	Chief Financial Officer (CFO)
+Solutions Director	Chief Financial Officer (CFO)
+Research Administrator	Chief Financial Officer (CFO)
+Reporting Leader	Chief Financial Officer (CFO)
+Regulatory Affairs Manager	Chief Financial Officer (CFO)
+Regional Administrator	Chief Financial Officer (CFO)
+Real Estate Administrator	Chief Financial Officer (CFO)
+Quality Director	Chief Financial Officer (CFO)
+Procurement Leader	Chief Financial Officer (CFO)
+Practice Leader	Chief Financial Officer (CFO)
+Photo Department Manager	Chief Financial Officer (CFO)
+Optimization Manager	Chief Financial Officer (CFO)
+Marketing Leader	Chief Financial Officer (CFO)
+Initiatives Manager	Chief Financial Officer (CFO)
+Information Systems Manager	Chief Financial Officer (CFO)
+Informatics Manager	Chief Financial Officer (CFO)
+Implementation Leader	Event Planner
+Division Manager	Chief Financial Officer (CFO)
+Creative Manager	Chief Financial Officer (CFO)
+Cost Manager	Event Planner
+Control Manager	Chief Financial Officer (CFO)
+Control Leader	Event Planner
+Continuous Improvement Leader	Continuous Improvement Engineer
+Consulting Director	Chief Financial Officer (CFO)
+Compliance Leader	Chief Financial Officer (CFO)
+Communications Officer	Chief Financial Officer (CFO)
+Clinical Research Manager	Chief Financial Officer (CFO)
+Chief Engineer	Apartment Maintenance Technician
+Business Development Officer	Chief Financial Officer (CFO)
+Business Analysis Manager	Chief Financial Officer (CFO)
+Assistant Principal	Chief Financial Officer (CFO)
+Director of Distribution	Chief Financial Officer (CFO)
+Director of Acquisition	Chief Financial Officer (CFO)
+Unit Director	Chief Financial Officer (CFO)
+Support Services Manager	Chief Financial Officer (CFO)
+Section Manager	Chief Financial Officer (CFO)
+Science Manager	Chief Financial Officer (CFO)
+Research Manager	Medical Science Liaison
+Publications Manager	Chief Financial Officer (CFO)
+Practice Director	Chief Financial Officer (CFO)
+Practice Administrator	Chief Financial Officer (CFO)
+Platform Manager	Chief Financial Officer (CFO)
+Planning Director	Chief Financial Officer (CFO)
+Partnership Director	Chief Financial Officer (CFO)
+Outcomes Manager	Chief Financial Officer (CFO)
+Operations Leader	Chief Financial Officer (CFO)
+Mobility Manager	Route Sales Representative
+Marketing Administrator	Chief Financial Officer (CFO)
+Education Manager	Chief Financial Officer (CFO)
+Compliance Administrator	Chief Financial Officer (CFO)
+Communications Leader	Chief Financial Officer (CFO)
+Brand Director	Chief Financial Officer (CFO)
+Architecture Director	Chief Financial Officer (CFO)
+Programming Manager	Chief Financial Officer (CFO)
+Regional Service Manager	Chief Financial Officer (CFO)
+Process Manager	Production Supervisor
+Policy Director	Chief Financial Officer (CFO)
+Nurse Director	Licensed Practical Nurse (LPN)
+Intelligence Director	Chief Financial Officer (CFO)
+Infrastructure Manager	Chief Financial Officer (CFO)
+Governance Manager	Chief Financial Officer (CFO)
+Finance Administrator	Chief Financial Officer (CFO)
+Director of Merchandising	Chief Financial Officer (CFO)
+Design Manager	Chief Financial Officer (CFO)
+Commercial Manager	Chief Financial Officer (CFO)
+Business Development Leader	Chief Financial Officer (CFO)
+Architecture Manager	Chief Financial Officer (CFO)
+Alliance Manager	Chief Financial Officer (CFO)
+Affairs Manager	Chief Financial Officer (CFO)
+Location Manager	Chief Financial Officer (CFO)
+Lean Manager	Chief Financial Officer (CFO)
+Infrastructure Leader	Chief Financial Officer (CFO)
+Loan Manager	Chief Financial Officer (CFO)
+Insights Manager	Chief Financial Officer (CFO)
+Health Services Manager	Chief Financial Officer (CFO)
+Field Service Manager	Apartment Maintenance Technician
+Director of Revenue Management	Chief Financial Officer (CFO)
+Deputy Director	Chief Financial Officer (CFO)
+Credit Director	Chief Financial Officer (CFO)
+Clinic Supervisor	Licensed Clinical Social Worker (LCSW)
+Client Manager	Chief Financial Officer (CFO)
+Business Office Manager	Production Planner
+Application Support Manager	Project Manager
+Engineering Services Manager	Chief Financial Officer (CFO)
+Department Manager	Chief Financial Officer (CFO)
+Bank Manager	Chief Financial Officer (CFO)
+Application Services Manager	Chief Financial Officer (CFO)
+Actuarial Manager	Chief Financial Officer (CFO)
+Vice President (VP) of Technology	Chief Financial Officer (CFO)
+Vice President (VP) of Compliance	Chief Financial Officer (CFO)
+Director of Research and Development	Chief Financial Officer (CFO)
+Workforce Manager	Chief Financial Officer (CFO)
+Value Manager	Event Planner
+Transfer Manager	Chief Financial Officer (CFO)
+Surgery Manager	Chief Financial Officer (CFO)
+Studio Manager	Chief Financial Officer (CFO)
+Social Media Manager	Chief Financial Officer (CFO)
+Server Manager	Chief Financial Officer (CFO)
+Public Relations Manager	Chief Financial Officer (CFO)
+Information Security Manager	Chief Financial Officer (CFO)
+House Manager	Construction Safety Officer
+Employee Relations Manager	Chief Financial Officer (CFO)
+Director of Information Systems	Chief Financial Officer (CFO)
+Director of Construction	Chief Financial Officer (CFO)
+Data Analytics Manager	Medical Science Liaison
+Client Solutions Executive	Chief Financial Officer (CFO)
+Campus Manager	Chief Financial Officer (CFO)
+Advertising Manager	Chief Financial Officer (CFO)
+Vice President (VP) of Strategy	Chief Financial Officer (CFO)
+Vice President (VP) of Quality Management	Chief Financial Officer (CFO)
+Manager of Applications	Chief Financial Officer (CFO)
+Fraud Manager	Intelligence Analyst
+Director of Data Management	Chief Financial Officer (CFO)
+Business Analytics Manager	Medical Science Liaison
+Vice President (VP) of Retail	Chief Financial Officer (CFO)
+Innovation Manager	Chief Financial Officer (CFO)
+Financial Systems Manager	Chief Financial Officer (CFO)
+Clinical Services Manager	Chief Financial Officer (CFO)
+Vice President (VP) of Client Services	Chief Financial Officer (CFO)
+Advisory Services Manager	Chief Financial Officer (CFO)
+Vice President (VP) of Risk Management	Chief Financial Officer (CFO)
+Director of Design	Spanish Translator
+Director of Customer Service	Chief Financial Officer (CFO)
+Account Supervisor	Spanish Translator
+Visual Manager	Assistant Store Manager
+Unit Manager	Intelligence Analyst
+Trust Officer	Chief Financial Officer (CFO)
+Trust Administrator	Chief Financial Officer (CFO)
+Training Consultant	Event Planner
+Telecommunications Manager	Project Manager
+Task Leader	Route Sales Representative
+Talent Manager	Chief Financial Officer (CFO)
+Superintendent	Chief Financial Officer (CFO)
+Software Development Manager	Project Manager
+Shop Manager	Production Supervisor
+Selling Manager	Assistant Store Manager
+School Coordinator	Licensed Clinical Social Worker (LCSW)
+Risk Officer	Chief Financial Officer (CFO)
+Resource Manager	Chief Financial Officer (CFO)
+Program Supervisor	Licensed Clinical Social Worker (LCSW)
+Operations Administrator	Production Planner
+Department Head	Head Start Teacher
+Credit Administrator	Chief Financial Officer (CFO)
+Controller	Event Planner
+Compliance Coordinator	Event Planner
+Commercial Banker	Event Planner
+Bakery Manager	Banquet Server
+Director of Advertising	Chief Financial Officer (CFO)
+Unit Leader	Chief Financial Officer (CFO)
+Sales Officer	Assistant Store Manager
+Research Coordinator	Chief Financial Officer (CFO)
+Coding Manager	Licensed Practical Nurse (LPN)
+Client Administrator	Production Planner
+Finance Officer	Chief Financial Officer (CFO)
+Environmental, Health, and Safety (EHS) Manager	Safety Manager
+Customer Experience Manager	Chief Financial Officer (CFO)
+Care Management Coordinator	Chief Financial Officer (CFO)
+Director of Talent Management	Chief Financial Officer (CFO)
+Accuracy (%): 4.49897750511 (22/489)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc13-categories.txt
+Accountant	Event Planner
+Recruiter	Event Planner
+Business Analyst	Event Planner
+Financial Analyst	Event Planner
+Mortgage Underwriter	Event Planner
+Tax Preparer	Event Planner
+Training and Development Specialist	Event Planner
+Senior Buyer	Event Planner
+Loan Officer	Event Planner
+Personal Banker	Event Planner
+Financial Advisor	Event Planner
+Data Analyst	Event Planner
+Loan Originator	Event Planner
+Credit Analyst	Event Planner
+Claims Adjuster	Event Planner
+Mortgage Banker	Event Planner
+Compensation Analyst	Event Planner
+Claims Examiner	Event Planner
+Assistant Controller	Event Planner
+Risk Analyst	Event Planner
+Tax Analyst	Event Planner
+Operations Analyst	Project Manager
+Mortgage Consultant	Event Planner
+Planning Analyst	Event Planner
+Entry Level Sales	Sales Management Trainee
+Consumer ln Underwriter	Mortgage Underwriter
+Purchasing Agent	Event Planner
+Budget Analyst	Event Planner
+Cost Analyst	Event Planner
+Technical Trainer	Event Planner
+Buyer Planner	Event Planner
+Financial Consultant	Event Planner
+Treasury Analyst	Event Planner
+Claims Analyst	Event Planner
+Plant Controller	Event Planner
+Training Manager	Chief Financial Officer (CFO)
+Contract Analyst	Event Planner
+Compliance Analyst	Event Planner
+Assistant Buyer	Event Planner
+Business Consultant	Event Planner
+Procurement Analyst	Event Planner
+Payroll Analyst	Event Planner
+Financial Advisor Trainee	Event Planner
+Tax Staff	Event Planner
+Project Analyst	Event Planner
+Construction Estimator	Event Planner
+Investment Analyst	Event Planner
+Logistics Analyst	Event Planner
+Services Manager	Chief Financial Officer (CFO)
+Mortgage Closer	Production Planner
+Contracts Manager	Chief Financial Officer (CFO)
+Sales Trainer	Event Planner
+Kronos Analyst	Project Manager
+Fraud Analyst	Event Planner
+Cost Estimator	Event Planner
+Estimator	Event Planner
+Processing Manager	Production Supervisor
+Risk Manager	Chief Financial Officer (CFO)
+Audit Leader	Event Planner
+Senior Trainer	Event Planner
+Training Instructor	Event Planner
+Research Analyst	Medical Science Liaison
+Business Partner	Chief Financial Officer (CFO)
+Purchasing Analyst	Event Planner
+Portfolio Analyst	Event Planner
+Healthcare Consultant	Event Planner
+Compliance Consultant	Event Planner
+Consulting Manager	Event Planner
+Revenue Analyst	Event Planner
+Electrical Estimator	Event Planner
+Workforce Analyst	Event Planner
+Corporate Trainer	Event Planner
+Implementation Consultant	Event Planner
+Analytics Consultant	Event Planner
+Project Estimator	Event Planner
+Claims Manager	Production Planner
+Sourcing Analyst	Event Planner
+Loan Analyst	Event Planner
+Senior Estimator	Event Planner
+Relationship Manager	Chief Financial Officer (CFO)
+Recovery Analyst	Event Planner
+Operations Consultant	Event Planner
+Operations Support	Project Manager
+Inventory Analyst	Project Manager
+PMO Analyst	Event Planner
+Staffing Consultant	Event Planner
+SAP Consultant	Project Manager
+ERP Consultant	Event Planner
+Environmental Manager	Event Planner
+Quantitative Analyst	Event Planner
+Tax Director	Chief Financial Officer (CFO)
+Auditor	Event Planner
+Assurance Manager	Chief Financial Officer (CFO)
+Functional Consultant	Event Planner
+Business Control Analyst	Event Planner
+Compensation Analyst	Event Planner
+Staffing Manager	Chief Financial Officer (CFO)
+Logistics Engineer	Event Planner
+Auto Appraiser	Event Planner
+Tax Supervisor	Event Planner
+Mortgage Opener	Event Planner
+Materials Analyst	Event Planner
+Policy Analyst	Event Planner
+Broker	Assistant Store Manager
+Residential Appraiser	Event Planner
+Functional Analyst	Event Planner
+Operations Trainer	Event Planner
+Mechanical Estimator	Event Planner
+Logistics Support Manager	Event Planner
+Equity Analyst	Event Planner
+Tax Consultant	Event Planner
+Tax Associate	Event Planner
+Banking Officer	Event Planner
+Project Consultant	Event Planner
+Lead Consultant	Event Planner
+Support Analyst	Project Manager
+Logistician	Event Planner
+Senior Planner	Medical Science Liaison
+Training Lead	Event Planner
+Asset Analyst	Event Planner
+Planning Manager	Chief Financial Officer (CFO)
+Pricing Analyst	Medical Science Liaison
+Financial Planning Analyst	Event Planner
+Sourcer	Event Planner
+Logistics Manager	Chief Financial Officer (CFO)
+Real Estate Analyst	Event Planner
+Insurance Adjuster	Event Planner
+Mortgage Assistant	Production Planner
+Customer Service Analyst	Production Planner
+Auto Adjuster	Apartment Maintenance Technician
+Mortgage Analyst	Event Planner
+Internal Consultant	Event Planner
+Executive Recruiter	Event Planner
+Lead Manager	Chief Financial Officer (CFO)
+Audit Analyst	Event Planner
+Financial Services Manager	Chief Financial Officer (CFO)
+Human Resource Analyst	Event Planner
+Compliance Manager	Chief Financial Officer (CFO)
+Audit Consultant	Event Planner
+Loan Consultant	Event Planner
+Regulatory Analyst	Event Planner
+Billing Analyst	Production Planner
+Parts Analyst	Event Planner
+Mortgage Professional	Event Planner
+Human Resources (HR) Consultant	Human Resources (HR) Generalist
+Healthcare Analyst	Event Planner
+Business Tax Consultant	Event Planner
+Wholesale Underwriter	Event Planner
+Transformation Consultant	Event Planner
+Training Technician	Event Planner
+Training Supervisor	Event Planner
+Training Representative	Event Planner
+Training Officer	Event Planner
+Training Coordinator	Event Planner
+Training Assistant	Production Planner
+Training Analyst	Event Planner
+Technical Advisor	Event Planner
+Tax Accountant	Event Planner
+Systems Accountant	Event Planner
+Surety Underwriter	Event Planner
+Structural Analyst	Injection Molding Process Engineer
+Strategic Consultant	Event Planner
+Strategic Analyst	Event Planner
+Staff Consultant	Event Planner
+Specialist Procurement	Event Planner
+Sales Operations Analyst	Event Planner
+Risk Coordinator	Event Planner
+Review Analyst	Event Planner
+Revenue Accountant	Event Planner
+Regulatory Coordinator	Event Planner
+Regulatory Consultant	Event Planner
+Regional Analyst	Medical Science Liaison
+Property Underwriter	Event Planner
+Property Adjuster	Event Planner
+Practice Consultant	Event Planner
+Payroll Accountant	Event Planner
+Metrics Analyst	Event Planner
+Merchandise Planner	Event Planner
+Marketing Strategist	Medical Science Liaison
+Marketing Consultant	Event Planner
+Management Liaison	Project Manager
+Logistics Technician	Event Planner
+Logistics Operator	Route Sales Representative
+Life Insurance Underwriter	Event Planner
+Lending Officer	Event Planner
+Improvement Consultant	Event Planner
+Financial Counselor	Event Planner
+Executive Consultant	Assistant Store Manager
+Event Director	Event Planner
+Event Coordinator	Event Planner
+Energy Analyst	Event Planner
+Cost Accountant	Event Planner
+Client Advisor	Event Planner
+Benefits Representative	Event Planner
+Benefits Coordinator	Event Planner
+Benefits Analyst	Event Planner
+Appraiser	Event Planner
+Analytics Leader	Medical Science Liaison
+Acquisition Coordinator	Event Planner
+Support Advisor	Event Planner
+Support Accountant	Event Planner
+Strategic Planner	Project Manager
+Staffing Coordinator	Event Planner
+Staff Analyst	Project Manager
+Staff Accountant	Event Planner
+Sales Analyst	Medical Science Liaison
+Reporting Accountant	Event Planner
+Property Analyst	Event Planner
+Manufacturing Accountant	Event Planner
+Logistics Planner	Event Planner
+Loan Underwriter	Event Planner
+Lending Underwriter	Event Planner
+Investment Consultant	Event Planner
+Inventory Accountant	Event Planner
+Information Management Analyst	Event Planner
+Improvement Coordinator	Event Planner
+Government Consultant	Event Planner
+Fund Analyst	Event Planner
+Finance Consultant	Event Planner
+Security Advisor	Event Planner
+Relations Analyst	Event Planner
+Rates Analyst	Event Planner
+Property Accountant	Event Planner
+Principal Accountant	Event Planner
+Payment Analyst	Event Planner
+Operations Accountant	Event Planner
+Managing Consultant	Event Planner
+Logistics Coordinator	Event Planner
+Governance Analyst	Event Planner
+Energy Consultant	Event Planner
+Distribution Analyst	Medical Science Liaison
+Credit Underwriter	Event Planner
+Commercial Underwriter	Event Planner
+Commercial Analyst	Event Planner
+Acquisition Analyst	Event Planner
+Accountant Controller	Event Planner
+Operational Trainer	Event Planner
+Oil and Gas Accountant	Event Planner
+Credit Officer	Chief Financial Officer (CFO)
+Corporate Accountant	Event Planner
+Consulting Operations	Event Planner
+Compensation Consultant	Event Planner
+Banker	Event Planner
+Benefits Consultant	Chief Financial Officer (CFO)
+Analytics Analyst	Event Planner
+Administrative Analyst	Event Planner
+Unit Leader	Chief Financial Officer (CFO)
+Trust Officer	Chief Financial Officer (CFO)
+Trust Administrator	Chief Financial Officer (CFO)
+Training Consultant	Event Planner
+Trading Analyst	Event Planner
+Trader	Assistant Store Manager
+Talent Manager	Chief Financial Officer (CFO)
+Systems Trainer	Project Manager
+Statistical Analyst	Medical Science Liaison
+Risk Officer	Chief Financial Officer (CFO)
+Optimization Analyst	Event Planner
+Mortgage Loan Coordinator	Production Planner
+Manufacturing Analyst	Project Manager
+Implementation Coordinator	Project Manager
+Implementation Analyst	Event Planner
+Functional Leader	Project Manager
+Financial Coordinator	Production Planner
+Finance Officer	Chief Financial Officer (CFO)
+Field Investigator	Event Planner
+Credit Administrator	Chief Financial Officer (CFO)
+Commercial Banker	Event Planner
+Solutions Consultant	Event Planner
+Relations Consultant	Spanish Translator
+Monitoring Analyst	Event Planner
+Modeling Analyst	Event Planner
+Compliance Coordinator	Event Planner
+Accounting Analyst	Event Planner
+Content Analyst	Project Manager
+Consultant	Event Planner
+Accuracy (%): 9.47712418301 (29/306)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc15-categories.txt
+Software Engineer	Project Manager
+Java Developer	Project Manager
+Systems Engineer	Project Manager
+Programmer	Project Manager
+Systems Administrator	Project Manager
+Business Analyst	Event Planner
+.Net Developer	Project Manager
+Network Engineer	Project Manager
+Systems Analyst	Project Manager
+Database Administrator	Project Manager
+Web Developer	Project Manager
+SQL Developer	Project Manager
+IT Support Analyst	Project Manager
+C Developer	Project Manager
+Data Analyst	Event Planner
+IT Support Engineer	Project Manager
+Security Engineer	Project Manager
+Junior Software Engineer	Project Manager
+IT Network Administrator	Project Manager
+Information Security Analyst	Project Manager
+Solutions Architect	Project Manager
+Application Developer	Project Manager
+SharePoint Developer	Project Manager
+Operations Analyst	Project Manager
+Technical Lead	Project Manager
+IT Project Coordinator	Project Manager
+Network Analyst	Project Manager
+PHP Developer	Project Manager
+Information Systems Security Engineer	Security Engineer
+Data Architect	Project Manager
+Quality Assurance Engineer	Injection Molding Process Engineer
+Database Developer	Project Manager
+Desktop Support Technician	Project Manager
+Oracle Developer	Project Manager
+Technical Analyst	Project Manager
+PC Technician	Project Manager
+Web Designer	Project Manager
+Functional Analyst	Event Planner
+ETL Developer	Project Manager
+Systems Architect	Project Manager
+Voice Engineer	Project Manager
+Cloud Engineer Architect	Project Manager
+Unix Administrator	Project Manager
+Clinical Systems Analyst	Project Manager
+SharePoint Administrator	Project Manager
+Storage Engineer	Project Manager
+Business Intelligence Developer	Project Manager
+Enterprise Architect	Project Manager
+Technical Architect	Project Manager
+IT Manager	Chief Financial Officer (CFO)
+SAP Consultant	Project Manager
+Application Architect	Project Manager
+Server Administrator	Project Manager
+IT Field Technician	Medical Science Liaison
+Network Technician	Project Manager
+Infrastructure Engineer	Project Manager
+Virtualization Engineer	Project Manager
+Ruby on Rails Developer	Project Manager
+Performance Engineer	Project Manager
+IOS Developer	Project Manager
+Senior IT Consultant	Event Planner
+IT Support Manager	Chief Financial Officer (CFO)
+Software Architect	Project Manager
+Configuration Analyst	Project Manager
+Business Intelligence Architect	Project Manager
+Firmware Engineer	Project Manager
+Process Analyst	Event Planner
+Storage Administrator	Project Manager
+Business Intelligence Developer	Project Manager
+Security Administrator	Project Manager
+Data Modeler	Project Manager
+Software Tester	Project Manager
+Desktop Engineer	Project Manager
+NOC Technician	Project Manager
+Database Engineer	Project Manager
+Network Architect	Project Manager
+Project Lead	Project Manager
+Network Manager	Project Manager
+Android Developer	Project Manager
+Citrix Engineer	Project Manager
+Python Developer	Project Manager
+Web Administrator	Project Manager
+IT Field Engineer	Injection Molding Process Engineer
+Release Engineer	Project Manager
+Informatica Developer	Project Manager
+Information Security Architect	Project Manager
+Reporting Analyst	Event Planner
+Scrum Master	Project Manager
+Systems Technician	Project Manager
+Technical Consultant	Project Manager
+PeopleSoft Developer	Project Manager
+Avaya Engineer	Project Manager
+Graphics Software Engineer	Project Manager
+Project Engineer	Injection Molding Process Engineer
+Epic HIM Analyst	Project Manager
+Salesforce Developer	Project Manager
+Validation Engineer	Injection Molding Process Engineer
+Data Warehouse Developer	Hadoop DevOps Engineer
+Release Manager	Chief Financial Officer (CFO)
+VMware Engineer	Project Manager
+Linux Administrator	Project Manager
+Senior Java Software Engineer	Software Engineer
+Research Analyst	Medical Science Liaison
+Telecommunications Engineer	Injection Molding Process Engineer
+Cognos Developer	Project Manager
+Technology Consultant	Project Manager
+ColdFusion Developer	Project Manager
+Application Administrator	Project Manager
+Help Desk Analyst	IT Help Desk Specialist
+IT Application Specialist	IT Help Desk Specialist
+MicroStrategy Developer	Project Manager
+Java Architect	Project Manager
+Data Conversion Developer	Project Manager
+Business Systems Consultant	Project Manager
+Interaction Designer	Project Manager
+Solutions Engineer	Project Manager
+IT Subject Matter Expert	Training and Development Specialist
+Help Desk Technician	IT Help Desk Specialist
+SAS Developer	Project Manager
+Operations Technician	Project Manager
+HRIS Analyst	Project Manager
+Messaging Engineer	Project Manager
+Mainframe Developer	Project Manager
+Computer Systems Specialist	Project Manager
+GIS Analyst	Project Manager
+Information Specialist	Project Manager
+Firewall Engineer	Project Manager
+Technical Support Representative	Project Manager
+Integration Developer	Project Manager
+SAP Developer	Project Manager
+SharePoint Architect	Project Manager
+Implementation Engineer	Project Manager
+Communications Engineer	Injection Molding Process Engineer
+Product Manager	Chief Financial Officer (CFO)
+Actuarial Analyst	Project Manager
+Information Security Specialist	Project Manager
+Infrastructure Architect	Project Manager
+Delivery Manager	Chief Financial Officer (CFO)
+Information Assurance Analyst	Project Manager
+Information Assurance Engineer	Project Manager
+Sybase Developer	Project Manager
+Systems Support Coordinator	Project Manager
+Senior Technician	Injection Molding Process Engineer
+Cobol Developer	Project Manager
+SSRS Developer	Project Manager
+DataStage Developer	Project Manager
+HL7 Developer	Project Manager
+JavaScript Developer	Project Manager
+Configuration Manager	Project Manager
+Citrix Administrator	Project Manager
+AIX Administrator	Project Manager
+Content Developer	Project Manager
+Portal Developer	Project Manager
+Unix Engineer	Project Manager
+Database Report Writer	Spanish Translator
+.Net Architect	Project Manager
+SAN Administrator	Project Manager
+Perl Developer	Project Manager
+Server Engineer	Project Manager
+Deployment Engineer	Project Manager
+Hadoop DevOps Engineer	Project Manager
+Performance Tester	Project Manager
+Database Manager	Project Manager
+NOC Engineer	Project Manager
+Security Consultant	Project Manager
+Drupal Developer	Project Manager
+Performance Analyst	Event Planner
+Quantitative Developer	Project Manager
+Web Architect	Project Manager
+Functional Consultant	Event Planner
+EDI Analyst	Project Manager
+RPG Developer	Project Manager
+Middleware Engineer	Project Manager
+Windows Engineer	Project Manager
+Software Support Technician	Project Manager
+Lead SAP Consultant	Project Manager
+Web Specialist	Project Manager
+SAP Application Analyst	Project Manager
+Logistics Analyst	Event Planner
+Operations Lead	Route Sales Representative
+Client Services Analyst	Event Planner
+Information Architect	Project Manager
+Project Controls Analyst	Event Planner
+Data Consultant	Event Planner
+HTML Developer	Project Manager
+Cyber Security Analyst	Project Manager
+Software Configuration Engineer	Project Manager
+Network Infrastructure Engineer	Project Manager
+Hardware Engineer	Injection Molding Process Engineer
+SharePoint Engineer	Project Manager
+Solutions Manager	Chief Financial Officer (CFO)
+Network Designer	Project Manager
+Analytics Manager	Medical Science Liaison
+Infrastructure Analyst	Project Manager
+Oracle Consultant	Project Manager
+Application Consultant	Project Manager
+Implementation Specialist	Project Manager
+Implementation Manager	Project Manager
+Statistician	Project Manager
+Manager - IT Change Management	Chief Financial Officer (CFO)
+User Interface Designer	User Interface Developer
+IT Support Specialist	IT Help Desk Specialist
+WPF Developer	Project Manager
+Mobile Developer	Project Manager
+QA Specialist	Injection Molding Process Engineer
+IT Operations Specialist	Event Planner
+Integration Manager	Chief Financial Officer (CFO)
+Build Engineer	Project Manager
+IT Support Administrator	Production Planner
+Integration Engineer	Project Manager
+Business Intelligence Analyst	Project Manager
+Data Manager	Project Manager
+Systems Developer	Project Manager
+Mobile Software Engineer	Project Manager
+Operations Engineer	Injection Molding Process Engineer
+Technologist	Injection Molding Process Engineer
+Design Analyst	Project Manager
+Forensics Engineer	Project Manager
+Applications Analyst	Project Manager
+Linux Engineer	Project Manager
+Systems Integrator	Project Manager
+SAP Analyst	Project Manager
+Senior Quality Assurance Engineer	Quality Assurance Engineer
+Software Specialist	Production Planner
+Web Manager	Project Manager
+Solutions Analyst	Event Planner
+Requirements Management Analyst	Event Planner
+VMWare Administrator	Project Manager
+Design Engineer	Injection Molding Process Engineer
+Engineer Technician	Spanish Translator
+SAN Engineer	Project Manager
+Product Analyst	Medical Science Liaison
+Security Officer	Intelligence Analyst
+Cisco Engineer	Project Manager
+IT Operations Administrator	Production Planner
+SAS Analyst	Medical Science Liaison
+Windows Administrator	Project Manager
+Security Manager	Intelligence Analyst
+Project Analyst	Event Planner
+Data Engineer	Project Manager
+Web Services Engineer	Project Manager
+Software Analyst	Project Manager
+PeopleSoft Analyst	Project Manager
+Wireless Engineer	Injection Molding Process Engineer
+Software Design Engineer	Project Manager
+SQL Server SSIS Developer	SQL Developer
+CRM Developer	Project Manager
+Solaris Administrator	Project Manager
+IT System Administrator	Project Manager
+Desktop Specialist	Project Manager
+SharePoint Analyst	Project Manager
+Business Intelligence Consultant	Event Planner
+Remote Developer	Project Manager
+Data Integrator	Project Manager
+SAP Architect	Project Manager
+Solutions Designer	Project Manager
+Oracle Engineer	Project Manager
+Webmaster	Project Manager
+Website Designer	Project Manager
+Testing Consultant	Project Manager
+Technology Analyst	Project Manager
+Technical Support Manager	Project Manager
+Systems Software Developer	Project Manager
+Systems Designer	Project Manager
+Systems Consultant	Project Manager
+Support Services Technician	Project Manager
+Statistical Programmer	Project Manager
+Software Consultant	Project Manager
+Server Analyst	Project Manager
+Security Researcher	Project Manager
+Reporting Developer	Project Manager
+Mobile Software Developer	Project Manager
+Microsoft Consultant	Project Manager
+Java Analyst	Project Manager
+Integration Technician	Apartment Maintenance Technician
+Integration Leader	Project Manager
+Infrastructure Technician	Project Manager
+Infrastructure Consultant	Project Manager
+Hardware Technician	Project Manager
+Geospatial Analyst	Project Manager
+Database Architect	Project Manager
+Data Warehouse Engineer	Project Manager
+Communications Analyst	Project Manager
+Coding Analyst	Licensed Practical Nurse (LPN)
+Clinical Data Manager	Project Manager
+Cerner Analyst	Project Manager
+C# Developer	Project Manager
+Biostatistician	Project Manager
+Automation Analyst	Project Manager
+Actuarial Consultant	Project Manager
+Web Analyst	Medical Science Liaison
+Staff Software Developer	Project Manager
+Software Designer	Project Manager
+Security Software Developer	Project Manager
+Security Architect	Project Manager
+SAS Programmer	Project Manager
+Integration Consultant	Project Manager
+Information Analyst	Project Manager
+Epic Consultant	Project Manager
+Data Scientist	Project Manager
+Cyber Analyst	Project Manager
+Systems Coordinator	Project Manager
+Support Engineer	Project Manager
+Software Administrator	Project Manager
+Programmer Analyst	Project Manager
+Information Security Engineer	Project Manager
+Game Designer	Project Manager
+Computer Scientist	Project Manager
+Networking Engineer	Project Manager
+Interface Analyst	Project Manager
+Infrastructure Administrator	Project Manager
+Application Coordinator	Project Manager
+Informatics Analyst	Project Manager
+Cyber Security Engineer	Project Manager
+Quality Assurance (QA) Tester	IT Quality Assurance Analyst
+Telecommunications Manager	Project Manager
+Technician Supervisor	Licensed Practical Nurse (LPN)
+Systems Trainer	Project Manager
+Systems Operator	Production Planner
+Support Administrator	Production Planner
+Statistical Analyst	Medical Science Liaison
+Solutions Consultant	Event Planner
+Software Development Manager	Project Manager
+Optimization Analyst	Event Planner
+Operations Administrator	Production Planner
+Monitoring Analyst	Event Planner
+Manufacturing Analyst	Project Manager
+Implementation Coordinator	Project Manager
+Implementation Analyst	Event Planner
+Functional Leader	Project Manager
+Design Leader	Injection Molding Process Engineer
+Data Coordinator	Production Planner
+Coding Manager	Licensed Practical Nurse (LPN)
+Assurance Analyst	Project Manager
+Quality Assurance (QA) Associate	Quality Assurance Engineer
+Systems Supervisor	Apartment Maintenance Technician
+Modeling Analyst	Event Planner
+Information Technician	Project Manager
+Design Consultant	Spanish Translator
+Data Administrator	Project Manager
+Content Analyst	Project Manager
+Accuracy (%): 12.1212121212 (48/396)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc17-categories.txt
+Quality Assurance Engineer	Injection Molding Process Engineer
+Mechanical Engineer	Injection Molding Process Engineer
+Project Engineer	Injection Molding Process Engineer
+Controls Engineer	Injection Molding Process Engineer
+Product Engineer	Injection Molding Process Engineer
+Manufacturing Engineer	Injection Molding Process Engineer
+Systems Engineer	Project Manager
+Engineering Technician	Injection Molding Process Engineer
+Process Engineer	Injection Molding Process Engineer
+Electronics Technician	Injection Molding Process Engineer
+Structural Engineer	Injection Molding Process Engineer
+Industrial Engineer	Injection Molding Process Engineer
+Civil Engineer	Injection Molding Process Engineer
+Electronics Engineer	Injection Molding Process Engineer
+Safety Manager	Injection Molding Process Engineer
+Hardware Engineer	Injection Molding Process Engineer
+Senior Electrical Engineer	Injection Molding Process Engineer
+Manufacturing Technician	Injection Molding Process Engineer
+Packaging Engineer	Injection Molding Process Engineer
+Reliability Engineer	Injection Molding Process Engineer
+Automation Engineer	Injection Molding Process Engineer
+Electrical Technician	Injection Molding Process Engineer
+Validation Engineer	Injection Molding Process Engineer
+Environmental Engineer	Injection Molding Process Engineer
+Chemical Engineer	Injection Molding Process Engineer
+Senior Manufacturing Engineer	Injection Molding Process Engineer
+Plant Engineer	Injection Molding Process Engineer
+Safety Engineer	Injection Molding Process Engineer
+Process Technician	Injection Molding Process Engineer
+Substation Engineer	Injection Molding Process Engineer
+CAD Technician	Injection Molding Process Engineer
+Tooling Engineer	Injection Molding Process Engineer
+Aerospace Engineer	Injection Molding Process Engineer
+Quality Control Specialist	Medical Science Liaison
+Materials Engineer	Injection Molding Process Engineer
+Operations Engineer	Injection Molding Process Engineer
+Equipment Engineer	Injection Molding Process Engineer
+Welding Engineer	Injection Molding Process Engineer
+Laboratory Technician	Medical Science Liaison
+Facilities Engineer	Injection Molding Process Engineer
+Instrumentation Technician	Injection Molding Process Engineer
+Safety Coordinator	Injection Molding Process Engineer
+Pipeline Engineer	Injection Molding Process Engineer
+Production Technician	Injection Molding Process Engineer
+Instrumentation Engineer	Injection Molding Process Engineer
+Field Technician	Medical Science Liaison
+Calibration Technician	Injection Molding Process Engineer
+Planning Engineer	Injection Molding Process Engineer
+Stress Engineer	Injection Molding Process Engineer
+Protection Engineer	Injection Molding Process Engineer
+Integration Engineer	Project Manager
+Verification Engineer	Injection Molding Process Engineer
+Mining Engineer	Injection Molding Process Engineer
+Component Engineer	Injection Molding Process Engineer
+Radio Frequency Technician	Radio Frequency Engineer
+Powertrain Engineer	Injection Molding Process Engineer
+Automation Technician	Injection Molding Process Engineer
+Bridge Engineer	Injection Molding Process Engineer
+Control Specialist	Event Planner
+Geotechnical Engineer	Injection Molding Process Engineer
+Compliance Engineer	Injection Molding Process Engineer
+Avionics Engineer	Injection Molding Process Engineer
+Engineering Analyst	Injection Molding Process Engineer
+Research Engineer	Injection Molding Process Engineer
+Cost Engineer	Injection Molding Process Engineer
+Engineering Assistant	Injection Molding Process Engineer
+MRB Engineer	Injection Molding Process Engineer
+Architect	Injection Molding Process Engineer
+Transportation Engineer	Injection Molding Process Engineer
+Field Engineer	Injection Molding Process Engineer
+Thermal Engineer	Injection Molding Process Engineer
+Systems Technician	Project Manager
+Lead Electrical Engineer	Injection Molding Process Engineer
+Marine Engineer	Injection Molding Process Engineer
+Stress Analyst	Injection Molding Process Engineer
+Performance Engineer	Project Manager
+Optical Engineer	Injection Molding Process Engineer
+Commissioning Engineer	Injection Molding Process Engineer
+Calibration Engineer	Injection Molding Process Engineer
+Staff Engineer	Design Engineer
+FEA Engineer	Injection Molding Process Engineer
+Metallurgical Engineer	Injection Molding Process Engineer
+Telecommunications Engineer	Injection Molding Process Engineer
+Quality Control Lead	Production Supervisor
+Wireless Engineer	Injection Molding Process Engineer
+Metrology Engineer	Injection Molding Process Engineer
+Nuclear Engineer	Injection Molding Process Engineer
+OSP Engineer	Injection Molding Process Engineer
+Safety Supervisor	Injection Molding Process Engineer
+RAN Engineer	Injection Molding Process Engineer
+Flight Engineer	Injection Molding Process Engineer
+CAD Engineer	Injection Molding Process Engineer
+Technical Manager	Injection Molding Process Engineer
+Certification Engineer	Injection Molding Process Engineer
+PLC Engineer	Injection Molding Process Engineer
+Reservoir Engineer	Injection Molding Process Engineer
+Design Engineer	Injection Molding Process Engineer
+Lean Manufacturing Engineer	Injection Molding Process Engineer
+Sustaining Engineer	Injection Molding Process Engineer
+CAE Engineer	Injection Molding Process Engineer
+Construction Engineer	Injection Molding Process Engineer
+PLC Technician	Apartment Maintenance Technician
+Transmission Engineer	Injection Molding Process Engineer
+Drilling Engineer	Injection Molding Process Engineer
+Electrical Engineer	Injection Molding Process Engineer
+SCADA Engineer	Injection Molding Process Engineer
+Engineering Technologist	Injection Molding Process Engineer
+Resident Engineer	Injection Molding Process Engineer
+NDT Technician	Injection Molding Process Engineer
+Project Coordinator	Project Manager
+Planner	Production Planner
+Manufacturing Specialist	Injection Molding Process Engineer
+NDT Inspector	Injection Molding Process Engineer
+Project Leader	Project Manager
+Maintenance Engineer	Injection Molding Process Engineer
+Utilities Engineer	Injection Molding Process Engineer
+Surveyor	Injection Molding Process Engineer
+Bench Technician	Injection Molding Process Engineer
+I & C Technician	Injection Molding Process Engineer
+Water and Wastewater Engineer	Injection Molding Process Engineer
+Aeronautical Engineer	Injection Molding Process Engineer
+Engineering Coordinator	Injection Molding Process Engineer
+Manufacturing Engineer Assembly	Injection Molding Process Engineer
+Turbine Engineer	Injection Molding Process Engineer
+Packaging Technician	Injection Molding Process Engineer
+Logistics Engineer	Event Planner
+Installation Engineer	Injection Molding Process Engineer
+Wiring Engineer	Injection Molding Process Engineer
+Seating Engineer	Injection Molding Process Engineer
+Safety Director	Chief Financial Officer (CFO)
+Process Improvement Manager	Chief Financial Officer (CFO)
+Engineer In Training (EIT)	Injection Molding Process Engineer
+Propulsion Engineer	Injection Molding Process Engineer
+Circuit Design Engineer	Design Engineer
+Sheet Metal Engineer	Construction Safety Officer
+Power Systems Engineer	Injection Molding Process Engineer
+Energy Engineer	Injection Molding Process Engineer
+Draftsman	Injection Molding Process Engineer
+Metallurgist	Injection Molding Process Engineer
+Solar Engineer	Injection Molding Process Engineer
+Water and Wastewater Manager	Injection Molding Process Engineer
+Industrial Engineering Technician	Injection Molding Process Engineer
+Electrical Controls Programmer	Construction Safety Officer
+Composite Engineer	Injection Molding Process Engineer
+Maintenance Technician	Apartment Maintenance Technician
+Environmental Specialist	Medical Science Liaison
+OBD Engineer	Injection Molding Process Engineer
+Avionics Technician	Apartment Maintenance Technician
+Drafter	Injection Molding Process Engineer
+Analog Engineer	Injection Molding Process Engineer
+Oil and Gas Engineer	Injection Molding Process Engineer
+RF Optimization Engineer	Radio Frequency Engineer
+Lead Technician	Apartment Maintenance Technician
+Operations Technician	Project Manager
+Robotics Engineer	Injection Molding Process Engineer
+Scientist	Medical Science Liaison
+Biomedical Engineer	Injection Molding Process Engineer
+Building Engineer	Maintenance Manager
+Chassis Engineer	Injection Molding Process Engineer
+Engineering Consultant	Injection Molding Process Engineer
+HVAC Engineer	Injection Molding Process Engineer
+Communications Engineer	Injection Molding Process Engineer
+Laboratory Engineer	Injection Molding Process Engineer
+Process Specialist	Injection Molding Process Engineer
+Modeling Engineer	Injection Molding Process Engineer
+Parts Engineer	Injection Molding Process Engineer
+Forensic Structural Engineer	Structural Engineer
+Lead Process Engineer	Injection Molding Process Engineer
+Completions Engineer	Injection Molding Process Engineer
+Tool Designer	Injection Molding Process Engineer
+Structural Designer	Injection Molding Process Engineer
+Seismic Engineer	Injection Molding Process Engineer
+Project Controls Engineer	Injection Molding Process Engineer
+Mechanical Technician	Injection Molding Process Engineer
+Manufacturing Planner	Production Supervisor
+Imagery Analyst	Intelligence Analyst
+Escalation Engineer	Injection Molding Process Engineer
+Digital Technician	Injection Molding Process Engineer
+Design Technician	Injection Molding Process Engineer
+Chain Technician	Injection Molding Process Engineer
+Cartographer	Injection Molding Process Engineer
+Biomedical Engineering Technician	Injection Molding Process Engineer
+Automation Leader	Injection Molding Process Engineer
+Architectural Designer	Injection Molding Process Engineer
+Quality Engineer	Injection Molding Process Engineer
+Designer Drafter	Injection Molding Process Engineer
+Product Development Engineer	Injection Molding Process Engineer
+Engineering Supervisor	Injection Molding Process Engineer
+Controls Designer	Injection Molding Process Engineer
+Engineer Scientist	Injection Molding Process Engineer
+Environmental, Health, and Safety (EHS) Manager	Safety Manager
+Transportation Technician	Route Sales Representative
+Technician Supervisor	Licensed Practical Nurse (LPN)
+Piping Designer	Injection Molding Process Engineer
+Layout Designer	Injection Molding Process Engineer
+Independent Contractor	Route Sales Representative
+Imaging Engineer	Apartment Maintenance Technician
+Design Leader	Injection Molding Process Engineer
+Design Consultant	Spanish Translator
+Engineering Mechanic	Apartment Maintenance Technician
+Construction Technician	Injection Molding Process Engineer
+Communication Technician	Apartment Maintenance Technician
+Accuracy (%): 8.5201793722 (19/223)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc19-categories.txt
+Laboratory Technician	Medical Science Liaison
+Chemist	Medical Science Liaison
+Social Scientist	Medical Science Liaison
+Research Analyst	Medical Science Liaison
+Field Technician	Medical Science Liaison
+Clinical Laboratory Scientist	Medical Science Liaison
+Research Assistant	Medical Science Liaison
+Research Scientist	Medical Science Liaison
+Environmental Scientist	Medical Science Liaison
+Laboratory Assistant	Medical Science Liaison
+Chemical Technician	Medical Science Liaison
+Quality Control Analyst	Medical Science Liaison
+Environmental Technician	Medical Science Liaison
+Research Specialist	Medical Science Liaison
+Research Technician	Medical Science Liaison
+Laboratory Analyst	Medical Science Liaison
+Food Scientist	Medical Science Liaison
+Microbiologist	Medical Science Liaison
+Environmental Specialist	Medical Science Liaison
+Psychologist	Medical Science Liaison
+Analytical Scientist	Medical Science Liaison
+Food Technologist	Medical Science Liaison
+Product Development Scientist	Medical Science Liaison
+Staff Scientist	Medical Science Liaison
+Principal Scientist	Medical Science Liaison
+Geologist	Medical Science Liaison
+Microbiology Technician	Medical Science Liaison
+Biologist	Medical Science Liaison
+Process Development Scientist	Medical Science Liaison
+Clinical Trials Assistant	Chief Financial Officer (CFO)
+Research Consultant	Medical Science Liaison
+Postdoctoral Research Fellow	Medical Science Liaison
+Food Technician	Medical Science Liaison
+Quality Assurance Analyst	Project Manager
+Laboratory Supervisor	Production Supervisor
+Quality Control Scientist	Medical Science Liaison
+Gas Technician	Medical Science Liaison
+Environmental Assistant	Medical Science Liaison
+Operations Technician	Project Manager
+Environmental Analyst	Medical Science Liaison
+Bioprocess Technician	Medical Science Liaison
+Sample Technician	Medical Science Liaison
+Research Investigator	Medical Science Liaison
+Clinical Research Liaison	Medical Science Liaison
+Greenhouse Technician	Medical Science Liaison
+Quality Control Specialist	Medical Science Liaison
+Materials Scientist	Medical Science Liaison
+Transportation Planner	Medical Science Liaison
+Project Scientist	Medical Science Liaison
+Biological Scientist	Medical Science Liaison
+Environmental Protection Specialist	Environmental Specialist
+Validation Scientist	Medical Science Liaison
+Hazmat Technician	Medical Science Liaison
+Biochemist	Medical Science Liaison
+Corrosion Technician	Medical Science Liaison
+Field Specialist	Injection Molding Process Engineer
+Analytical Technologist	Licensed Practical Nurse (LPN)
+Fermentation Technician	Medical Science Liaison
+Soils Technician	Medical Science Liaison
+Technical Assistant	Production Planner
+Method Development Scientist	Medical Science Liaison
+Scientific Analyst	Medical Science Liaison
+Animal Laboratory Technician	Medical Science Liaison
+Applications Scientist	Medical Science Liaison
+Bioinformatics Scientist	Medical Science Liaison
+Physicist	Medical Science Liaison
+Protein Scientist	Medical Science Liaison
+Forensic Scientist	Medical Science Liaison
+Assistant Scientist	Medical Science Liaison
+Chemical Compounder	Medical Science Liaison
+Seed Technician	Medical Science Liaison
+Epidemiologist	Medical Science Liaison
+Purification Scientist	Medical Science Liaison
+Economist	Medical Science Liaison
+Water Technician	Injection Molding Process Engineer
+Hydrogeologist	Medical Science Liaison
+Toxicologist	Medical Science Liaison
+Metallurgical Technician	Medical Science Liaison
+Forester	Medical Science Liaison
+Assistant Technician	Medical Science Liaison
+Molecular Biology Scientist	Medical Science Liaison
+Assistant Analyst	Medical Science Liaison
+Formulation Chemist	Medical Science Liaison
+Quality Control Laboratory Technician	Medical Science Liaison
+Biological Technician	Medical Science Liaison
+Paint Laboratory Technician	Medical Science Liaison
+Transportation Analyst	Event Planner
+Production Scientist	Medical Science Liaison
+Petrophysicist	Medical Science Liaison
+Meteorologist	Medical Science Liaison
+Medical Laboratory Scientist	Medical Science Liaison
+Geophysicist	Medical Science Liaison
+Forestry Technician	Medical Science Liaison
+Forensics Analyst	Medical Science Liaison
+Agronomist	Medical Science Liaison
+Process Scientist	Medical Science Liaison
+Development Scientist	Medical Science Liaison
+Quality Assurance (QA) Associate	Quality Assurance Engineer
+Technical Supervisor	Apartment Maintenance Technician
+Specimen Technician	Licensed Practical Nurse (LPN)
+Resource Manager	Chief Financial Officer (CFO)
+Research Fellow	Medical Science Liaison
+Research Coordinator	Chief Financial Officer (CFO)
+Psychotherapist	Medical Science Liaison
+Planning Assistant	Production Planner
+Assurance Analyst	Project Manager
+Research Associate	Medical Science Liaison
+Accuracy (%): 10.7438016529 (13/121)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc21-categories.txt
+Residential Support Staff	Licensed Clinical Social Worker (LCSW)
+Admissions Representative	Licensed Clinical Social Worker (LCSW)
+Social Worker	Licensed Clinical Social Worker (LCSW)
+Admissions Advisor	Licensed Clinical Social Worker (LCSW)
+Clinical Supervisor	Licensed Clinical Social Worker (LCSW)
+Case Manager	Licensed Clinical Social Worker (LCSW)
+Medical Social Worker	Licensed Clinical Social Worker (LCSW)
+Career Services Representative	Licensed Clinical Social Worker (LCSW)
+Educational Recruiter	Licensed Clinical Social Worker (LCSW)
+Activities Assistant	Assisted Living Supervisor
+Residential Counselor	Licensed Clinical Social Worker (LCSW)
+Family Counselor	Licensed Clinical Social Worker (LCSW)
+Therapist	Licensed Clinical Social Worker (LCSW)
+Lead Residential Support Staff	Licensed Clinical Social Worker (LCSW)
+Mental Health Counselor	Licensed Clinical Social Worker (LCSW)
+Behavior Specialist	Licensed Clinical Social Worker (LCSW)
+Youth Care Worker	Licensed Clinical Social Worker (LCSW)
+Mental Health Therapist	Licensed Clinical Social Worker (LCSW)
+Community Liaison	Licensed Clinical Social Worker (LCSW)
+Counselor	Licensed Clinical Social Worker (LCSW)
+Career Services Advisor	Licensed Clinical Social Worker (LCSW)
+Mental Health Clinician	Licensed Clinical Social Worker (LCSW)
+Hospice Social Worker	Licensed Clinical Social Worker (LCSW)
+Admissions Counselor	Licensed Clinical Social Worker (LCSW)
+Educational Counselor	Licensed Clinical Social Worker (LCSW)
+Job Coach	Licensed Clinical Social Worker (LCSW)
+Family Support Worker	Licensed Clinical Social Worker (LCSW)
+Health Educator	Licensed Clinical Social Worker (LCSW)
+Family Support Specialist	Licensed Clinical Social Worker (LCSW)
+Clinician	Licensed Clinical Social Worker (LCSW)
+Career Services Specialist	Licensed Clinical Social Worker (LCSW)
+Clinical Therapist	Licensed Clinical Social Worker (LCSW)
+Outpatient Therapist	Licensed Clinical Social Worker (LCSW)
+Social Services Assistant	Licensed Clinical Social Worker (LCSW)
+Mental Health Specialist	Licensed Clinical Social Worker (LCSW)
+Behavioral Health Therapist	Licensed Clinical Social Worker (LCSW)
+Mental Health Worker	Licensed Clinical Social Worker (LCSW)
+Family Therapist	Licensed Clinical Social Worker (LCSW)
+Academic Advisor	Licensed Clinical Social Worker (LCSW)
+Addictions Counselor	Licensed Clinical Social Worker (LCSW)
+Youth Counselor	Licensed Clinical Social Worker (LCSW)
+Behavior Analyst	Licensed Clinical Social Worker (LCSW)
+Family Services Specialist	Licensed Clinical Social Worker (LCSW)
+Chaplain	Licensed Clinical Social Worker (LCSW)
+Peer Support Specialist	Licensed Clinical Social Worker (LCSW)
+Director of Career Services	Licensed Clinical Social Worker (LCSW)
+Behavioral Health Clinician	Licensed Clinical Social Worker (LCSW)
+Career Transition Specialist	Licensed Clinical Social Worker (LCSW)
+Enrollment Representative	Licensed Clinical Social Worker (LCSW)
+Community Support Staff	Licensed Clinical Social Worker (LCSW)
+Behavioral Health Worker	Licensed Clinical Social Worker (LCSW)
+Youth Specialist	Licensed Clinical Social Worker (LCSW)
+Dependency Case Manager	Licensed Clinical Social Worker (LCSW)
+Mental Health Professional	Licensed Clinical Social Worker (LCSW)
+Patient Service Representative	Production Planner
+Residential Supervisor	Licensed Clinical Social Worker (LCSW)
+Bilingual Counselor	Licensed Clinical Social Worker (LCSW)
+Case Management Supervisor	Licensed Clinical Social Worker (LCSW)
+Enrollment Advisor	Licensed Clinical Social Worker (LCSW)
+Career Coach	Licensed Clinical Social Worker (LCSW)
+Recovery Specialist	Licensed Clinical Social Worker (LCSW)
+Residential Aide	Licensed Clinical Social Worker (LCSW)
+Career Counselor	Licensed Clinical Social Worker (LCSW)
+Clinical Case Manager	Licensed Clinical Social Worker (LCSW)
+Housing Specialist	Licensed Clinical Social Worker (LCSW)
+Psychologist	Medical Science Liaison
+Social Services Specialist	Licensed Clinical Social Worker (LCSW)
+Social Work Supervisor	Licensed Clinical Social Worker (LCSW)
+Care Advocate	Licensed Clinical Social Worker (LCSW)
+Housing Counselor	Licensed Clinical Social Worker (LCSW)
+Education Specialist	Event Planner
+Behavioral Health Counselor	Licensed Clinical Social Worker (LCSW)
+Career Planning Specialist	Licensed Clinical Social Worker (LCSW)
+Outpatient Clinician	Licensed Clinical Social Worker (LCSW)
+Assessment Counselor	Licensed Clinical Social Worker (LCSW)
+Child Care Worker	Home Care Coordinator
+Mobile Therapist	Licensed Clinical Social Worker (LCSW)
+Crisis Counselor	Licensed Clinical Social Worker (LCSW)
+Enrollment Counselor	Licensed Clinical Social Worker (LCSW)
+Prevention Specialist	Licensed Clinical Social Worker (LCSW)
+Crisis Clinician	Licensed Clinical Social Worker (LCSW)
+Community Health Worker	Licensed Clinical Social Worker (LCSW)
+Probation Officer	Licensed Clinical Social Worker (LCSW)
+Residential Specialist	Licensed Clinical Social Worker (LCSW)
+School Social Worker	Licensed Clinical Social Worker (LCSW)
+Crisis Specialist	Licensed Clinical Social Worker (LCSW)
+Substance Abuse Clinician	Licensed Clinical Social Worker (LCSW)
+Referral Specialist	Licensed Clinical Social Worker (LCSW)
+Correctional Counselor	Licensed Clinical Social Worker (LCSW)
+Therapist Case Manager	Licensed Clinical Social Worker (LCSW)
+Behavioral Intake Counselor	Licensed Clinical Social Worker (LCSW)
+Onsite Health Specialist	Licensed Clinical Social Worker (LCSW)
+Admissions Specialist	Licensed Clinical Social Worker (LCSW)
+Substance Abuse Therapist	Licensed Clinical Social Worker (LCSW)
+Housing Case Manager	Licensed Clinical Social Worker (LCSW)
+Home Visitor	Licensed Clinical Social Worker (LCSW)
+Crisis Worker	Licensed Clinical Social Worker (LCSW)
+Multisystemic Therapy (MST) Therapist	Licensed Practical Nurse (LPN)
+Psychiatric Social Worker	Licensed Clinical Social Worker (LCSW)
+Assessment Specialist	Licensed Clinical Social Worker (LCSW)
+Vocational Specialist	Licensed Clinical Social Worker (LCSW)
+Mental Health Practitioner	Licensed Practical Nurse (LPN)
+Vocational Case Manager	Licensed Clinical Social Worker (LCSW)
+Student Services Representative	Licensed Clinical Social Worker (LCSW)
+Field Case Manager	Licensed Practical Nurse (LPN)
+Community Case Manager	Licensed Clinical Social Worker (LCSW)
+Placement Specialist	Event Planner
+Lead Clinician	Licensed Clinical Social Worker (LCSW)
+Assessment Clinician	Licensed Clinical Social Worker (LCSW)
+Victim Services Specialist	Licensed Clinical Social Worker (LCSW)
+Adult Case Manager	Licensed Clinical Social Worker (LCSW)
+Student Services Specialist	Licensed Clinical Social Worker (LCSW)
+Substance Abuse Manager	Licensed Clinical Social Worker (LCSW)
+Life Coach	Licensed Clinical Social Worker (LCSW)
+Healthcare Social Worker	Licensed Clinical Social Worker (LCSW)
+Social Services Director	Chief Financial Officer (CFO)
+Bilingual Clinician	Licensed Clinical Social Worker (LCSW)
+Counselor Aide	Licensed Clinical Social Worker (LCSW)
+Inpatient Social Worker	Licensed Clinical Social Worker (LCSW)
+School Therapist	Licensed Clinical Social Worker (LCSW)
+Counselor Case Manager	Licensed Clinical Social Worker (LCSW)
+Community Support Supervisor	Licensed Clinical Social Worker (LCSW)
+Intensive In-Home Counselor	Licensed Clinical Social Worker (LCSW)
+Child Therapist	Licensed Clinical Social Worker (LCSW)
+Counselor Therapist	Licensed Clinical Social Worker (LCSW)
+Student Advisor	Licensed Clinical Social Worker (LCSW)
+Adult Therapist	Licensed Clinical Social Worker (LCSW)
+Clinical Social Worker	Licensed Clinical Social Worker (LCSW)
+Counselor Outpatient	Licensed Clinical Social Worker (LCSW)
+Volunteer Coordinator	Licensed Clinical Social Worker (LCSW)
+Referral Coordinator	Licensed Clinical Social Worker (LCSW)
+Health Supervisor	Licensed Clinical Social Worker (LCSW)
+Field Coordinator	Licensed Clinical Social Worker (LCSW)
+Diabetes Educator	Licensed Clinical Social Worker (LCSW)
+Community Coordinator	Licensed Clinical Social Worker (LCSW)
+Caseworker	Licensed Clinical Social Worker (LCSW)
+Health Clinician	Licensed Clinical Social Worker (LCSW)
+School Coordinator	Licensed Clinical Social Worker (LCSW)
+Residential Assistant	Licensed Clinical Social Worker (LCSW)
+Resident Assistant	Licensed Clinical Social Worker (LCSW)
+Psychotherapist	Medical Science Liaison
+Intake Coordinator	Licensed Clinical Social Worker (LCSW)
+Education Consultant	Licensed Clinical Social Worker (LCSW)
+Discharge Planner	Licensed Practical Nurse (LPN)
+Consultant	Event Planner
+Accuracy (%): 15.6069364162 (27/173)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc23-categories.txt
+Legal Assistant	Hedge Fund Paralegal
+Litigation Paralegal	Hedge Fund Paralegal
+Corporate Counsel	Corporate Paralegal
+Litigation Attorney	Hedge Fund Paralegal
+Contract Attorney	Hedge Fund Paralegal
+Corporate Attorney	Corporate Paralegal
+Contracts Paralegal	Corporate Paralegal
+Legal Counsel	Hedge Fund Paralegal
+Title Processor	Hedge Fund Paralegal
+Patent Attorney	Hedge Fund Paralegal
+Patent Paralegal	Hedge Fund Paralegal
+In-House Counsel	Hedge Fund Paralegal
+Law Clerk	Hedge Fund Paralegal
+Trademark Paralegal	Hedge Fund Paralegal
+Trial Attorney	Hedge Fund Paralegal
+Legal Specialist	Hedge Fund Paralegal
+Immigration Paralegal	Hedge Fund Paralegal
+Lawyer	Hedge Fund Paralegal
+Compliance Attorney	Corporate Paralegal
+Transaction Attorney	Hedge Fund Paralegal
+Foreclosure Paralegal	Hedge Fund Paralegal
+Title Assistant	Hedge Fund Paralegal
+Patent Agent	Patent Attorney
+Paralegal Specialist	Hedge Fund Paralegal
+Title Specialist	Hedge Fund Paralegal
+Transactional Paralegal	Hedge Fund Paralegal
+Compliance Paralegal	Hedge Fund Paralegal
+Legal Administrator	Hedge Fund Paralegal
+Legal Consultant	Hedge Fund Paralegal
+Regulator and Compliance Attorney	Corporate Paralegal
+Bankruptcy Attorney	Hedge Fund Paralegal
+Litigation Counsel	Hedge Fund Paralegal
+Patent Legal Assistant	Corporate Paralegal
+Legal Director	Hedge Fund Paralegal
+Staff Counsel	Staff Attorney
+Legal Clerk	Hedge Fund Paralegal
+Title Officer	Title Examiner
+Mortgage Paralegal	Hedge Fund Paralegal
+Trademark Attorney	Hedge Fund Paralegal
+Corporate and Finance Attorney	Corporate Attorney
+Claims Attorney	Hedge Fund Paralegal
+Foreclosure Attorney	Hedge Fund Paralegal
+Finance Paralegal	Hedge Fund Paralegal
+Compliance Counsel	Hedge Fund Paralegal
+Project Attorney	Chief Financial Officer (CFO)
+Title Reviewer	Hedge Fund Paralegal
+Litigation Manager	Hedge Fund Paralegal
+Title Clerk	Hedge Fund Paralegal
+Insurance Defense Counsel	Insurance Defense Attorney
+Assistant Attorney General	Hedge Fund Paralegal
+Legal Analyst	Hedge Fund Paralegal
+Paralegal	Hedge Fund Paralegal
+Mortgage Attorney	Hedge Fund Paralegal
+Personal Injury Attorney	Personal Injury Paralegal
+Title Abstractor	Title Examiner
+Probate Paralegal	Hedge Fund Paralegal
+Contracts Counsel	Hedge Fund Paralegal
+Patent Clerk	Hedge Fund Paralegal
+Construction Attorney	Hedge Fund Paralegal
+Paralegal/Administrator	Hedge Fund Paralegal
+Legal Processor	Hedge Fund Paralegal
+Title Agent	Hedge Fund Paralegal
+Entertainment Attorney	Hedge Fund Paralegal
+In-House Paralegal	Hedge Fund Paralegal
+Trademark Counsel	Hedge Fund Paralegal
+Litigation Clerk	Hedge Fund Paralegal
+Healthcare Paralegal	Hedge Fund Paralegal
+Patent Counsel	Hedge Fund Paralegal
+Technology Attorney	Hedge Fund Paralegal
+Research Attorney	Hedge Fund Paralegal
+Immigration Attorney	Hedge Fund Paralegal
+Clinical Paralegal	Corporate Paralegal
+Title Typist	Corporate Paralegal
+County Attorney	Hedge Fund Paralegal
+Derivatives Attorney	Hedge Fund Paralegal
+Title Researcher	Hedge Fund Paralegal
+Patent Administrator	Hedge Fund Paralegal
+Technology Paralegal	Hedge Fund Paralegal
+Patent Specialist	Hedge Fund Paralegal
+Litigation Consultant	Hedge Fund Paralegal
+Operations Counsel	Event Planner
+Securities Attorney	Hedge Fund Paralegal
+Real Estate Counsel	Hedge Fund Paralegal
+Paralegal Clerk	Hedge Fund Paralegal
+Regulatory Counsel	Hedge Fund Paralegal
+Research Paralegal	Hedge Fund Paralegal
+Securities Paralegal	Hedge Fund Paralegal
+State Attorney	Hedge Fund Paralegal
+Escrow Assistant	Production Planner
+Healthcare Attorney	Hedge Fund Paralegal
+Managing Counsel	Hedge Fund Paralegal
+Abstractor	Hedge Fund Paralegal
+General Counsel	Hedge Fund Paralegal
+Accuracy (%): 38.7096774194 (60/155)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc25-categories.txt
+Adjunct Instructor	Head Start Teacher
+Preschool Teacher	Head Start Teacher
+Instructional Designer	Head Start Teacher
+College Faculty	Head Start Teacher
+Adjunct Faculty	Head Start Teacher
+Teacher	Head Start Teacher
+Nursing Instructor	Head Start Teacher
+Instructor	Head Start Teacher
+Lead Teacher	Head Start Teacher
+Teacher Assistant	Head Start Teacher
+Toddler Teacher	Head Start Teacher
+Medical Assistant Instructor	Head Start Teacher
+Assistant Professor	Head Start Teacher
+Nursing Faculty	Head Start Teacher
+Science Teacher	Head Start Teacher
+Teacher Aide	Head Start Teacher
+Heating, Ventilating and Air Conditioning (HVAC) Instructor	Heating, Ventilation, and Air Conditioning (HVAC) Mechanic
+Substitute Teacher	Head Start Teacher
+Health Science Instructor	Head Start Teacher
+Dental Assistant Instructor	Head Start Teacher
+Certified Teacher	Head Start Teacher
+Academic Instructor	Head Start Teacher
+English Teacher	Head Start Teacher
+Kindergarten Teacher	Head Start Teacher
+Cosmetology Instructor	Head Start Teacher
+Vocational Instructor	Head Start Teacher
+Music Teacher	Head Start Teacher
+Spanish Teacher	Head Start Teacher
+Curriculum Developer	Head Start Teacher
+Flight Instructor	Head Start Teacher
+Teaching Assistant	Head Start Teacher
+Visiting Professor	Head Start Teacher
+Librarian	Head Start Teacher
+Education Coordinator	Licensed Clinical Social Worker (LCSW)
+Certified Instructor	Head Start Teacher
+Nurse Educator	Licensed Practical Nurse (LPN)
+Program Director	Chief Financial Officer (CFO)
+Flight Simulator Instructor	Flight Instructor
+Virtual Teacher	Head Start Teacher
+Education Specialist	Event Planner
+Electrical Instructor	Head Start Teacher
+Lead Instructor	Head Start Teacher
+Curriculum Specialist	Head Start Teacher
+Career Success Instructor	Head Start Teacher
+Licensed Practical Nurse (LPN) Instructor	Licensed Practical Nurse (LPN)
+Program Coordinator	Licensed Clinical Social Worker (LCSW)
+Maintenance Instructor	Head Start Teacher
+Automotive Instructor	Head Start Teacher
+Diesel Instructor	Head Start Teacher
+Instructional Assistant	Head Start Teacher
+Certified Nursing Assistant (CNA) Instructor	Certified Nursing Assistant (CNA)
+Commercial Driver's License (CDL) Instructor	Commercial Driver's License (CDL) Driver
+Reading Teacher	Head Start Teacher
+Massage Therapy Faculty	Head Start Teacher
+Chemistry Teacher	Head Start Teacher
+Paraprofessional	Head Start Teacher
+Speech Instructor	Head Start Teacher
+Accounting Instructor	Head Start Teacher
+Computer Teacher	Head Start Teacher
+Classroom Teacher	Head Start Teacher
+Adjunct Professor	Head Start Teacher
+Reading Instructor	Head Start Teacher
+Director of Education	Chief Financial Officer (CFO)
+Veterinary Assistant Instructor	Head Start Teacher
+English Instructor	Head Start Teacher
+Psychology Instructor	Head Start Teacher
+Biology Faculty	Head Start Teacher
+Clinical Educator	Licensed Practical Nurse (LPN)
+Lamaze Instructor	Head Start Teacher
+Loadmaster Instructor	Head Start Teacher
+Classroom Aide	Head Start Teacher
+Phlebotomy Instructor	Head Start Teacher
+Master Teacher	Preschool Teacher
+Driving Instructor	Head Start Teacher
+Welding Instructor	Head Start Teacher
+Mathematics Instructor	Head Start Teacher
+Marketing Instructor	Head Start Teacher
+Department Chair of Nursing	Department Chair
+Instructional Aide	Head Start Teacher
+Clinical Coordinator	Licensed Practical Nurse (LPN)
+Lecturer	Head Start Teacher
+Tutor	Head Start Teacher
+Licensed Practical Nursing (LPN) Faculty	Licensed Practical Nurse (LPN)
+Music Instructor	Head Start Teacher
+Classroom Assistant	Head Start Teacher
+Animation Instructor	Head Start Teacher
+Business Instructor	Head Start Teacher
+Research Assistant (RA)	Medical Science Liaison
+Spanish Instructor	Head Start Teacher
+Floating Teacher	Head Start Teacher
+Special Education Assistant	Early Childhood Special Education Teacher
+Instructional Developer	Head Start Teacher
+Radiology Instructor	Head Start Teacher
+Clinical Instructor	Head Start Teacher
+Clinical Faculty	Head Start Teacher
+Biology Teacher	Head Start Teacher
+Adjunct Teacher	Head Start Teacher
+Art Faculty	Head Start Teacher
+Media Arts Instructor	Culinary Arts Instructor
+Bilingual Teacher	Head Start Teacher
+Algebra Instructor	Head Start Teacher
+Infant Teacher	Head Start Teacher
+Curriculum Manager	Head Start Teacher
+Technology Instructor	Head Start Teacher
+Technical Instructor	Head Start Teacher
+School Aide	Head Start Teacher
+Professor	Head Start Teacher
+Learning Consultant	Event Planner
+Language Instructor	Foreign Language Teacher
+Act Instructor	Head Start Teacher
+Nurse Instructor	Head Start Teacher
+Education Assistant	Head Start Teacher
+Education Instructor	Head Start Teacher
+Curator	Head Start Teacher
+Technician Supervisor	Licensed Practical Nurse (LPN)
+Research Fellow	Medical Science Liaison
+Education Consultant	Licensed Clinical Social Worker (LCSW)
+Department Head	Head Start Teacher
+Accuracy (%): 25.8823529412 (44/170)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc27-categories.txt
+Merchandising Specialist	Spanish Translator
+Graphic Designer	Spanish Translator
+Merchandiser	Spanish Translator
+Visual Merchandiser	Spanish Translator
+Marketing Coordinator	Spanish Translator
+Sales Photographer	Spanish Translator
+Communications Specialist	Spanish Translator
+Copy Writer	Spanish Translator
+Marketing Specialist	Spanish Translator
+Interior Designer	Spanish Translator
+Newborn Photographer	Spanish Translator
+Art Director	Spanish Translator
+Production Artist	Spanish Translator
+Visual Designer	Spanish Translator
+Technical Writer	Spanish Translator
+Graphic Artist	Spanish Translator
+Proposal Writer	Spanish Translator
+Documentation Specialist	Spanish Translator
+Communications Coordinator	Spanish Translator
+Program Director	Chief Financial Officer (CFO)
+Computer Aided Design (CAD) Designer	Design Engineer
+Creative Director	Spanish Translator
+Medical Writer	Spanish Translator
+Production Designer	Spanish Translator
+Preschool Photographer	Spanish Translator
+Content Writer	Spanish Translator
+Content Specialist	Project Manager
+Interactive Designer	Spanish Translator
+Policy and Procedure Writer	Spanish Translator
+Marketing Assistant	Production Planner
+Social Media Specialist	Spanish Translator
+Account Coordinator	Spanish Translator
+Communications Consultant	Spanish Translator
+Documentation Writer	Spanish Translator
+Fundraising Coordinator	Spanish Translator
+Proposal Coordinator	Spanish Translator
+Brand Advocate	Assistant Store Manager
+Engineering Technical Writer	Spanish Translator
+School Photographer	Spanish Translator
+Multimedia Journalist	Spanish Translator
+Marketing Liaison	Spanish Translator
+Director of Marketing	Chief Financial Officer (CFO)
+Flash Designer	Spanish Translator
+Multimedia Designer	Spanish Translator
+Junior Technical Writer	Spanish Translator
+Communications Writer	Spanish Translator
+Social Media Coordinator	Spanish Translator
+Marketing Representative	Appointment Setter
+Grant Writer	Spanish Translator
+Digital Designer	Spanish Translator
+Video Producer	Spanish Translator
+Technical Translator	Spanish Translator
+News Producer	Spanish Translator
+Colorist	Project Manager
+Merchandising Coordinator	Spanish Translator
+Creative Designer	Spanish Translator
+User Interface (UI) Designer	User Interface Developer
+Floral Designer	Spanish Translator
+Proposal Manager	Chief Financial Officer (CFO)
+Communications Manager	Chief Financial Officer (CFO)
+Marketing Writer	Spanish Translator
+Writer/Producer	Spanish Translator
+Account Manager	Chief Financial Officer (CFO)
+Proposal Specialist	Spanish Translator
+Package Designer	Spanish Translator
+Operations Technician	Project Manager
+Content Producer	Spanish Translator
+Technical Director	Spanish Translator
+Community Moderator	Spanish Translator
+Presentation Specialist	Spanish Translator
+Communications Director	Chief Financial Officer (CFO)
+Scientific Writer	Spanish Translator
+Interpreter	Spanish Translator
+Web Designer	Project Manager
+Media Planner	Spanish Translator
+Industrial Designer	Spanish Translator
+Assistant Director	Chief Financial Officer (CFO)
+News Reporter	Spanish Translator
+Sports Reporter	Spanish Translator
+Kitchen Designer	Spanish Translator
+Program Coordinator	Licensed Clinical Social Worker (LCSW)
+Wedding Photographer	Spanish Translator
+Executive Producer	Spanish Translator
+Japanese Translator	Spanish Translator
+Editorial Assistant	Spanish Translator
+Head Coach	Spanish Translator
+Producer	Spanish Translator
+Sports Producer	Spanish Translator
+Production Coordinator	Production Supervisor
+Videographer	Spanish Translator
+Retail Merchandiser	Spanish Translator
+Field Merchandising Representative	Spanish Translator
+Illustrator	Spanish Translator
+Web Producer	Project Manager
+Account Specialist	Production Planner
+Anchor	Spanish Translator
+News Photographer	Spanish Translator
+Content Coordinator	Spanish Translator
+Cable Technician	Apartment Maintenance Technician
+3D Artist	Spanish Translator
+Staff Writer	Spanish Translator
+Writer	Spanish Translator
+Editor	Spanish Translator
+Apparel Designer	Spanish Translator
+Technical Designer	Injection Molding Process Engineer
+Senior Producer	Spanish Translator
+Assistant Coach	Spanish Translator
+Animator	Spanish Translator
+Publicist	Spanish Translator
+Photojournalist	Spanish Translator
+Campaign Coordinator	Spanish Translator
+Advertising Coordinator	Spanish Translator
+Proofreader	Production Planner
+Graphic Design Manager	Spanish Translator
+Assistant Designer	Spanish Translator
+Junior Designer	Spanish Translator
+Graphics Coordinator	Spanish Translator
+Contract Writer	Spanish Translator
+Media Relations Manager	Chief Financial Officer (CFO)
+Technical Communicator	Spanish Translator
+Web Writer	Spanish Translator
+Translator	Spanish Translator
+Sales Designer	Spanish Translator
+Reports Writer	Spanish Translator
+Publications Coordinator	Spanish Translator
+Photographer	Spanish Translator
+Multimedia Developer	Spanish Translator
+Media Consultant	Assistant Store Manager
+Information Coordinator	Spanish Translator
+Fashion Designer	Spanish Translator
+Director of Talent Management	Chief Financial Officer (CFO)
+Coach	Spanish Translator
+Board Operator	Spanish Translator
+Audio Technician	Spanish Translator
+Linguist	Spanish Translator
+Digital Producer	Spanish Translator
+Director of Design	Spanish Translator
+Visual Manager	Assistant Store Manager
+Relations Consultant	Spanish Translator
+Program Supervisor	Licensed Clinical Social Worker (LCSW)
+Layout Designer	Injection Molding Process Engineer
+Design Consultant	Spanish Translator
+Conductor	Route Sales Representative
+Communications Representative	Spanish Translator
+Communications Operator	Production Planner
+Store Merchandiser	Spanish Translator
+Communication Technician	Apartment Maintenance Technician
+Accuracy (%): 7.27272727273 (12/165)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc29-categories.txt
+Registered Nurse	Licensed Practical Nurse (LPN)
+Physical Therapist	Licensed Practical Nurse (LPN)
+Nurse Practitioner	Licensed Practical Nurse (LPN)
+Occupational Therapist	Licensed Practical Nurse (LPN)
+Pharmacy Technician	Licensed Practical Nurse (LPN)
+Physician	Licensed Practical Nurse (LPN)
+Nurse Supervisor	Licensed Practical Nurse (LPN)
+Speech Therapist	Licensed Practical Nurse (LPN)
+Nurse Manager	Chief Financial Officer (CFO)
+Clinical Nurse	Chief Financial Officer (CFO)
+Case Manager	Licensed Clinical Social Worker (LCSW)
+Staff Nurse	Licensed Practical Nurse (LPN)
+Medical Technologist	Licensed Practical Nurse (LPN)
+Surgical Technologist	Licensed Practical Nurse (LPN)
+Labor and Delivery Nurse	Licensed Practical Nurse (LPN)
+Surgical Unit Nurse	Chief Financial Officer (CFO)
+Medical Coder	Licensed Practical Nurse (LPN)
+Respiratory Therapist	Licensed Practical Nurse (LPN)
+Laboratory Technician	Medical Science Liaison
+Patient Care Technician	Licensed Practical Nurse (LPN)
+Radiological Technologist	Licensed Practical Nurse (LPN)
+Clinical Nurse Liaison	Licensed Practical Nurse (LPN)
+Pharmacist	Licensed Practical Nurse (LPN)
+Utilization Review Nurse	Licensed Practical Nurse (LPN)
+Ultra Sound Technician	Licensed Practical Nurse (LPN)
+Pharmacy Manager	Licensed Practical Nurse (LPN)
+Clinical Coordinator	Licensed Practical Nurse (LPN)
+Rehabilitation Coordinator	Licensed Clinical Social Worker (LCSW)
+Rehabilitation Technician	Home Health Aide (HHA)
+Field Nurse	Licensed Practical Nurse (LPN)
+Circulating Nurse	Licensed Practical Nurse (LPN)
+Nurse Educator	Licensed Practical Nurse (LPN)
+Medical Records Clerk	Licensed Practical Nurse (LPN)
+Charge Nurse	Licensed Practical Nurse (LPN)
+Triage Nurse	Licensed Practical Nurse (LPN)
+Safety Specialist	Clinical Documentation Specialist
+Clinical Supervisor	Licensed Clinical Social Worker (LCSW)
+Unit Manager Nurse	Chief Financial Officer (CFO)
+Veterinary Technician	Licensed Practical Nurse (LPN)
+Monitor Technician	Licensed Practical Nurse (LPN)
+Medical Technician	Licensed Practical Nurse (LPN)
+Radiology Technician	Licensed Practical Nurse (LPN)
+Occupational Health Nurse	Licensed Practical Nurse (LPN)
+Release of Information Specialist	Clinical Documentation Specialist
+MRI Technologist	Licensed Practical Nurse (LPN)
+Laboratory Assistant	Medical Science Liaison
+Admissions Nurse	Licensed Practical Nurse (LPN)
+Medical Coding Specialist	Clinical Documentation Specialist
+Wound Care Nurse	Licensed Practical Nurse (LPN)
+Infusion Nurse	Licensed Practical Nurse (LPN)
+Inpatient Services Nurse	Home Health Aide (HHA)
+Dental Hygienist	Licensed Practical Nurse (LPN)
+Dialysis Nurse	Licensed Practical Nurse (LPN)
+Medication Care Manager	Licensed Practical Nurse (LPN)
+Specimen Processor	Licensed Practical Nurse (LPN)
+Research Nurse	Licensed Practical Nurse (LPN)
+Travel Nurse - Medical/Surgical	Licensed Practical Nurse (LPN)
+School Nurse	Licensed Practical Nurse (LPN)
+Patient Care Coordinator	Licensed Practical Nurse (LPN)
+Registered Dietician	Licensed Practical Nurse (LPN)
+Dentist	Licensed Practical Nurse (LPN)
+Cardiovascular Operating Room (CVOR) Nurse	Room Manager
+Case Management Coordinator	Licensed Clinical Social Worker (LCSW)
+Nurse Injector	Licensed Practical Nurse (LPN)
+Clinical Nurse Consultant	Licensed Practical Nurse (LPN)
+Quality Improvement Nurse	Chief Financial Officer (CFO)
+Activity Director	Licensed Practical Nurse (LPN)
+Medical Review NUrse	Licensed Practical Nurse (LPN)
+Medical Records Specialist	Clinical Documentation Specialist
+Laboratory Technologist	Licensed Practical Nurse (LPN)
+Inpatient Coder	Licensed Practical Nurse (LPN)
+Surgical Services Manager	Chief Financial Officer (CFO)
+Patient Care Manager	Chief Financial Officer (CFO)
+Health and Safety Officer	Licensed Practical Nurse (LPN)
+Medical Program Coordinator	Licensed Clinical Social Worker (LCSW)
+Director of Pharmacy	Chief Financial Officer (CFO)
+Clinical Technician	Licensed Practical Nurse (LPN)
+Resident Care Manager	Chief Financial Officer (CFO)
+Medical Coding Manager	Licensed Practical Nurse (LPN)
+Case Manager Supervisor	Licensed Clinical Social Worker (LCSW)
+Ophthalmic Technician	Licensed Practical Nurse (LPN)
+Therapy Technician	Home Health Aide (HHA)
+Histology Technician	Licensed Practical Nurse (LPN)
+Medical Reimbursement Specialist	Clinical Documentation Specialist
+Home Health Nurse	Licensed Practical Nurse (LPN)
+Medical Review Specialist	Clinical Documentation Specialist
+Medical Records Technician	Licensed Practical Nurse (LPN)
+Electroencephalography (EEG) Technician	Licensed Practical Nurse (LPN)
+Health Coach	Licensed Clinical Social Worker (LCSW)
+Health Information Specialist	Clinical Documentation Specialist
+Laboratory Supervisor	Production Supervisor
+Sonographer	Licensed Practical Nurse (LPN)
+Radiology Nurse	Licensed Practical Nurse (LPN)
+Psychiatrist	Licensed Practical Nurse (LPN)
+Director of Case Management	Chief Financial Officer (CFO)
+Health Information Management (HIM) Manager	Licensed Practical Nurse (LPN)
+Nurse Coordinator	Licensed Practical Nurse (LPN)
+Employee Health Nurse	Licensed Practical Nurse (LPN)
+Therapy Supervisor	Licensed Practical Nurse (LPN)
+Nurse Auditor	Licensed Practical Nurse (LPN)
+Veterinarian	Licensed Practical Nurse (LPN)
+Clinical Trainer	Event Planner
+Surgical Assistant	Licensed Practical Nurse (LPN)
+Technician Assistant	Apartment Maintenance Technician
+Clinical Analyst	Project Manager
+Oncology Nurse	Licensed Practical Nurse (LPN)
+Community Health Nurse	Licensed Practical Nurse (LPN)
+Director of Nursing	Chief Financial Officer (CFO)
+Optician	Licensed Practical Nurse (LPN)
+Registrar	Chief Financial Officer (CFO)
+Clinical Manager	Chief Financial Officer (CFO)
+Health and Wellness Director	Licensed Clinical Social Worker (LCSW)
+Advanced Registered Nurse Practitioner (ARNP)	Nurse Practitioner
+Endoscopy Nurse	Licensed Practical Nurse (LPN)
+Clinical Director	Chief Financial Officer (CFO)
+Audiologist	Licensed Practical Nurse (LPN)
+Dietitian	Licensed Practical Nurse (LPN)
+Ambulatory Care Nurse	Licensed Practical Nurse (LPN)
+Minimum Data Set (MDS) Nurse	Minimum Data Set (MDS) Coordinator
+Nursery Nurse	Chief Financial Officer (CFO)
+Hospitalist	Licensed Practical Nurse (LPN)
+Health Care Coordinator	Licensed Clinical Social Worker (LCSW)
+Hospice Nurse	Licensed Practical Nurse (LPN)
+Recovery Room Nurse	Licensed Practical Nurse (LPN)
+Telemetry Nurse	Licensed Practical Nurse (LPN)
+Dialysis Technician	Licensed Practical Nurse (LPN)
+Office Nurse	Licensed Practical Nurse (LPN)
+Obstetrics Nurse	Chief Financial Officer (CFO)
+Clinical Nurse Leader	Licensed Practical Nurse (LPN)
+Medical-Surgical Nurse	Licensed Practical Nurse (LPN)
+On-site Nurse	Licensed Practical Nurse (LPN)
+Trauma Nurse	Licensed Practical Nurse (LPN)
+Cardiac Care Nurse	Licensed Practical Nurse (LPN)
+Stepdown Nurse	Licensed Practical Nurse (LPN)
+Cardiovascular Technologist	Licensed Practical Nurse (LPN)
+Obstetrics (OB) Technician	Licensed Practical Nurse (LPN)
+Nursing Supervisor	Licensed Practical Nurse (LPN)
+Medical-Surgical Nurse Manager	Licensed Practical Nurse (LPN)
+Emergency Room (ER) Technician	Home Health Aide (HHA)
+Vascular Technician	Licensed Practical Nurse (LPN)
+Utilization Management Nurse	Licensed Practical Nurse (LPN)
+Telemetry Technician	Licensed Practical Nurse (LPN)
+Surgery Assistant	Licensed Practical Nurse (LPN)
+Sleep Technologist	Licensed Practical Nurse (LPN)
+Respiratory Care Practitioner	Licensed Practical Nurse (LPN)
+Resource Nurse	Licensed Practical Nurse (LPN)
+Registered Respiratory Therapist	Licensed Practical Nurse (LPN)
+Records Technician	Licensed Practical Nurse (LPN)
+Radiologist	Licensed Practical Nurse (LPN)
+Radiation Therapist	Licensed Practical Nurse (LPN)
+Psychiatric Technician	Licensed Practical Nurse (LPN)
+Pharmacy Supervisor	Licensed Practical Nurse (LPN)
+Pediatrician	Licensed Practical Nurse (LPN)
+Patient Service Technician	Licensed Practical Nurse (LPN)
+Outpatient Coder	Licensed Practical Nurse (LPN)
+Optometrist	Licensed Practical Nurse (LPN)
+Nutritionist	Licensed Practical Nurse (LPN)
+Nurse Consultant	Licensed Practical Nurse (LPN)
+Nurse Clinician	Licensed Practical Nurse (LPN)
+Neurologist	Licensed Practical Nurse (LPN)
+Medical Liaison	Licensed Practical Nurse (LPN)
+Hyperbaric Technician	Licensed Practical Nurse (LPN)
+Hygienist	Licensed Practical Nurse (LPN)
+Health Information Technician	Licensed Practical Nurse (LPN)
+Exercise Physiologist	Licensed Practical Nurse (LPN)
+Endocrinologist	Licensed Practical Nurse (LPN)
+Echo Cardiographer	Licensed Practical Nurse (LPN)
+Dosimetrist	Licensed Practical Nurse (LPN)
+Cytotechnologist	Licensed Practical Nurse (LPN)
+Collection Technician	Licensed Practical Nurse (LPN)
+Clinical Reviewer	Licensed Clinical Social Worker (LCSW)
+Clinical Partner	Licensed Practical Nurse (LPN)
+Clinical Dietitian	Licensed Practical Nurse (LPN)
+Clinical Consultant	Licensed Practical Nurse (LPN)
+Charge Dialysis Nurse	Licensed Practical Nurse (LPN)
+Certified Surgical Technologist	Licensed Practical Nurse (LPN)
+Certified Nursing Midwife	Certified Nursing Assistant (CNA)
+Athletic Trainer	Licensed Practical Nurse (LPN)
+Animal Technician	Licensed Practical Nurse (LPN)
+Unit Supervisor	Production Supervisor
+Ultrasound Technologist	Licensed Practical Nurse (LPN)
+Surgery Coordinator	Licensed Practical Nurse (LPN)
+Surgeon	Licensed Practical Nurse (LPN)
+Safety Technician	Licensed Practical Nurse (LPN)
+Radiographer	Licensed Practical Nurse (LPN)
+Practice Assistant	Licensed Practical Nurse (LPN)
+Pediatric Assistant	Licensed Practical Nurse (LPN)
+Nurse Care Coordinator	Licensed Practical Nurse (LPN)
+Nurse Anesthetist	Licensed Practical Nurse (LPN)
+Night Nurse	Licensed Practical Nurse (LPN)
+Immunologist	Medical Science Liaison
+Imaging Technician	Licensed Practical Nurse (LPN)
+Imaging Assistant	Home Health Aide (HHA)
+Health Information Coder	Licensed Practical Nurse (LPN)
+Clinical Liaison	Licensed Practical Nurse (LPN)
+Cardiology Technician	Licensed Practical Nurse (LPN)
+Cardiologist	Licensed Practical Nurse (LPN)
+Cardiac Technician	Licensed Practical Nurse (LPN)
+Wellness Nurse	Licensed Practical Nurse (LPN)
+Surgical Technician	Licensed Practical Nurse (LPN)
+Staff Physician	Licensed Practical Nurse (LPN)
+Safety Assistant	Licensed Practical Nurse (LPN)
+Review Nurse	Licensed Practical Nurse (LPN)
+Paramedic	Licensed Practical Nurse (LPN)
+Mammographer	Licensed Practical Nurse (LPN)
+Dermatologist	Licensed Practical Nurse (LPN)
+Clinical Leader	Licensed Practical Nurse (LPN)
+Behavioral Health Technician	Mental Health Technician
+Scrub Technician	Licensed Practical Nurse (LPN)
+Nurse Technician	Licensed Practical Nurse (LPN)
+Cardiovascular Technician	Licensed Practical Nurse (LPN)
+Graduate Nurse	Licensed Practical Nurse (LPN)
+Anesthesia Technician	Licensed Practical Nurse (LPN)
+Environmental, Health, and Safety (EHS) Manager	Safety Manager
+Technician Supervisor	Licensed Practical Nurse (LPN)
+Technical Supervisor	Apartment Maintenance Technician
+Student Nurse	Home Health Aide (HHA)
+Specimen Technician	Licensed Practical Nurse (LPN)
+Records Analyst	Intelligence Analyst
+Medical Clerk	Licensed Practical Nurse (LPN)
+Imaging Engineer	Apartment Maintenance Technician
+Health Unit Coordinator	Licensed Practical Nurse (LPN)
+Discharge Planner	Licensed Practical Nurse (LPN)
+Diagnostic Technician	Apartment Maintenance Technician
+Practice Supervisor	Licensed Practical Nurse (LPN)
+Care Management Coordinator	Chief Financial Officer (CFO)
+Care Supervisor	Food Inspector
+Accuracy (%): 13.1386861314 (36/274)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc31-categories.txt
+Medical Assistant	Home Health Aide (HHA)
+Patient Care Technician	Licensed Practical Nurse (LPN)
+Veterinary Assistant	Home Health Aide (HHA)
+Patient Care Assistant	Home Health Aide (HHA)
+Nurse Aide	Home Health Aide (HHA)
+Dental Assistant	Home Health Aide (HHA)
+Phlebotomist	Home Health Aide (HHA)
+Patient Transporter	Home Health Aide (HHA)
+Laboratory Assistant	Medical Science Liaison
+Dietary Aide	Home Health Aide (HHA)
+Medical Transcriptionist	Home Health Aide (HHA)
+Pet Care Assistant	Home Health Aide (HHA)
+Physical Therapy Technician	Home Health Aide (HHA)
+Hospice Aide	Home Health Aide (HHA)
+Environmental Services Aide	Landscape Operations Manager
+Central Sterile Processing Technician	Sterile Processing Technician
+Rehabilitation Technician	Home Health Aide (HHA)
+Rehabilitation Aide	Home Health Aide (HHA)
+Pharmacy Clerk	Home Health Aide (HHA)
+Massage Therapist	Home Health Aide (HHA)
+Orthodontic Assistant	Home Health Aide (HHA)
+Radiology Assistant	Home Health Aide (HHA)
+Instrument Technician	Injection Molding Process Engineer
+Patient Sitter	Home Health Aide (HHA)
+Health Care Assistant	Home Health Aide (HHA)
+Resident Care Assistant	Home Health Aide (HHA)
+Endoscopy Technician	Home Health Aide (HHA)
+Animal Caretaker	Home Health Aide (HHA)
+Patient Support Technician	Home Health Aide (HHA)
+Physical Therapy Aide	Home Health Aide (HHA)
+Operating Room Assistant	Room Manager
+Ophthalmic Assistant	Home Health Aide (HHA)
+Patient Services Assistant	Home Health Aide (HHA)
+Sterilization Supervisor	Home Health Aide (HHA)
+Environmental Services Assistant	Landscape Operations Manager
+Registered Dental Assistant	Home Health Aide (HHA)
+Surgical Attendant	Home Health Aide (HHA)
+Unit Assistant	Home Health Aide (HHA)
+Gastrointestinal Technician	Home Health Aide (HHA)
+Rehabilitation Assistant	Licensed Clinical Social Worker (LCSW)
+Restorative Aide	Home Health Aide (HHA)
+Certified Home Health Aide	Home Health Aide (HHA)
+Emergency Department Nursing Assistant	Home Health Aide (HHA)
+Surgical Aide	Home Health Aide (HHA)
+Licensed Nursing Assistant (LNA)	Nurse Assistant
+Unit Technician	Home Health Aide (HHA)
+Transcriptionist	Home Health Aide (HHA)
+Sterilization Technician	Home Health Aide (HHA)
+Psychiatric Assistant	Home Health Aide (HHA)
+Phlebotomy Technician	Home Health Aide (HHA)
+Patient Navigator	Home Health Aide (HHA)
+Pathology Assistant	Licensed Practical Nurse (LPN)
+Nutrition Assistant	Licensed Practical Nurse (LPN)
+Clinical Informaticist	Home Health Aide (HHA)
+Nurse Assistant	Home Health Aide (HHA)
+Clinical Assistant	Home Health Aide (HHA)
+Patient Scheduler	Production Planner
+Unit Clerk	Production Planner
+Student Nurse	Home Health Aide (HHA)
+Unit Coordinator	Production Planner
+Transportation Aide	Home Health Aide (HHA)
+Surgery Scheduler	Production Planner
+Care Provider	Home Care Coordinator
+Accuracy (%): 22.8915662651 (19/83)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc33-categories.txt
+Security Officer	Intelligence Analyst
+Loss Prevention Manager	Intelligence Analyst
+Upscale Security Officer	Intelligence Analyst
+Security Flex Officer	Intelligence Analyst
+Loss Prevention Detective	Intelligence Analyst
+Armed Security Officer	Intelligence Analyst
+Police Officer	Intelligence Analyst
+Correctional Officer	Intelligence Analyst
+Security Supervisor	Intelligence Analyst
+Security Manager	Intelligence Analyst
+Loss Prevention Officer	Intelligence Analyst
+Counterterrorism Analyst	Intelligence Analyst
+Fraud Prevention Representative	Intelligence Analyst
+Patrol Officer	Intelligence Analyst
+Counterintelligence Analyst	Intelligence Analyst
+Fraud Investigator	Intelligence Analyst
+Hospital Security Officer	Intelligence Analyst
+Loss Prevention Investigator	Intelligence Analyst
+Lifeguard	Intelligence Analyst
+Fire Fighter	Intelligence Analyst
+Loss Prevention Supervisor	Intelligence Analyst
+Safety and Security Officer	Intelligence Analyst
+Security Director	Intelligence Analyst
+Security Specialist	Project Manager
+Facility Security Officer	Intelligence Analyst
+Security Guard	Intelligence Analyst
+Event Security Officer	Intelligence Analyst
+Detention Officer	Intelligence Analyst
+Surveillance Investigator	Intelligence Analyst
+Security Coordinator	Intelligence Analyst
+Security Dispatcher	Production Planner
+Assistant Shift Supervisor	Banquet Server
+Security Assistant	Intelligence Analyst
+Background Investigator	Intelligence Analyst
+Fire Inspector	Intelligence Analyst
+Security Investigator	Intelligence Analyst
+Reserve Guard	Intelligence Analyst
+Nuclear Security Officer	Intelligence Analyst
+Lead Security Officer	Intelligence Analyst
+Loss Prevention Analyst	Intelligence Analyst
+Police Chief	Intelligence Analyst
+Fraud Specialist	Intelligence Analyst
+Security Receptionist	Intelligence Analyst
+Fire Chief	Intelligence Analyst
+Campus Security Officer	Intelligence Analyst
+Driver/Guard	Intelligence Analyst
+Warehouse Security Officer	Intelligence Analyst
+Lieutenant	Intelligence Analyst
+Sergeant	Intelligence Analyst
+Security Analyst	Project Manager
+Mall Security Officer	Intelligence Analyst
+Lobby Security Officer	Intelligence Analyst
+Investigative Analyst	Medical Science Liaison
+Security Representative	Intelligence Analyst
+Protection Manager	Event Planner
+Unit Manager	Intelligence Analyst
+Records Analyst	Intelligence Analyst
+Intelligence Officer	Intelligence Analyst
+Field Investigator	Event Planner
+Armed Officer	Intelligence Analyst
+Accuracy (%): 31.5217391304 (29/92)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc35-categories.txt
+Restaurant Manager	Banquet Server
+Dish Washer	Banquet Server
+Food Service Manager	Banquet Server
+Shift Manager	Assistant Store Manager
+Kitchen Manager	Banquet Server
+Restaurant Shift Supervisor	Banquet Server
+Sous Chef	Banquet Server
+Executive Chef	Banquet Server
+Catering Coordinator	Banquet Server
+Host/Hostess	Banquet Server
+Server	Banquet Server
+Food Service Foreman	Banquet Server
+Food Service Assistant	Banquet Server
+Busser	Banquet Server
+Chef Manager	Banquet Server
+Assistant General Manager	Restaurant Manager
+Food Service Supervisor	Banquet Server
+Bartender	Banquet Server
+Catering Manager	Banquet Server
+Food Server	Banquet Server
+Food and Beverage Manager	Banquet Server
+Baker	Banquet Server
+Food Production Manager	Production Supervisor
+Cook	Banquet Server
+Meat Clerk	Banquet Server
+Kitchen Steward	Banquet Server
+Food Service Technician	Banquet Server
+Food Runner	Banquet Server
+Kitchen Worker	Banquet Server
+Deli Manager	Banquet Server
+Seafood Clerk	Banquet Server
+Bar Manager	Banquet Server
+Pastry Chef	Banquet Server
+Kitchen Supervisor	Banquet Server
+Barista	Banquet Server
+Banquet Manager	Banquet Server
+Cocktail Server	Banquet Server
+Food Assembler	Banquet Server
+Food and Beverage Server	Banquet Server
+Deli Chef	Banquet Server
+Food Service Leader	Banquet Server
+Food and Beverage Supervisor	Banquet Server
+Room Supervisor	Production Supervisor
+Catering Supervisor	Banquet Server
+Front of House Manager	Banquet Server
+Sushi Chef	Banquet Server
+Banquet Captain	Banquet Server
+Banquet Chef	Banquet Server
+Food Service Cashier	Banquet Server
+Restaurant Hostess	Banquet Server
+Assistant Chef	Banquet Server
+Crew Lead	Banquet Server
+Assistant Shift Manager	Banquet Server
+Cafe Manager	Banquet Server
+Lead Cook	Banquet Server
+Server Assistant	Banquet Server
+Restaurant Supervisor	Banquet Server
+Dietary Cook	Banquet Server
+Chef	Banquet Server
+Bar Server	Banquet Server
+Bakery Clerk	Banquet Server
+Bar Attendant	Banquet Server
+Greeter	Production Planner
+General Supervisor	Production Supervisor
+Food Clerk	Production Planner
+Bakery Manager	Banquet Server
+Prep Cook	Banquet Server
+Bistro Server	Banquet Server
+Assistant Supervisor	Production Supervisor
+Pastry Cook	Banquet Server
+Washer	Banquet Server
+Line Cook	Banquet Server
+Kitchen Cook	Banquet Server
+Banquet Cook	Banquet Server
+Accuracy (%): 21.6494845361 (21/97)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc37-categories.txt
+Housekeeper	Landscape Operations Manager
+Janitor	Landscape Operations Manager
+Environment Services Technician	Apartment Maintenance Technician
+Environmental Services Manager	Landscape Operations Manager
+Housekeeping Supervisor	Landscape Operations Manager
+Floor Technician	Landscape Operations Manager
+Housekeeping Manager	Landscape Operations Manager
+Janitorial Supervisor	Landscape Operations Manager
+Maintenance Technician	Apartment Maintenance Technician
+Houseperson	Landscape Operations Manager
+Director of Housekeeping	Landscape Operations Manager
+Landscape Supervisor	Landscape Foreman
+Porter	Landscape Operations Manager
+Environmental Services Director	Chief Financial Officer (CFO)
+Grounds Manager	Landscape Operations Manager
+Grounds Technician	Landscape Operations Manager
+Kitchen Worker	Banquet Server
+Linen Technician	Landscape Operations Manager
+Housekeeping Coordinator	Landscape Operations Manager
+Maintenance Supervisor	Apartment Maintenance Technician
+Butler	Landscape Operations Manager
+Exterminator	Landscape Operations Manager
+Arborist	Landscape Operations Manager
+Floor Worker	Landscape Operations Manager
+Room Manager	Room Attendant
+Housekeeping Leader	Landscape Operations Manager
+Housekeeping Inspector	Landscape Operations Manager
+Cleaning Technician	Carpet Cleaning Technician
+Custodian	Landscape Operations Manager
+Independent Contractor	Route Sales Representative
+Washer	Banquet Server
+General Supervisor	Production Supervisor
+Accuracy (%): 48.3870967742 (30/62)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc39-categories.txt
+Caregiver	Assisted Living Supervisor
+Salon Manager	Assisted Living Supervisor
+Activities Assistant	Assisted Living Supervisor
+Personal Trainer	Assisted Living Supervisor
+Aesthetician	Assisted Living Supervisor
+Personal Assistant	Assisted Living Supervisor
+Fitness Instructor	Assisted Living Supervisor
+Hair Stylist	Assisted Living Supervisor
+Bell Person	Assisted Living Supervisor
+Fitness Specialist	Assisted Living Supervisor
+Concierge	Assisted Living Supervisor
+Homemaker	Assisted Living Supervisor
+Activities Director	Licensed Practical Nurse (LPN)
+Activities Coordinator	Assisted Living Supervisor
+Activities Aide	Assisted Living Supervisor
+Recreation Assistant	Assisted Living Supervisor
+Service Porter	Landscape Operations Manager
+Recreation Specialist	Clinical Documentation Specialist
+Recreation Aide	Assisted Living Supervisor
+Pilates Instructor	Assisted Living Supervisor
+Funeral Assistant	Assisted Living Supervisor
+Hairdresser	Assisted Living Supervisor
+Pet Groomer	Assisted Living Supervisor
+Nanny	Assisted Living Supervisor
+Activities Leader	Assisted Living Supervisor
+Spa Manager	Assisted Living Supervisor
+Recreation Director	Licensed Practical Nurse (LPN)
+Recreation Coordinator	Assisted Living Supervisor
+Fitness Manager	Chief Financial Officer (CFO)
+Cosmetologist	Assisted Living Supervisor
+Beautician	Assisted Living Supervisor
+Barber	Assisted Living Supervisor
+Fitness Consultant	Assisted Living Supervisor
+Child Care Assistant	Personal Care Assistant
+Yoga Instructor	Assisted Living Supervisor
+Housekeeping Aide	Landscape Operations Manager
+Embalmer	Assisted Living Supervisor
+Sitter	Assisted Living Supervisor
+Manicurist	Assisted Living Supervisor
+Stable Attendant	Assisted Living Supervisor
+Life Skills Trainer	Licensed Clinical Social Worker (LCSW)
+Slot Technician Supervisor	Licensed Practical Nurse (LPN)
+Utility Aide	Banquet Server
+Event Attendant	Assisted Living Supervisor
+Recreation Leader	Assisted Living Supervisor
+Fitness Coach	Assisted Living Supervisor
+Valet	Route Sales Representative
+Personal Care Coordinator	Personal Care Aide
+Dog Groomer	Assisted Living Supervisor
+Butler	Landscape Operations Manager
+Recreation Attendant	Assisted Living Supervisor
+Recreation Manager	Assisted Living Supervisor
+Fitness Attendant	Room Attendant
+Wellness Coordinator	Chief Financial Officer (CFO)
+Casino Dealer	Assisted Living Supervisor
+Hair Stylist Assistant	Assisted Living Supervisor
+Caretaker	Landscape Operations Manager
+Doorman	Assisted Living Supervisor
+Stylist	Assisted Living Supervisor
+Salon Leader	Assisted Living Supervisor
+Groomer	Assisted Living Supervisor
+Fitness Trainer	Assisted Living Supervisor
+Esthetician	Assisted Living Supervisor
+Beach Attendant	Assisted Living Supervisor
+Unit Coordinator	Production Planner
+Unit Clerk	Production Planner
+Travel Consultant	Assistant Store Manager
+Residential Assistant	Licensed Clinical Social Worker (LCSW)
+Resident Assistant	Licensed Clinical Social Worker (LCSW)
+Greeter	Production Planner
+Floor Supervisor	Appointment Setter
+Care Supervisor	Food Inspector
+Care Provider	Home Care Coordinator
+Accuracy (%): 23.5294117647 (24/102)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc41-categories.txt
+Cashier	Assistant Store Manager
+Retail Sales Associate	Assistant Store Manager
+Sales Representative	Appointment Setter
+Insurance Sales Agent	Appointment Setter
+Sales Associate	Assistant Store Manager
+Personal Banker	Event Planner
+Brand Ambassador	Appointment Setter
+Account Executive	Assistant Store Manager
+Automotive Sales Representative	Appointment Setter
+Sales Supervisor	Appointment Setter
+Account Manager	Chief Financial Officer (CFO)
+Store Manager	Assistant Store Manager
+Sales Specialist	Assistant Store Manager
+Sales Consultant	Assistant Store Manager
+Field Sales Manager	Assistant Store Manager
+Sales Engineer	Assistant Store Manager
+In-Store Banker	Assistant Store Manager
+Business Development Manager	Chief Financial Officer (CFO)
+Technical Sales Representative	Sales Engineer
+Store Supervisor	Assistant Store Manager
+Sales Coordinator	Assistant Store Manager
+Financial Sales Consultant	Appointment Setter
+Solution Sales Representative	Appointment Setter
+Restaurant Sales Associate	Assistant Store Manager
+Counter Sales Representative	Appointment Setter
+Private Banker	Chief Financial Officer (CFO)
+Leasing Consultant	Chief Financial Officer (CFO)
+Universal Banker	Production Planner
+B2B Sales Consultant	Assistant Store Manager
+Banking Sales Representative	Appointment Setter
+Business Banker	Assistant Store Manager
+Event Sales Associate	Assistant Store Manager
+Sales Clerk	Assistant Store Manager
+Phone Banker	Assistant Store Manager
+Relationship Banker	Assistant Store Manager
+Client Service Specialist	Production Planner
+Customer Service Associate	Production Planner
+Sales Counselor	Assistant Store Manager
+Client Associate	Production Planner
+Sales Director	Chief Financial Officer (CFO)
+Parts Manager	Assistant Store Manager
+Merchandise Manager	Chief Financial Officer (CFO)
+Sales Manager	Chief Financial Officer (CFO)
+Mortgage Sales Assistant	Event Planner
+Travel Agent	Assistant Store Manager
+Medical Sales Representative	Appointment Setter
+Call Center Sales Representative	Sales Representative
+Product Sales Specialist	Production Planner
+Internet Sales Representative	Appointment Setter
+B2B Sales Representative	Appointment Setter
+Seasonal Sales Representative	Appointment Setter
+Telesales Representative	Appointment Setter
+Investments Representative	Appointment Setter
+Insurance Professional	Assistant Store Manager
+Territory Representative	Appointment Setter
+Technical Services Representative	Production Planner
+Shop Sales Consultant	Appointment Setter
+Sales Telemarketer	Assistant Store Manager
+Sales Technician	Assistant Store Manager
+Sales Planner	Chief Financial Officer (CFO)
+Sales Merchant	Assistant Store Manager
+Sales Advisor	Assistant Store Manager
+Retail Technician	Assistant Store Manager
+Retail Supervisor	Banquet Server
+Retail Store Associate	Assistant Store Manager
+Retail Representative	Appointment Setter
+Retail Consultant	Assistant Store Manager
+Retail Clerk	Assistant Store Manager
+Realtor	Assistant Store Manager
+Mobile Consultant	Assistant Store Manager
+Merchandising Assistant	Medical Science Liaison
+Marketing Agent	Assistant Store Manager
+Insurance Representative	Appointment Setter
+Insurance Consultant	Assistant Store Manager
+District Representative	Appointment Setter
+Direct Sales Representative	Appointment Setter
+Campus Representative	Appointment Setter
+Account Liaison	Assistant Store Manager
+Account Leader	Assistant Store Manager
+Retail Sales Consultant	Assistant Store Manager
+Merchandising Supervisor	Appointment Setter
+Merchandising Representative	Spanish Translator
+Leasing Agent	Assistant Store Manager
+Advertising Consultant	Assistant Store Manager
+Account Representative	Appointment Setter
+Director of Advertising	Chief Financial Officer (CFO)
+Trust Officer	Chief Financial Officer (CFO)
+Trust Administrator	Chief Financial Officer (CFO)
+Travel Counselor	Assistant Store Manager
+Travel Consultant	Assistant Store Manager
+Trading Analyst	Event Planner
+Trader	Assistant Store Manager
+Teller	Production Planner
+Shop Manager	Production Supervisor
+Selling Manager	Assistant Store Manager
+Program Supervisor	Licensed Clinical Social Worker (LCSW)
+Grocery Clerk	Production Planner
+Greeter	Production Planner
+Financial Representative	Appointment Setter
+Department Head	Head Start Teacher
+Marketing Supervisor	Assistant Store Manager
+Account Consultant	Assistant Store Manager
+Store Clerk	Production Planner
+Solutions Representative	Appointment Setter
+Shop Assistant	Body Shop Estimator
+Sales Officer	Assistant Store Manager
+Independent Contractor	Route Sales Representative
+General Supervisor	Production Supervisor
+Food Clerk	Production Planner
+Field Representative	Appointment Setter
+Area Supervisor	Appointment Setter
+Floor Supervisor	Appointment Setter
+Assistant Supervisor	Production Supervisor
+Accuracy (%): 20.6896551724 (30/145)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc43-categories.txt
+Customer Service Representative	Production Planner
+Administrative Assistant	Production Planner
+Bank Teller	Production Planner
+Book Keeper	Production Planner
+Loan Processor	Production Planner
+Executive Assistant	Production Planner
+Receptionist	Production Planner
+Accounts Payable Clerk	Production Planner
+Warehouse Worker	Route Sales Representative
+Stockroom Associate	Production Planner
+Replenishment Associate	Production Planner
+Customer Account Representative	Production Planner
+Office Manager	Production Planner
+Collections Specialist	Production Planner
+Legal Secretary	Production Planner
+General Office Clerk	Production Planner
+Automotive Sales Service Advisor	Assistant Store Manager
+Warehouse Associate	Production Planner
+Payroll Specialist	Production Planner
+Billing Specialist	Production Planner
+Clerk	Production Planner
+Collections Representative	Production Planner
+Office Administrator	Production Planner
+Medical Biller	Production Planner
+Customer Service Supervisor	Production Planner
+Payroll Administrator	Production Planner
+Customer Service Specialist	Production Planner
+Accounting Assistant	Production Planner
+Front Desk Coordinator	Production Planner
+Accounts Receivable Specialist	Production Planner
+Medical Receptionist	Production Planner
+Payroll Clerk	Production Planner
+Administrative Clerk	Production Planner
+Patient Service Representative	Production Planner
+Billing Clerk	Production Planner
+Administrative Coordinator	Production Planner
+Loan Closer	Production Planner
+Shipping and Receiving Clerk	Production Planner
+Office Coordinator	Production Planner
+File Clerk	Data Entry Clerk
+Project Assistant	Production Planner
+Account Coordinator	Spanish Translator
+Collector	Production Planner
+Customer Engagement Specialist	Production Planner
+Client Service Coordinator	Production Planner
+Human Resources (HR) Coordinator	Human Resources (HR) Generalist
+Inventory Clerk	Production Planner
+Mortgage Closer	Production Planner
+Office Assistant	Production Planner
+Claims Processor	Production Planner
+Material Handler	Route Sales Representative
+Member Service Representative	Production Planner
+Mail Clerk	Production Planner
+Warehouse Clerk	Production Planner
+Claims Representative	Event Planner
+Escrow Assistant	Production Planner
+Computer Operator	Production Planner
+Accounting Associate	Production Planner
+Customer Greeter	Production Planner
+Payroll Coordinator	Production Planner
+Administrative Specialist	Production Planner
+Grocery Associate	Production Planner
+Scheduler	Production Planner
+Patient Account Representative	Production Planner
+Post Closer	Production Planner
+Mortgage Specialist	Event Planner
+Human Resources (HR) Representative	Human Resources (HR) Generalist
+Inventory Specialist	Production Planner
+Accounts Payable Analyst	Production Planner
+Stock Clerk	Production Planner
+Client Service Associate	Production Planner
+Accounts Payable Clerk	Production Planner
+Sales Assistant	Production Planner
+Medical Office Specialist	Production Planner
+Call Center Specialist	Production Planner
+Account Administrator	Production Planner
+Billing Coordinator	Production Planner
+Accounts Payable Supervisor	Production Planner
+Loan Documentation Specialist	Production Planner
+Claims Specialist	Event Planner
+Unit Secretary	Production Planner
+Clerical Assistant	Production Planner
+Pricing Coordinator	Production Planner
+Medical Collector	Production Planner
+Dispatcher	Production Planner
+Administrative Associate	Production Planner
+Billing Representative	Production Planner
+Admissions Coordinator	Licensed Clinical Social Worker (LCSW)
+Insurance Specialist	Event Planner
+Mortgage Assistant	Production Planner
+Medical Secretary	Production Planner
+Bilingual Receptionist	Production Planner
+Admissions Representative	Licensed Clinical Social Worker (LCSW)
+Claims Assistant	Production Planner
+Collections Supervisor	Production Planner
+Order Selector	Order Puller
+Billing Analyst	Production Planner
+Mortgage Processor	Production Planner
+Field Service Representative	Production Planner
+Accounts Payable Processor	Production Planner
+Payroll Processor	Production Planner
+Ramp Agent	Production Planner
+Switchboard Operator	Production Planner
+Logistics Clerk	Production Planner
+Material Planner	Production Planner
+Shipping and Receiving Associate	Production Planner
+Credit Specialist	Production Planner
+Recruiting Assistant	Production Planner
+Transaction Processor	Data Entry Clerk
+Closing Coordinator	Production Planner
+Personal Assistant	Assisted Living Supervisor
+Purchasing Clerk	Production Planner
+Executive Administrative Assistant	Production Planner
+Payroll Supervisor	Production Planner
+Title Clerk	Hedge Fund Paralegal
+Patient Coordinator	Production Planner
+Accounts Receivable Representative	Production Planner
+Client Service Specialist	Production Planner
+Purchasing Assistant	Event Planner
+Underwriting Assistant	Production Planner
+Collections Clerk	Production Planner
+Claims Supervisor	Production Planner
+Customer Service Advisor	Production Planner
+Material Coordinator	Production Planner
+Office Supervisor	Production Planner
+Administrative Secretary	Production Planner
+Medical Office Assistant	Production Planner
+Inventory Coordinator	Production Planner
+Credit Representative	Production Planner
+Payroll Assistant	Production Planner
+Office Associate	Assistant Store Manager
+Interviewer	Production Planner
+Shipper	Production Planner
+Expeditor	Production Planner
+Customer Service Associate	Production Planner
+Litigation Secretary	Production Planner
+Department Assistant	Production Planner
+Legal Assistant	Hedge Fund Paralegal
+Documentation Specialist	Spanish Translator
+Loan Assistant	Production Planner
+Customer Service Assistant	Production Planner
+Client Representative	Spanish Translator
+Project Administrative Staff	Production Planner
+Records Clerk	Licensed Practical Nurse (LPN)
+Warehouse Technician	Production Planner
+Warehouse Assistant	Production Planner
+Typist	Production Planner
+Systems Clerk	Production Planner
+Support Clerk	Production Planner
+Specialist Assistant	Licensed Clinical Social Worker (LCSW)
+Shipping Clerk	Production Planner
+Secretary	Production Planner
+Scheduler Planner	Production Planner
+Review Coordinator	Licensed Practical Nurse (LPN)
+Resource Assistant	Production Planner
+Registration Representative	Production Planner
+Real Estate Assistant	Production Planner
+Professional Assistant	Production Planner
+Production Representative	Production Planner
+Produce Clerk	Production Planner
+Procurement Assistant	Event Planner
+Planning Coordinator	Production Planner
+Payroll Representative	Production Planner
+Patient Services Supervisor	Production Planner
+Patient Representative	Production Planner
+Order Builder	Order Puller
+Office Technician	Production Planner
+Office Representative	Production Planner
+Medical Staff Coordinator	Production Planner
+Medical Billing and Coding	Production Planner
+Materials Clerk	Production Planner
+Library Assistant	Production Planner
+Inventory Planner	Production Planner
+Insurance Clerk	Production Planner
+Group Supervisor	Production Planner
+General Clerk	Production Planner
+Financial Assistant	Production Planner
+Executive Secretary	Production Planner
+Department Secretary	Production Planner
+Debt Collector	Production Planner
+Customer Service Technician	Apartment Maintenance Technician
+Customer Service Leader	Production Planner
+Customer Service Coordinator	Production Planner
+Customer Care Manager	Production Planner
+Customer Care Assistant	Production Planner
+Collections Analyst	Production Planner
+Branch Supervisor	Production Planner
+Branch Office Administrator	Production Planner
+Branch Administrator	Production Planner
+Billing Assistant	Production Planner
+Actuarial Assistant	Production Planner
+Accounting Technician	Production Planner
+Access Coordinator	Licensed Clinical Social Worker (LCSW)
+Registration Clerk	Production Planner
+Project Scheduler	Construction Safety Officer
+Processing Clerk	Production Planner
+Patient Liaison	Production Planner
+Order Picker	Order Puller
+Operations Assistant	Production Planner
+Medical Representative	Home Health Aide (HHA)
+Materials Controller	Production Planner
+Loan Coordinator	Production Planner
+Insurance Assistant	Production Planner
+General Merchandise Clerk	Production Planner
+Distribution Technician	Route Sales Representative
+Customer Service Officer	Production Planner
+Customer Service Desk	Production Planner
+Clinical Scheduler	Production Planner
+Clinic Coordinator	Production Planner
+Client Service Officer	Assistant Store Manager
+Billing Supervisor	Production Planner
+Billing Accountant	Event Planner
+Operations Clerk	Production Planner
+Master Scheduler	Production Planner
+Management Clerk	Production Planner
+Customer Service Manager	Production Planner
+Credit Coordinator	Production Planner
+Central Scheduler	Production Planner
+Audit Supervisor	Event Planner
+Administrative Supervisor	Production Planner
+Customer Service Consultant	Production Planner
+Customer Service Clerk	Production Planner
+Accounting Clerk	Production Planner
+Patient Scheduler	Production Planner
+Director of Customer Service	Chief Financial Officer (CFO)
+Account Supervisor	Spanish Translator
+Unit Coordinator	Production Planner
+Unit Clerk	Production Planner
+Travel Counselor	Assistant Store Manager
+Travel Consultant	Assistant Store Manager
+Traffic Coordinator	Route Sales Representative
+Systems Operator	Production Planner
+Support Administrator	Production Planner
+Store Merchandiser	Spanish Translator
+Store Clerk	Production Planner
+Solutions Representative	Appointment Setter
+Research Associate	Medical Science Liaison
+Production Warehouse	Production Supervisor
+Planning Supervisor	Production Supervisor
+Mortgage Loan Coordinator	Production Planner
+Medical Clerk	Licensed Practical Nurse (LPN)
+Intake Coordinator	Licensed Clinical Social Worker (LCSW)
+Health Unit Coordinator	Licensed Practical Nurse (LPN)
+Grocery Clerk	Production Planner
+Greeter	Production Planner
+Financial Coordinator	Production Planner
+Field Representative	Appointment Setter
+Department Head	Head Start Teacher
+Data Administrator	Project Manager
+Customer Experience Manager	Chief Financial Officer (CFO)
+Communications Representative	Spanish Translator
+Communications Operator	Production Planner
+Client Administrator	Production Planner
+Teller	Production Planner
+Surgery Scheduler	Production Planner
+Practice Supervisor	Licensed Practical Nurse (LPN)
+Planning Assistant	Production Planner
+General Supervisor	Production Supervisor
+Financial Representative	Appointment Setter
+Data Coordinator	Production Planner
+Control Supervisor	Production Supervisor
+Accounting Analyst	Event Planner
+Assistant Supervisor	Production Supervisor
+Accuracy (%): 11.7056856187 (35/299)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc45-categories.txt
+General Laborer	Construction Safety Officer
+Picker	Food Inspector
+Packer Inspector	Food Inspector
+Cable Puller	Apartment Maintenance Technician
+Farm Supervisor	Food Inspector
+Farm Equipment Operator	Route Sales Representative
+Harvest Supervisor	Food Inspector
+Detasseler	Food Inspector
+Farm Manager	Chief Financial Officer (CFO)
+Farm Hand	Food Inspector
+Tree Crew	Food Inspector
+Logging Manager	Food Inspector
+Produce Inspector	Food Inspector
+Ranch Hand	Food Inspector
+Fishery Worker	Food Inspector
+Horticulture Specialist	Food Inspector
+General Supervisor	Production Supervisor
+Care Supervisor	Food Inspector
+Area Supervisor	Appointment Setter
+Accuracy (%): 40.0 (18/45)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc47-categories.txt
+Sheet Metal Mechanic	Construction Safety Officer
+Equipment Operator	Construction Safety Officer
+Industrial Electrician	Construction Safety Officer
+Journeyman Electrician	Construction Safety Officer
+General Laborer	Construction Safety Officer
+Pipe Fitter	Construction Safety Officer
+Construction Laborer	Construction Safety Officer
+Electrician Apprentice	Construction Safety Officer
+Commercial Electrician	Construction Safety Officer
+Concrete Laborer	Construction Safety Officer
+Construction Supervisor	Construction Safety Officer
+Carpenter	Construction Safety Officer
+Home Inspector	Construction Safety Officer
+Plumber	Construction Safety Officer
+Construction Project Coordinator	Construction Safety Officer
+Iron Worker	Construction Safety Officer
+Construction Inspector	Construction Safety Officer
+Concrete Finisher	Construction Safety Officer
+Electrician Helper	Construction Safety Officer
+Finish Carpenter	Construction Safety Officer
+Painter	Construction Safety Officer
+Sheet Metal Technician	Construction Safety Officer
+Master Plumber	Construction Safety Officer
+Construction Worker	Construction Safety Officer
+Bathroom Installer	Construction Safety Officer
+Construction Administrator	Construction Safety Officer
+Concrete Inspector	Construction Safety Officer
+Framing Carpenter	Construction Safety Officer
+Concrete Worker	Construction Safety Officer
+Flooring Installer	Construction Safety Officer
+Form Carpenter	Construction Safety Officer
+Electrical Apprentice	Construction Safety Officer
+Construction Helper	Construction Safety Officer
+Marine Electrician	Construction Safety Officer
+Field Operator	Construction Safety Officer
+Construction Coordinator	Construction Safety Officer
+Construction Foreman	Construction Safety Officer
+Commercial Carpenter	Construction Safety Officer
+Electrical Helper	Construction Safety Officer
+Service Electrician	Construction Safety Officer
+Field Supervisor	Apartment Maintenance Technician
+Plant Electrician	Construction Safety Officer
+Electrical Superintendent	Construction Safety Officer
+Master Electrician	Construction Safety Officer
+Electrical Foreman	Construction Safety Officer
+Residential Electrician	Construction Safety Officer
+Carpenter Helper	Construction Safety Officer
+Lead Carpenter	Construction Safety Officer
+Crew Leader	Landscape Laborer
+Tile Installer	Construction Safety Officer
+Electrician Technician	Construction Safety Officer
+Roofer	Construction Safety Officer
+Wireline Operator	Construction Safety Officer
+Construction Scheduler	Construction Safety Officer
+Assistant Construction Superintendent	Construction Safety Officer
+Transportation Worker	Construction Safety Officer
+Window Installer	Construction Safety Officer
+Solar Electrician	Construction Safety Officer
+Building Inspector	Construction Safety Officer
+Rough Carpenter	Construction Safety Officer
+Installation Manager	Apartment Maintenance Technician
+Project Administrator	Chief Financial Officer (CFO)
+Plumbing Technician	Construction Safety Officer
+Panel Builder	Construction Safety Officer
+Boilermaker	Construction Safety Officer
+Concrete Foreman	Construction Safety Officer
+Mason	Construction Safety Officer
+Operating Engineer	Construction Safety Officer
+Solar Panel Installer	Solar Photovoltaic (PV) Installer
+General Foreman	Production Supervisor
+Pipe Layer	Construction Safety Officer
+Glazier	Construction Safety Officer
+Construction Electrician	Construction Safety Officer
+Bathtub Installer	Construction Safety Officer
+Lead Electrician	Construction Safety Officer
+Cabinet Installer	Construction Safety Officer
+Scaffold Builder	Construction Safety Officer
+Construction Engineer and Inspection (CEI) Inspector	Injection Molding Process Engineer
+Substation Electrician	Construction Safety Officer
+Instrument Fitter	Production Supervisor
+Facilities Electrician	Apartment Maintenance Technician
+Signal Apprentice	Construction Safety Officer
+Concrete Superintendent	Construction Safety Officer
+Pipe Laborer	Construction Safety Officer
+Field Inspector	Construction Safety Officer
+Electrician Installer	Construction Safety Officer
+Electrical Mechanic	Construction Safety Officer
+Driller	Construction Safety Officer
+Carpet Installer	Construction Safety Officer
+Mine Electrician	Construction Safety Officer
+Electrical Journeyman	Construction Safety Officer
+Jack Operator	Route Sales Representative
+Water Proofer	Injection Molding Process Engineer
+Roustabout	Construction Safety Officer
+Sheet Metal Journeyman	Construction Safety Officer
+Plumbing Foreman	Construction Safety Officer
+Electrical Maintenance Technician	Apartment Maintenance Technician
+Electrical Installer	Construction Safety Officer
+Electrical Inspector	Production Supervisor
+Crew Supervisor	Construction Safety Officer
+Sheet Metal Fitter	Construction Safety Officer
+Diagnostic Electrician	Construction Safety Officer
+Fixture Installer	Construction Safety Officer
+Air Conditioning (AC) Electrician	Maintenance Manager
+Insulation Installer	Construction Safety Officer
+Heating, Ventilation, and Air Conditioning (HVAC) Duct Installer	HVAC Refrigeration Technician
+Equipment Operator Assistant	Fire Sprinkler Fitter
+Gutter Installer	Construction Safety Officer
+Drywall Carpenter	Construction Safety Officer
+Carpenter Foreman	Construction Safety Officer
+Solar Foreman	Construction Safety Officer
+Carpenter Assembler	Construction Safety Officer
+Lead Installer	Apartment Maintenance Technician
+Siding Installer	Construction Safety Officer
+Wireman	Construction Safety Officer
+Journeyman Carpenter	Construction Safety Officer
+Track Worker	Construction Safety Officer
+Dozer Operator	Construction Safety Officer
+Countertop Installer	Construction Safety Officer
+Construction and Maintenance Supervisor	Construction Safety Officer
+Maintenance Electrician	Construction Safety Officer
+Utility Foreman	Construction Safety Officer
+Pipe Insulator	Construction Safety Officer
+Construction Framer	Construction Safety Officer
+Piping Superintendent	Construction Safety Officer
+Well Test Operator	Injection Molding Process Engineer
+Project Supervisor	Production Supervisor
+Maintenance Carpenter	Construction Safety Officer
+Construction Lead	Construction Safety Officer
+Roofing Laborer	Construction Safety Officer
+Pipe Foreman	Construction Safety Officer
+Wetcast Laborer	Construction Safety Officer
+Tradesman	Apartment Maintenance Technician
+Sheet Metal Operator	Construction Safety Officer
+Field Electrician	Construction Safety Officer
+General Helper	Construction Safety Officer
+Framer	Construction Safety Officer
+Track Laborer	Construction Safety Officer
+House Supervisor	Construction Safety Officer
+Electrician	Construction Safety Officer
+Drywall Hanger	Construction Safety Officer
+Superintendent	Chief Financial Officer (CFO)
+Piping Designer	Injection Molding Process Engineer
+Independent Contractor	Route Sales Representative
+General Supervisor	Production Supervisor
+Floor Supervisor	Appointment Setter
+Construction Technician	Injection Molding Process Engineer
+Drywall Finisher	Construction Safety Officer
+Foreman	Construction Safety Officer
+Electrical Supervisor	Apartment Maintenance Technician
+Accuracy (%): 10.5882352941 (18/170)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc49-categories.txt
+Maintenance Mechanic	Apartment Maintenance Technician
+Appliance Repair Technician	Apartment Maintenance Technician
+Maintenance Manager	Apartment Maintenance Technician
+Maintenance Technician	Apartment Maintenance Technician
+Diesel Technician	Apartment Maintenance Technician
+Refrigeration Repair Technician	Apartment Maintenance Technician
+Field Service Technician	Apartment Maintenance Technician
+Avionics Technician	Apartment Maintenance Technician
+Helicopter Mechanic	Apartment Maintenance Technician
+HVAC Service Technician	Apartment Maintenance Technician
+Maintenance Coordinator	Apartment Maintenance Technician
+Maintenance Worker	Apartment Maintenance Technician
+Maintenance Assistant	Apartment Maintenance Technician
+Structures Mechanic	Apartment Maintenance Technician
+Maintenance Electrician	Construction Safety Officer
+Equipment Mechanic	Maintenance Manager
+Engine Repair Technician	Apartment Maintenance Technician
+Cable Technician	Apartment Maintenance Technician
+Aircraft Mechanic	Apartment Maintenance Technician
+Equipment Technician	Biomedical Equipment Technician
+Facility Maintenance Technician	Apartment Maintenance Technician
+Auto Body Technician	Body Shop Estimator
+Trailer Mechanic	Apartment Maintenance Technician
+Maintenance Machinist	Production Supervisor
+Lube Technician	Apartment Maintenance Technician
+Maintenance Millwright	Apartment Maintenance Technician
+Premises Technician	Apartment Maintenance Technician
+Automotive Technician	Apartment Maintenance Technician
+Avionics Technician	Apartment Maintenance Technician
+Field Service Technician	Apartment Maintenance Technician
+Electronic Technician	Injection Molding Process Engineer
+PLC Maintenance Technician	Apartment Maintenance Technician
+Telecommunications Technician	Apartment Maintenance Technician
+Tire Technician	Apartment Maintenance Technician
+Airframe Powerplant Technician	Apartment Maintenance Technician
+Transmission Technician	Apartment Maintenance Technician
+Tower Climber	Maintenance Manager
+HVAC Journeyman	Apartment Maintenance Technician
+Field Service Engineer	Field Engineer
+Instrumentation and Electrical Technician	Injection Molding Process Engineer
+Plant Maintenance Technician	Apartment Maintenance Technician
+CNC Maintenance Technician	Apartment Maintenance Technician
+Wireless Technician	Project Manager
+Systems Technician	Project Manager
+Structures Technician	Apartment Maintenance Technician
+Maintenance Representative	Apartment Maintenance Technician
+Switch Technician	Apartment Maintenance Technician
+Home Appliance Technician	Apartment Maintenance Technician
+Crane Technician	Apartment Maintenance Technician
+Aircraft Technician	Apartment Maintenance Technician
+Operations Technician	Project Manager
+Instrumentation Technician	Injection Molding Process Engineer
+Tower Technician	Apartment Maintenance Technician
+Preventative Maintenance Technician	Apartment Maintenance Technician
+Utilities Technician	Apartment Maintenance Technician
+Shop Helper	Body Shop Estimator
+Cell Technician	Apartment Maintenance Technician
+Valve Technician	Apartment Maintenance Technician
+Copier Technician	Apartment Maintenance Technician
+Radio Technician	Apartment Maintenance Technician
+Gameroom Technician	Apartment Maintenance Technician
+Generator Technician	Apartment Maintenance Technician
+Machine Operator	Production Supervisor
+Repair Man	Apartment Maintenance Technician
+Broadband Technician	Apartment Maintenance Technician
+Assembly Technician	Production Supervisor
+PBX Technician	Apartment Maintenance Technician
+Manufacturing Maintenance Technician	Apartment Maintenance Technician
+Maintenance Handyman	Apartment Maintenance Technician
+Welder	Production Supervisor
+Property Maintenance Technician	Apartment Maintenance Technician
+Assembly Mechanic	Production Supervisor
+Fiber Technician	Apartment Maintenance Technician
+Trades Helper	Apartment Maintenance Technician
+Rigger	Route Sales Representative
+Maintenance Foreman	Apartment Maintenance Technician
+Hydraulics Maintenance Technician	Apartment Maintenance Technician
+Locksmith	Apartment Maintenance Technician
+Facilities Specialist	Apartment Maintenance Technician
+Equipment Technician	Biomedical Equipment Technician
+Installation, Maintenance and Repair Worker	Maintenance Manager
+Trailer Technician	Apartment Maintenance Technician
+Refrigeration Technician	Apartment Maintenance Technician
+Aircraft Painting Supervisor	Maintenance Manager
+CCTV Technician	Apartment Maintenance Technician
+Automation Technician	Injection Molding Process Engineer
+Service Technician	Apartment Maintenance Technician
+Power Technician	Apartment Maintenance Technician
+Compressor Mechanic	Apartment Maintenance Technician
+Oil Technician	Apartment Maintenance Technician
+Plant Operations Technician	Production Supervisor
+Handyman	Apartment Maintenance Technician
+Vehicle Technician	Apartment Maintenance Technician
+Utilities Worker	Apartment Maintenance Technician
+Shop Technician	Body Shop Estimator
+Security Technician	Apartment Maintenance Technician
+Mobile Technician	Apartment Maintenance Technician
+Maintenance Planner	Apartment Maintenance Technician
+Maintenance Operator	Apartment Maintenance Technician
+Maintenance Helper	Apartment Maintenance Technician
+Lineman	Apartment Maintenance Technician
+Line Technician	Apartment Maintenance Technician
+Fleet Mechanic	Apartment Maintenance Technician
+Bus Technician	Apartment Maintenance Technician
+Bike Technician	Apartment Maintenance Technician
+Automotive Service Manager	Apartment Maintenance Technician
+Truck Technician	Apartment Maintenance Technician
+Mechanic Supervisor	Apartment Maintenance Technician
+Maintenance Leader	Apartment Maintenance Technician
+Maintenance Analyst	Apartment Maintenance Technician
+Installation Helper	Apartment Maintenance Technician
+Central Service Technician	Central Office Technician
+Automotive Service Advisor	Apartment Maintenance Technician
+Repair Technician	Apartment Maintenance Technician
+Diesel Mechanic	Apartment Maintenance Technician
+Installation Technician	Apartment Maintenance Technician
+Facilities Technician	Apartment Maintenance Technician
+Equipment Service Technician	Maintenance Manager
+Technical Supervisor	Apartment Maintenance Technician
+Shop Manager	Production Supervisor
+Independent Contractor	Route Sales Representative
+Foreman	Construction Safety Officer
+Engineering Mechanic	Apartment Maintenance Technician
+Diagnostic Technician	Apartment Maintenance Technician
+Department Head	Head Start Teacher
+Communication Technician	Apartment Maintenance Technician
+Systems Supervisor	Apartment Maintenance Technician
+Shop Assistant	Body Shop Estimator
+General Supervisor	Production Supervisor
+Control Supervisor	Production Supervisor
+Electrical Supervisor	Apartment Maintenance Technician
+Area Supervisor	Appointment Setter
+Accuracy (%): 16.149068323 (26/161)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc51-categories.txt
+CNC Machinist	Production Supervisor
+Machine Operator	Production Supervisor
+Production Worker	Production Supervisor
+General Laborer	Construction Safety Officer
+Mechanical Assembler	Production Supervisor
+Quality Inspector	Production Supervisor
+CNC Programmer	Production Supervisor
+Press Operator	Production Supervisor
+CNC Operator	Production Supervisor
+Assembly Supervisor	Production Supervisor
+Production Manager	Production Supervisor
+Electronic Assembler	Production Supervisor
+Tool Maker	Cabinet Maker
+Operations Supervisor	Production Supervisor
+Manual Machinist	Production Supervisor
+Welder	Production Supervisor
+Production Operator	Production Supervisor
+Electrical Assembler	Production Supervisor
+Production Assembler	Production Supervisor
+Manufacturing Supervisor	Production Supervisor
+Assembly Technician	Production Supervisor
+Mechanical Inspector	Production Supervisor
+Production Leader	Production Supervisor
+Department Supervisor	Production Supervisor
+Manufacturing Manager	Production Supervisor
+Assembly Worker	Production Supervisor
+Process Supervisor	Production Supervisor
+Plant Operator	Production Supervisor
+Quality Assurance Inspector	Quality Inspector
+Medical Assembler	Production Supervisor
+Chemical Operator	Production Supervisor
+Process Technician	Injection Molding Process Engineer
+Maintenance Supervisor	Apartment Maintenance Technician
+Plant Supervisor	Production Supervisor
+PLC Programmer	Production Supervisor
+Quality Technician	Injection Molding Process Engineer
+General Assembler	Production Supervisor
+Manufacturing Assembler	Production Supervisor
+SMT Operator	Production Supervisor
+Production Coordinator	Production Supervisor
+Wire Assembler	Production Supervisor
+Packaging Operator	Production Supervisor
+Wastewater Operator	Production Supervisor
+Fabricator	Production Supervisor
+Line Leader	Production Supervisor
+Shop Supervisor	Production Supervisor
+Machine Builder	Production Supervisor
+Quality Supervisor	Production Supervisor
+CMM Programmer	Production Supervisor
+Production Laborer	Production Supervisor
+Saw Operator	Production Supervisor
+Stitcher Operator	Production Supervisor
+Extrusion Operator	Production Supervisor
+Manufacturing Technician	Injection Molding Process Engineer
+Bindery Operator	Production Supervisor
+Process Operator	Production Supervisor
+Grinder	Production Supervisor
+Soldering Technician	Production Supervisor
+Production Helper	Production Supervisor
+Sanitation Supervisor	Production Supervisor
+CMM Inspector	Production Supervisor
+Solder Assembler	Production Supervisor
+Tool and Die Technician	Production Supervisor
+Production Staff	Production Supervisor
+Line Operator	Production Operator
+Equipment Operator	Construction Safety Officer
+Maintenance Machinist	Production Supervisor
+Laser Operator	Production Supervisor
+CMM Operator	Production Supervisor
+Composite Technician	Production Supervisor
+Painter	Construction Safety Officer
+Line Supervisor	Production Supervisor
+Electronic Inspector	Production Supervisor
+Quality Coordinator	Quality Inspector
+Shop Foreman	Body Shop Estimator
+Packaging Supervisor	Production Supervisor
+Boiler Operator	Production Supervisor
+Cable Assembler	Production Supervisor
+Production Specialist	Injection Molding Process Engineer
+Tool and Die Machinist	Production Supervisor
+Aerospace Assembler	Production Supervisor
+Certified Welding Inspector	Welder
+Mastercam Programmer	Production Supervisor
+Assembly Lead	Production Supervisor
+Turret Operator	Production Supervisor
+Control Operator	Production Supervisor
+Light Assembler	Production Supervisor
+Machinist Mate	Production Supervisor
+Blending Operator	Production Supervisor
+FSQA Supervisor	Production Supervisor
+Automotive Assembler	Production Supervisor
+Welding Supervisor	Production Supervisor
+Lab Technician	Medical Science Liaison
+Press Assistant	Production Supervisor
+Sorter	Production Supervisor
+Operations Coordinator	Event Planner
+Conventional Machinist	Production Supervisor
+Aircraft Assembler	Production Supervisor
+Materials Supervisor	Production Supervisor
+Glass Worker	Production Supervisor
+Manufacturing Lead	Production Supervisor
+Slitter Operator	Production Supervisor
+Parts Inspector	Quality Inspector
+Assembler Tester	Production Supervisor
+Heavy Assembler	Production Supervisor
+Dimensional Inspector	Production Supervisor
+Final Inspector	Quality Inspector
+Molding Supervisor	Production Supervisor
+Sewer	Production Supervisor
+Finishing Operator	Production Supervisor
+Coating Operator	Production Supervisor
+Paint Supervisor	Production Supervisor
+Packaging Assembler	Production Supervisor
+Assembly Inspector	Production Supervisor
+Quality Specialist	Injection Molding Process Engineer
+Operator Lead	Production Supervisor
+Manufacturing Worker	Production Supervisor
+Tooling Manager	Production Supervisor
+Machine Assembler	Production Supervisor
+Mixer	Production Supervisor
+Upholsterer	Production Supervisor
+Quality Lead	Injection Molding Process Engineer
+CNC Supervisor	Production Supervisor
+Polisher	Production Supervisor
+Compounder	Production Supervisor
+Blender	Production Supervisor
+Seamstress	Production Supervisor
+Lathe Operator	Production Supervisor
+Warehouse Assembler	Route Sales Representative
+Digital Operator	Production Supervisor
+Machine Technician	Apartment Maintenance Technician
+Estimator	Event Planner
+Baker	Banquet Server
+Assembly Operator	Production Supervisor
+Operator Assistant	Medical Science Liaison
+Print Operator	Production Supervisor
+Machine Inspector	Injection Molding Process Engineer
+Utilities Operator	Production Supervisor
+Tailor	Production Supervisor
+Production Assistant	Production Supervisor
+Processing Supervisor	Production Supervisor
+Printer Technician	Production Supervisor
+Orthopedic Technician	Production Supervisor
+Operations Processor	Production Planner
+Mill Operator	Production Supervisor
+Measurement Technician	Production Supervisor
+Manufacturing Operator	Production Supervisor
+Machinist	Production Supervisor
+Jeweler	Production Supervisor
+Cutter	Meat Cutter
+Quality Assurance (QA) Tester	IT Quality Assurance Analyst
+Washer	Banquet Server
+Technician Supervisor	Licensed Practical Nurse (LPN)
+Systems Operator	Production Planner
+Planning Supervisor	Production Supervisor
+Distribution Supervisor	Route Sales Representative
+Department Head	Head Start Teacher
+General Supervisor	Production Supervisor
+Floor Supervisor	Appointment Setter
+Foreman	Construction Safety Officer
+Control Supervisor	Production Supervisor
+Assistant Supervisor	Production Supervisor
+Electrical Supervisor	Apartment Maintenance Technician
+Area Supervisor	Appointment Setter
+Accuracy (%): 10.752688172 (20/186)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc53-categories.txt
+Truck Driver	Route Sales Representative
+Driver Helper	Route Sales Representative
+Delivery Driver	Route Sales Representative
+Material Handler	Route Sales Representative
+Forklift Operator	Route Sales Representative
+Warehouse Worker	Route Sales Representative
+Package Handler	Route Sales Representative
+Laborer	Construction Safety Officer
+Bus Driver	Route Sales Representative
+Residential Driver	Route Sales Representative
+Forklift Driver	Route Sales Representative
+Catering Driver	Route Sales Representative
+Warehouse Supervisor	Route Sales Representative
+Flatbed Driver	Route Sales Representative
+Commercial Driver	Route Sales Representative
+Dock Worker	Route Sales Representative
+Automotive Detailer	Route Sales Representative
+Transportation Supervisor	Route Sales Representative
+Warehouse Manager	Route Sales Representative
+City Driver	Route Sales Representative
+Line-Haul Driver	Route Sales Representative
+Driver Trainee	Route Sales Representative
+Crane Operator	Route Sales Representative
+Transportation Manager	Route Sales Representative
+Route Sales Driver	Route Sales Representative
+Shuttle Driver	Route Sales Representative
+Warehouse Driver	Route Sales Representative
+Equipment Operator	Construction Safety Officer
+Regional Truck Driver	Route Sales Representative
+Owner Operator	Route Sales Representative
+Shipping Supervisor	Route Sales Representative
+Route Manager	Route Sales Representative
+Packer	Route Sales Representative
+Machine Operator	Production Supervisor
+Yard Hostler	Route Sales Representative
+Distribution Center Supervisor	Route Sales Representative
+Yard Driver	Route Sales Representative
+Loader	Route Sales Representative
+Conductor Trainee	Route Sales Representative
+Logistics Supervisor	Route Sales Representative
+Mover	Route Sales Representative
+Relief Driver	Route Sales Representative
+Terminal Manager	Route Sales Representative
+Warehouse Lead	Route Sales Representative
+Professional Driver	Route Sales Representative
+Driver Manager	Route Sales Representative
+Transportation Coordinator	Route Sales Representative
+Distribution Center Manager	Chief Financial Officer (CFO)
+Shipping Manager	Route Sales Representative
+Courier	Route Sales Representative
+Bulk Driver	Route Sales Representative
+Clamp Forklift Operator	Forklift Operator
+Furniture Delivery Driver	Route Sales Representative
+Transportation Specialist	Route Sales Representative
+Valet Attendant	Route Sales Representative
+Dock Supervisor	Route Sales Representative
+Warehouse Coordinator	Route Sales Representative
+Route Supervisor	Route Sales Representative
+Route Helper	Route Sales Representative
+Vehicle Operator	Route Sales Representative
+Backhoe Operator	Route Sales Representative
+Dispatch Manager	Route Sales Representative
+Pilot	Route Sales Representative
+Warehouse Selector	Route Sales Representative
+Warehouse Unloader	Route Sales Representative
+Rigger	Route Sales Representative
+Fueler	Route Sales Representative
+Transport Driver	Route Sales Representative
+Warehouse Production Operator	Production Supervisor
+Semi-Truck Driver	Route Sales Representative
+Assistant Warehouse Manager	Warehouse Manager
+Truck Unloader	Route Sales Representative
+Truck Operator	Route Sales Representative
+Terminal Operator	Route Sales Representative
+Pipeline Technician	Medical Science Liaison
+General Warehouse Laborer	Route Sales Representative
+Driver Merchandiser	Route Sales Representative
+Delivery Leader	Route Sales Representative
+Chauffeur	Route Sales Representative
+Washer	Banquet Server
+Transportation Technician	Route Sales Representative
+Traffic Coordinator	Route Sales Representative
+Task Leader	Route Sales Representative
+Production Warehouse	Production Supervisor
+Independent Contractor	Route Sales Representative
+General Supervisor	Production Supervisor
+Distribution Supervisor	Route Sales Representative
+Controller	Event Planner
+Control Supervisor	Production Supervisor
+Conductor	Route Sales Representative
+Transportation Aide	Home Health Aide (HHA)
+Area Supervisor	Appointment Setter
+Accuracy (%): 19.6581196581 (23/117)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc55-categories.txt
+Center Standards and Incentives Officer	Chief Financial Officer (CFO)
+Radar Technician	Injection Molding Process Engineer
+Military Analyst	Security Forces Operations Analyst
+Weapons Technician	Apartment Maintenance Technician
+Targeting Officer	Security Forces Operations Analyst
+Unit Leader	Chief Financial Officer (CFO)
+Task Leader	Route Sales Representative
+Intelligence Officer	Intelligence Analyst
+Armed Officer	Intelligence Analyst
+Accuracy (%): 47.619047619 (10/21)
+Total Accuracy (%): 15.1283316881 (613/4052)
+
+real	5m49.328s
+user	0m11.926s
+sys	0m2.133s

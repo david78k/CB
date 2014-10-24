@@ -1,0 +1,52 @@
+processing categories in: /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc11-categories.txt
+Accuracy (%):0.0449897750511 (22/489)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc13-categories.txt
+Accuracy (%):0.0947712418301 (29/306)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc15-categories.txt
+Accuracy (%):0.121212121212 (48/396)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc17-categories.txt
+Accuracy (%):0.085201793722 (19/223)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc19-categories.txt
+Accuracy (%):0.107438016529 (13/121)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc21-categories.txt
+Accuracy (%):0.156069364162 (27/173)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc23-categories.txt
+Accuracy (%):0.387096774194 (60/155)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc25-categories.txt
+Accuracy (%):0.258823529412 (44/170)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc27-categories.txt
+Accuracy (%):0.0727272727273 (12/165)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc29-categories.txt
+Accuracy (%):0.131386861314 (36/274)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc31-categories.txt
+Accuracy (%):0.228915662651 (19/83)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc33-categories.txt
+Accuracy (%):0.315217391304 (29/92)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc35-categories.txt
+Accuracy (%):0.216494845361 (21/97)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc37-categories.txt
+Accuracy (%):0.483870967742 (30/62)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc39-categories.txt
+Accuracy (%):0.235294117647 (24/102)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc41-categories.txt
+Accuracy (%):0.206896551724 (30/145)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc43-categories.txt
+Accuracy (%):0.117056856187 (35/299)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc45-categories.txt
+Accuracy (%):0.4 (18/45)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc47-categories.txt
+Accuracy (%):0.105882352941 (18/170)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc49-categories.txt
+Accuracy (%):0.16149068323 (26/161)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc51-categories.txt
+Accuracy (%):0.10752688172 (20/186)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc53-categories.txt
+Accuracy (%):0.196581196581 (23/117)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc55-categories.txt
+Accuracy (%):0.47619047619 (10/21)
+Total Accuracy (%):0.151283316881 (613/4052)
+
+real	5m59.624s
+user	0m11.834s
+sys	0m2.093s
