@@ -1,7 +1,7 @@
 # output file: out.csv
 inputdir=/Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex
 version=v2
-prefix=run11_master
+prefix=run13_calibration
 logfile=$prefix.log
 csvfile=$prefix.csv
 

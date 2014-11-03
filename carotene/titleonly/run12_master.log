@@ -1,0 +1,4863 @@
+processing categories in: /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex
+11
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc11-categories.txt
+11
+15
+Project Manager	Project Manager
+11
+35
+Restaurant Manager	Restaurant Manager
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+41
+Sales Executive	Advertising Sales Executive
+11
+11
+11
+41
+Store Manager	Sales Manager
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+47
+Construction Manager	Construction Supervisor
+11
+11
+11
+11
+11
+11
+11
+11
+11
+43
+Office Manager	Office Manager
+11
+11
+11
+15
+Project Coordinator	IT Project Coordinator
+17
+Quality Assurance (QA) Manager	Quality Assurance Engineer
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+53
+Warehouse Manager	Warehouse Manager
+11
+11
+11
+11
+11
+51
+Plant Manager	Plant Operator
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+21
+Residential Manager	Case Manager
+11
+11
+11
+11
+11
+13
+Compliance Officer	Banking Officer
+11
+11
+11
+11
+13
+Contracts Administrator	Contract Analyst
+53
+Transportation Manager	Transportation Manager
+11
+11
+35
+Executive Chef	Executive Chef
+11
+11
+11
+11
+41
+Assistant Store Manager	Assistant Store Manager
+11
+11
+51
+Laboratory Manager	Production Manager
+11
+11
+11
+11
+15
+Project Leader	Project Lead
+11
+11
+11
+43
+Assistant Vice President (AVP)	Assistant to the Vice President
+11
+11
+11
+11
+11
+11
+11
+11
+Regional Operations Manager	Operations Manager
+11
+11
+33
+Loss Prevention Manager	Loss Prevention Manager
+11
+11
+11
+11
+11
+11
+11
+27
+Technical Director	Technical Director
+11
+Human Resources (HR) Administrator	Human Resources (HR) Generalist
+11
+11
+49
+Maintenance Director	Maintenance Coordinator
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+35
+Catering Manager	Catering Manager
+11
+11
+11
+Rehabilitation Manager	Director of Rehabilitation
+11
+11
+11
+35
+Chef Manager	Chef Manager
+11
+11
+11
+11
+11
+11
+Finance and Insurance Manager	Finance Manager
+43
+Call Center Manager	Call Center Agent
+35
+Dietary Manager	Dietary Cook
+11
+11
+37
+Environmental Services Manager	Environmental Services Manager
+35
+Food Service Manager	Food Service Manager
+11
+11
+11
+11
+11
+11
+11
+11
+21
+Residence Director	Director of Career Services
+11
+11
+19
+Director of Analytics	Research Analyst
+11
+11
+11
+11
+11
+Credit Risk Manager	Credit Manager
+11
+11
+11
+25
+Academic Director	Director of Education
+11
+11
+11
+11
+11
+11
+11
+11
+11
+19
+Analytics Manager	Resource Manager
+11
+11
+11
+51
+Manufacturing Manager	Manufacturing Manager
+11
+11
+35
+Kitchen Manager	Kitchen Manager
+49
+Facilities Manager	Maintenance Manager
+11
+11
+11
+29
+Pharmacy Manager	Pharmacy Manager
+11
+11
+11
+11
+11
+11
+Director of Risk Management	Risk Manager
+49
+Maintenance Manager	Maintenance Manager
+11
+43
+Claims Manager	Claims Assistant
+11
+11
+11
+Business Banking Relationship Manager	Relationship Manager
+11
+11
+11
+11
+13
+Grants Administrator	Trust Administrator
+11
+Director of Transportation	Transportation Manager
+11
+Director of Training	Child Care Director
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+Supplier Relationship Manager	Relationship Manager
+11
+11
+41
+Store Director	Sales Director
+11
+11
+11
+11
+11
+11
+51
+Resource Leader	Production Leader
+11
+11
+11
+11
+11
+11
+11
+11
+Product Line Manager	Product Manager
+11
+11
+11
+11
+11
+11
+11
+29
+Medical Supervisor	Nurse Supervisor
+11
+11
+11
+Intelligence Manager	Business Intelligence Manager
+11
+11
+11
+11
+11
+13
+Head of Operations	Operations Analyst
+11
+11
+11
+11
+11
+11
+51
+Distribution Group Leader	Production Leader
+11
+11
+11
+11
+11
+11
+11
+41
+Agency Manager	Sales Manager
+11
+11
+11
+11
+11
+11
+11
+11
+11
+13
+Subcontracts Administrator	Senior Buyer
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+11
+13
+Implementation Leader	Implementation Consultant
+11
+11
+13
+Cost Manager	Cost Estimator
+11
+13
+Control Leader	Audit Leader
+17
+Continuous Improvement Leader	Continuous Improvement Engineer
+11
+11
+11
+11
+49
+Chief Engineer	Maintenance Assistant
+11
+11
+11
+11
+11
+11
+11
+11
+11
+19
+Research Manager	Research Analyst
+11
+11
+11
+11
+11
+11
+11
+11
+53
+Mobility Manager	Warehouse Manager
+11
+11
+11
+11
+11
+11
+11
+11
+51
+Process Manager	Process Operator
+11
+29
+Nurse Director	Registered Nurse
+11
+11
+11
+11
+11
+Director of Merchandising	Director of Operations
+11
+11
+11
+11
+11
+11
+Affairs Manager	Regulatory Affairs Manager
+11
+11
+11
+11
+11
+11
+49
+Field Service Manager	Maintenance Manager
+11
+11
+11
+21
+Clinic Supervisor	Clinical Supervisor
+11
+43
+Business Office Manager	Office Manager
+15
+Application Support Manager	IT Support Manager
+11
+11
+11
+11
+11
+11
+11
+11
+Director of Research and Development	Director of Research
+11
+13
+Value Manager	Contract Analyst
+11
+11
+11
+11
+11
+11
+11
+47
+House Manager	Installation Manager
+11
+11
+11
+19
+Data Analytics Manager	Research Analyst
+11
+11
+11
+11
+11
+11
+33
+Fraud Manager	Fraud Investigator
+11
+19
+Business Analytics Manager	Resource Manager
+11
+11
+11
+11
+11
+11
+11
+51
+Quality Assurance (QA) Coordinator	Quality Assurance (QA) Coordinator
+27
+Director of Design	Director of Design
+11
+27
+Account Supervisor	Program Supervisor
+41
+Visual Manager	Sales Manager
+33
+Unit Manager	Unit Manager
+11
+11
+13
+Training Consultant	Training Consultant
+15
+Telecommunications Manager	Telecommunications Manager
+53
+Task Leader	Task Leader
+11
+11
+55
+Staff Officer	Staff Officer
+15
+Software Development Manager	Software Development Manager
+51
+Shop Manager	Fabricator
+41
+Selling Manager	Selling Manager
+21
+School Coordinator	School Coordinator
+11
+11
+21
+Program Supervisor	Clinical Supervisor
+43
+Operations Administrator	Office Administrator
+11
+25
+Department Head	Department Head
+11
+13
+Controller	Assistant Controller
+13
+Compliance Coordinator	Compliance Coordinator
+13
+Commercial Banker	Commercial Banker
+35
+Bakery Manager	Bakery Manager
+11
+11
+41
+Sales Officer	Sales Officer
+11
+29
+Coding Manager	Medical Coding Manager
+43
+Client Administrator	Client Administrator
+11
+29
+Nurse Manager Intensive Care Unit (ICU)	Intensive Care Unit (ICU) Nurse
+17
+Environmental, Health, and Safety (EHS) Manager	Environmental, Health, and Safety (EHS) Manager
+11
+11
+11
+Accuracy (%): 77.0961145194 (377/489)
+13
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc13-categories.txt
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+41
+Sales Management Trainee	Sales Management Trainee
+13
+13
+15
+Operations Analyst	Operations Analyst
+13
+13
+41
+Entry Level Sales	Sales Representative
+13
+Consumer ln Underwriter	Mortgage Underwriter
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+11
+Training Manager	Training Manager
+13
+13
+13
+13
+Assistant Buyer	Senior Buyer
+13
+13
+13
+13
+13
+Financial Advisor Trainee	Financial Advisor
+13
+13
+13
+13
+13
+11
+Services Manager	Client Services Manager
+43
+Mortgage Closer	Mortgage Closer
+11
+Contracts Manager	Contract Manager
+13
+15
+Kronos Analyst	Business Analyst
+13
+13
+13
+51
+Processing Manager	Processing Supervisor
+11
+Risk Manager	Risk Manager
+13
+13
+13
+19
+Research Analyst	Research Analyst
+11
+Business Partner	Human Resources (HR) Business Partner
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+Project Estimator	Estimator
+43
+Claims Manager	Claims Assistant
+13
+13
+13
+Senior Estimator	Estimator
+13
+13
+11
+Relationship Manager	Relationship Manager
+13
+13
+13
+15
+Operations Support	Operations Support Representative
+15
+Inventory Analyst	Supply Chain Analyst
+13
+13
+13
+15
+SAP Consultant	SAP Consultant
+13
+13
+13
+Quantitative Analyst	Credit Analyst
+11
+Tax Director	Tax Director
+13
+11
+Assurance Manager	Risk and Assurance Manager
+13
+13
+13
+11
+Staffing Manager	Staffing Manager
+13
+13
+13
+13
+13
+13
+13
+41
+Broker	Sales Representative
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+Logistics Support Manager	Logistics Manager
+13
+13
+13
+13
+13
+13
+13
+15
+Support Analyst	IT Support Analyst
+13
+19
+Senior Planner	Transportation Planner
+13
+13
+11
+Planning Manager	Product Manager
+19
+Pricing Analyst	Research Analyst
+13
+13
+Financial Planning Analyst	Financial Analyst
+13
+11
+Logistics Manager	Logistics Manager
+13
+13
+43
+Mortgage Assistant	Mortgage Assistant
+43
+Customer Service Analyst	Customer Service Representative
+49
+Auto Adjuster	Maintenance Machinist
+13
+13
+13
+Executive Recruiter	Recruiter
+11
+Lead Manager	Marketing Manager
+13
+11
+Financial Services Manager	Patient Services Manager
+13
+Human Resource Analyst	Human Resources Analyst
+11
+Compliance Manager	Compliance Manager
+13
+13
+13
+43
+Billing Analyst	Billing Analyst
+13
+13
+11
+Human Resources (HR) Consultant	Human Resources (HR) Generalist
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+43
+Training Assistant	Administrative Assistant
+13
+13
+13
+13
+13
+13
+17
+Structural Analyst	Structural Engineer
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+19
+Regional Analyst	Clinical Research Associate (CRA)
+13
+13
+13
+13
+13
+13
+13
+19
+Marketing Strategist	Research Analyst
+13
+15
+Management Liaison	Project Manager
+13
+53
+Logistics Operator	Forklift Operator
+13
+13
+13
+13
+13
+41
+Executive Consultant	Account Consultant
+13
+13
+13
+13
+13
+13
+13
+13
+13
+19
+Analytics Leader	Principal Scientist
+13
+13
+13
+15
+Strategic Planner	Programmer
+13
+15
+Staff Analyst	Programmer Analyst
+13
+19
+Sales Analyst	Assistant Analyst
+13
+13
+13
+13
+13
+13
+13
+13
+Inventory Accountant	Accountant
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+Operations Accountant	Accountant
+13
+13
+13
+13
+19
+Distribution Analyst	Research Analyst
+13
+13
+13
+13
+13
+13
+Accountant Controller	Accountant
+13
+13
+Oil and Gas Accountant	Accountant
+11
+Credit Officer	Credit Manager
+13
+13
+13
+13
+13
+11
+Benefits Consultant	Training Consultant
+13
+13
+11
+Unit Leader	Unit Leader
+11
+Trust Officer	Trust Officer
+11
+Trust Administrator	Trust Administrator
+13
+13
+41
+Trader	Trader
+39
+Team Member Trainer	Team Member Trainer
+11
+Talent Manager	Talent Manager
+15
+Systems Trainer	Systems Trainer
+19
+Statistical Analyst	Research Analyst
+11
+Risk Officer	Risk Officer
+15
+Process Improvement Analyst	Process Improvement Analyst
+41
+Personal Financial Representative	Personal Financial Representative
+13
+43
+Mortgage Loan Coordinator	Mortgage Loan Coordinator
+15
+Manufacturing Analyst	Manufacturing Analyst
+41
+Loan Representative	Loan Representative
+15
+Implementation Coordinator	Implementation Coordinator
+13
+15
+Functional Leader	Functional Leader
+43
+Financial Coordinator	Financial Coordinator
+11
+Finance Officer	Finance Officer
+13
+11
+Credit Administrator	Credit Administrator
+13
+13
+27
+Relations Consultant	Relations Consultant
+13
+13
+13
+13
+15
+Content Analyst	Content Analyst
+13
+Accuracy (%): 72.2222222222 (221/306)
+15
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc15-categories.txt
+15
+15
+15
+15
+15
+15
+13
+Business Analyst	Business Analyst
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+13
+Data Analyst	Data Analyst
+15
+15
+15
+Junior Software Engineer	Software Engineer
+15
+IT Network Administrator	IT System Administrator
+15
+15
+15
+Application Developer	Java Developer
+15
+15
+15
+15
+15
+15
+15
+15
+Information Systems Security Engineer	Security Engineer
+15
+17
+Quality Assurance Engineer	Quality Assurance Engineer
+15
+15
+15
+15
+15
+15
+15
+13
+Functional Analyst	Functional Analyst
+15
+15
+15
+15
+15
+15
+Clinical Systems Analyst	Systems Analyst
+15
+15
+15
+15
+15
+15
+11
+IT Manager	Information Technology (IT) Manager
+15
+15
+15
+19
+IT Field Technician	Field Technician
+15
+15
+15
+15
+15
+15
+13
+Senior IT Consultant	Business Consultant
+11
+IT Support Manager	Manager of Applications
+15
+15
+15
+15
+13
+Process Analyst	Business Analyst
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+17
+IT Field Engineer	Field Engineer
+15
+15
+15
+Information Security Architect	Information Architect
+17
+Senior Test Engineer	Senior Test Engineer
+13
+Reporting Analyst	Business Analyst
+15
+15
+15
+15
+15
+15
+15
+Graphics Software Engineer	Software Engineer
+17
+Project Engineer	Project Engineer
+15
+15
+15
+17
+Validation Engineer	Validation Engineer
+15
+11
+Release Manager	Project Manager
+15
+15
+15
+15
+15
+15
+Senior Java Software Engineer	Software Engineer
+19
+Research Analyst	Research Analyst
+17
+Telecommunications Engineer	Telecommunications Engineer
+15
+15
+15
+15
+15
+Help Desk Analyst	IT Help Desk Specialist
+15
+15
+15
+15
+15
+15
+15
+15
+15
+13
+IT Subject Matter Expert	Logistics Support Manager
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+17
+Communications Engineer	Communications Engineer
+11
+Product Manager	Product Manager
+15
+15
+15
+11
+Delivery Manager	Program Manager
+15
+15
+15
+15
+15
+15
+15
+17
+Senior Technician	Engineering Technician
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+27
+Database Report Writer	Reports Writer
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+13
+Performance Analyst	Business Analyst
+15
+Quantitative Developer	C Developer
+15
+13
+Functional Consultant	Functional Consultant
+15
+15
+15
+15
+15
+15
+15
+15
+13
+Logistics Analyst	Logistics Analyst
+53
+Operations Lead	Warehouse Lead
+13
+Client Services Analyst	Services Manager
+15
+13
+Project Controls Analyst	Project Analyst
+13
+Data Consultant	Healthcare Consultant
+15
+15
+Cyber Security Analyst	Information Security Analyst
+15
+Software Configuration Engineer	Software Engineer
+15
+Network Infrastructure Engineer	Infrastructure Engineer
+17
+Hardware Engineer	Hardware Engineer
+15
+11
+Solutions Manager	Logistics Manager
+15
+19
+Analytics Manager	Resource Manager
+15
+15
+15
+15
+15
+15
+15
+15
+11
+Manager - IT Change Management	Training Manager
+15
+User Interface Designer	User Interface Developer
+15
+15
+15
+17
+QA Specialist	Quality Control Specialist
+13
+IT Operations Specialist	Operations Analyst
+11
+Integration Manager	Systems Integration Manager
+15
+43
+IT Support Administrator	Support Administrator
+15
+15
+Business Intelligence Analyst	Business Analyst
+15
+15
+15
+Mobile Software Engineer	Software Engineer
+17
+Operations Engineer	Operations Engineer
+17
+Technologist	Engineering Technologist
+15
+15
+15
+15
+15
+15
+17
+Senior Quality Assurance Engineer	Quality Assurance Engineer
+43
+Software Specialist	Collections Specialist
+15
+15
+15
+13
+Solutions Analyst	Business Analyst
+13
+Requirements Management Analyst	Change Management Analyst
+15
+17
+Design Engineer	Design Engineer
+27
+Engineer Technician	Operations Technician
+15
+19
+Product Analyst	Research Analyst
+33
+Security Officer	Security Officer
+15
+43
+IT Operations Administrator	Administrative Assistant
+19
+SAS Analyst	Research Analyst
+15
+33
+Security Manager	Security Manager
+13
+Project Analyst	Project Analyst
+15
+15
+15
+15
+15
+17
+Wireless Engineer	Wireless Engineer
+15
+Software Design Engineer	Software Engineer
+15
+SQL Server SSIS Developer	SQL Developer
+15
+15
+15
+15
+15
+15
+15
+13
+Business Intelligence Consultant	Business Consultant
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+49
+Integration Technician	Aircraft Technician
+15
+15
+15
+15
+15
+15
+15
+15
+15
+29
+Coding Analyst	Clinical Analyst
+15
+15
+15
+C# Developer	C Developer
+15
+15
+15
+15
+15
+15
+19
+Web Analyst	Research Analyst
+15
+15
+15
+15
+15
+Security Architect	Information Security Architect
+15
+15
+15
+15
+15
+15
+15
+15
+Support Engineer	IT Support Engineer
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+17
+Quality Assurance (QA) Technician	Quality Assurance (QA) Technician
+51
+Quality Assurance (QA) Coordinator	Quality Assurance (QA) Coordinator
+15
+29
+Technician Supervisor	Technician Supervisor
+15
+43
+Systems Operator	Systems Operator
+43
+Support Administrator	Support Administrator
+19
+Statistical Analyst	Research Analyst
+13
+Solutions Consultant	Solutions Consultant
+15
+15
+13
+Optimization Analyst	Optimization Analyst
+43
+Operations Administrator	Office Administrator
+13
+Monitoring Analyst	Monitoring Analyst
+15
+15
+13
+Implementation Analyst	Implementation Analyst
+15
+17
+Design Leader	Design Leader
+43
+Data Coordinator	Data Coordinator
+29
+Coding Manager	Medical Coding Manager
+15
+Assurance Analyst	Information Assurance Analyst
+17
+Quality Assurance (QA) Associate	Quality Assurance Engineer
+49
+Systems Supervisor	Systems Supervisor
+13
+Modeling Analyst	Modeling Analyst
+15
+27
+Design Consultant	Design Consultant
+15
+15
+Accuracy (%): 73.7373737374 (292/396)
+17
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc17-categories.txt
+17
+17
+17
+17
+17
+17
+15
+Systems Engineer	Systems Engineer
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+19
+Quality Control Specialist	Quality Control Specialist
+17
+17
+17
+17
+19
+Laboratory Technician	Laboratory Technician
+17
+17
+17
+17
+17
+17
+19
+Field Technician	Field Technician
+17
+17
+17
+17
+15
+Integration Engineer	Integration Engineer
+17
+17
+17
+17
+17
+Radio Frequency Technician	Radio Frequency Engineer
+17
+17
+17
+17
+13
+Control Specialist	Business Control Analyst
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+15
+Systems Technician	Systems Technician
+17
+17
+17
+15
+Performance Engineer	Performance Engineer
+17
+17
+17
+17
+17
+17
+17
+17
+51
+Quality Control Lead	Quality Lead
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+49
+PLC Technician	PLC Maintenance Technician
+17
+17
+17
+17
+17
+17
+17
+17
+15
+Project Coordinator	IT Project Coordinator
+43
+Planner	Production Planner
+17
+17
+15
+Project Leader	Project Lead
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+13
+Logistics Engineer	Logistics Engineer
+17
+17
+17
+11
+Safety Director	Safety Director
+11
+Process Improvement Manager	Process Manager
+17
+17
+17
+Circuit Design Engineer	Design Engineer
+15
+Project Manager	Project Manager
+47
+Sheet Metal Engineer	Sheet Metal Mechanic
+17
+17
+17
+17
+17
+17
+17
+Industrial Engineering Technician	Industrial Engineer
+47
+Electrical Controls Programmer	Electrical Apprentice
+17
+49
+Maintenance Technician	Maintenance Technician
+19
+Environmental Specialist	Environmental Specialist
+17
+17
+49
+Avionics Technician	Avionics Technician
+17
+17
+17
+17
+RF Optimization Engineer	Radio Frequency Engineer
+49
+Lead Technician	Maintenance Manager
+15
+Operations Technician	Operations Technician
+17
+19
+Scientist	Research Scientist
+17
+49
+Building Engineer	Building Maintenance Worker
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+Forensic Structural Engineer	Structural Engineer
+17
+Lead Process Engineer	Process Engineer
+17
+17
+17
+17
+17
+17
+17
+51
+Manufacturing Planner	Manufacturing Supervisor
+33
+Imagery Analyst	Intelligence Analyst
+17
+17
+17
+17
+17
+17
+Biomedical Engineering Technician	Engineering Technician
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+53
+Transportation Technician	Transportation Technician
+29
+Technician Supervisor	Technician Supervisor
+17
+17
+53
+Independent Contractor	Independent Contractor
+49
+Imaging Engineer	Field Service Engineer
+17
+17
+27
+Design Consultant	Design Consultant
+49
+Engineering Mechanic	Engineering Mechanic
+17
+49
+Communication Technician	Communication Technician
+Accuracy (%): 80.269058296 (179/223)
+19
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc19-categories.txt
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+11
+Clinical Research Associate (CRA)	Clinical Research Associate (CRA)
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+11
+Clinical Trials Assistant	Clinical Trials Manager
+19
+19
+19
+15
+Quality Assurance Analyst	IT Quality Assurance Analyst
+51
+Laboratory Supervisor	Technician Supervisor
+19
+19
+19
+15
+Operations Technician	Operations Technician
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+17
+Field Specialist	Field Engineer
+29
+Analytical Technologist	Medical Technologist
+19
+19
+43
+Technical Assistant	Claims Assistant
+19
+19
+19
+19
+Animal Laboratory Technician	Laboratory Technician
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+17
+Water Technician	Water and Wastewater Engineer
+19
+19
+19
+19
+19
+19
+Molecular Biology Scientist	Biological Scientist
+19
+19
+Formulation Chemist	Chemist
+19
+19
+19
+13
+Transportation Analyst	Logistics Analyst
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+17
+Quality Assurance (QA) Associate	Quality Assurance Engineer
+49
+Technical Supervisor	Technical Supervisor
+29
+Specimen Technician	Specimen Technician
+11
+Resource Manager	Resource Manager
+19
+Research Fellow	Postdoctoral Research Fellow
+11
+Research Coordinator	Research Coordinator
+19
+43
+Planning Assistant	Planning Assistant
+17
+Environmental Services Technician	Environmental Services Technician
+15
+Assurance Analyst	Information Assurance Analyst
+19
+Accuracy (%): 80.9917355372 (98/121)
+21
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc21-categories.txt
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+39
+Activities Assistant	Activities Assistant
+21
+21
+21
+21
+Lead Residential Support Staff	Residential Support Staff
+21
+21
+21
+21
+21
+21
+21
+21
+Counselor	Career Counselor
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+29
+Mental Health Technician	Mental Health Technician
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+43
+Patient Service Representative	Patient Service Representative
+21
+21
+21
+21
+21
+21
+Career Coach	Job Coach
+21
+21
+21
+21
+21
+19
+Psychologist	Psychologist
+21
+21
+21
+21
+21
+21
+13
+Education Specialist	Training and Development Specialist
+21
+21
+21
+21
+21
+21
+21
+39
+Child Care Worker	Child Care Assistant
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+29
+Multisystemic Therapy (MST) Therapist	Therapy Technician
+21
+21
+21
+21
+21
+29
+Mental Health Practitioner	Mental Health Technician
+21
+21
+29
+Field Case Manager	Case Manager
+21
+13
+Placement Specialist	Recruiter
+21
+21
+21
+21
+21
+21
+21
+21
+11
+Social Services Director	Social Services Director
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+Clinical Social Worker	Licensed Clinical Social Worker (LCSW)
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+21
+19
+Psychotherapist	Psychotherapist
+21
+21
+29
+Discharge Planner	Discharge Planner
+13
+Consultant	Consultant
+Accuracy (%): 89.0173410405 (154/173)
+23
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc23-categories.txt
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+Regulator and Compliance Attorney	Compliance Attorney
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+11
+Project Attorney	Project Manager
+23
+23
+23
+23
+23
+23
+Insurance Defense Counsel	Insurance Defense Attorney
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+Employment Law Counsel	Employment Law Paralegal
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+23
+Litigation Consultant	Legal Consultant
+23
+13
+Operations Counsel	Operations Analyst
+23
+23
+23
+23
+23
+23
+23
+43
+Escrow Assistant	Escrow Assistant
+23
+23
+23
+23
+23
+Accuracy (%): 94.1935483871 (146/155)
+25
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc25-categories.txt
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+49
+Heating, Ventilating and Air Conditioning (HVAC) Instructor	HVAC Refrigeration Technician
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+21
+Education Coordinator	Education Specialist
+25
+25
+29
+Nurse Educator	Nurse Educator
+25
+11
+Program Director	Program Manager
+25
+25
+Flight Simulator Instructor	Flight Instructor
+25
+25
+25
+25
+25
+25
+13
+Education Specialist	Training and Development Specialist
+25
+25
+25
+25
+25
+25
+29
+Licensed Practical Nurse (LPN) Instructor	Licensed Practical Nurse (LPN)
+21
+Program Coordinator	Case Management Supervisor
+25
+25
+25
+25
+25
+31
+Certified Nursing Assistant (CNA) Instructor	Certified Nursing Assistant (CNA)
+53
+Commercial Driver's License (CDL) Instructor	Commercial Driver's License (CDL) Driver
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+11
+Director of Education	Director of Education
+25
+25
+25
+25
+25
+29
+Clinical Educator	Nurse Educator
+25
+25
+25
+25
+Classroom Aide	Teacher Aide
+25
+25
+25
+25
+25
+25
+25
+25
+25
+Department Chair of Nursing	Department Chair
+25
+Instructional Aide	Teacher Aide
+25
+29
+Clinical Coordinator	Clinical Coordinator
+25
+25
+25
+29
+Licensed Practical Nursing (LPN) Faculty	Licensed Practical Nurse (LPN)
+25
+25
+25
+25
+25
+25
+19
+Research Assistant (RA)	Research Assistant
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+13
+Learning Consultant	Training and Development Specialist
+25
+25
+25
+25
+25
+25
+25
+29
+Technician Supervisor	Technician Supervisor
+19
+Research Fellow	Postdoctoral Research Fellow
+21
+Education Consultant	Education Consultant
+25
+Accuracy (%): 82.3529411765 (140/170)
+27
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc27-categories.txt
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+11
+Program Director	Program Manager
+17
+Computer Aided Design (CAD) Designer	Design Engineer
+27
+27
+27
+27
+27
+15
+Content Specialist	Web Specialist
+27
+27
+43
+Marketing Assistant	Administrative Assistant
+27
+27
+27
+27
+27
+27
+41
+Brand Advocate	Brand Ambassador
+27
+27
+27
+27
+11
+Director of Marketing	Marketing Director
+27
+27
+27
+27
+27
+41
+Marketing Representative	Sales Representative
+27
+27
+27
+27
+27
+27
+27
+15
+User Interface (UI) Designer	User Interface Developer
+27
+27
+27
+11
+Proposal Manager	Proposal Manager
+11
+Communications Manager	Communications Manager
+27
+27
+11
+Account Manager	Account Manager
+27
+27
+15
+Operations Technician	Operations Technician
+27
+27
+27
+27
+11
+Communications Director	Director of Communications
+27
+27
+15
+Web Designer	Web Designer
+27
+27
+11
+Assistant Director	Assistant Director
+27
+27
+27
+27
+21
+Program Coordinator	Case Management Supervisor
+27
+27
+27
+27
+27
+27
+27
+27
+51
+Production Coordinator	Production Coordinator
+27
+27
+27
+27
+15
+Web Producer	Web Manager
+43
+Account Specialist	Collections Specialist
+27
+27
+27
+49
+Cable Technician	Cable Technician
+27
+27
+27
+27
+27
+17
+Technical Designer	Design Engineer
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+43
+Proofreader	Administrative Assistant
+27
+27
+27
+27
+27
+11
+Media Relations Manager	Relationship Manager
+27
+27
+27
+27
+27
+27
+27
+27
+27
+41
+Media Consultant	Outside Sales Media Consultant
+27
+27
+11
+Director of Talent Management	Director of Talent Management
+27
+27
+27
+27
+27
+27
+41
+Visual Manager	Sales Manager
+27
+21
+Program Supervisor	Clinical Supervisor
+17
+Layout Designer	Layout Designer
+27
+53
+Conductor	Conductor
+27
+43
+Communications Operator	Communications Operator
+27
+49
+Communication Technician	Communication Technician
+Accuracy (%): 76.9696969697 (127/165)
+29
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc29-categories.txt
+29
+29
+29
+29
+29
+29
+29
+29
+29
+11
+Nurse Manager	Nurse Manager
+11
+Clinical Nurse	Nurse Manager
+21
+Case Manager	Case Manager
+29
+29
+29
+29
+29
+29
+11
+Surgical Unit Nurse	Unit Manager
+29
+29
+19
+Laboratory Technician	Laboratory Technician
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+21
+Rehabilitation Coordinator	Volunteer Coordinator
+31
+Rehabilitation Technician	Rehabilitation Technician
+29
+29
+29
+29
+29
+29
+29
+29
+29
+21
+Clinical Supervisor	Clinical Supervisor
+11
+Unit Manager Nurse	Unit Manager
+29
+29
+29
+Medical Technician	Emergency Medical Technician (EMT)
+29
+29
+29
+29
+29
+19
+Laboratory Assistant	Laboratory Assistant
+29
+29
+29
+29
+29
+31
+Inpatient Services Nurse	Nurse Assistant
+29
+Travel Nurse - Cardiac Catheterization Laboratory	Cardiac Catheterization Laboratory Nurse
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+37
+Cardiovascular Operating Room (CVOR) Nurse	Room Manager
+21
+Case Management Coordinator	Case Management Specialist
+29
+29
+11
+Quality Improvement Nurse	Director of Quality Improvement
+29
+29
+29
+29
+29
+29
+29
+11
+Surgical Services Manager	Clinical Services Manager
+11
+Patient Care Manager	Director of Patient Care
+29
+21
+Medical Program Coordinator	Case Management Supervisor
+11
+Director of Pharmacy	Director of Pharmacy
+29
+11
+Resident Care Manager	Resident Manager
+29
+29
+29
+21
+Case Manager Supervisor	Case Management Supervisor
+29
+31
+Therapy Technician	Physical Therapy Technician
+29
+29
+29
+29
+29
+29
+29
+21
+Health Coach	Job Coach
+29
+51
+Laboratory Supervisor	Technician Supervisor
+29
+29
+29
+11
+Director of Case Management	Division Director
+29
+29
+29
+29
+29
+29
+29
+13
+Clinical Trainer	Systems Trainer
+29
+49
+Technician Assistant	Maintenance Assistant
+15
+Clinical Analyst	Clinical Systems Analyst
+29
+29
+11
+Director of Nursing	Director of Nursing
+29
+11
+Registrar	Medical Supervisor
+11
+Clinical Manager	Clinical Manager
+21
+Health and Wellness Director	Director of Career Services
+29
+29
+11
+Clinical Director	Clinical Manager
+29
+29
+29
+29
+Minimum Data Set (MDS) Nurse	Minimum Data Set (MDS) Coordinator
+11
+Nursery Nurse	Nurse Manager
+29
+21
+Health Care Coordinator	Health Supervisor
+29
+29
+29
+29
+29
+29
+11
+Obstetrics Nurse	Nurse Manager
+29
+29
+29
+Medical-Surgical Nurse	Travel Nurse - Medical/Surgical
+29
+On-site Nurse	Clinical Nurse Liaison
+29
+29
+29
+29
+29
+29
+29
+29
+29
+31
+Emergency Room (ER) Technician	Operating Room Assistant
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+Registered Respiratory Therapist	Respiratory Therapist
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+21
+Clinical Reviewer	Clinical Supervisor
+29
+29
+29
+29
+29
+31
+Certified Nursing Midwife	Certified Nursing Assistant (CNA)
+29
+29
+29
+51
+Unit Supervisor	Maintenance Supervisor
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+31
+Imaging Assistant	Clinical Assistant
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+29
+Nurse Manager Intensive Care Unit (ICU)	Intensive Care Unit (ICU) Nurse
+17
+Environmental, Health, and Safety (EHS) Manager	Environmental, Health, and Safety (EHS) Manager
+29
+49
+Technical Supervisor	Technical Supervisor
+39
+Team Member Trainer	Team Member Trainer
+31
+Student Nurse	Student Nurse
+29
+53
+Safety Inspector	Safety Inspector
+33
+Records Analyst	Records Analyst
+29
+49
+Imaging Engineer	Field Service Engineer
+29
+29
+49
+Diagnostic Technician	Diagnostic Technician
+29
+11
+Care Management Coordinator	Care Management Coordinator
+45
+Care Supervisor	Care Supervisor
+Accuracy (%): 74.8175182482 (205/274)
+31
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc31-categories.txt
+31
+31
+31
+31
+29
+Patient Care Technician	Patient Care Technician
+31
+31
+31
+31
+31
+31
+31
+31
+19
+Laboratory Assistant	Laboratory Assistant
+31
+31
+31
+31
+31
+31
+31
+31
+37
+Environmental Services Aide	Environment Services Technician
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+17
+Instrument Technician	Instrumentation Technician
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+37
+Operating Room Assistant	Room Manager
+31
+31
+31
+37
+Environmental Services Assistant	Environmental Services Director
+31
+Registered Dental Assistant	Dental Assistant
+31
+31
+31
+31
+21
+Rehabilitation Assistant	Activities Assistant
+31
+31
+Licensed Physical Therapist Assistant (LPTA)	Physical Therapist Assistant (PTA)
+31
+Certified Home Health Aide	Home Health Aide (HHA)
+31
+31
+31
+31
+31
+31
+31
+31
+31
+29
+Pathology Assistant	Histology Technician
+29
+Nutrition Assistant	Nutrition Services Worker
+31
+31
+31
+43
+Patient Scheduler	Patient Scheduler
+43
+Unit Clerk	Unit Clerk
+31
+31
+43
+Unit Coordinator	Unit Coordinator
+31
+43
+Surgery Scheduler	Surgery Scheduler
+39
+Care Provider	Care Provider
+Accuracy (%): 78.313253012 (65/83)
+33
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc33-categories.txt
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+15
+Security Specialist	Information Security Specialist
+33
+33
+33
+33
+33
+33
+33
+33
+33
+43
+Security Dispatcher	Dispatcher
+35
+Assistant Shift Supervisor	Assistant Supervisor
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+15
+Security Analyst	Information Security Analyst
+33
+33
+19
+Investigative Analyst	Research Investigator
+33
+33
+13
+Protection Manager	Risk Manager
+33
+53
+Safety Inspector	Safety Inspector
+33
+33
+13
+Field Investigator	Field Investigator
+55
+Control Officer	Control Officer
+33
+Accuracy (%): 86.9565217391 (80/92)
+35
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc35-categories.txt
+35
+35
+35
+35
+Dish Washer	Washer
+35
+41
+Shift Manager	Sales Manager
+35
+35
+Restaurant Shift Supervisor	Restaurant Supervisor
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+51
+Food Production Manager	Production Manager
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+51
+Room Supervisor	Tool Maker
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+Assistant Shift Manager	Speciality Coffee Assistant Manager
+35
+35
+35
+Lead Cook	Cook
+35
+35
+35
+35
+35
+35
+35
+35
+43
+Greeter	Greeter
+51
+General Supervisor	General Supervisor
+43
+Food Clerk	Grocery Clerk
+35
+35
+35
+35
+41
+Deli Clerk	Deli Clerk
+51
+Assistant Supervisor	Assistant Supervisor
+35
+35
+35
+35
+35
+Accuracy (%): 85.5670103093 (83/97)
+37
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc37-categories.txt
+37
+37
+49
+Environment Services Technician	Maintenance Technician
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+49
+Maintenance Technician	Maintenance Technician
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+11
+Environmental Services Director	Environmental Services Manager
+37
+37
+37
+35
+Kitchen Worker	Kitchen Worker
+37
+37
+37
+49
+Maintenance Supervisor	Maintenance Manager
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+53
+Independent Contractor	Independent Contractor
+35
+Washer	Washer
+51
+General Supervisor	General Supervisor
+Accuracy (%): 87.0967741935 (54/62)
+39
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc39-categories.txt
+39
+39
+39
+39
+39
+39
+39
+39
+39
+39
+39
+39
+39
+39
+29
+Activities Director	Activity Director
+39
+39
+39
+39
+37
+Service Porter	Porter
+39
+39
+39
+39
+29
+Recreation Specialist	Activity Director
+39
+39
+39
+39
+39
+39
+39
+39
+39
+29
+Recreation Director	Activity Director
+39
+11
+Fitness Manager	Fitness Manager
+39
+39
+39
+39
+39
+39
+39
+39
+39
+39
+39
+39
+39
+37
+Housekeeping Aide	Housekeeper
+39
+39
+39
+39
+39
+21
+Life Skills Trainer	Life Skills Worker
+21
+Life Enrichment Assistant	Life Enrichment Assistant
+39
+29
+Slot Technician Supervisor	Technician Supervisor
+35
+Utility Aide	Food Service Assistant
+39
+39
+39
+53
+Valet	Valet Attendant
+39
+39
+Personal Care Coordinator	Home Care Coordinator
+39
+39
+Dog Groomer	Groomer
+39
+37
+Butler	Butler
+39
+39
+37
+Fitness Attendant	Room Attendant
+11
+Wellness Coordinator	Project Coordinator
+39
+39
+Hair Stylist Assistant	Hair Stylist
+37
+Caretaker	Property Caretaker
+39
+39
+39
+39
+39
+39
+39
+39
+39
+43
+Unit Coordinator	Unit Coordinator
+43
+Unit Clerk	Unit Clerk
+41
+Travel Consultant	Travel Consultant
+39
+21
+Residential Assistant	Residential Assistant
+21
+Resident Assistant	Resident Assistant
+43
+Greeter	Greeter
+41
+Floor Supervisor	Floor Supervisor
+45
+Care Supervisor	Care Supervisor
+39
+Accuracy (%): 69.6078431373 (71/102)
+41
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc41-categories.txt
+41
+41
+41
+41
+41
+41
+Sales Associate	Retail Sales Associate
+13
+Personal Banker	Personal Banker
+41
+41
+41
+41
+11
+Account Manager	Account Manager
+41
+41
+41
+Store Manager	Sales Manager
+41
+41
+41
+41
+41
+Field Sales Manager	Sales Manager
+41
+41
+11
+Business Development Manager	Business Development Manager
+41
+Technical Sales Representative	Sales Representative
+41
+Store Supervisor	Sales Supervisor
+41
+41
+41
+41
+41
+41
+Counter Sales Representative	Sales Representative
+11
+Private Banker	Commercial Banker
+11
+Leasing Consultant	Leasing Manager
+43
+Universal Banker	Bank Teller
+41
+B2B Sales Consultant	B2B Sales Representative
+41
+Banking Sales Representative	Sales Representative
+41
+41
+41
+41
+41
+43
+Client Service Specialist	Client Service Specialist
+41
+43
+Customer Service Associate	Customer Service Associate
+41
+41
+43
+Client Associate	Client Service Associate
+11
+Sales Director	Sales Director
+41
+11
+Merchandise Manager	Merchandise Manager
+11
+Sales Manager	Sales Manager
+13
+Mortgage Sales Assistant	Mortgage Assistant
+41
+41
+41
+41
+41
+41
+Call Center Sales Representative	Sales Representative
+43
+Product Sales Specialist	Production Representative
+41
+41
+41
+41
+41
+41
+41
+41
+43
+Technical Services Representative	Technical Services Associate
+41
+41
+41
+41
+11
+Sales Planner	Demand Manager
+41
+41
+41
+41
+35
+Retail Supervisor	Food Service Supervisor
+41
+41
+41
+41
+41
+41
+41
+41
+19
+Merchandising Assistant	Research Assistant
+41
+41
+41
+41
+41
+41
+41
+41
+41
+41
+41
+41
+41
+41
+41
+27
+Merchandising Representative	Field Merchandising Representative
+41
+41
+41
+41
+11
+Director of Advertising	Director of Advertising
+11
+Trust Officer	Trust Officer
+11
+Trust Administrator	Trust Administrator
+41
+41
+13
+Trading Analyst	Trading Analyst
+41
+43
+Teller	Teller
+51
+Shop Manager	Fabricator
+41
+21
+Program Supervisor	Clinical Supervisor
+41
+11
+Merchandise Execution Leader	Merchandise Execution Leader
+41
+43
+Grocery Clerk	Grocery Clerk
+43
+Greeter	Greeter
+41
+25
+Department Head	Department Head
+41
+35
+Counter Person	Counter Person
+43
+Contact Center Representative	Contact Center Representative
+41
+41
+41
+43
+Store Clerk	Store Clerk
+41
+49
+Shop Assistant	Shop Assistant
+41
+53
+Independent Contractor	Independent Contractor
+51
+General Supervisor	General Supervisor
+43
+Food Clerk	Grocery Clerk
+41
+41
+41
+41
+51
+Assistant Supervisor	Assistant Supervisor
+Accuracy (%): 66.2068965517 (96/145)
+43
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc43-categories.txt
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+53
+Warehouse Worker	Warehouse Worker
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+41
+Automotive Sales Service Advisor	Sales Supervisor
+43
+Warehouse Associate	Warehouse Worker
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+Accounts Receivable Specialist	Billing Specialist
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+27
+Account Coordinator	Account Coordinator
+43
+43
+43
+11
+Human Resources (HR) Coordinator	Human Resources (HR) Generalist
+43
+43
+43
+43
+43
+43
+53
+Material Handler	Material Handler
+43
+43
+43
+Warehouse Clerk	Warehouse Worker
+13
+Claims Representative	Compensation Analyst
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+13
+Mortgage Specialist	Mortgage Underwriter
+11
+Human Resources (HR) Representative	Human Resources (HR) Generalist
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+Loan Documentation Specialist	Documentation Specialist
+13
+Claims Specialist	Insurance Claims Specialist
+43
+43
+43
+43
+43
+Medical Collector	Collector
+43
+43
+43
+21
+Admissions Coordinator	Admissions Advisor
+13
+Insurance Specialist	Insurance Claims Specialist
+43
+43
+43
+21
+Admissions Representative	Admissions Representative
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+39
+Personal Assistant	Personal Assistant
+43
+43
+Executive Administrative Assistant	Administrative Assistant
+43
+23
+Title Clerk	Title Clerk
+43
+43
+43
+43
+43
+43
+13
+Purchasing Assistant	Senior Buyer
+43
+43
+43
+43
+43
+43
+43
+43
+43
+Medical Office Assistant	Office Assistant
+43
+43
+43
+41
+Office Associate	Retail Sales Associate
+43
+43
+43
+43
+43
+43
+43
+23
+Legal Assistant	Legal Assistant
+27
+Documentation Specialist	Documentation Specialist
+43
+43
+27
+Client Representative	Marketing Representative
+43
+29
+Records Clerk	Medical Records Clerk
+43
+43
+43
+43
+43
+43
+43
+21
+Specialist Assistant	Activities Assistant
+43
+43
+43
+29
+Review Coordinator	Review Nurse
+43
+43
+43
+43
+43
+43
+13
+Procurement Assistant	Procurement Analyst
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+43
+49
+Customer Service Technician	Service Technician
+43
+43
+43
+43
+43
+Collections Analyst	Credit Collections Analyst
+43
+43
+43
+43
+43
+43
+43
+21
+Access Coordinator	Volunteer Coordinator
+43
+43
+47
+Project Scheduler	Construction Scheduler
+43
+43
+43
+43
+31
+Medical Representative	Medical Assistant
+43
+43
+43
+43
+53
+Distribution Technician	Pipeline Technician
+43
+43
+43
+43
+41
+Client Service Officer	Client Service Specialist
+43
+13
+Billing Accountant	Accountant
+43
+43
+43
+43
+43
+43
+43
+13
+Audit Supervisor	Auditor
+43
+43
+43
+43
+43
+43
+11
+Director of Customer Service	Director of Customer Service
+27
+Account Supervisor	Program Supervisor
+43
+43
+41
+Travel Counselor	Travel Counselor
+41
+Travel Consultant	Travel Consultant
+53
+Traffic Coordinator	Traffic Coordinator
+43
+43
+27
+Store Merchandiser	Store Merchandiser
+43
+55
+Staff Officer	Staff Officer
+41
+Solutions Representative	Solutions Representative
+19
+Research Associate	Research Associate
+51
+Production Warehouse	Production Assembler
+51
+Planning Supervisor	Planning Supervisor
+43
+29
+Medical Clerk	Medical Clerk
+41
+Loan Representative	Loan Representative
+21
+Intake Coordinator	Intake Coordinator
+29
+Health Unit Coordinator	Health Unit Coordinator
+43
+43
+43
+41
+Field Representative	Field Representative
+25
+Department Head	Department Head
+15
+Data Administrator	Data Administrator
+11
+Customer Experience Manager	Customer Experience Manager
+43
+27
+Communications Representative	Communications Representative
+43
+43
+41
+Appointment Setter	Appointment Setter
+43
+43
+29
+Practice Supervisor	Practice Supervisor
+43
+51
+General Supervisor	General Supervisor
+41
+Financial Representative	Financial Representative
+43
+51
+Control Supervisor	Control Supervisor
+13
+Accounting Analyst	Accounting Analyst
+41
+Financial Services Representative	Financial Services Representative
+51
+Assistant Supervisor	Assistant Supervisor
+Accuracy (%): 77.2575250836 (231/299)
+45
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc45-categories.txt
+47
+General Laborer	General Laborer
+45
+45
+45
+45
+45
+49
+Cable Puller	Maintenance Manager
+45
+45
+45
+53
+Farm Equipment Operator	Equipment Operator
+45
+45
+45
+45
+45
+45
+11
+Farm Manager	Operations Manager
+45
+45
+45
+45
+45
+45
+45
+45
+45
+39
+Nursery Worker	Nursery Worker
+45
+45
+45
+45
+45
+37
+Tree Climber	Tree Climber
+51
+General Supervisor	General Supervisor
+45
+41
+Area Supervisor	Area Supervisor
+Accuracy (%): 64.4444444444 (29/45)
+47
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc47-categories.txt
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+Construction Project Coordinator	Construction Coordinator
+47
+47
+47
+47
+47
+47
+Finish Carpenter	Carpenter
+47
+47
+47
+Master Plumber	Plumber
+47
+47
+47
+47
+47
+47
+47
+Framing Carpenter	Carpenter
+47
+47
+47
+Form Carpenter	Carpenter
+47
+47
+47
+47
+47
+47
+47
+47
+Commercial Carpenter	Carpenter
+47
+47
+49
+Field Supervisor	Maintenance Manager
+47
+47
+47
+47
+47
+47
+Carpenter Helper	Carpenter
+47
+Lead Carpenter	Carpenter
+37
+Crew Leader	Maintenance Technician
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+Rough Carpenter	Carpenter
+49
+Installation Manager	Maintenance Manager
+11
+Project Administrator	Project Administrator
+47
+47
+47
+47
+47
+47
+47
+47
+Solar Panel Installer	Solar Photovoltaic (PV) Installer
+51
+General Foreman	Foreman
+47
+47
+47
+47
+47
+47
+47
+17
+Construction Engineer and Inspection (CEI) Inspector	Construction Engineer
+47
+51
+Instrument Fitter	Tube Bender
+49
+Facilities Electrician	Maintenance Electrician
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+47
+53
+Jack Operator	Forklift Operator
+17
+Water Proofer	Water and Wastewater Engineer
+47
+47
+47
+47
+49
+Electrical Maintenance Technician	Manufacturing Maintenance Technician
+47
+47
+47
+51
+Electrical Inspector	Quality Inspector
+47
+47
+47
+47
+47
+49
+Air Conditioning (AC) Electrician	Maintenance Mechanic
+47
+49
+Heating, Ventilation, and Air Conditioning (HVAC) Duct Installer	HVAC Refrigeration Technician
+47
+47
+47
+Drywall Carpenter	Carpenter
+47
+47
+Carpenter Foreman	Carpenter
+47
+47
+Carpenter Assembler	Carpenter
+49
+Lead Installer	Maintenance Manager
+47
+47
+47
+Journeyman Carpenter	Carpenter
+47
+47
+47
+47
+47
+47
+Maintenance Electrician	Electrician
+47
+47
+47
+47
+47
+17
+Well Test Operator	Senior Test Engineer
+51
+Project Supervisor	Quality Supervisor
+47
+Maintenance Carpenter	Carpenter
+47
+47
+47
+47
+49
+Tradesman	Maintenance Mechanic
+47
+47
+47
+47
+47
+47
+47
+47
+11
+Superintendent	Superintendent
+53
+Safety Inspector	Safety Inspector
+17
+Piping Designer	Piping Designer
+53
+Independent Contractor	Independent Contractor
+51
+General Supervisor	General Supervisor
+41
+Floor Supervisor	Floor Supervisor
+17
+Construction Technician	Construction Technician
+47
+47
+49
+Electrical Supervisor	Electrical Supervisor
+Accuracy (%): 74.1176470588 (126/170)
+49
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc49-categories.txt
+49
+49
+49
+49
+49
+49
+49
+Field Service Technician	Maintenance Technician
+49
+49
+49
+Helicopter Mechanic	Maintenance Mechanic
+49
+49
+49
+49
+49
+Structures Mechanic	Maintenance Mechanic
+47
+Maintenance Electrician	Electrician
+49
+49
+Equipment Mechanic	Maintenance Mechanic
+49
+49
+49
+Aircraft Mechanic	Maintenance Mechanic
+49
+49
+49
+49
+Trailer Mechanic	Maintenance Mechanic
+51
+Maintenance Machinist	CNC Machinist
+49
+49
+49
+49
+49
+49
+49
+Field Service Technician	Maintenance Technician
+17
+Electronic Technician	Electronics Technician
+49
+49
+49
+49
+Airframe Powerplant Technician	Avionics Technician
+49
+49
+49
+49
+HVAC Journeyman	HVAC Refrigeration Technician
+17
+Field Service Engineer	Field Engineer
+17
+Instrumentation and Electrical Technician	Electrical Technician
+49
+49
+15
+Wireless Technician	Network Technician
+15
+Systems Technician	Systems Technician
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+15
+Operations Technician	Operations Technician
+17
+Instrumentation Technician	Instrumentation Technician
+49
+49
+49
+49
+49
+Shop Helper	Maintenance Assistant
+49
+49
+49
+49
+49
+49
+49
+51
+Machine Operator	Machine Operator
+49
+49
+49
+49
+49
+51
+Assembly Technician	Assembly Technician
+49
+49
+49
+49
+51
+Welder	Welder
+49
+49
+49
+51
+Assembly Mechanic	Mechanical Assembler
+49
+49
+Trades Helper	Maintenance Assistant
+53
+Rigger	Rigger
+49
+49
+49
+49
+49
+49
+49
+49
+49
+Refrigeration Technician	HVAC Refrigeration Technician
+49
+49
+17
+Automation Technician	Automation Technician
+49
+Service Technician	General Service Technician
+49
+49
+Compressor Mechanic	Maintenance Mechanic
+49
+51
+Plant Operations Technician	Plant Operator
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+Bus Technician	School Bus Technician
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+49
+51
+Shop Manager	Fabricator
+53
+Independent Contractor	Independent Contractor
+31
+Hospital Service Technician	Hospital Service Technician
+47
+Foreman	Foreman
+49
+49
+25
+Department Head	Department Head
+49
+49
+49
+49
+51
+General Supervisor	General Supervisor
+51
+Control Supervisor	Control Supervisor
+49
+41
+Area Supervisor	Area Supervisor
+Accuracy (%): 73.9130434783 (119/161)
+51
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc51-categories.txt
+51
+51
+51
+51
+47
+General Laborer	General Laborer
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+Manual Machinist	CNC Machinist
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+Quality Assurance Inspector	Quality Inspector
+51
+51
+17
+Process Technician	Process Technician
+49
+Maintenance Supervisor	Maintenance Manager
+51
+51
+17
+Quality Technician	Quality Assurance Engineer
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+17
+Manufacturing Technician	Manufacturing Technician
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+Tool and Die Technician	Tool Maker
+51
+51
+47
+Equipment Operator	Equipment Operator
+51
+51
+Maintenance Machinist	CNC Machinist
+51
+51
+51
+51
+47
+Painter	Painter
+51
+51
+51
+51
+51
+49
+Shop Foreman	Maintenance Foreman
+51
+51
+51
+17
+Production Specialist	Control Specialist
+51
+Tool and Die Machinist	CNC Machinist
+51
+51
+Certified Welding Inspector	Welder
+51
+51
+51
+51
+51
+51
+Machinist Mate	CNC Machinist
+51
+51
+51
+51
+19
+Lab Technician	Laboratory Technician
+51
+51
+13
+Operations Coordinator	Recruiter
+51
+Conventional Machinist	CNC Machinist
+51
+51
+51
+51
+Manufacturing Lead	Manufacturing Team Lead
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+51
+17
+Quality Specialist	Quality Control Specialist
+51
+51
+51
+Tooling Manager	Tool Maker
+51
+51
+51
+17
+Quality Lead	Quality Control Lead
+51
+51
+51
+51
+51
+51
+53
+Warehouse Assembler	Packer
+51
+49
+Machine Technician	Maintenance Machinist
+13
+Estimator	Estimator
+35
+Baker	Baker
+51
+19
+Operator Assistant	Operations Technician
+51
+17
+Machine Inspector	NDT Inspector
+51
+51
+51
+51
+51
+51
+43
+Operations Processor	Mortgage Processor
+51
+51
+51
+51
+51
+51
+51
+51
+15
+Quality Assurance (QA) Tester	Quality Assurance (QA) Tester
+17
+Quality Assurance (QA) Technician	Quality Assurance (QA) Technician
+51
+35
+Washer	Washer
+29
+Technician Supervisor	Technician Supervisor
+43
+Systems Operator	Systems Operator
+51
+53
+Distribution Supervisor	Distribution Supervisor
+25
+Department Head	Department Head
+51
+41
+Floor Supervisor	Floor Supervisor
+47
+Foreman	Foreman
+51
+51
+49
+Electrical Supervisor	Electrical Supervisor
+41
+Area Supervisor	Area Supervisor
+Accuracy (%): 76.8817204301 (143/186)
+53
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc53-categories.txt
+53
+53
+Driver Helper	Delivery Driver
+53
+53
+53
+53
+53
+53
+47
+Laborer	General Laborer
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+47
+Equipment Operator	Equipment Operator
+53
+53
+53
+53
+53
+53
+53
+53
+51
+Machine Operator	Machine Operator
+53
+53
+Distribution Center Supervisor	Distribution Supervisor
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+11
+Distribution Center Manager	Distribution Manager
+53
+53
+53
+53
+Clamp Forklift Operator	Forklift Operator
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+53
+51
+Warehouse Production Operator	Production Worker
+53
+53
+Assistant Warehouse Manager	Warehouse Manager
+53
+53
+53
+53
+53
+53
+53
+19
+Pipeline Technician	Field Technician
+53
+53
+53
+53
+53
+53
+35
+Washer	Washer
+53
+53
+53
+53
+51
+Production Warehouse	Production Assembler
+53
+51
+General Supervisor	General Supervisor
+53
+13
+Controller	Assistant Controller
+51
+Control Supervisor	Control Supervisor
+53
+31
+Transportation Aide	Transportation Aide
+41
+Area Supervisor	Area Supervisor
+Accuracy (%): 83.7606837607 (98/117)
+55
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc55-categories.txt
+55
+11
+Center Standards and Incentives Officer	Chief Financial Officer (CFO)
+17
+Radar Technician	Electronics Technician
+55
+55
+55
+49
+Weapons Technician	Maintenance Technician
+55
+55
+55
+55
+55
+55
+11
+Unit Leader	Unit Leader
+53
+Task Leader	Task Leader
+55
+33
+Intelligence Officer	Intelligence Officer
+55
+33
+Armed Officer	Armed Officer
+Accuracy (%): 57.1428571429 (12/21)
+Total Accuracy (%): 77.6406712734 (3146/4052)
