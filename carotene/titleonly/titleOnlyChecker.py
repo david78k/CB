@@ -12,12 +12,14 @@ def main():
 	corrects = 0
 	soc_lineno = 0
 	soc_corrects = 0
+	soc_total_matches = 0
 	results = []
 	for root, dirs, files in os.walk(inputDir, topdown=False):
 		for name in files:
 			if name.find("DS_Store") == -1 and name.find(".xml") == -1:
 				soc_lineno = 0
 				soc_corrects = 0
+				soc_matches = 0
 				filename = os.path.join(root, name)
 				orig_soc = os.path.splitext(os.path.basename(filename))[0]
 				orig_soc = orig_soc[3:5]
@@ -40,6 +42,8 @@ def main():
 				#		print result["carotene_soc"]
 						if orig_soc == result["carotene_soc"]:
 							result["soc_match"] = 1
+							soc_matches += 1
+							soc_total_matches += 1
 						if caroteneTitle["title"].lower() == title.lower():
 							result["glabel_match"] = 1
 						if result["soc_match"] == 1 and result["glabel_match"] == 1:
@@ -56,8 +60,8 @@ def main():
 					results.append(result)
 					lineno += 1
 					soc_lineno += 1
-				print "Accuracy (%): " + str(100.0*soc_corrects/soc_lineno) + " (" + str(soc_corrects) + "/" + str(soc_lineno) + ")"
-	print "Total Accuracy (%): " + str(100.0*corrects/lineno) + " (" + str(corrects) + "/" + str(lineno) + ")"
+				print "soc" + orig_soc + " Accuracy (%): " + str(100.0*soc_corrects/soc_lineno) + " (" + str(soc_corrects) + "/" + str(soc_lineno) + ")\t" + str(100.0*soc_matches/soc_lineno) + " (" + str(soc_matches) + "/" + str(soc_lineno) + ")"
+	print "Total Accuracy (%): " + str(100.0*corrects/lineno) + " (" + str(corrects) + "/" + str(lineno) + ")\t" + str(100.0*soc_total_matches/lineno) + " (" + str(soc_total_matches) + "/" + str(lineno) + ")"
 	writeOutput(results)
 
 
@@ -121,7 +125,7 @@ def writeOutput(results):
 	#out.write("%s,%s,%s,%s,%s\n" % ("File Name", "Original Title", "Carotene ID", "Carotene Title", "Confidence"))
 	out.write("%s,%s,%s,%s,%s,%s,%s,%s\n" % ("Original SOC", "Original Title", "Carotene ID", "Carotene Title", "Confidence", "SOC Match", "gLabel Match", "Final Match"))
 	for r in results:
-		out.write("%s,\"%s\",%s,\"%s\",%s,\",%s,\"%s,\"%s\n" % (r["orig_soc"], r["orig_title"], r["id"], r["carotene_title"], r["confidence"], r["soc_match"], r["glabel_match"], r["final_match"]))
+		out.write("%s,\"%s\",%s,\"%s\",%s,%s,%s,%s\n" % (r["orig_soc"], r["orig_title"], r["id"], r["carotene_title"], r["confidence"], r["soc_match"], r["glabel_match"], r["final_match"]))
 		#out.write("%s,\"%s\",%s,\"%s\",%s\n" % (r["filename"], r["orig_title"], r["id"], r["carotene_title"], r["confidence"]))
 
 	out.close()
