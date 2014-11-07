@@ -1,0 +1,550 @@
+processing categories in: /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc11-categories.txt
+Sales Executive	Advertising Sales Executive
+Store Manager	Sales Manager
+Construction Manager	Construction Supervisor
+Project Coordinator	IT Project Coordinator
+Quality Assurance (QA) Manager	Quality Assurance Engineer
+Plant Manager	Plant Operator
+Residential Manager	Case Manager
+Compliance Officer	Banking Officer
+Contracts Administrator	Contract Analyst
+Laboratory Manager	Production Manager
+Project Leader	Project Lead
+Assistant Vice President (AVP)	Assistant to the Vice President
+Regional Operations Manager	Operations Manager
+Human Resources (HR) Administrator	Human Resources (HR) Generalist
+Maintenance Director	Maintenance Coordinator
+Rehabilitation Manager	Director of Rehabilitation
+Finance and Insurance Manager	Finance Manager
+Call Center Manager	Call Center Agent
+Dietary Manager	Dietary Cook
+Residence Director	Director of Career Services
+Director of Analytics	Research Analyst
+Credit Risk Manager	Credit Manager
+Academic Director	Director of Education
+Analytics Manager	Resource Manager
+Facilities Manager	Maintenance Manager
+Director of Risk Management	Risk Manager
+Claims Manager	Claims Assistant
+Business Banking Relationship Manager	Relationship Manager
+Grants Administrator	Trust Administrator
+Director of Transportation	Transportation Manager
+Director of Training	Child Care Director
+Supplier Relationship Manager	Relationship Manager
+Store Director	Sales Director
+Resource Leader	Production Leader
+Product Line Manager	Product Manager
+Medical Supervisor	Nurse Supervisor
+Intelligence Manager	Business Intelligence Manager
+Head of Operations	Operations Analyst
+Distribution Group Leader	Production Leader
+Agency Manager	Sales Manager
+Subcontracts Administrator	Senior Buyer
+Implementation Leader	Implementation Consultant
+Cost Manager	Cost Estimator
+Control Leader	Audit Leader
+Continuous Improvement Leader	Continuous Improvement Engineer
+Chief Engineer	Maintenance Assistant
+Research Manager	Research Analyst
+Mobility Manager	Warehouse Manager
+Process Manager	Process Operator
+Nurse Director	Registered Nurse
+Director of Merchandising	Director of Operations
+Affairs Manager	Regulatory Affairs Manager
+Field Service Manager	Maintenance Manager
+Clinic Supervisor	Clinical Supervisor
+Business Office Manager	Office Manager
+Application Support Manager	IT Support Manager
+Director of Research and Development	Director of Research
+Value Manager	Contract Analyst
+House Manager	Installation Manager
+Data Analytics Manager	Research Analyst
+Fraud Manager	Fraud Investigator
+Business Analytics Manager	Resource Manager
+Account Supervisor	Program Supervisor
+Visual Manager	Sales Manager
+Shop Manager	Fabricator
+Program Supervisor	Clinical Supervisor
+Operations Administrator	Office Administrator
+Controller	Assistant Controller
+Coding Manager	Medical Coding Manager
+Nurse Manager Intensive Care Unit (ICU)	Intensive Care Unit (ICU) Nurse
+soc11 Accuracy (%): 84.0490797546 (411/489)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc13-categories.txt
+Entry Level Sales	Sales Representative
+Consumer ln Underwriter	Mortgage Underwriter
+Assistant Buyer	Senior Buyer
+Financial Advisor Trainee	Financial Advisor
+Services Manager	Client Services Manager
+Contracts Manager	Contract Manager
+Kronos Analyst	Business Analyst
+Processing Manager	Processing Supervisor
+Business Partner	Human Resources (HR) Business Partner
+Project Estimator	Estimator
+Claims Manager	Claims Assistant
+Senior Estimator	Estimator
+Operations Support	Operations Support Representative
+Inventory Analyst	Supply Chain Analyst
+Quantitative Analyst	Credit Analyst
+Assurance Manager	Risk and Assurance Manager
+Broker	Sales Representative
+Logistics Support Manager	Logistics Manager
+Support Analyst	IT Support Analyst
+Senior Planner	Transportation Planner
+Planning Manager	Product Manager
+Pricing Analyst	Research Analyst
+Financial Planning Analyst	Financial Analyst
+Customer Service Analyst	Customer Service Representative
+Auto Adjuster	Maintenance Machinist
+Executive Recruiter	Recruiter
+Lead Manager	Marketing Manager
+Financial Services Manager	Patient Services Manager
+Human Resource Analyst	Human Resources Analyst
+Human Resources (HR) Consultant	Human Resources (HR) Generalist
+Training Assistant	Administrative Assistant
+Structural Analyst	Structural Engineer
+Regional Analyst	Clinical Research Associate (CRA)
+Marketing Strategist	Research Analyst
+Management Liaison	Project Manager
+Logistics Operator	Forklift Operator
+Executive Consultant	Account Consultant
+Analytics Leader	Principal Scientist
+Strategic Planner	Programmer
+Staff Analyst	Programmer Analyst
+Sales Analyst	Assistant Analyst
+Inventory Accountant	Accountant
+Operations Accountant	Accountant
+Distribution Analyst	Research Analyst
+Accountant Controller	Accountant
+Oil and Gas Accountant	Accountant
+Credit Officer	Credit Manager
+Benefits Consultant	Training Consultant
+Statistical Analyst	Research Analyst
+soc13 Accuracy (%): 83.3333333333 (255/306)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc15-categories.txt
+Junior Software Engineer	Software Engineer
+IT Network Administrator	IT System Administrator
+Application Developer	Java Developer
+Information Systems Security Engineer	Security Engineer
+Clinical Systems Analyst	Systems Analyst
+IT Manager	Information Technology (IT) Manager
+IT Field Technician	Field Technician
+Senior IT Consultant	Business Consultant
+IT Support Manager	Manager of Applications
+Process Analyst	Business Analyst
+IT Field Engineer	Field Engineer
+Information Security Architect	Information Architect
+Reporting Analyst	Business Analyst
+Graphics Software Engineer	Software Engineer
+Release Manager	Project Manager
+Senior Java Software Engineer	Software Engineer
+Help Desk Analyst	IT Help Desk Specialist
+IT Subject Matter Expert	Logistics Support Manager
+Delivery Manager	Program Manager
+Senior Technician	Engineering Technician
+Database Report Writer	Reports Writer
+Performance Analyst	Business Analyst
+Quantitative Developer	C Developer
+Operations Lead	Warehouse Lead
+Client Services Analyst	Services Manager
+Project Controls Analyst	Project Analyst
+Data Consultant	Healthcare Consultant
+Cyber Security Analyst	Information Security Analyst
+Software Configuration Engineer	Software Engineer
+Network Infrastructure Engineer	Infrastructure Engineer
+Solutions Manager	Logistics Manager
+Analytics Manager	Resource Manager
+Manager - IT Change Management	Training Manager
+User Interface Designer	User Interface Developer
+QA Specialist	Quality Control Specialist
+IT Operations Specialist	Operations Analyst
+Integration Manager	Systems Integration Manager
+IT Support Administrator	Support Administrator
+Business Intelligence Analyst	Business Analyst
+Mobile Software Engineer	Software Engineer
+Technologist	Engineering Technologist
+Senior Quality Assurance Engineer	Quality Assurance Engineer
+Software Specialist	Collections Specialist
+Solutions Analyst	Business Analyst
+Requirements Management Analyst	Change Management Analyst
+Engineer Technician	Operations Technician
+Product Analyst	Research Analyst
+IT Operations Administrator	Administrative Assistant
+SAS Analyst	Research Analyst
+Software Design Engineer	Software Engineer
+SQL Server SSIS Developer	SQL Developer
+Business Intelligence Consultant	Business Consultant
+Integration Technician	Aircraft Technician
+Coding Analyst	Clinical Analyst
+C# Developer	C Developer
+Web Analyst	Research Analyst
+Security Architect	Information Security Architect
+Support Engineer	IT Support Engineer
+Statistical Analyst	Research Analyst
+Operations Administrator	Office Administrator
+Coding Manager	Medical Coding Manager
+Assurance Analyst	Information Assurance Analyst
+Quality Assurance (QA) Associate	Quality Assurance Engineer
+soc15 Accuracy (%): 82.3232323232 (326/396)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc17-categories.txt
+Radio Frequency Technician	Radio Frequency Engineer
+Control Specialist	Business Control Analyst
+Quality Control Lead	Quality Lead
+PLC Technician	PLC Maintenance Technician
+Project Coordinator	IT Project Coordinator
+Planner	Production Planner
+Project Leader	Project Lead
+Process Improvement Manager	Process Manager
+Circuit Design Engineer	Design Engineer
+Sheet Metal Engineer	Sheet Metal Mechanic
+Industrial Engineering Technician	Industrial Engineer
+Electrical Controls Programmer	Electrical Apprentice
+RF Optimization Engineer	Radio Frequency Engineer
+Lead Technician	Maintenance Manager
+Scientist	Research Scientist
+Building Engineer	Building Maintenance Worker
+Forensic Structural Engineer	Structural Engineer
+Lead Process Engineer	Process Engineer
+Manufacturing Planner	Manufacturing Supervisor
+Imagery Analyst	Intelligence Analyst
+Biomedical Engineering Technician	Engineering Technician
+Imaging Engineer	Field Service Engineer
+soc17 Accuracy (%): 89.2376681614 (199/223)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc19-categories.txt
+Clinical Trials Assistant	Clinical Trials Manager
+Quality Assurance Analyst	IT Quality Assurance Analyst
+Laboratory Supervisor	Technician Supervisor
+Field Specialist	Field Engineer
+Analytical Technologist	Medical Technologist
+Technical Assistant	Claims Assistant
+Animal Laboratory Technician	Laboratory Technician
+Water Technician	Water and Wastewater Engineer
+Molecular Biology Scientist	Biological Scientist
+Formulation Chemist	Chemist
+Transportation Analyst	Logistics Analyst
+Quality Assurance (QA) Associate	Quality Assurance Engineer
+Research Fellow	Postdoctoral Research Fellow
+Assurance Analyst	Information Assurance Analyst
+soc19 Accuracy (%): 87.6033057851 (106/121)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc21-categories.txt
+Lead Residential Support Staff	Residential Support Staff
+Counselor	Career Counselor
+Career Coach	Job Coach
+Education Specialist	Training and Development Specialist
+Child Care Worker	Child Care Assistant
+Multisystemic Therapy (MST) Therapist	Therapy Technician
+Mental Health Practitioner	Mental Health Technician
+Field Case Manager	Case Manager
+Placement Specialist	Recruiter
+Clinical Social Worker	Licensed Clinical Social Worker (LCSW)
+soc21 Accuracy (%): 93.6416184971 (162/173)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc23-categories.txt
+Regulator and Compliance Attorney	Compliance Attorney
+Project Attorney	Project Manager
+Insurance Defense Counsel	Insurance Defense Attorney
+Employment Law Counsel	Employment Law Paralegal
+Litigation Consultant	Legal Consultant
+Operations Counsel	Operations Analyst
+soc23 Accuracy (%): 94.8387096774 (147/155)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc25-categories.txt
+Heating, Ventilating and Air Conditioning (HVAC) Instructor	HVAC Refrigeration Technician
+Education Coordinator	Education Specialist
+Program Director	Program Manager
+Flight Simulator Instructor	Flight Instructor
+Education Specialist	Training and Development Specialist
+Licensed Practical Nurse (LPN) Instructor	Licensed Practical Nurse (LPN)
+Program Coordinator	Case Management Supervisor
+Certified Nursing Assistant (CNA) Instructor	Certified Nursing Assistant (CNA)
+Commercial Driver's License (CDL) Instructor	Commercial Driver's License (CDL) Driver
+Clinical Educator	Nurse Educator
+Classroom Aide	Teacher Aide
+Department Chair of Nursing	Department Chair
+Instructional Aide	Teacher Aide
+Licensed Practical Nursing (LPN) Faculty	Licensed Practical Nurse (LPN)
+Research Assistant (RA)	Research Assistant
+Learning Consultant	Training and Development Specialist
+Research Fellow	Postdoctoral Research Fellow
+soc25 Accuracy (%): 85.2941176471 (145/170)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc27-categories.txt
+Program Director	Program Manager
+Computer Aided Design (CAD) Designer	Design Engineer
+Content Specialist	Web Specialist
+Marketing Assistant	Administrative Assistant
+Brand Advocate	Brand Ambassador
+Director of Marketing	Marketing Director
+Marketing Representative	Sales Representative
+User Interface (UI) Designer	User Interface Developer
+Communications Director	Director of Communications
+Program Coordinator	Case Management Supervisor
+Web Producer	Web Manager
+Account Specialist	Collections Specialist
+Technical Designer	Design Engineer
+Proofreader	Administrative Assistant
+Media Relations Manager	Relationship Manager
+Media Consultant	Outside Sales Media Consultant
+Visual Manager	Sales Manager
+Program Supervisor	Clinical Supervisor
+soc27 Accuracy (%): 84.8484848485 (140/165)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc29-categories.txt
+Clinical Nurse	Nurse Manager
+Surgical Unit Nurse	Unit Manager
+Rehabilitation Coordinator	Volunteer Coordinator
+Unit Manager Nurse	Unit Manager
+Medical Technician	Emergency Medical Technician (EMT)
+Inpatient Services Nurse	Nurse Assistant
+Travel Nurse - Cardiac Catheterization Laboratory	Cardiac Catheterization Laboratory Nurse
+Cardiovascular Operating Room (CVOR) Nurse	Room Manager
+Case Management Coordinator	Case Management Specialist
+Quality Improvement Nurse	Director of Quality Improvement
+Surgical Services Manager	Clinical Services Manager
+Patient Care Manager	Director of Patient Care
+Medical Program Coordinator	Case Management Supervisor
+Resident Care Manager	Resident Manager
+Case Manager Supervisor	Case Management Supervisor
+Therapy Technician	Physical Therapy Technician
+Health Coach	Job Coach
+Laboratory Supervisor	Technician Supervisor
+Director of Case Management	Division Director
+Clinical Trainer	Systems Trainer
+Technician Assistant	Maintenance Assistant
+Clinical Analyst	Clinical Systems Analyst
+Registrar	Medical Supervisor
+Health and Wellness Director	Director of Career Services
+Clinical Director	Clinical Manager
+Minimum Data Set (MDS) Nurse	Minimum Data Set (MDS) Coordinator
+Nursery Nurse	Nurse Manager
+Health Care Coordinator	Health Supervisor
+Obstetrics Nurse	Nurse Manager
+Medical-Surgical Nurse	Travel Nurse - Medical/Surgical
+On-site Nurse	Clinical Nurse Liaison
+Emergency Room (ER) Technician	Operating Room Assistant
+Registered Respiratory Therapist	Respiratory Therapist
+Clinical Reviewer	Clinical Supervisor
+Certified Nursing Midwife	Certified Nursing Assistant (CNA)
+Unit Supervisor	Maintenance Supervisor
+Imaging Assistant	Clinical Assistant
+Nurse Manager Intensive Care Unit (ICU)	Intensive Care Unit (ICU) Nurse
+Imaging Engineer	Field Service Engineer
+soc29 Accuracy (%): 81.3868613139 (223/274)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc31-categories.txt
+Environmental Services Aide	Environment Services Technician
+Instrument Technician	Instrumentation Technician
+Operating Room Assistant	Room Manager
+Environmental Services Assistant	Environmental Services Director
+Registered Dental Assistant	Dental Assistant
+Rehabilitation Assistant	Activities Assistant
+Licensed Physical Therapist Assistant (LPTA)	Physical Therapist Assistant (PTA)
+Certified Home Health Aide	Home Health Aide (HHA)
+Pathology Assistant	Histology Technician
+Nutrition Assistant	Nutrition Services Worker
+soc31 Accuracy (%): 86.7469879518 (72/83)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc33-categories.txt
+Security Specialist	Information Security Specialist
+Security Dispatcher	Dispatcher
+Assistant Shift Supervisor	Assistant Supervisor
+Security Analyst	Information Security Analyst
+Investigative Analyst	Research Investigator
+Protection Manager	Risk Manager
+soc33 Accuracy (%): 90.2173913043 (83/92)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc35-categories.txt
+Dish Washer	Washer
+Shift Manager	Sales Manager
+Restaurant Shift Supervisor	Restaurant Supervisor
+Food Production Manager	Production Manager
+Room Supervisor	Tool Maker
+Assistant Shift Manager	Speciality Coffee Assistant Manager
+Lead Cook	Cook
+Food Clerk	Grocery Clerk
+soc35 Accuracy (%): 89.6907216495 (87/97)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc37-categories.txt
+Environment Services Technician	Maintenance Technician
+Environmental Services Director	Environmental Services Manager
+Maintenance Supervisor	Maintenance Manager
+soc37 Accuracy (%): 95.1612903226 (59/62)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc39-categories.txt
+Activities Director	Activity Director
+Service Porter	Porter
+Recreation Specialist	Activity Director
+Recreation Director	Activity Director
+Housekeeping Aide	Housekeeper
+Life Skills Trainer	Life Skills Worker
+Slot Technician Supervisor	Technician Supervisor
+Utility Aide	Food Service Assistant
+Valet	Valet Attendant
+Personal Care Coordinator	Home Care Coordinator
+Dog Groomer	Groomer
+Fitness Attendant	Room Attendant
+Wellness Coordinator	Project Coordinator
+Hair Stylist Assistant	Hair Stylist
+Caretaker	Property Caretaker
+soc39 Accuracy (%): 80.3921568627 (82/102)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc41-categories.txt
+Sales Associate	Retail Sales Associate
+Store Manager	Sales Manager
+Field Sales Manager	Sales Manager
+Technical Sales Representative	Sales Representative
+Store Supervisor	Sales Supervisor
+Counter Sales Representative	Sales Representative
+Private Banker	Commercial Banker
+Leasing Consultant	Leasing Manager
+Universal Banker	Bank Teller
+B2B Sales Consultant	B2B Sales Representative
+Banking Sales Representative	Sales Representative
+Client Associate	Client Service Associate
+Mortgage Sales Assistant	Mortgage Assistant
+Call Center Sales Representative	Sales Representative
+Product Sales Specialist	Production Representative
+Technical Services Representative	Technical Services Associate
+Sales Planner	Demand Manager
+Retail Supervisor	Food Service Supervisor
+Merchandising Assistant	Research Assistant
+Merchandising Representative	Field Merchandising Representative
+Shop Manager	Fabricator
+Program Supervisor	Clinical Supervisor
+Food Clerk	Grocery Clerk
+soc41 Accuracy (%): 82.7586206897 (120/145)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc43-categories.txt
+Automotive Sales Service Advisor	Sales Supervisor
+Warehouse Associate	Warehouse Worker
+Accounts Receivable Specialist	Billing Specialist
+Human Resources (HR) Coordinator	Human Resources (HR) Generalist
+Warehouse Clerk	Warehouse Worker
+Claims Representative	Compensation Analyst
+Mortgage Specialist	Mortgage Underwriter
+Human Resources (HR) Representative	Human Resources (HR) Generalist
+Loan Documentation Specialist	Documentation Specialist
+Claims Specialist	Insurance Claims Specialist
+Medical Collector	Collector
+Admissions Coordinator	Admissions Advisor
+Insurance Specialist	Insurance Claims Specialist
+Executive Administrative Assistant	Administrative Assistant
+Purchasing Assistant	Senior Buyer
+Medical Office Assistant	Office Assistant
+Office Associate	Retail Sales Associate
+Client Representative	Marketing Representative
+Records Clerk	Medical Records Clerk
+Specialist Assistant	Activities Assistant
+Review Coordinator	Review Nurse
+Procurement Assistant	Procurement Analyst
+Customer Service Technician	Service Technician
+Collections Analyst	Credit Collections Analyst
+Access Coordinator	Volunteer Coordinator
+Project Scheduler	Construction Scheduler
+Medical Representative	Medical Assistant
+Distribution Technician	Pipeline Technician
+Client Service Officer	Client Service Specialist
+Billing Accountant	Accountant
+Audit Supervisor	Auditor
+Account Supervisor	Program Supervisor
+Production Warehouse	Production Assembler
+soc43 Accuracy (%): 88.6287625418 (265/299)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc45-categories.txt
+Cable Puller	Maintenance Manager
+Farm Equipment Operator	Equipment Operator
+Farm Manager	Operations Manager
+soc45 Accuracy (%): 75.5555555556 (34/45)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc47-categories.txt
+Construction Project Coordinator	Construction Coordinator
+Finish Carpenter	Carpenter
+Master Plumber	Plumber
+Framing Carpenter	Carpenter
+Form Carpenter	Carpenter
+Commercial Carpenter	Carpenter
+Field Supervisor	Maintenance Manager
+Carpenter Helper	Carpenter
+Lead Carpenter	Carpenter
+Crew Leader	Maintenance Technician
+Rough Carpenter	Carpenter
+Installation Manager	Maintenance Manager
+Solar Panel Installer	Solar Photovoltaic (PV) Installer
+General Foreman	Foreman
+Construction Engineer and Inspection (CEI) Inspector	Construction Engineer
+Instrument Fitter	Tube Bender
+Facilities Electrician	Maintenance Electrician
+Jack Operator	Forklift Operator
+Water Proofer	Water and Wastewater Engineer
+Electrical Maintenance Technician	Manufacturing Maintenance Technician
+Electrical Inspector	Quality Inspector
+Air Conditioning (AC) Electrician	Maintenance Mechanic
+Heating, Ventilation, and Air Conditioning (HVAC) Duct Installer	HVAC Refrigeration Technician
+Drywall Carpenter	Carpenter
+Carpenter Foreman	Carpenter
+Carpenter Assembler	Carpenter
+Lead Installer	Maintenance Manager
+Journeyman Carpenter	Carpenter
+Maintenance Electrician	Electrician
+Well Test Operator	Senior Test Engineer
+Project Supervisor	Quality Supervisor
+Maintenance Carpenter	Carpenter
+Tradesman	Maintenance Mechanic
+soc47 Accuracy (%): 79.4117647059 (135/170)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc49-categories.txt
+Field Service Technician	Maintenance Technician
+Helicopter Mechanic	Maintenance Mechanic
+Structures Mechanic	Maintenance Mechanic
+Maintenance Electrician	Electrician
+Equipment Mechanic	Maintenance Mechanic
+Aircraft Mechanic	Maintenance Mechanic
+Trailer Mechanic	Maintenance Mechanic
+Maintenance Machinist	CNC Machinist
+Field Service Technician	Maintenance Technician
+Electronic Technician	Electronics Technician
+Airframe Powerplant Technician	Avionics Technician
+HVAC Journeyman	HVAC Refrigeration Technician
+Field Service Engineer	Field Engineer
+Instrumentation and Electrical Technician	Electrical Technician
+Wireless Technician	Network Technician
+Shop Helper	Maintenance Assistant
+Assembly Mechanic	Mechanical Assembler
+Trades Helper	Maintenance Assistant
+Refrigeration Technician	HVAC Refrigeration Technician
+Service Technician	General Service Technician
+Compressor Mechanic	Maintenance Mechanic
+Plant Operations Technician	Plant Operator
+Bus Technician	School Bus Technician
+Shop Manager	Fabricator
+soc49 Accuracy (%): 83.2298136646 (134/161)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc51-categories.txt
+Manual Machinist	CNC Machinist
+Quality Assurance Inspector	Quality Inspector
+Maintenance Supervisor	Maintenance Manager
+Quality Technician	Quality Assurance Engineer
+Tool and Die Technician	Tool Maker
+Maintenance Machinist	CNC Machinist
+Shop Foreman	Maintenance Foreman
+Production Specialist	Control Specialist
+Tool and Die Machinist	CNC Machinist
+Certified Welding Inspector	Welder
+Machinist Mate	CNC Machinist
+Lab Technician	Laboratory Technician
+Operations Coordinator	Recruiter
+Conventional Machinist	CNC Machinist
+Manufacturing Lead	Manufacturing Team Lead
+Quality Specialist	Quality Control Specialist
+Tooling Manager	Tool Maker
+Quality Lead	Quality Control Lead
+Warehouse Assembler	Packer
+Machine Technician	Maintenance Machinist
+Operator Assistant	Operations Technician
+Machine Inspector	NDT Inspector
+Operations Processor	Mortgage Processor
+soc51 Accuracy (%): 86.5591397849 (161/186)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc53-categories.txt
+Driver Helper	Delivery Driver
+Laborer	General Laborer
+Distribution Center Supervisor	Distribution Supervisor
+Distribution Center Manager	Distribution Manager
+Clamp Forklift Operator	Forklift Operator
+Warehouse Production Operator	Production Worker
+Assistant Warehouse Manager	Warehouse Manager
+Pipeline Technician	Field Technician
+Production Warehouse	Production Assembler
+Controller	Assistant Controller
+soc53 Accuracy (%): 89.7435897436 (105/117)
+loading files from /Users/tkang/github/CaroteneClassifier/carotene-classifier/src/src/main/resources/datasets/cascadeindex/soc55-categories.txt
+Center Standards and Incentives Officer	Chief Financial Officer (CFO)
+Radar Technician	Electronics Technician
+Weapons Technician	Maintenance Technician
+soc55 Accuracy (%): 76.1904761905 (16/21)
+Total Accuracy (%): 85.5626850938 (3467/4052)
