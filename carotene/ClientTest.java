@@ -15,15 +15,21 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Set;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.xpath.XPathExpressionException;
+
+import org.xml.sax.SAXException;
+
 public class ClientTest {
 
 	public static void main(String[] args) {
-		System.out.println("START ClientTest");
+		System.out.println("Starting ClientTest ...");
 		String caroteneURL = "http://localhost:8080/CaroteneClassifier/gettitle";
 		//String caroteneURL = "http://ec2-184-73-68-184.compute-1.amazonaws.com:8080/CaroteneClassifier/gettitle";
 		if (args.length < 2)
@@ -31,6 +37,10 @@ public class ClientTest {
 		String inputFile = args[0];
 		String outputFile = args[1];
 		String qinlongFile = "output250_qinlong.txt";
+		OnetHelper onetHelper = new OnetHelper();
+		Integer[] onetsocs;
+		//Set<Integer> onetsocs;
+
 		PrintWriter writer;
 		/*
 		 * String[] titles = { "Sales Representative",
@@ -97,6 +107,8 @@ public class ClientTest {
 						confidence = score;
 					}
 				}
+				onetsocs = onetHelper.getONETCodes(title);
+				//onetsocs = onetHelper.getONETCodes(title, description);
 				if (caroteneTitle.equalsIgnoreCase(title)) {
 					majorMatch = 1;
 					matchCount ++;
@@ -113,6 +125,7 @@ public class ClientTest {
 				*/
 				writer.println(version + "\t" + title + "\t" + caroteneID + "\t"
 						+ caroteneTitle + "\t" + confidence + "\t" + majorMatch
+						+ "\t" + onetsocs  
 						+ "\t" + qinlong[0] + "\t" + qinlong[1]
 						+ "\t" + qinlong[2] + "\t" + qinlong[3]
 						+ "\t" + description);
@@ -146,7 +159,14 @@ public class ClientTest {
 			e.printStackTrace();
 		} catch (ParseException e) {
 			e.printStackTrace();
+		} catch (XPathExpressionException e) {
+			e.printStackTrace();
+		} catch (ParserConfigurationException e) {
+			e.printStackTrace();
+		} catch (SAXException e) {
+			e.printStackTrace();
 		}
+
 		System.out.println("END ClientTest");
 	}
 

@@ -6,7 +6,7 @@ dir=.
 
 # compile
 rm $dir/*.class
-javac -cp $jsonjar ClientTest.java JobQuery.java
+javac -cp $jsonjar ClientTest.java JobQuery.java OnetHelper.java
 #javac -cp $jsonjar $dir/*.java
 
 # run
