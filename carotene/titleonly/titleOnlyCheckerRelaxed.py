@@ -30,8 +30,6 @@ def main():
 					result["filename"] = filename
 					result["orig_title"] = title
 					result["orig_soc"] = orig_soc
-					result["soc_match"] = 0
-					result["glabel_match"] = 0
 					result["final_match"] = 0
 					result["carotene_soc"] = ""
 					if caroteneTitle != None:
@@ -40,19 +38,12 @@ def main():
 						result["id"] = caroteneTitle["id"]
 						result["carotene_soc"] = caroteneTitle["id"].split('.')[0]
 				#		print result["carotene_soc"]
-						if orig_soc == result["carotene_soc"]:
-							result["soc_match"] = 1
-							soc_matches += 1
-							soc_total_matches += 1
 						if caroteneTitle["title"].lower() == title.lower():
-							result["glabel_match"] = 1
-						if result["soc_match"] == 1 and result["glabel_match"] == 1:
 							result["final_match"] = 1
 							corrects += 1
 							soc_corrects += 1
 						else:
 							print title + "\t" + caroteneTitle["title"]
-						#	print title + " vs. " + caroteneTitle["title"]
 					else:
 						result["carotene_title"] = "unknown"
 						result["confidence"] = "-1"
@@ -60,8 +51,8 @@ def main():
 					results.append(result)
 					lineno += 1
 					soc_lineno += 1
-				print "soc" + orig_soc + " Accuracy (%): " + str(100.0*soc_corrects/soc_lineno) + " (" + str(soc_corrects) + "/" + str(soc_lineno) + ")\t" + str(100.0*soc_matches/soc_lineno) + " (" + str(soc_matches) + "/" + str(soc_lineno) + ")"
-	print "Total Accuracy (%): " + str(100.0*corrects/lineno) + " (" + str(corrects) + "/" + str(lineno) + ")\t" + str(100.0*soc_total_matches/lineno) + " (" + str(soc_total_matches) + "/" + str(lineno) + ")"
+				print "soc" + orig_soc + " Accuracy (%): " + str(100.0*soc_corrects/soc_lineno) + " (" + str(soc_corrects) + "/" + str(soc_lineno) + ")" 
+	print "Total Accuracy (%): " + str(100.0*corrects/lineno) + " (" + str(corrects) + "/" + str(lineno) + ")" 
 	writeOutput(results)
 
 
@@ -123,9 +114,9 @@ def writeOutput(results):
 	out = open('out.csv', "w")
 
 	#out.write("%s,%s,%s,%s,%s\n" % ("File Name", "Original Title", "Carotene ID", "Carotene Title", "Confidence"))
-	out.write("%s,%s,%s,%s,%s,%s,%s,%s\n" % ("Original SOC", "Original Title", "Carotene ID", "Carotene Title", "Confidence", "SOC Match", "gLabel Match", "Final Match"))
+	out.write("%s,%s,%s,%s,%s,%s\n" % ("Original SOC", "Original Title", "Carotene ID", "Carotene Title", "Confidence", "Final Match"))
 	for r in results:
-		out.write("%s,\"%s\",%s,\"%s\",%s,%s,%s,%s\n" % (r["orig_soc"], r["orig_title"], r["id"], r["carotene_title"], r["confidence"], r["soc_match"], r["glabel_match"], r["final_match"]))
+		out.write("%s,\"%s\",%s,\"%s\",%s,%s\n" % (r["orig_soc"], r["orig_title"], r["id"], r["carotene_title"], r["confidence"], r["final_match"]))
 		#out.write("%s,\"%s\",%s,\"%s\",%s\n" % (r["filename"], r["orig_title"], r["id"], r["carotene_title"], r["confidence"]))
 
 	out.close()
