@@ -38,8 +38,9 @@ public class ClientTest {
 		String outputFile = args[1];
 		String qinlongFile = "output250_qinlong.txt";
 		OnetHelper onetHelper = new OnetHelper();
-		Integer[] onetsocs;
+		//Integer[] onetsocs;
 		//Set<Integer> onetsocs;
+		ArrayList<Integer> onetsocs;
 
 		PrintWriter writer;
 		/*
@@ -107,8 +108,9 @@ public class ClientTest {
 						confidence = score;
 					}
 				}
-				onetsocs = onetHelper.getONETCodes(title);
-				//onetsocs = onetHelper.getONETCodes(title, description);
+				//onetsocs = onetHelper.getONETCodes(title);
+				onetsocs = onetHelper.getONETCodes(title, description);
+				//onetsocs = onetHelper.getONETCodesWithGetRequest(title, description);
 				if (caroteneTitle.equalsIgnoreCase(title)) {
 					majorMatch = 1;
 					matchCount ++;
@@ -164,6 +166,8 @@ public class ClientTest {
 		} catch (ParserConfigurationException e) {
 			e.printStackTrace();
 		} catch (SAXException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 

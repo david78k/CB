@@ -1,4 +1,5 @@
 jsonjar=json-simple-1.1.jar
+dom4jar=dom4j-1.6.1.jar
 input=input250.txt
 output=output250.txt
 #dir=CaroteneClassifier
