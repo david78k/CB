@@ -21,7 +21,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import org.apache.commons.lang3.StringEscapeUtils;
+//import org.apache.commons.lang3.StringEscapeUtils;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.xpath.XPathExpressionException;
@@ -124,9 +124,9 @@ public class ClientTest {
 						matchCount ++;
 				}
 				//onetsocs = onetHelper.getONETCodes(title);
-				onetsocs = onetHelper.getONETCodes(title, StringEscapeUtils.escapeJava(description));
+				//onetsocs = onetHelper.getONETCodes(title, StringEscapeUtils.escapeJava(description));
 				//onetsocs = onetHelper.getONETCodes(title, StringEscapeUtils.escapeXml11(description));
-				//onetsocs = onetHelper.getONETCodes(title, description);
+				onetsocs = onetHelper.getONETCodes(title, description);
 				//onetsocs = onetHelper.getONETCodesWithGetRequest(title, description);
 				onetMatch = 0;
 				onetInMatch = 0;

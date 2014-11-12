@@ -9,11 +9,13 @@ dir=.
 
 # compile
 rm $dir/*.class
-javac -cp $jsonjar:$commonsjar ClientTest.java JobQuery.java OnetHelper.java
+javac -cp $jsonjar ClientTest.java JobQuery.java OnetHelper.java
+#javac -cp $jsonjar:$commonsjar ClientTest.java JobQuery.java OnetHelper.java
 #javac -cp $jsonjar $dir/*.java
 
 # run
 #cd $dir
-java -cp $jsonjar:$commonsjar:. ClientTest $input $output
+java -cp $jsonjar:. ClientTest $input $output
+#java -cp $jsonjar:$commonsjar:. ClientTest $input $output
 #java -cp $jsonjar:. CaroteneClassifier/ClientTest $input $output
 #java -cp $jsonjar:. $dir/ClientTest $input $output

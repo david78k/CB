@@ -28,7 +28,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import org.apache.commons.lang3.StringEscapeUtils;
+//import org.apache.commons.lang3.StringEscapeUtils;
 
 public class OnetHelper {
 	/*
@@ -46,7 +46,7 @@ public class OnetHelper {
 	public static int ONET_NOTSURE = 0;
 
 	public static void main(String[] args) throws ParserConfigurationException,
-			SAXException, IOException, XPathExpressionException {
+		SAXException, IOException, XPathExpressionException {
 	/*	BufferedReader reader = new BufferedReader(new FileReader(new File(
 				"datasets/input-categories.txt")));
 		String s = "";
