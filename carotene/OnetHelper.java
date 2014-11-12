@@ -28,6 +28,8 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import org.apache.commons.lang3.StringEscapeUtils;
+
 public class OnetHelper {
 	/*
 	 * http://api.careerbuilder.com/v1/onettagger/retrieveonets.xml?DeveloperKey=
@@ -37,7 +39,7 @@ public class OnetHelper {
 	private static final String url = "http://api.careerbuilder.com/v1/onettagger/retrieveonets.xml";
 	private static final String devkey = "WDHS2YS6DRP48VK5L71C";
 	private String codetype = "ONet15";
-	private int scorefloor = 50;
+	private int scorefloor = 75;
 
 	public static int ONET_AGREE = 1;
 	public static int ONET_DISAGREE = 2;
@@ -108,6 +110,7 @@ public class OnetHelper {
 		factory.setNamespaceAware(true);
 		DocumentBuilder builder = factory.newDocumentBuilder();
 
+		//Document doc = builder.parse(new ByteArrayInputStream(StringEscapeUtils.escapeXml11(xml).getBytes()));
 		Document doc = builder.parse(new ByteArrayInputStream(xml.getBytes()));
 		
 		NodeList nodeList= doc.getElementsByTagName("ONetCode");
@@ -141,7 +144,7 @@ public class OnetHelper {
 			String encodedTitle = URLEncoder.encode(title, "UTF-8");
 			String encodedDescription = URLEncoder.encode(description, "UTF-8");
 			data = toXML(encodedTitle, encodedDescription);
-			System.out.println(urlString + "\n" + data);
+			//System.out.println(urlString + "\n" + data);
 
 			URL url = new URL(urlString);
 
@@ -160,7 +163,7 @@ public class OnetHelper {
 
 			String line = "";
 			while ((line = br.readLine()) != null) {
-				System.out.println(line);
+//				System.out.println(line);
 				buffer.append(line);
 			}
 
@@ -176,11 +179,14 @@ public class OnetHelper {
 			e.printStackTrace();
 		} 
 
+		String response = buffer.toString();
+		//System.out.println(title + "\n" + response);
 
 		ArrayList<Integer> codes = null;
 		try {
-			codes = parseXMLToIntArray(buffer.toString());
+			codes = parseXMLToIntArray(response);
 		} catch (Exception e) {
+			System.out.println(title + "\n" + response);
 			e.printStackTrace();
 		}
 

@@ -21,6 +21,8 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import org.apache.commons.lang3.StringEscapeUtils;
+
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.xpath.XPathExpressionException;
 
@@ -41,6 +43,11 @@ public class ClientTest {
 		//Integer[] onetsocs;
 		//Set<Integer> onetsocs;
 		ArrayList<Integer> onetsocs;
+		int onetMatch = 0;
+		int onetCount = 0;
+		int onetInMatch = 0;
+		int onetInCount = 0;
+		int onetInvalids = 0;
 
 		PrintWriter writer;
 		/*
@@ -56,7 +63,7 @@ public class ClientTest {
 			ArrayList<JobQuery> jobList = getJobsFromJSON(inputFile);
 			int counter = jobList.size();
 			writer = new PrintWriter(outputFile, "UTF-8");
-			writer.println("File Name\tOriginal Title\tCarotene ID\tCarotene Title\tConfidence\tFirst Title Match\tCarotene Title by Qinlong\tFirst Title Match by Qinlong\tCarotene ID by Qinlong\tConfidence by Qinlong\tDescription");
+			writer.println("File Name\tOriginal Title\tCarotene ID\tCarotene Title\tConfidence\tFirst Title Match\tONet SOC\tONet match\tCarotene Title by Qinlong\tFirst Title Match by Qinlong\tCarotene ID by Qinlong\tConfidence by Qinlong\tDescription");
 
 			long startTime = System.nanoTime();
 
@@ -108,9 +115,6 @@ public class ClientTest {
 						confidence = score;
 					}
 				}
-				//onetsocs = onetHelper.getONETCodes(title);
-				onetsocs = onetHelper.getONETCodes(title, description);
-				//onetsocs = onetHelper.getONETCodesWithGetRequest(title, description);
 				if (caroteneTitle.equalsIgnoreCase(title)) {
 					majorMatch = 1;
 					matchCount ++;
@@ -118,6 +122,25 @@ public class ClientTest {
 					majorMatch = Integer.parseInt(qinlong[1]);
 					if (majorMatch == 1)
 						matchCount ++;
+				}
+				//onetsocs = onetHelper.getONETCodes(title);
+				onetsocs = onetHelper.getONETCodes(title, StringEscapeUtils.escapeJava(description));
+				//onetsocs = onetHelper.getONETCodes(title, StringEscapeUtils.escapeXml11(description));
+				//onetsocs = onetHelper.getONETCodes(title, description);
+				//onetsocs = onetHelper.getONETCodesWithGetRequest(title, description);
+				onetMatch = 0;
+				onetInMatch = 0;
+				if (onetsocs == null) {
+					onetInvalids ++;
+				} else if (onetsocs.size() > 0) { 
+					if(onetsocs.contains(new Integer((int)(Double.parseDouble(caroteneID))))){
+						onetInMatch = 1;
+						onetInCount ++;
+						if(onetsocs.get(0).intValue() == (int)(Double.parseDouble(caroteneID))) {
+							onetMatch = 1;
+							onetCount ++;
+						}
+					}
 				}
 				/*
 				System.out.println(version + "\t" + title + "\t" 
@@ -127,7 +150,7 @@ public class ClientTest {
 				*/
 				writer.println(version + "\t" + title + "\t" + caroteneID + "\t"
 						+ caroteneTitle + "\t" + confidence + "\t" + majorMatch
-						+ "\t" + onetsocs  
+						+ "\t" + onetsocs + "\t" + onetMatch + "\t" + onetInMatch
 						+ "\t" + qinlong[0] + "\t" + qinlong[1]
 						+ "\t" + qinlong[2] + "\t" + qinlong[3]
 						+ "\t" + description);
@@ -147,7 +170,21 @@ public class ClientTest {
 			String accustr = "Accuracy (%): " + accuracy + " (" + matchCount + "/" + totalCounts + ")";
 			writer.println(accustr);
 			System.out.println(accustr);
+
 			accustr = "Accuracy (%) by Qinlong: 78.31 (195/249)";
+			writer.println(accustr);
+			System.out.println(accustr);
+
+			int valids = totalCounts - onetInvalids;
+			accuracy = 100.0 * onetCount / valids;
+			accustr = "Accuracy (%) to ONetSOC: " + accuracy + " (" + onetCount + "/" + valids
+					 + ", Invalids: " + onetInvalids + ")";
+			writer.println(accustr);
+			System.out.println(accustr);
+
+			accuracy = 100.0 * onetInCount / valids;
+			accustr = "Accuracy (%) in ONetSOCs: " + accuracy + " (" + onetInCount + "/" + valids
+					 + ", Invalids: " + onetInvalids + ")";
 			writer.println(accustr);
 			System.out.println(accustr);
 
