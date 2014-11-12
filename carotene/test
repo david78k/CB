@@ -1,15 +1,18 @@
+prefix=run4_ec2_onet_calibration_itbf0.9f
+#prefix=run3_onet_master_itbf0.9f
+#prefix=run2_onet_calibration_itbf0.5f
+input=input250.txt
+output=$prefix.txt
+#dir=CaroteneClassifier
+dir=.
 jardir=jar
 jsonjar=$jardir/json-simple-1.1.jar
 commonsjar=$jardir/commons-lang3-3.3.2.jar
 #dom4jar=dom4j-1.6.1.jar
-input=input250.txt
-output=output250.txt
-#dir=CaroteneClassifier
-dir=.
 
 # compile
 rm $dir/*.class
-javac -cp $jsonjar ClientTest.java JobQuery.java OnetHelper.java
+javac -cp $jsonjar ClientTest.java JobQuery.java ONetCode.java ONetResponse.java OnetHelper.java
 #javac -cp $jsonjar:$commonsjar ClientTest.java JobQuery.java OnetHelper.java
 #javac -cp $jsonjar $dir/*.java
 

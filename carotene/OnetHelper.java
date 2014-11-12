@@ -124,12 +124,41 @@ public class OnetHelper {
 		return ints;
 		//return ints.toArray(new Integer[ints.size()]);
 	}
+
+	private ONetResponse parseXMLToONetResponse(String xml) throws ParserConfigurationException,
+			SAXException, IOException, XPathExpressionException {
+
+		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+		ArrayList<Integer> ints = new ArrayList<Integer>();
+		ONetResponse onet = new ONetResponse();
+
+		factory.setNamespaceAware(true);
+		DocumentBuilder builder = factory.newDocumentBuilder();
+
+		Document doc = builder.parse(new ByteArrayInputStream(xml.getBytes()));
+		
+		NodeList nodeList= doc.getElementsByTagName("ONetCode");
+		for(int i=0; i< nodeList.getLength();i++){
+			Element node = (Element) nodeList.item(i);
+			NodeList nodes=	node.getElementsByTagName("Title");
+			nodes=	node.getElementsByTagName("Code");
+			nodes=	node.getElementsByTagName("Score");
+			String title = (nodes.item(0).getFirstChild().getTextContent().split("-")[0]);
+			String code = (nodes.item(0).getFirstChild().getTextContent().split("-")[0]);
+			int SOCCode = Integer.parseInt(nodes.item(0).getFirstChild().getTextContent().split("-")[0]);
+			int score = Integer.parseInt(nodes.item(0).getFirstChild().getTextContent().split("-")[0]);
+			onet.add(new ONetCode(title, code, score));
+			//ints.add(SOCCode);
+		}
+		return onet;
+	}
  
 	// ONet15, ScoreFloor=75, POST
 	// returns SOC list
 	//public Set<Integer> getONETCodes(String title, String description) throws XPathExpressionException,
 	//public Integer[] getONETCodes(String title, String description) throws XPathExpressionException,
-	public ArrayList<Integer> getONETCodes(String title, String description) throws XPathExpressionException,
+	//public ArrayList<Integer> getONETCodes(String title, String description) throws XPathExpressionException,
+	public ONetResponse getONETCodes(String title, String description) throws XPathExpressionException,
 			ParserConfigurationException, SAXException, IOException {
 		StringBuffer buffer = new StringBuffer();
 		int scorefloor = 75;
@@ -182,9 +211,11 @@ public class OnetHelper {
 		String response = buffer.toString();
 		//System.out.println(title + "\n" + response);
 
-		ArrayList<Integer> codes = null;
+		//ArrayList<Integer> codes = null;
+		ONetResponse codes = null;
 		try {
-			codes = parseXMLToIntArray(response);
+			codes = new ONetResponse(response);
+			//codes = parseXMLToIntArray(response);
 		} catch (Exception e) {
 			System.out.println(title + "\n" + response);
 			e.printStackTrace();
@@ -198,6 +229,7 @@ public class OnetHelper {
 		buff.append("<Request>\n");
 		buff.append("\t<DeveloperKey>" + devkey + "</DeveloperKey>\n");
 		buff.append("\t<ONetCodeType>" + codetype + "</ONetCodeType>\n");
+		buff.append("\t<ScoreFloor>" + scorefloor + "</ScoreFloor>\n");
 		buff.append("\t<Title>" + title + "</Title>\n");
 		buff.append("\t<Description>" + description + "</Description>\n");
 		buff.append("</Request>\n");

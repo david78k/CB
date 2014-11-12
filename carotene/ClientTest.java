@@ -42,7 +42,8 @@ public class ClientTest {
 		OnetHelper onetHelper = new OnetHelper();
 		//Integer[] onetsocs;
 		//Set<Integer> onetsocs;
-		ArrayList<Integer> onetsocs;
+		//ArrayList<Integer> onetsocs;
+		ONetResponse onets;
 		int onetMatch = 0;
 		int onetCount = 0;
 		int onetInMatch = 0;
@@ -63,7 +64,7 @@ public class ClientTest {
 			ArrayList<JobQuery> jobList = getJobsFromJSON(inputFile);
 			int counter = jobList.size();
 			writer = new PrintWriter(outputFile, "UTF-8");
-			writer.println("File Name\tOriginal Title\tCarotene ID\tCarotene Title\tConfidence\tFirst Title Match\tONet SOC\tONet match\tCarotene Title by Qinlong\tFirst Title Match by Qinlong\tCarotene ID by Qinlong\tConfidence by Qinlong\tDescription");
+			writer.println("File Name\tOriginal Title\tCarotene ID\tCarotene Title\tConfidence\tFirst Title Match\tONet Titles\tONet SOCs\tONet Match\tONet In Match\tCarotene Title by Qinlong\tFirst Title Match by Qinlong\tCarotene ID by Qinlong\tConfidence by Qinlong\tDescription");
 
 			long startTime = System.nanoTime();
 
@@ -74,8 +75,7 @@ public class ClientTest {
 			Iterator qiter = qinlongList.iterator();
 			String[] qinlong = (String[])qiter.next();				
 			String title_qinlong = qinlong[0];
-			System.out.println(title_qinlong);
-			//for (String versionTitle : titleList) {
+		//	System.out.println(title_qinlong);
 			for(JobQuery job : jobList) {
 				String caroteneID = null;
 				String caroteneTitle = null;
@@ -124,33 +124,27 @@ public class ClientTest {
 						matchCount ++;
 				}
 				//onetsocs = onetHelper.getONETCodes(title);
-				//onetsocs = onetHelper.getONETCodes(title, StringEscapeUtils.escapeJava(description));
-				//onetsocs = onetHelper.getONETCodes(title, StringEscapeUtils.escapeXml11(description));
-				onetsocs = onetHelper.getONETCodes(title, description);
+				onets = onetHelper.getONETCodes(title, description);
 				//onetsocs = onetHelper.getONETCodesWithGetRequest(title, description);
 				onetMatch = 0;
 				onetInMatch = 0;
-				if (onetsocs == null) {
+				if (onets == null) {
 					onetInvalids ++;
-				} else if (onetsocs.size() > 0) { 
-					if(onetsocs.contains(new Integer((int)(Double.parseDouble(caroteneID))))){
+				} else if (onets.size() > 0) { 
+					if(onets.contains(new Integer((int)(Double.parseDouble(caroteneID))))){
 						onetInMatch = 1;
 						onetInCount ++;
-						if(onetsocs.get(0).intValue() == (int)(Double.parseDouble(caroteneID))) {
+						//if(onets.get(0).intValue() == (int)(Double.parseDouble(caroteneID))) {
+						if(onets.isFirstSOC(caroteneID)) {
 							onetMatch = 1;
 							onetCount ++;
 						}
 					}
 				}
-				/*
-				System.out.println(version + "\t" + title + "\t" 
-						+ caroteneTitle + "\t" + majorMatch
-						+ "\t" + qinlong[0] + "\t" + qinlong[1]
-						);
-				*/
 				writer.println(version + "\t" + title + "\t" + caroteneID + "\t"
 						+ caroteneTitle + "\t" + confidence + "\t" + majorMatch
-						+ "\t" + onetsocs + "\t" + onetMatch + "\t" + onetInMatch
+						+ "\t" + (onets == null?onets:onets.titles) 
+						+ "\t" + (onets == null?onets:onets.socs) + "\t" + onetMatch + "\t" + onetInMatch
 						+ "\t" + qinlong[0] + "\t" + qinlong[1]
 						+ "\t" + qinlong[2] + "\t" + qinlong[3]
 						+ "\t" + description);
