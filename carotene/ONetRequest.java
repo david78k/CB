@@ -21,7 +21,7 @@ public class ONetRequest {
 	private static final String url = "http://api.careerbuilder.com/v1/onettagger/retrieveonets.xml";
 	private static String devkey = "WDHS2YS6DRP48VK5L71C";
 	private static String codetype = "ONet15";
-	private static String scorefloor = 75;
+	private static String scorefloor = 50;
 	private String filename;
 
 	public static void main(String[] args) {

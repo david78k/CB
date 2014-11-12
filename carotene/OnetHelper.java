@@ -39,7 +39,7 @@ public class OnetHelper {
 	private static final String url = "http://api.careerbuilder.com/v1/onettagger/retrieveonets.xml";
 	private static final String devkey = "WDHS2YS6DRP48VK5L71C";
 	private String codetype = "ONet15";
-	private int scorefloor = 75;
+	private int scorefloor = 50;
 
 	public static int ONET_AGREE = 1;
 	public static int ONET_DISAGREE = 2;
