@@ -67,6 +67,15 @@ public class ONetResponse {
 		return socs.contains(new Integer(soc));	
 	}
 
+	public ArrayList<Integer> getSOCListInOrderedSet() {
+		ArrayList<Integer> set = new ArrayList<Integer>();
+		for(Integer soc: socs) {
+			if(!set.contains(soc))
+				set.add(soc);	
+		}	
+		return set;
+	}
+
 	public void add(ONetCode code) {
 		codes.add(code);
 		titles.add(code.getTitle());

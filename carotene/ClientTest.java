@@ -144,7 +144,8 @@ public class ClientTest {
 				writer.println(version + "\t" + title + "\t" + caroteneID + "\t"
 						+ caroteneTitle + "\t" + confidence + "\t" + majorMatch
 						+ "\t" + (onets == null?onets:onets.titles) 
-						+ "\t" + (onets == null?onets:onets.socs) + "\t" + onetMatch + "\t" + onetInMatch
+						+ "\t" + (onets == null?onets:onets.getSOCListInOrderedSet()) + "\t" + onetMatch + "\t" + onetInMatch
+						//+ "\t" + (onets == null?onets:onets.socs) + "\t" + onetMatch + "\t" + onetInMatch
 						+ "\t" + qinlong[0] + "\t" + qinlong[1]
 						+ "\t" + qinlong[2] + "\t" + qinlong[3]
 						+ "\t" + description);
