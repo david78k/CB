@@ -12,3 +12,5 @@ ONet
   This class wraps the data structure of XML ONet response
 - ONetCode.java is called by ONetResponse.java
   This class is a basic element unit for ONet code XML response.
+
+ClicentTestBasic.java: onet test without onet soc match
