@@ -13,4 +13,4 @@ ONet
 - ONetCode.java is called by ONetResponse.java
   This class is a basic element unit for ONet code XML response.
 
-ClicentTestBasic.java: onet test without onet soc match
+ClicentTestBasic.java: ONet test without onet soc match
