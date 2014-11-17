@@ -3,7 +3,7 @@
 prefix=run11_ec2_onet_soc_match_qtbf4f_itbf0.9f_scorefloor50
 #prefix=run3_onet_master_itbf0.9f
 #prefix=run2_onet_calibration_itbf0.5f
-input=jobs250_ONETs-EDITED.csv
+input=jobs250_ONETs-EDITED.txt
 #input=input250.txt
 output=$prefix.txt
 #dir=CaroteneClassifier
@@ -15,7 +15,7 @@ commonsjar=$jardir/commons-lang3-3.3.2.jar
 
 # compile
 rm $dir/*.class
-javac -cp $jsonjar ClientTest.java JobQuery.java ONetCode.java ONetResponse.java OnetHelper.java
+javac -cp $jsonjar ClientTest.java JobQuery.java ONetCode.java ONetResponse.java OnetHelper.java Job.java JobList.java
 #javac -cp $jsonjar:$commonsjar ClientTest.java JobQuery.java OnetHelper.java
 #javac -cp $jsonjar $dir/*.java
 

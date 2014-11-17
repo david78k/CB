@@ -1,8 +1,11 @@
 //package CaroteneClassifier;
 //package CaroteneClassifier.CaroteneClassifier;
 
+import java.util.Arrays;
+import java.util.ArrayList;
+
 public class Job {
-	private final String jobid;
+	//private final String jobid;
 	private final String title;
 	private final String description;
 	private final ArrayList<String> titles_expected;
@@ -15,7 +18,7 @@ public class Job {
 	public Job(String row) {
 		String[] fields = row.split("\t");
 		title = fields[1];
-		title_expected = fields[2];
+		titles_expected = toArrayList(fields[2]);
 		//onet_socs = toSocs(fields[4]);
 		description = fields[5];
 	}
@@ -23,6 +26,16 @@ public class Job {
 	public Job(String title, String description) {
 		this.title = title;
 		this.description = description;
+		titles_expected = null;
+	}
+
+	/**
+	* to multiple titles expected
+	*  Director of Strategy OR "Director of Sustainability" 
+	*/
+	public ArrayList<String> toArrayList(String str) {
+		String[] titles = str.toLowerCase().split("or");	
+		return new ArrayList<String>(Arrays.asList(titles));
 	}
 
 	public String getTitle() {
@@ -33,7 +46,11 @@ public class Job {
 		return description;
 	}
 
-	public String setSoc(int soc) {
+	public int getSoc() {
+		return soc;
+	}
+
+	public void setSoc(int soc) {
 		this.soc = soc;
 	}
 

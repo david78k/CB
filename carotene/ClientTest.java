@@ -36,7 +36,11 @@ public class ClientTest {
 			throw new IllegalArgumentException("args.length = " + args.length);
 		String inputFile = args[0];
 		String outputFile = args[1];
-//		String qinlongFile = "output250_qinlong.txt";
+
+		int matchCount = 0;
+		int socMatchCount = 0;
+		int socMatch = 0;
+
 		OnetHelper onetHelper = new OnetHelper();
 		//ArrayList<Integer> onetsocs;
 		ONetResponse onets;
@@ -55,36 +59,33 @@ public class ClientTest {
 		 */
 
 		try {
-			//ArrayList<String[]> qinlongList = getRowsFromCSV(qinlongFile, "\t");
-			ArrayList<JobQuery> jobList = getJobsFromJSON(inputFile);
+			//ArrayList<JobQuery> jobList = getJobsFromJSON(inputFile);
+			JobList jobList = new JobList(inputFile);
+			//ArrayList<Job> jobList = getJobs(inputFile);
 			int counter = jobList.size();
 			writer = new PrintWriter(outputFile, "UTF-8");
-			writer.println("File Name\tOriginal Title\tCarotene ID\tCarotene Title\tConfidence\tFirst Title Match\tONet Titles\tONet SOCs\tONet Match\tONet In Match\tDescription");
+			writer.println("File Name\tOriginal Title\tCarotene ID\tCarotene Title\tConfidence\tSOC Match\tTitle Match\tONet Titles\tONet SOCs\tONet Match\tONet In Match\tDescription");
 
 			long startTime = System.nanoTime();
 
 			JSONParser parser = new JSONParser();
 			final int NUM = 1;
-			int matchCount = 0;
 
-			//Iterator qiter = qinlongList.iterator();
-			//String[] qinlong = (String[])qiter.next();				
-			//String title_qinlong = qinlong[0];
-		//	System.out.println(title_qinlong);
-			for(JobQuery job : jobList) {
+			//for(JobQuery job : jobList) {
+			for(Job job : jobList) {
 				String caroteneID = null;
 				String caroteneTitle = null;
 				Double confidence = 0.0;
 				int titleMatch = 0;
 				int leafMatch = 0;
+				socMatch = 0;
+
 				String title = job.getTitle();
 				String title_expected = "";
 				String description = job.getDescription();
 
 				//System.out.println("title:"+title);
 
-				//qinlong = (String[])qiter.next();				
-				//title_qinlong = qinlong[0];
 				String version = "v2";
 				
 				String response = getResponse(caroteneURL, title, description, version);
@@ -137,7 +138,8 @@ public class ClientTest {
 					}
 				}
 				writer.println(version + "\t" + title + "\t" + caroteneID + "\t"
-						+ caroteneTitle + "\t" + confidence + "\t" + titleMatch
+						+ caroteneTitle + "\t" + confidence + "\t" + socMatch 
+						+ "\t" + titleMatch
 						+ "\t" + (onets == null?onets:onets.titles) 
 						+ "\t" + (onets == null?onets:onets.getSOCListInOrderedSet()) + "\t" + onetMatch + "\t" + onetInMatch
 						//+ "\t" + qinlong[0] + "\t" + qinlong[1]
@@ -160,9 +162,10 @@ public class ClientTest {
 			writer.println(accustr);
 			System.out.println(accustr);
 
-			//accustr = "Accuracy (%) by Qinlong: 78.31 (195/249)";
-			//writer.println(accustr);
-			//System.out.println(accustr);
+			accuracy = 100.0 * socMatchCount / totalCounts;
+			accustr = "Accuracy (%) for SOCs: " + accuracy + " (" + socMatchCount + "/" + totalCounts + ")";
+			writer.println(accustr);
+			System.out.println(accustr);
 
 			int valids = totalCounts - onetInvalids;
 			accuracy = 100.0 * onetCount / valids;
@@ -198,27 +201,6 @@ public class ClientTest {
 		}
 
 		System.out.println("END ClientTest");
-	}
-
-	private static ArrayList<JobQuery> getJobsFromJSON(String inputFile) throws IOException, ParseException {
-		JSONParser parser = new JSONParser();
-		BufferedReader br = new BufferedReader(new FileReader(inputFile));
-		ArrayList<JobQuery> jobs = new ArrayList<JobQuery>();
-		
-		JSONObject obj1 = (JSONObject) parser.parse(br);
-		JSONArray array = (JSONArray) obj1.get("jobs");
-		for (int itr = 0; itr < 250; itr++) {
-			JSONObject obj2 = (JSONObject) array.get(itr);
-			String title = (String) obj2.get("jobTitle");
-			if(title.toLowerCase().contains("https:".toLowerCase())) {
-				//itr--;
-				continue;
-			}
-			//System.out.println(title);
-			String description = (String) obj2.get("jobDescriptionAndRequirements");
-			jobs.add(new JobQuery(title, description));
-		}
-		return jobs;
 	}
 
 	private static ArrayList<String[]> getRowsFromCSV(String inputFile, String splitby)
@@ -307,22 +289,6 @@ public class ClientTest {
 		}
 
 		return preppedText;
-	}
-
-	private void readJobs(String file) {
-		BuferredReader br;
-		String line;
-		try{
-			br = new BufferedReader(new FileReader(file));
-			while((line = br.readLine()) != null) {
-				String[] fields = line.split("\t");
-				String title = fields[1];
-				String title_expected = fields[2];
-				
-			}
-		} catch(Exception e) {
-			e.printStackTrace();
-		}	
 	}
 }
 
