@@ -3,7 +3,8 @@
 prefix=run11_ec2_onet_soc_match_qtbf4f_itbf0.9f_scorefloor50
 #prefix=run3_onet_master_itbf0.9f
 #prefix=run2_onet_calibration_itbf0.5f
-input=input250.txt
+input=jobs250_ONETs-EDITED.csv
+#input=input250.txt
 output=$prefix.txt
 #dir=CaroteneClassifier
 dir=.

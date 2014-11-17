@@ -1,3 +1,11 @@
+===== ClientTest.java =====
+Job data
+- jobs250_ONETs-EDITED.csv
+
+===== ClientTestBasic.java =====
+Job data
+- input250.txt: in json format
+
 Requirements
 - json-simple-1.1.jar
 
