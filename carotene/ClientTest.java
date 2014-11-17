@@ -38,7 +38,6 @@ public class ClientTest {
 		String outputFile = args[1];
 //		String qinlongFile = "output250_qinlong.txt";
 		OnetHelper onetHelper = new OnetHelper();
-		//Set<Integer> onetsocs;
 		//ArrayList<Integer> onetsocs;
 		ONetResponse onets;
 		int onetMatch = 0;  // exact match with the top onet soc
@@ -310,5 +309,20 @@ public class ClientTest {
 		return preppedText;
 	}
 
+	private void readJobs(String file) {
+		BuferredReader br;
+		String line;
+		try{
+			br = new BufferedReader(new FileReader(file));
+			while((line = br.readLine()) != null) {
+				String[] fields = line.split("\t");
+				String title = fields[1];
+				String title_expected = fields[2];
+				
+			}
+		} catch(Exception e) {
+			e.printStackTrace();
+		}	
+	}
 }
 

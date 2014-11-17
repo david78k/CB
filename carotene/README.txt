@@ -1,8 +1,12 @@
 ===== ClientTest.java =====
 Job data
+- jobs250_ONETs-EDITED.txt
 - jobs250_ONETs-EDITED.csv
 
 ===== ClientTestBasic.java =====
+Compares carotene titles with qinlong results.
+So, it requires qinlong's data (output250_qinlong.txt).
+
 Job data
 - input250.txt: in json format
 
