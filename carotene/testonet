@@ -4,6 +4,6 @@ outfile=${prefix}_onet.txt
 
 rm OnetHelper.class JobList.class Job.class
 javac OnetHelper.java JobList.java Job.java
-java OnetHelper $testfile
+time java OnetHelper $testfile
 
 mv $testfile.onet $outfile

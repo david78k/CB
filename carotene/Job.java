@@ -82,6 +82,10 @@ public class Job {
 		return expected_titles;
 	}
 
+	public String getJobId() {
+		return jobid;
+	}
+
 	public String getTitle() {
 		return title;
 	}

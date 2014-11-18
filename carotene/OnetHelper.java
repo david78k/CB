@@ -182,7 +182,7 @@ public class OnetHelper {
 				ONetResponse onets = getONETCodes(job.getTitle(), job.getDescription());
 				String original_onetcode = job.getONetCode();
 				//onets.getONetSocList();	
-				writer.println(job.getTitle() + "\t" + job.getDescription() + "\t" + original_onetcode + "\t" + onets.getSOCListInOrderedSet());
+				writer.println(job.getJobId() + "\t" + job.getTitle() + "\t" + job.getDescription() + "\t" + original_onetcode + "\t" + onets.getSOCListInOrderedSet());
 				//writer.println(title + "\t" + description + "\t" + soclist);
 				writer.flush();	
 				i ++;
