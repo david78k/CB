@@ -170,12 +170,11 @@ public class OnetHelper {
 		int i = 0;
 
 		try{
-			writer = new PrintWriter(outfile, "UTF-8");
-			//writer = new PrintWriter(outfile);
+			writer = new PrintWriter(outfile);
 
 			// read job data file with title and description and onet code
 			JobList joblist = new JobList(file, 0, Job.Mode.CREATE);
-			System.out.println("JobList with " + joblist.size() + " jobs created.");
+			System.out.println("JobList with " + joblist.size() + " jobs has been created.");
 			System.out.println("Start testing ...");	
 
 			long startTime = System.currentTimeMillis();
