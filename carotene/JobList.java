@@ -16,7 +16,7 @@ public class JobList implements Iterable<Job>{
 		try {
 			br = new BufferedReader(new FileReader(file));
 			while((line = br.readLine()) != null) {
-				if(!line.startsWith("File Name"))
+				if(!line.startsWith("File Name\tOriginal Title"))
 					jobs.add(new Job(line));
 			}	
 		} catch(Exception e) {

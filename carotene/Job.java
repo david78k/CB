@@ -9,7 +9,8 @@ public class Job {
 	private final String title;
 	private final String description;
 	private final ArrayList<String> expected_titles;
-	private int soc; // SOC number without "soc" prefix
+	private final ArrayList<Integer> expected_socs;
+	private int soc; // top expected SOC number without "soc" prefix
 	private ArrayList<Integer> onet_socs;
 	private String onet_id;
 
@@ -19,7 +20,7 @@ public class Job {
 		String[] fields = row.split("\t");
 		title = fields[1];
 		expected_titles = toArrayList(fields[2]);
-		//onet_socs = toSocs(fields[4]);
+		expected_socs = toSocs(fields[4]);
 		description = fields[5];
 	}
 
@@ -50,15 +51,21 @@ public class Job {
 		return description;
 	}
 
-	public int getSoc() {
-		return soc;
+	public int getExpectedSocs() {
+		return expected_socs;
+	}
+	
+	public int getExpectedSoc() {
+		return expected_socs.get(0);
 	}
 
+/*
 	public void setSoc(int soc) {
 		this.soc = soc;
 	}
-
-	public String getSocString() {
-		return "soc" + soc;
+*/
+	public String getExpectedSocString() {
+		return "soc" + expected_socs.get(0);
+		//return "soc" + soc;
 	}
 }

@@ -40,6 +40,8 @@ public class ClientTest {
 		int matchCount = 0;
 		int socMatchCount = 0;
 		int socMatch = 0;
+		int socInCount = 0;
+		int socIn = 0;
 
 		OnetHelper onetHelper = new OnetHelper();
 		//ArrayList<Integer> onetsocs;
@@ -69,10 +71,12 @@ public class ClientTest {
 			for(Job job : jobList) {
 				String caroteneID = null;
 				String caroteneTitle = null;
+				int carotentSoc = -1;
 				Double confidence = 0.0;
 				int titleMatch = 0;
 				int leafMatch = 0;
 				socMatch = 0;
+				socIn = 0;
 
 				String title = job.getTitle();
 				ArrayList<String> expected_titles = job.getExpectedTitles();
@@ -103,6 +107,7 @@ public class ClientTest {
 						caroteneID = gID;
 						caroteneTitle = gLabel;
 						confidence = score;
+						caroteneSoc = (int)(Double.parseDouble(gID));
 					}
 				}
 				if (caroteneTitle.equalsIgnoreCase(title)) {
@@ -114,6 +119,15 @@ public class ClientTest {
 					titleMatch = 1;
 					//if (titleMatch == 1)
 						matchCount ++;
+				}
+				
+				ArrayList<String> expected_socs = job.getExpecteSocs();
+				if(expected_socs.contains(new Integer(soc))) {
+					socIn = 1;
+					socInCount ++;		
+					if(expected_socs.get(0).intValue() == soc) 
+						socMatch = 1;
+						socMatchCount ++;
 				}
 				//onetsocs = onetHelper.getONETCodes(title);
 				onets = onetHelper.getONETCodes(title, description);
@@ -133,7 +147,8 @@ public class ClientTest {
 					}
 				}
 				writer.println(version + "\t" + title + "\t" + caroteneID + "\t"
-						+ caroteneTitle + "\t" + confidence + "\t" + socMatch 
+						+ caroteneTitle + "\t" + confidence
+						+ "\t" + socMatch + "\t" + socIn
 						+ "\t" + titleMatch
 						+ "\t" + (onets == null?onets:onets.titles) 
 						+ "\t" + (onets == null?onets:onets.getSOCListInOrderedSet()) + "\t" + onetMatch + "\t" + onetInMatch
@@ -160,6 +175,11 @@ public class ClientTest {
 
 			accuracy = 100.0 * socMatchCount / totalCounts;
 			accustr = "Accuracy (%) for SOCs: " + accuracy + " (" + socMatchCount + "/" + totalCounts + ")";
+			writer.println(accustr);
+			System.out.println(accustr);
+
+			accuracy = 100.0 * socInCount / totalCounts;
+			accustr = "Accuracy (%) for SOCs: " + accuracy + " (" + socInCount + "/" + totalCounts + ")";
 			writer.println(accustr);
 			System.out.println(accustr);
 
