@@ -8,7 +8,7 @@ public class Job {
 	//private final String jobid;
 	private final String title;
 	private final String description;
-	private final ArrayList<String> titles_expected;
+	private final ArrayList<String> expected_titles;
 	private int soc; // SOC number without "soc" prefix
 	private ArrayList<Integer> onet_socs;
 	private String onet_id;
@@ -18,7 +18,7 @@ public class Job {
 	public Job(String row) {
 		String[] fields = row.split("\t");
 		title = fields[1];
-		titles_expected = toArrayList(fields[2]);
+		expected_titles = toArrayList(fields[2]);
 		//onet_socs = toSocs(fields[4]);
 		description = fields[5];
 	}
@@ -26,16 +26,20 @@ public class Job {
 	public Job(String title, String description) {
 		this.title = title;
 		this.description = description;
-		titles_expected = null;
+		expected_titles = null;
 	}
 
 	/**
-	* to multiple titles expected
+	*  convert to multiple expected titles
 	*  Director of Strategy OR "Director of Sustainability" 
 	*/
 	public ArrayList<String> toArrayList(String str) {
 		String[] titles = str.toLowerCase().split("or");	
 		return new ArrayList<String>(Arrays.asList(titles));
+	}
+
+	public ArrayList<String> getExpectedTitles() {
+		return expected_titles;
 	}
 
 	public String getTitle() {

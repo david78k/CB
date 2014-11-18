@@ -51,12 +51,6 @@ public class ClientTest {
 		int onetInvalids = 0;
 
 		PrintWriter writer;
-		/*
-		 * String[] titles = { "Sales Representative",
-		 * "B2B Sales Representative", "Project Manager", "CDL Driver",
-		 * "Hadoop Developer", "Data Architect", "Personal Trainer",
-		 * "Surgical Aide", "Store Supervisor", "Human Resources Assistant" };
-		 */
 
 		try {
 			//ArrayList<JobQuery> jobList = getJobsFromJSON(inputFile);
@@ -69,7 +63,7 @@ public class ClientTest {
 			long startTime = System.nanoTime();
 
 			JSONParser parser = new JSONParser();
-			final int NUM = 1;
+			//final int NUM = 1;
 
 			//for(JobQuery job : jobList) {
 			for(Job job : jobList) {
@@ -81,7 +75,7 @@ public class ClientTest {
 				socMatch = 0;
 
 				String title = job.getTitle();
-				String title_expected = "";
+				ArrayList<String> expected_titles = job.getExpectedTitles();
 				String description = job.getDescription();
 
 				//System.out.println("title:"+title);
@@ -114,10 +108,11 @@ public class ClientTest {
 				if (caroteneTitle.equalsIgnoreCase(title)) {
 					titleMatch = 1;
 					matchCount ++;
-				} else if (caroteneTitle.equalsIgnoreCase(title_expected)) {
+				//} else if (caroteneTitle.equalsIgnoreCase(title_expected)) {
+				} else if (expected_titles.contains(caroteneTitle.toLowerCase())) {
 					//titleMatch = Integer.parseInt(qinlong[1]);
 					titleMatch = 1;
-					if (titleMatch == 1)
+					//if (titleMatch == 1)
 						matchCount ++;
 				}
 				//onetsocs = onetHelper.getONETCodes(title);
@@ -150,13 +145,14 @@ public class ClientTest {
 
 			long endTime = System.nanoTime();
 			long difference = endTime - startTime;
+
+			int totalCounts = counter;
 			writer.println();
-			writer.println("Number of Titles: " + counter * NUM);
+			writer.println("Number of Titles: " + totalCounts);
 			writer.println("Elapsed milliseconds: " + difference / 1000000f);
 			writer.println("milliseconds/title: " + difference / 1000000f
-					/ (counter * NUM));
+					/ (totalCounts));
 			
-			int totalCounts = counter * NUM;
 			double accuracy = 100.0 * matchCount / totalCounts;
 			String accustr = "Accuracy (%): " + accuracy + " (" + matchCount + "/" + totalCounts + ")";
 			writer.println(accustr);
