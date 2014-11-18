@@ -5,29 +5,55 @@ import java.util.Arrays;
 import java.util.ArrayList;
 
 public class Job {
-	//private final String jobid;
+	private String jobid;
 	private final String title;
 	private final String description;
-	private final ArrayList<String> expected_titles;
-	private final ArrayList<Integer> expected_socs;
+	private ArrayList<String> expected_titles;
+	private ArrayList<Integer> expected_socs;
 	private int soc; // top expected SOC number without "soc" prefix
 	private ArrayList<Integer> onet_socs;
-	private String onet_id;
+	private final String onetcode; // original onet code like 11-2022.00
+
+	public static enum Mode{
+		CREATE, EXPECTED
+	}
 
 	// File Name, Original Title, Expected V2.1 title, Comments, ONet SOCs, Description
 	// v2, DIRECTOR OF SUSTAINABILITY, Director of Strategy OR "Director of Sustainability", We don't have ..., [11, 13], pstrongemspan style ...
-	public Job(String row) {
+	public Job(String row, Mode mode) {
 		String[] fields = row.split("\t");
-		title = fields[1];
-		expected_titles = toExpectedTitles(fields[2]);
-		expected_socs = toExpectedSocs(fields[4]);
-		description = fields[5];
+		switch(mode) {
+			case CREATE:
+				jobid = fields[0];
+				title = fields[1];
+				description = fields[2];
+				onetcode = fields[3];
+				break;
+			case EXPECTED:
+				title = fields[1];
+				expected_titles = toExpectedTitles(fields[2]);
+				expected_socs = toExpectedSocs(fields[4]);
+				description = fields[5];
+				break;
+			default:
+				break;
+		}
 	}
 
 	public Job(String title, String description) {
 		this.title = title;
 		this.description = description;
-		expected_titles = null;
+	}
+
+	/**
+	*  jobid example: J03CB1MJYSGKCW9F6K 
+	*  onetcode example: 11-2022.00
+	*/
+	public Job(String jobid, String title, String description, String onetcode) {
+		this.jobid = jobid;
+		this.title = title;
+		this.description = description;
+		this.onetcode = onetcode;
 	}
 
 	/**
@@ -55,6 +81,10 @@ public class Job {
 
 	public String getDescription() {
 		return description;
+	}
+
+	public String getONetCode() {
+		return onetcode;	
 	}
 
 	public ArrayList<Integer> getExpectedSocs() {

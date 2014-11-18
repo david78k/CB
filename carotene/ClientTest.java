@@ -26,6 +26,8 @@ import javax.xml.xpath.XPathExpressionException;
 
 import org.xml.sax.SAXException;
 
+//import Mode.*;
+
 public class ClientTest {
 
 	public static void main(String[] args) {
@@ -56,7 +58,7 @@ public class ClientTest {
 
 		try {
 			//ArrayList<JobQuery> jobList = getJobsFromJSON(inputFile);
-			JobList jobList = new JobList(inputFile);
+			JobList jobList = new JobList(inputFile, 1, Job.Mode.CREATE);
 			//ArrayList<Job> jobList = getJobs(inputFile);
 			int counter = jobList.size();
 			writer = new PrintWriter(outputFile, "UTF-8");
@@ -122,7 +124,7 @@ public class ClientTest {
 						matchCount ++;
 				}
 				
-				ArrayList<String> expected_socs = job.getExpecteSocs();
+				ArrayList<Integer> expected_socs = job.getExpectedSocs();
 				if(expected_socs.contains(new Integer(caroteneSoc))) {
 					socIn = 1;
 					socInCount ++;		

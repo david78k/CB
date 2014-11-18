@@ -3,6 +3,7 @@
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.FileReader;
+import java.io.PrintWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -29,6 +30,8 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 //import org.apache.commons.lang3.StringEscapeUtils;
+
+//import static Job.Mode;
 
 public class OnetHelper {
 	/*
@@ -155,19 +158,27 @@ public class OnetHelper {
 
 	public void test(String file) {
 		String outfile = file + ".onet";
-		FileWriter fw = new FileWriter(outfile);
+		PrintWriter writer = new PrintWriter(outfile);
 
 		// read job data file with title and description and onet code
-		JobList joblist = new JobList(file);
+		JobList joblist = new JobList(file, 0, Job.Mode.CREATE);
 		for(Job job: joblist) {
-			ONetResponse onets = getONetCodes(title, description);
-			String orignal_onetcode;
+			ONetResponse onets = getONETCodes(job.getTitle(), job.getDescription());
+			String original_onetcode = job.getONetCode();
 			//onets.getONetSocList();	
-			//printer.println(title + "\t" + description + "\t" + soclist);
+			writer.println(job.getTitle() + "\t" + job.getDescription() + "\t" + original_onetcode + "\t" + onets.getSOCListInOrderedSet());
+			//writer.println(title + "\t" + description + "\t" + soclist);
 		}	
 
 	}
  
+	public void printAccuracy(PrintWriter writer, int matchCount, int totalCount) {
+		double accuracy = 100.0 * matchCount / totalCount;
+		String accstr = "Accuracy (%): " + accuracy + " (" + matchCount + "/" + totalCount + ")";
+		writer.println(accstr);
+		System.out.println(accstr);
+	}
+
 	// ONet15, ScoreFloor=75, POST
 	// returns SOC list
 	//public Set<Integer> getONETCodes(String title, String description) throws XPathExpressionException,
