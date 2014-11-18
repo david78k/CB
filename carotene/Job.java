@@ -22,8 +22,8 @@ public class Job {
 	// v2, DIRECTOR OF SUSTAINABILITY, Director of Strategy OR "Director of Sustainability", We don't have ..., [11, 13], pstrongemspan style ...
 	public Job(String row, Mode mode) {
 		String[] fields = row.split("\t");
-		System.out.println(fields.length);
-		System.out.println(fields);
+		//System.out.println(fields.length);
+		//System.out.println(fields);
 		switch(mode) {
 			case CREATE:
 				jobid = fields[0];

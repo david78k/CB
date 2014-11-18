@@ -1,4 +1,9 @@
-testfile=Jobs500_distinct.txt
+prefix=Jobs500_distinct
+testfile=$prefix.txt
+outfile=${prefix}_onet.txt
 
-javac OnetHelper.java
+rm OnetHelper.class JobList.class Job.class
+javac OnetHelper.java JobList.java Job.java
 java OnetHelper $testfile
+
+mv $testfile.onet $outfile

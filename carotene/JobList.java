@@ -18,9 +18,10 @@ public class JobList implements Iterable<Job>{
 			for(int i = 0; i < startingLine; i ++)
 				br.readLine();
 			while((line = br.readLine()) != null) {
-				System.out.println(line);
+				//System.out.println(line);
 				jobs.add(new Job(line, mode));
 			}	
+			br.close();
 		} catch(Exception e) {
 			e.printStackTrace();
 		}		

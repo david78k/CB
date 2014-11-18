@@ -167,24 +167,36 @@ public class OnetHelper {
 		System.out.println("Input file: " + file + "\tOutput file: " + outfile);
 
 		PrintWriter writer;
+		int i = 0;
 
 		try{
-			writer = new PrintWriter(outfile);
+			writer = new PrintWriter(outfile, "UTF-8");
+			//writer = new PrintWriter(outfile);
 
 			// read job data file with title and description and onet code
 			JobList joblist = new JobList(file, 0, Job.Mode.CREATE);
+			System.out.println("JobList with " + joblist.size() + " jobs created.");
+			System.out.println("Start testing ...");	
+
+			long startTime = System.currentTimeMillis();
 			for(Job job: joblist) {
 				ONetResponse onets = getONETCodes(job.getTitle(), job.getDescription());
 				String original_onetcode = job.getONetCode();
 				//onets.getONetSocList();	
 				writer.println(job.getTitle() + "\t" + job.getDescription() + "\t" + original_onetcode + "\t" + onets.getSOCListInOrderedSet());
 				//writer.println(title + "\t" + description + "\t" + soclist);
+				writer.flush();	
+				i ++;
+				if(i % 100 == 0) 
+					System.out.println(i + " (" + (System.currentTimeMillis() - startTime)/1000 + "s)");
 			}	
+			System.out.println(i + " (" + (System.currentTimeMillis() - startTime)/1000 + "s)");
+			writer.close();
 		} catch(Exception e) {
 			e.printStackTrace();
-		}
+		} 
 			
-		System.out.println("Test done.");
+		System.out.println("Test complete.");
 	}
  
 	public void printAccuracy(PrintWriter writer, int matchCount, int totalCount) {
