@@ -71,7 +71,7 @@ public class ClientTest {
 			for(Job job : jobList) {
 				String caroteneID = null;
 				String caroteneTitle = null;
-				int carotentSoc = -1;
+				int caroteneSoc = -1;
 				Double confidence = 0.0;
 				int titleMatch = 0;
 				int leafMatch = 0;
@@ -79,8 +79,9 @@ public class ClientTest {
 				socIn = 0;
 
 				String title = job.getTitle();
-				ArrayList<String> expected_titles = job.getExpectedTitles();
 				String description = job.getDescription();
+				ArrayList<String> expected_titles = job.getExpectedTitles();
+				//ArrayList<String> expected_socs = job.getExpectedSocs();
 
 				//System.out.println("title:"+title);
 
@@ -122,10 +123,10 @@ public class ClientTest {
 				}
 				
 				ArrayList<String> expected_socs = job.getExpecteSocs();
-				if(expected_socs.contains(new Integer(soc))) {
+				if(expected_socs.contains(new Integer(caroteneSoc))) {
 					socIn = 1;
 					socInCount ++;		
-					if(expected_socs.get(0).intValue() == soc) 
+					if(expected_socs.get(0).intValue() == caroteneSoc) 
 						socMatch = 1;
 						socMatchCount ++;
 				}

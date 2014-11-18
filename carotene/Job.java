@@ -19,8 +19,8 @@ public class Job {
 	public Job(String row) {
 		String[] fields = row.split("\t");
 		title = fields[1];
-		expected_titles = toArrayList(fields[2]);
-		expected_socs = toSocs(fields[4]);
+		expected_titles = toExpectedTitles(fields[2]);
+		expected_socs = toExpectedSocs(fields[4]);
 		description = fields[5];
 	}
 
@@ -34,8 +34,14 @@ public class Job {
 	*  convert to multiple expected titles
 	*  Director of Strategy OR "Director of Sustainability" 
 	*/
-	public ArrayList<String> toArrayList(String str) {
+	public ArrayList<String> toExpectedTitles(String str) {
 		String[] titles = str.toLowerCase().split("or");	
+		return new ArrayList<String>(Arrays.asList(titles));
+	}
+
+	public ArrayList<String> toExpectedSocs(String str) {
+		String[] titles = str.toLowerCase().split(",");	
+		// trim [, ], "
 		return new ArrayList<String>(Arrays.asList(titles));
 	}
 
@@ -51,7 +57,7 @@ public class Job {
 		return description;
 	}
 
-	public int getExpectedSocs() {
+	public ArrayList<Integer> getExpectedSocs() {
 		return expected_socs;
 	}
 	

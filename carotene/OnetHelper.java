@@ -152,6 +152,21 @@ public class OnetHelper {
 		}
 		return onet;
 	}
+
+	public void test(String file) {
+		String outfile = file + ".onet";
+		FileWriter fw = new FileWriter(outfile);
+
+		// read job data file with title and description and onet code
+		JobList joblist = new JobList(file);
+		for(Job job: joblist) {
+			ONetResponse onets = getONetCodes(title, description);
+			String orignal_onetcode;
+			//onets.getONetSocList();	
+			//printer.println(title + "\t" + description + "\t" + soclist);
+		}	
+
+	}
  
 	// ONet15, ScoreFloor=75, POST
 	// returns SOC list
