@@ -6,13 +6,13 @@ import java.util.ArrayList;
 
 public class Job {
 	private String jobid;
-	private final String title;
-	private final String description;
+	private String title;
+	private String description;
 	private ArrayList<String> expected_titles;
 	private ArrayList<Integer> expected_socs;
 	private int soc; // top expected SOC number without "soc" prefix
 	private ArrayList<Integer> onet_socs;
-	private final String onetcode; // original onet code like 11-2022.00
+	private String onetcode; // original onet code like 11-2022.00
 
 	public static enum Mode{
 		CREATE, EXPECTED
@@ -22,6 +22,8 @@ public class Job {
 	// v2, DIRECTOR OF SUSTAINABILITY, Director of Strategy OR "Director of Sustainability", We don't have ..., [11, 13], pstrongemspan style ...
 	public Job(String row, Mode mode) {
 		String[] fields = row.split("\t");
+		System.out.println(fields.length);
+		System.out.println(fields);
 		switch(mode) {
 			case CREATE:
 				jobid = fields[0];
@@ -65,10 +67,15 @@ public class Job {
 		return new ArrayList<String>(Arrays.asList(titles));
 	}
 
-	public ArrayList<String> toExpectedSocs(String str) {
-		String[] titles = str.toLowerCase().split(",");	
+	public ArrayList<Integer> toExpectedSocs(String str) {
+		String[] socs = str.toLowerCase().trim().replace("[", "").replace("]","").split(",");	
 		// trim [, ], "
-		return new ArrayList<String>(Arrays.asList(titles));
+		ArrayList<Integer> ints = new ArrayList<Integer>();
+		for(String soc: socs) {
+			ints.add(Integer.parseInt(soc));	
+		}
+		return ints;
+		//return new ArrayList<Integer>(Arrays.asList(titles));
 	}
 
 	public ArrayList<String> getExpectedTitles() {

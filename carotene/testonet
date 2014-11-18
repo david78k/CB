@@ -1,0 +1,4 @@
+testfile=Jobs500_distinct.txt
+
+javac OnetHelper.java
+java OnetHelper $testfile

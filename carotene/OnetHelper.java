@@ -66,9 +66,14 @@ public class OnetHelper {
 		long duration = endTime - startTime;
 		System.out.println("Time:=" + duration);
 		*/
-		OnetHelper utils = new OnetHelper();
+		OnetHelper helper = new OnetHelper();
+		String testfile = "jobs250_ONETs-EDITED.txt";
+		if (args.length > 0)
+			testfile = args[0];
+		helper.test(testfile);	
+
 		String desc = "Tradesmen International is looking for sprinkler fitters, both journeymen and apprentices for potential upcoming work in the Jacksonville and Gainesville, Fl, areas.br / Must have valid driverscense, reliable transportation, and tools of the trade.br /";
-		System.out.println(utils.getONETCodes("SPRINKLER FITTERS", desc));
+	//	System.out.println(helper.getONETCodes("SPRINKLER FITTERS", desc));
 		//System.out.println(utils.getONETCodesWithGetRequest("SPRINKLER FITTERS", desc));
 		//System.out.println(utils.checkWithONET("SPRINKLER FITTERS", desc, 47));
 /*
@@ -158,18 +163,28 @@ public class OnetHelper {
 
 	public void test(String file) {
 		String outfile = file + ".onet";
-		PrintWriter writer = new PrintWriter(outfile);
+		
+		System.out.println("Input file: " + file + "\tOutput file: " + outfile);
 
-		// read job data file with title and description and onet code
-		JobList joblist = new JobList(file, 0, Job.Mode.CREATE);
-		for(Job job: joblist) {
-			ONetResponse onets = getONETCodes(job.getTitle(), job.getDescription());
-			String original_onetcode = job.getONetCode();
-			//onets.getONetSocList();	
-			writer.println(job.getTitle() + "\t" + job.getDescription() + "\t" + original_onetcode + "\t" + onets.getSOCListInOrderedSet());
-			//writer.println(title + "\t" + description + "\t" + soclist);
-		}	
+		PrintWriter writer;
 
+		try{
+			writer = new PrintWriter(outfile);
+
+			// read job data file with title and description and onet code
+			JobList joblist = new JobList(file, 0, Job.Mode.CREATE);
+			for(Job job: joblist) {
+				ONetResponse onets = getONETCodes(job.getTitle(), job.getDescription());
+				String original_onetcode = job.getONetCode();
+				//onets.getONetSocList();	
+				writer.println(job.getTitle() + "\t" + job.getDescription() + "\t" + original_onetcode + "\t" + onets.getSOCListInOrderedSet());
+				//writer.println(title + "\t" + description + "\t" + soclist);
+			}	
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+			
+		System.out.println("Test done.");
 	}
  
 	public void printAccuracy(PrintWriter writer, int matchCount, int totalCount) {

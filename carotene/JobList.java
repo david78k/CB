@@ -18,19 +18,8 @@ public class JobList implements Iterable<Job>{
 			for(int i = 0; i < startingLine; i ++)
 				br.readLine();
 			while((line = br.readLine()) != null) {
-				//if(!line.startsWith("File Name\tOriginal Title"))
-				//	jobs.add(new Job(line));
-			//	jobs.add(new Job(line, mode);
-				//jobs.add(new Job(line, EXPECTED_MODE);
-				Job job = null;
-				/*
-				if(mode.equalsIgnoreCase("expected")) {
-					job = new Job(line);
-				} else if (mode.equalsIgnoreCase("create")) {
-					String[] fields = line.split("\t");	
-					job = new Job(fields[0], fields[1], fields[2], fields[3]);
-				}	*/
-				jobs.add(new Job(job, mode));
+				System.out.println(line);
+				jobs.add(new Job(line, mode));
 			}	
 		} catch(Exception e) {
 			e.printStackTrace();
