@@ -202,17 +202,18 @@ public class ClientTest {
 			e.printStackTrace();
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
-		} catch (IOException e) {
+/*		} catch (IOException e) {
 			e.printStackTrace();
-		} catch (ParseException e) {
+*/		} catch (ParseException e) {
 			e.printStackTrace();
+/*
 		} catch (XPathExpressionException e) {
 			e.printStackTrace();
 		} catch (ParserConfigurationException e) {
 			e.printStackTrace();
 		} catch (SAXException e) {
 			e.printStackTrace();
-		} catch (Exception e) {
+*/		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
