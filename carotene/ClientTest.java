@@ -61,7 +61,7 @@ public class ClientTest {
 			//ArrayList<Job> jobList = getJobs(inputFile);
 			int counter = jobList.size();
 			writer = new PrintWriter(outputFile, "UTF-8");
-			writer.println("File Name\tOriginal Title\tExpected Title\tExpected SOCs\tCarotene ID\tCarotene Title\tConfidence\tSOC Match\tIn SOCs\tTitle Match\tDescription");
+			writer.println("File Name\tOriginal Title\tExptected Title\tCarotene Expected Title\tExpected SOCs\tCarotene ID\tCarotene Title\tConfidence\tSOC Match\tIn SOCs\tTitle Match\tDescription");
 
 			long startTime = System.nanoTime();
 
@@ -121,9 +121,10 @@ public class ClientTest {
 				if(expected_socs.contains(new Integer(caroteneSoc))) {
 					socIn = 1;
 					socInCount ++;		
-					if(expected_socs.get(0).intValue() == caroteneSoc) 
+					if(expected_socs.get(0).intValue() == caroteneSoc)  {
 						socMatch = 1;
 						socMatchCount ++;
+					}
 				}
 /*
 				//onetsocs = onetHelper.getONETCodes(title);
@@ -145,6 +146,7 @@ public class ClientTest {
 				}
 */
 				writer.println(version + "\t" + title 
+						+ "\t" + job.getOriginalExpectedTitles()
 						+ "\t" + expected_titles + "\t" + expected_socs 
 						+ "\t" + caroteneID + "\t" + caroteneTitle + "\t" + confidence
 						+ "\t" + socMatch + "\t" + socIn

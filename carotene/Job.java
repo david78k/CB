@@ -71,8 +71,13 @@ public class Job {
 	*  Director of Strategy OR "Director of Sustainability" 
 	*/
 	public ArrayList<String> toExpectedTitles(String str) {
-		String[] titles = str.toLowerCase().split(" or ");
-		return new ArrayList<String>(Arrays.asList(titles));
+		String[] titles = str.toLowerCase().replace("\"", "").split(" or ");
+		ArrayList<String> etitles = new ArrayList<String>();
+		for(String title: titles) {
+			etitles.add(title.trim());	
+		}
+		return etitles;
+		//return new ArrayList<String>(Arrays.asList(titles));
 	}
 
 	public ArrayList<Integer> toExpectedSocs(String str) {
