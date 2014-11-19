@@ -28,7 +28,7 @@ import org.xml.sax.SAXException;
 
 //import Mode.*;
 
-public class ClientTest {
+public class ClientTestWithONetTest {
 
 	public static void main(String[] args) {
 		System.out.println("Starting ClientTest ...");
@@ -46,6 +46,7 @@ public class ClientTest {
 		int socIn = 0;
 
 		OnetHelper onetHelper = new OnetHelper();
+		//ArrayList<Integer> onetsocs;
 		ONetResponse onets;
 		int onetMatch = 0;  // exact match with the top onet soc
 		int onetCount = 0;
@@ -61,11 +62,12 @@ public class ClientTest {
 			//ArrayList<Job> jobList = getJobs(inputFile);
 			int counter = jobList.size();
 			writer = new PrintWriter(outputFile, "UTF-8");
-			writer.println("File Name\tOriginal Title\tExpected Title\tExpected SOCs\tCarotene ID\tCarotene Title\tConfidence\tSOC Match\tIn SOCs\tTitle Match\tDescription");
+			writer.println("File Name\tOriginal Title\tCarotene ID\tCarotene Title\tConfidence\tSOC Match\tTitle Match\tONet Titles\tONet SOCs\tONet Match\tONet In Match\tDescription");
 
 			long startTime = System.nanoTime();
 
 			JSONParser parser = new JSONParser();
+			//final int NUM = 1;
 
 			//for(JobQuery job : jobList) {
 			for(Job job : jobList) {
@@ -111,13 +113,15 @@ public class ClientTest {
 						caroteneSoc = (int)(Double.parseDouble(gID));
 					}
 				}
-				if (caroteneTitle.equalsIgnoreCase(title.toLowerCase())) {
+				if (caroteneTitle.equalsIgnoreCase(title)) {
 					titleMatch = 1;
 					matchCount ++;
 				//} else if (caroteneTitle.equalsIgnoreCase(title_expected)) {
 				} else if (expected_titles.contains(caroteneTitle.toLowerCase())) {
+					//titleMatch = Integer.parseInt(qinlong[1]);
 					titleMatch = 1;
-					matchCount ++;
+					//if (titleMatch == 1)
+						matchCount ++;
 				}
 				
 				ArrayList<Integer> expected_socs = job.getExpectedSocs();
@@ -128,7 +132,6 @@ public class ClientTest {
 						socMatch = 1;
 						socMatchCount ++;
 				}
-/*
 				//onetsocs = onetHelper.getONETCodes(title);
 				onets = onetHelper.getONETCodes(title, description);
 				onetMatch = 0;
@@ -146,12 +149,14 @@ public class ClientTest {
 						}
 					}
 				}
-*/
-				writer.println(version + "\t" + title 
-						+ "\t" + expected_titles + "\t" + expected_socs 
-						+ "\t" + caroteneID + "\t" + caroteneTitle + "\t" + confidence
+				writer.println(version + "\t" + title + "\t" + caroteneID + "\t"
+						+ caroteneTitle + "\t" + confidence
 						+ "\t" + socMatch + "\t" + socIn
 						+ "\t" + titleMatch
+						+ "\t" + (onets == null?onets:onets.titles) 
+						+ "\t" + (onets == null?onets:onets.getSOCListInOrderedSet()) + "\t" + onetMatch + "\t" + onetInMatch
+						//+ "\t" + qinlong[0] + "\t" + qinlong[1]
+						//+ "\t" + qinlong[2] + "\t" + qinlong[3]
 						+ "\t" + description);
 						//+ "\t" + leafMatch + "\t" + description);
 			}
@@ -181,7 +186,6 @@ public class ClientTest {
 			writer.println(accustr);
 			System.out.println(accustr);
 
-/*
 			int valids = totalCounts - onetInvalids;
 			accuracy = 100.0 * onetCount / valids;
 			accustr = "Accuracy (%) top ONetSOC match: " + accuracy + " (" + onetCount + "/" + valids
@@ -194,7 +198,6 @@ public class ClientTest {
 					 + ", Invalids: " + onetInvalids + ")";
 			writer.println(accustr);
 			System.out.println(accustr);
-*/
 
 			writer.close();
 

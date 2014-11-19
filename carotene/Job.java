@@ -72,11 +72,14 @@ public class Job {
 	}
 
 	public ArrayList<Integer> toExpectedSocs(String str) {
-		String[] socs = str.toLowerCase().trim().replace("[", "").replace("]","").split(",");	
 		// trim [, ], "
+		String[] socs = str.toLowerCase().trim().replace("[", "").replace("]","")
+				.replace("\"","").split(",");	
+		//System.out.println(str + ": " + socs.length + " " + socs);
 		ArrayList<Integer> ints = new ArrayList<Integer>();
 		for(String soc: socs) {
-			ints.add(Integer.parseInt(soc));	
+			//System.out.println(soc.trim());
+			ints.add(Integer.parseInt(soc.trim()));	
 		}
 		return ints;
 		//return new ArrayList<Integer>(Arrays.asList(titles));
