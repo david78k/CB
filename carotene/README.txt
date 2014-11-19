@@ -1,4 +1,19 @@
+===== OnetHelper.java =====
+To collect ONet SOCs, run the following.
+./testonet
+
+This will create an output file named $prefix_onet.txt
+Job.Mode should be set COLLECT.
+
+Job data
+- Jobs500.txt
+
 ===== ClientTest.java =====
+To test the SOC accuracy, a set of target expected SOCs is required.
+Job.Mode should be set TEST.
+Once the target data is ready, run the following.
+./test
+
 Job data
 - jobs250_ONETs-EDITED.txt
 - jobs250_ONETs-EDITED.csv

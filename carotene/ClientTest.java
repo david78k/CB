@@ -58,7 +58,7 @@ public class ClientTest {
 
 		try {
 			//ArrayList<JobQuery> jobList = getJobsFromJSON(inputFile);
-			JobList jobList = new JobList(inputFile, 1, Job.Mode.CREATE);
+			JobList jobList = new JobList(inputFile, 1, Job.Mode.TEST);
 			//ArrayList<Job> jobList = getJobs(inputFile);
 			int counter = jobList.size();
 			writer = new PrintWriter(outputFile, "UTF-8");

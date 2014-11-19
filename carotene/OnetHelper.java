@@ -173,7 +173,7 @@ public class OnetHelper {
 			writer = new PrintWriter(outfile);
 
 			// read job data file with title and description and onet code
-			JobList joblist = new JobList(file, 0, Job.Mode.CREATE);
+			JobList joblist = new JobList(file, 0, Job.Mode.COLLECT);
 			System.out.println("JobList with " + joblist.size() + " jobs has been created.");
 			System.out.println("Start testing ...");	
 
@@ -181,8 +181,7 @@ public class OnetHelper {
 			for(Job job: joblist) {
 				ONetResponse onets = getONETCodes(job.getTitle(), job.getDescription());
 				String original_onetcode = job.getONetCode();
-				//onets.getONetSocList();	
-				writer.println(job.getJobId() + "\t" + job.getTitle() + "\t" + job.getDescription() + "\t" + original_onetcode + "\t" + onets.getSOCListInOrderedSet());
+				writer.println(job.getJobId() + "\t" + job.getTitle() + "\t" + original_onetcode + "\t" + onets.getSOCListInOrderedSet() + "\t" + job.getDescription());
 				//writer.println(title + "\t" + description + "\t" + soclist);
 				writer.flush();	
 				i ++;

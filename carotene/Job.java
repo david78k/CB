@@ -15,7 +15,8 @@ public class Job {
 	private String onetcode; // original onet code like 11-2022.00
 
 	public static enum Mode{
-		CREATE, EXPECTED
+		COLLECT, TEST
+		//CREATE, EXPECTED
 	}
 
 	// File Name, Original Title, Expected V2.1 title, Comments, ONet SOCs, Description
@@ -27,14 +28,14 @@ public class Job {
 
 		// NOTE: make sure the order of fields is correct
 		switch(mode) {
-			case CREATE:
+			case COLLECT:
 				// jobid, description, title, onetcode
 				jobid = fields[0];
 				description = fields[1];
 				title = fields[2];
 				onetcode = fields[3];
 				break;
-			case EXPECTED:
+			case TEST:
 				title = fields[1];
 				expected_titles = toExpectedTitles(fields[2]);
 				expected_socs = toExpectedSocs(fields[4]);
