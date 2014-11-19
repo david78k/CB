@@ -24,11 +24,14 @@ public class Job {
 		String[] fields = row.split("\t");
 		//System.out.println(fields.length);
 		//System.out.println(fields);
+
+		// NOTE: make sure the order of fields is correct
 		switch(mode) {
 			case CREATE:
+				// jobid, description, title, onetcode
 				jobid = fields[0];
-				title = fields[1];
-				description = fields[2];
+				description = fields[1];
+				title = fields[2];
 				onetcode = fields[3];
 				break;
 			case EXPECTED:
