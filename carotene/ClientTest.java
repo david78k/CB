@@ -111,11 +111,8 @@ public class ClientTest {
 						caroteneSoc = (int)(Double.parseDouble(gID));
 					}
 				}
-				if (caroteneTitle.equalsIgnoreCase(title.toLowerCase())) {
-					titleMatch = 1;
-					matchCount ++;
-				//} else if (caroteneTitle.equalsIgnoreCase(title_expected)) {
-				} else if (expected_titles.contains(caroteneTitle.toLowerCase())) {
+
+				if (job.isExpectedTitle(caroteneTitle)) {
 					titleMatch = 1;
 					matchCount ++;
 				}

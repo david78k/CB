@@ -8,6 +8,8 @@ public class Job {
 	private String jobid;
 	private String title;
 	private String description;
+	private String original_expected_titles;
+	private String original_expected_socs;
 	private ArrayList<String> expected_titles;
 	private ArrayList<Integer> expected_socs;
 	private int soc; // top expected SOC number without "soc" prefix
@@ -37,7 +39,9 @@ public class Job {
 			// File Name, Original Title, Expected V2.1 title, Comments, ONet SOCs, Description
 			// v2, DIRECTOR OF SUSTAINABILITY, Director of Strategy OR "Director of Sustainability", We don't have ..., [11, 13], pstrongemspan style ...
 				title = fields[1];
+				original_expected_titles = fields[2];
 				expected_titles = toExpectedTitles(fields[2]);
+				original_expected_socs = fields[4];
 				expected_socs = toExpectedSocs(fields[4]);
 				description = fields[5];
 				break;
@@ -67,7 +71,7 @@ public class Job {
 	*  Director of Strategy OR "Director of Sustainability" 
 	*/
 	public ArrayList<String> toExpectedTitles(String str) {
-		String[] titles = str.toLowerCase().split("or");	
+		String[] titles = str.toLowerCase().split(" or ");
 		return new ArrayList<String>(Arrays.asList(titles));
 	}
 
@@ -85,6 +89,25 @@ public class Job {
 		//return new ArrayList<Integer>(Arrays.asList(titles));
 	}
 
+	public boolean isExpectedTitle(String caroteneTitle) {
+		if(caroteneTitle.equalsIgnoreCase(title.toLowerCase())) {
+			return true;
+		}
+		for(String title: expected_titles) {
+			if(title.equalsIgnoreCase(caroteneTitle))
+				return true;
+		}
+		return false;
+	}
+
+	public String getOriginalExpectedTitles() {
+		return original_expected_titles;
+	}
+	
+	public String getOriginalExpectedSocs() {
+		return original_expected_socs;
+	}
+	
 	public ArrayList<String> getExpectedTitles() {
 		return expected_titles;
 	}
