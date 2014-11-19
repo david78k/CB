@@ -177,24 +177,24 @@ public class ClientTest {
 			System.out.println(accustr);
 
 			accuracy = 100.0 * socMatchCount / totalCounts;
-			accustr = "Accuracy (%) for SOCs: " + accuracy + " (" + socMatchCount + "/" + totalCounts + ")";
+			accustr = "Accuracy (%) for top SOC match: " + accuracy + " (" + socMatchCount + "/" + totalCounts + ")";
 			writer.println(accustr);
 			System.out.println(accustr);
 
 			accuracy = 100.0 * socInCount / totalCounts;
-			accustr = "Accuracy (%) for SOCs: " + accuracy + " (" + socInCount + "/" + totalCounts + ")";
+			accustr = "Accuracy (%) for inSOCs: " + accuracy + " (" + socInCount + "/" + totalCounts + ")";
 			writer.println(accustr);
 			System.out.println(accustr);
 
 			int valids = totalCounts - onetInvalids;
 			accuracy = 100.0 * onetCount / valids;
-			accustr = "Accuracy (%) to ONetSOC: " + accuracy + " (" + onetCount + "/" + valids
+			accustr = "Accuracy (%) top ONetSOC match: " + accuracy + " (" + onetCount + "/" + valids
 					 + ", Invalids: " + onetInvalids + ")";
 			writer.println(accustr);
 			System.out.println(accustr);
 
 			accuracy = 100.0 * onetInCount / valids;
-			accustr = "Accuracy (%) in ONetSOCs: " + accuracy + " (" + onetInCount + "/" + valids
+			accustr = "Accuracy (%) for inONetSOCs: " + accuracy + " (" + onetInCount + "/" + valids
 					 + ", Invalids: " + onetInvalids + ")";
 			writer.println(accustr);
 			System.out.println(accustr);

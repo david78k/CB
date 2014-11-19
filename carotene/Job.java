@@ -19,8 +19,6 @@ public class Job {
 		//CREATE, EXPECTED
 	}
 
-	// File Name, Original Title, Expected V2.1 title, Comments, ONet SOCs, Description
-	// v2, DIRECTOR OF SUSTAINABILITY, Director of Strategy OR "Director of Sustainability", We don't have ..., [11, 13], pstrongemspan style ...
 	public Job(String row, Mode mode) {
 		String[] fields = row.split("\t");
 		//System.out.println(fields.length);
@@ -36,6 +34,8 @@ public class Job {
 				onetcode = fields[3];
 				break;
 			case TEST:
+			// File Name, Original Title, Expected V2.1 title, Comments, ONet SOCs, Description
+			// v2, DIRECTOR OF SUSTAINABILITY, Director of Strategy OR "Director of Sustainability", We don't have ..., [11, 13], pstrongemspan style ...
 				title = fields[1];
 				expected_titles = toExpectedTitles(fields[2]);
 				expected_socs = toExpectedSocs(fields[4]);
