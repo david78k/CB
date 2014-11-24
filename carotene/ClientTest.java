@@ -87,6 +87,7 @@ public class ClientTest {
 				expectedTitles = job.getExpectedTitles();
 
 				caroteneSocs = new ArrayList<Integer>();
+			//	System.out.println("new carotneSocs");
 				String response = getResponse(caroteneURL, title, description, version);
 				JSONObject obj1 = (JSONObject) parser.parse(response);
 				JSONArray array = (JSONArray) obj1.get("assignments");
@@ -96,8 +97,9 @@ public class ClientTest {
 					JSONArray p2r = (JSONArray) obj2.get("pathToRoot");
 					String gLabel = (String) p2r.get(0);
 					Double score = (Double) obj2.get("confidence");
-					//caroteneSocs.add(gID);
-					caroteneSocs = addSoc(caroteneSocs, gID);
+					//System.out.println(caroteneSocs + " " + gID);
+					addSoc(caroteneSocs, gID);
+					//System.out.println(caroteneSocs + " " + gID);
 
 					if (title.equalsIgnoreCase(gLabel)) {
 						if (itr == 0)
@@ -197,14 +199,11 @@ public class ClientTest {
 	}
 
 	// example gid: 41.67
-	private static ArrayList<Integer> addSoc(ArrayList<Integer> socs, String gid) {
+	private static void addSoc(ArrayList<Integer> socs, String gid) {
 		ArrayList<Integer> newsocs = new ArrayList<Integer>();
-		for(Integer soc: socs) {
-			int newsoc = (int)(Double.parseDouble(gid));
-			if(soc.intValue() != newsoc)
-				newsocs.add(new Integer(newsoc));
-		}	
-		return newsocs;
+		int newsoc = (int)(Double.parseDouble(gid));
+		if(!socs.contains(new Integer(newsoc)))	
+			socs.add(new Integer(newsoc));
 	}
 
 	private static ArrayList<String[]> getRowsFromCSV(String inputFile, String splitby)
