@@ -1,7 +1,7 @@
 #prefix=run20_ec2_multisocs_itbf0.9f
 #prefix=run8_ec2_onet_ngrams_itbf0.9f_scorefloor50
 #prefix=run18_ec2_soc_match_qtbf4f_itbf0.9f_media_consultant
-prefix=run26_master_ec2_itbf0.5f_multicocs
+prefix=run26_master_ec2_itbf0.5f_multicocs_fixed
 #prefix=run22_master_cbdr_itbf0.9f_socmatch
 #prefix=run2_onet_calibration_itbf0.5f
 

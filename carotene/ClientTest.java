@@ -57,6 +57,7 @@ public class ClientTest {
 
 		PrintWriter writer;
 
+		ArrayList<String> expectedTitles;
 		ArrayList<Integer> expectedSocs;
 		ArrayList<Integer> caroteneSocs;
 
@@ -186,15 +187,21 @@ public class ClientTest {
 	private static boolean matchSocs(ArrayList<Integer> expectedSocs, ArrayList<Integer> caroteneSocs) {
 		boolean matched = false;
 
+		for(Integer esoc: expectedSocs) {
+			if(caroteneSocs.contains(esoc)) {
+				matched = true;
+				break;
+			}
+		}	
 		return matched;	
 	}
 
 	// example gid: 41.67
 	private static ArrayList<Integer> addSoc(ArrayList<Integer> socs, String gid) {
 		ArrayList<Integer> newsocs = new ArrayList<Integer>();
-		for(String soc: socs) {
+		for(Integer soc: socs) {
 			int newsoc = (int)(Double.parseDouble(gid));
-			if(soc != newsoc)
+			if(soc.intValue() != newsoc)
 				newsocs.add(new Integer(newsoc));
 		}	
 		return newsocs;
