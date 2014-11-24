@@ -57,8 +57,8 @@ public class ClientTest {
 
 		PrintWriter writer;
 
-		ArrayList<String> expectedSocs;
-		ArrayList<String> caroteneSocs;
+		ArrayList<Integer> expectedSocs;
+		ArrayList<Integer> caroteneSocs;
 
 		try {
 			//ArrayList<JobQuery> jobList = getJobsFromJSON(inputFile);
@@ -85,7 +85,7 @@ public class ClientTest {
 				String description = job.getDescription();
 				expectedTitles = job.getExpectedTitles();
 
-				caroteneSocs = new ArrayList<String>();
+				caroteneSocs = new ArrayList<Integer>();
 				String response = getResponse(caroteneURL, title, description, version);
 				JSONObject obj1 = (JSONObject) parser.parse(response);
 				JSONArray array = (JSONArray) obj1.get("assignments");
@@ -96,7 +96,7 @@ public class ClientTest {
 					String gLabel = (String) p2r.get(0);
 					Double score = (Double) obj2.get("confidence");
 					//caroteneSocs.add(gID);
-					addSoc(gID);
+					caroteneSocs = addSoc(caroteneSocs, gID);
 
 					if (title.equalsIgnoreCase(gLabel)) {
 						if (itr == 0)
@@ -118,19 +118,23 @@ public class ClientTest {
 				}
 				
 				expectedSocs = job.getExpectedSocs();
-				if(expectedSocs.contains(new Integer(caroteneSoc))) {
+				//if(expectedSocs.contains(new Integer(caroteneSoc))) {
+				if(matchSocs(expectedSocs, caroteneSocs)) {
 					socIn = 1;
 					socInCount ++;		
+					/*
 					if(expectedSocs.get(0).intValue() == caroteneSoc)  {
 						socMatch = 1;
 						socMatchCount ++;
 					}
+					*/
 				}
 				writer.println(version + "\t" + title 
 						+ "\t" + job.getOriginalExpectedTitles()
 						+ "\t" + expectedTitles + "\t" + expectedSocs 
 						+ "\t" + caroteneSocs + "\t" + caroteneID + "\t" + caroteneTitle + "\t" + confidence
-						+ "\t" + socMatch + "\t" + socIn
+						+ "\t" + socIn
+						//+ "\t" + socMatch + "\t" + socIn
 						+ "\t" + titleMatch
 						+ "\t" + description);
 						//+ "\t" + leafMatch + "\t" + description);
@@ -151,11 +155,12 @@ public class ClientTest {
 			writer.println(accustr);
 			System.out.println(accustr);
 
+			/*
 			accuracy = 100.0 * socMatchCount / totalCounts;
 			accustr = "Accuracy (%) for top SOC match: " + accuracy + " (" + socMatchCount + "/" + totalCounts + ")";
 			writer.println(accustr);
 			System.out.println(accustr);
-
+			*/
 			accuracy = 100.0 * socInCount / totalCounts;
 			accustr = "Accuracy (%) for inSOCs: " + accuracy + " (" + socInCount + "/" + totalCounts + ")";
 			writer.println(accustr);
@@ -176,6 +181,23 @@ public class ClientTest {
 		}
 
 		System.out.println("END ClientTest");
+	}
+
+	private static boolean matchSocs(ArrayList<Integer> expectedSocs, ArrayList<Integer> caroteneSocs) {
+		boolean matched = false;
+
+		return matched;	
+	}
+
+	// example gid: 41.67
+	private static ArrayList<Integer> addSoc(ArrayList<Integer> socs, String gid) {
+		ArrayList<Integer> newsocs = new ArrayList<Integer>();
+		for(String soc: socs) {
+			int newsoc = (int)(Double.parseDouble(gid));
+			if(soc != newsoc)
+				newsocs.add(new Integer(newsoc));
+		}	
+		return newsocs;
 	}
 
 	private static ArrayList<String[]> getRowsFromCSV(String inputFile, String splitby)
