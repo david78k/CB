@@ -66,7 +66,7 @@ public class ClientTest {
 			JobList jobList = new JobList(inputFile, 1, Job.Mode.TEST);
 			int counter = jobList.size();
 			writer = new PrintWriter(outputFile, "UTF-8");
-			writer.println("File Name\tOriginal Title\tExptected Title\tCarotene Expected Title\tExpected SOCs\tCarotene Socs\tCarotene ID\tCarotene Title\tConfidence\tSOC Match\tIn SOCs\tTitle Match\tDescription");
+			writer.println("File Name\tOriginal Title\tExptected Title\tCarotene Expected Title\tExpected SOCs\tCarotene Socs\tCarotene ID\tCarotene Title\tConfidence\tIn SOCs\tTitle Match\tDescription");
 
 			long startTime = System.nanoTime();
 
