@@ -71,7 +71,7 @@ public class ONetResponse {
 		return titles;	
 	}
 
-	public ArrayList<Integer> getSOCList() {
+	public ArrayList<Integer> getSocs() {
 		return socs;
 	}
 

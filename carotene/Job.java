@@ -17,7 +17,7 @@ public class Job {
 	private String onetcode; // original onet code like 11-2022.00
 
 	public static enum Mode{
-		COLLECT, TEST
+		COLLECT, TEST250, TEST500
 		//CREATE, EXPECTED
 	}
 
@@ -35,7 +35,16 @@ public class Job {
 				title = fields[2].trim();
 				onetcode = fields[3].trim();
 				break;
-			case TEST:
+			case TEST250:
+			// File Name, Original Title, Expected V2.1 title, Description
+			// v2, DIRECTOR OF SUSTAINABILITY, Director of Strategy OR "Director of Sustainability", pstrongemspan style ...
+				title = fields[1].trim();
+				original_expected_titles = fields[2].trim();
+				expected_titles = toExpectedTitles(fields[2].trim());
+				original_expected_socs = fields[3].trim();
+				description = fields[3].trim();
+				break;
+			case TEST500:
 			// File Name, Original Title, Expected V2.1 title, Comments, ONet SOCs, Description
 			// v2, DIRECTOR OF SUSTAINABILITY, Director of Strategy OR "Director of Sustainability", We don't have ..., [11, 13], pstrongemspan style ...
 				title = fields[1].trim();

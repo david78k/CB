@@ -54,7 +54,7 @@ public class OnetHelper {
 		String testfile = "jobs250_ONETs-EDITED.txt";
 		if (args.length > 0)
 			testfile = args[0];
-//		helper.test(testfile);	
+		helper.test250(testfile);	
 
 		String desc = "Tradesmen International is looking for sprinkler fitters, both journeymen and apprentices for potential upcoming work in the Jacksonville and Gainesville, Fl, areas.br / Must have valid driverscense, reliable transportation, and tools of the trade.br /";
 	//	System.out.println(helper.getONETCodes("SPRINKLER FITTERS", desc));
@@ -165,7 +165,7 @@ public class OnetHelper {
 	/** test a file if path is file
 	* and multiple files if path is directory
  	*/
-	public void test(String path) {
+	public void test250(String path) {
 		String outfile = path + ".onet";
 		
 		System.out.println("Input file: " + path + "\tOutput file: " + outfile);
@@ -176,22 +176,28 @@ public class OnetHelper {
 		try{
 			writer = new PrintWriter(outfile);
 
-			// read job data file with title and description and onet code
-			JobList joblist = new JobList(path, 0, Job.Mode.COLLECT);
-			System.out.println("JobList with " + joblist.size() + " jobs has been created.");
-			System.out.println("Start testing ...");	
+		//	if(path.isDirectory()) {
 
-			long startTime = System.currentTimeMillis();
-			for(Job job: joblist) {
-				ONetResponse onets = getONETCodes(job.getTitle(), job.getDescription());
-				String original_onetcode = job.getONetCode();
-				writer.println(job.getJobId() + "\t" + job.getTitle() + "\t" + original_onetcode + "\t" + onets.getSOCListInOrderedSet() + "\t" + job.getDescription());
-				//writer.println(title + "\t" + description + "\t" + soclist);
-				writer.flush();	
-				i ++;
-				if(i % 100 == 0) 
-					System.out.println(i + " (" + (System.currentTimeMillis() - startTime)/1000 + "s)");
-			}	
+		//	} else {
+				// read job data file with title and description and onet code
+				JobList joblist = new JobList(path, 0, Job.Mode.COLLECT);
+				System.out.println("JobList with " + joblist.size() + " jobs has been created.");
+				System.out.println("Start testing ...");	
+
+				long startTime = System.currentTimeMillis();
+				for(Job job: joblist) {
+					ONetResponse onets = getONETCodes(job.getTitle(), job.getDescription());
+					String original_onetcode = job.getONetCode();
+					writer.println(job.getJobId() + "\t" + job.getTitle() + "\t" + original_onetcode 
+						+ "\t" + onets.getTitles() + "\t" + onets.getSocs() 	
+						+ "\t" + onets.getSOCListInOrderedSet() + "\t" + job.getDescription());
+					//writer.println(title + "\t" + description + "\t" + soclist);
+					writer.flush();	
+					i ++;
+					if(i % 100 == 0) 
+						System.out.println(i + " (" + (System.currentTimeMillis() - startTime)/1000 + "s)");
+				}	
+		//	}
 			System.out.println(i + " (" + (System.currentTimeMillis() - startTime)/1000 + "s)");
 			writer.close();
 		} catch(Exception e) {
@@ -201,7 +207,7 @@ public class OnetHelper {
 		System.out.println("Test complete.");
 	}
 
-	public void testFile(String file) {
+	public void test500(String file) {
 		String outfile = file + ".onet";
 		
 		System.out.println("Input file: " + file + "\tOutput file: " + outfile);
