@@ -16,10 +16,10 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Set;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+//import org.json.simple.JSONArray;
+//import org.json.simple.JSONObject;
+//import org.json.simple.parser.JSONParser;
+//import org.json.simple.parser.ParseException;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.xpath.XPathExpressionException;
@@ -36,8 +36,11 @@ public class ONetTest {
 		System.out.println("Starting ClientTest ...");
 		String caroteneURL = "http://localhost:8080/CaroteneClassifier/gettitle";
 		//String caroteneURL = "http://ec2-184-73-68-184.compute-1.amazonaws.com:8080/CaroteneClassifier/gettitle";
-		if (args.length < 2)
-			throw new IllegalArgumentException("args.length = " + args.length);
+		if (args.length < 2) {
+			System.out.println("usage: inputfile outputfile");
+			//throw new IllegalArgumentException("args.length = " + args.length);
+			System.exit(1);
+		}
 		String inputFile = args[0];
 		String outputFile = args[1];
 
@@ -57,26 +60,25 @@ public class ONetTest {
 
 		PrintWriter writer;
 
-		ArrayList<String> expectedTitles;
-		ArrayList<Integer> expectedSocs;
-		ArrayList<Integer> caroteneSocs;
+		ArrayList<String> expectedTitles = null;
+		ArrayList<Integer> expectedSocs = null;
+		ArrayList<Integer> onetSocs = null;
 
 		try {
 			//ArrayList<JobQuery> jobList = getJobsFromJSON(inputFile);
-			JobList jobList = new JobList(inputFile, 1, Job.Mode.TEST);
+			JobList jobList = new JobList(inputFile, 1, Job.Mode.TEST250);
 			int counter = jobList.size();
+			System.out.println(counter + " jobs are loaded.");
 			writer = new PrintWriter(outputFile, "UTF-8");
 			writer.println("File Name\tOriginal Title\tExptected Title\tCarotene Expected Title\tExpected SOCs\tONet Socs\tONet ID\tONet Title\tConfidence\tIn SOCs\tTitle Match\tDescription");
 
 			long startTime = System.nanoTime();
 
-			JSONParser parser = new JSONParser();
-
 			for(Job job : jobList) {
-				String caroteneID = null;
-				String caroteneTitle = null;
+				String onetID = null;
+				String onetTitle = null;
 				int caroteneSoc = -1;
-				Double confidence = 0.0;
+				double confidence = 0.0;
 				int titleMatch = 0;
 				int leafMatch = 0;
 				socMatch = 0;
@@ -86,56 +88,29 @@ public class ONetTest {
 				String description = job.getDescription();
 				expectedTitles = job.getExpectedTitles();
 
-				caroteneSocs = new ArrayList<Integer>();
-			//	System.out.println("new carotneSocs");
-				String response = getResponse(caroteneURL, title, description, version);
-				JSONObject obj1 = (JSONObject) parser.parse(response);
-				JSONArray array = (JSONArray) obj1.get("assignments");
-				for (int itr = 0; itr < array.size(); itr++) {
-					JSONObject obj2 = (JSONObject) array.get(itr);
-					String gID = (String) obj2.get("groupId");
-					JSONArray p2r = (JSONArray) obj2.get("pathToRoot");
-					String gLabel = (String) p2r.get(0);
-					Double score = (Double) obj2.get("confidence");
-					//System.out.println(caroteneSocs + " " + gID);
-					addSoc(caroteneSocs, gID);
-					//System.out.println(caroteneSocs + " " + gID);
-
-					if (title.equalsIgnoreCase(gLabel)) {
-						if (itr == 0)
-							titleMatch = leafMatch = 1;
-						else
-							leafMatch = 1;
-					}
-					if (itr == 0) {
-						caroteneID = gID;
-						caroteneTitle = gLabel;
-						confidence = score;
-						caroteneSoc = (int)(Double.parseDouble(gID));
-					}
-				}
-
-				if (job.isExpectedTitle(caroteneTitle)) {
+				//String response = getResponse(caroteneURL, title, description, version);
+				onets = onetHelper.getONETCodes(title, description);	
+				if (onets ==  null) onetInvalids ++;	
+				else {
+					onetSocs = onets.getSocs();
+					
+					//onetTitle = onets.getTitles();
+/*
+				if (job.hasExpectedTitle(onetTitle)) {
 					titleMatch = 1;
 					matchCount ++;
 				}
-				
-				expectedSocs = job.getExpectedSocs();
-				//if(expectedSocs.contains(new Integer(caroteneSoc))) {
-				if(matchSocs(expectedSocs, caroteneSocs)) {
-					socIn = 1;
-					socInCount ++;		
-					/*
-					if(expectedSocs.get(0).intValue() == caroteneSoc)  {
-						socMatch = 1;
-						socMatchCount ++;
+*/				
+					expectedSocs = job.getExpectedSocs();
+					if(matchSocs(expectedSocs, onetSocs)) {
+						socIn = 1;
+						socInCount ++;		
 					}
-					*/
 				}
 				writer.println(version + "\t" + title 
 						+ "\t" + job.getOriginalExpectedTitles()
 						+ "\t" + expectedTitles + "\t" + expectedSocs 
-						+ "\t" + caroteneSocs + "\t" + caroteneID + "\t" + caroteneTitle + "\t" + confidence
+						+ "\t" + onetSocs + "\t" + onetID + "\t" + onetTitle + "\t" + confidence
 						+ "\t" + socIn
 						//+ "\t" + socMatch + "\t" + socIn
 						+ "\t" + titleMatch
@@ -177,9 +152,9 @@ public class ONetTest {
 			e.printStackTrace();
 /*		} catch (IOException e) {
 			e.printStackTrace();
-*/		} catch (ParseException e) {
+		} catch (ParseException e) {
 			e.printStackTrace();
-		} catch (Exception e) {
+*/		} catch (Exception e) {
 			e.printStackTrace();
 		}
 

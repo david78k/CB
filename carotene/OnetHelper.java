@@ -48,7 +48,8 @@ public class OnetHelper {
 	public static int ONET_DISAGREE = 2;
 	public static int ONET_NOTSURE = 0;
 
-	int matched, matchCount = 0, socMatchCount = 0, invalids = 0;
+	int matched, matchCount = 0, socMatch, socMatchCount = 0, invalids = 0;
+	PrintWriter writer;
 
 	public static void main(String[] args) throws ParserConfigurationException,
 		SAXException, IOException, XPathExpressionException {
@@ -175,7 +176,7 @@ public class OnetHelper {
 
 		PrintWriter writer;
 		int i = 0;
-		matchCount = 0, socMatchCount = 0;
+		matchCount = 0; socMatchCount = 0;
 
 		try{
 			writer = new PrintWriter(outfile);
@@ -195,7 +196,7 @@ public class OnetHelper {
 				for(Job job: joblist) {
 					ONetResponse onets = getONETCodes(job.getTitle(), job.getDescription());
 				//	String original_onetcode = job.getONetCode();
-					matched = 0; socMatched = 0;
+					matched = 0; socMatch = 0;
 					if(onets == null) invalids ++;
 					else {
 						/*
@@ -213,7 +214,7 @@ public class OnetHelper {
 						+ "\t" + (onets == null?"":onets.getTitles()) + "\t" + matched 
 						+ "\t" + (onets == null?"":onets.getSocs())
 						+ "\t" + (onets == null?"":onets.getSOCListInOrderedSet())
-						+ "\t" + socmatch
+						+ "\t" + socMatch
 						 + "\t" + job.getDescription());
 					//writer.println(title + "\t" + description + "\t" + soclist);
 					writer.flush();	

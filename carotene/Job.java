@@ -106,7 +106,7 @@ public class Job {
 		//return new ArrayList<Integer>(Arrays.asList(titles));
 	}
 
-	public boolean isExpectedTitle(String caroteneTitle) {
+	public boolean hasExpectedTitle(String caroteneTitle) {
 		if(caroteneTitle.trim().equalsIgnoreCase(title.trim().toLowerCase())) {
 			return true;
 		}

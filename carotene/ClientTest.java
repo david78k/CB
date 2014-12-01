@@ -115,7 +115,7 @@ public class ClientTest {
 					}
 				}
 
-				if (job.isExpectedTitle(caroteneTitle)) {
+				if (job.hasExpectedTitle(caroteneTitle)) {
 					titleMatch = 1;
 					matchCount ++;
 				}
