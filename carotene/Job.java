@@ -38,6 +38,7 @@ public class Job {
 			case TEST250:
 			// File Name, Original Title, Expected V2.1 title, Description
 			// v2, DIRECTOR OF SUSTAINABILITY, Director of Strategy OR "Director of Sustainability", pstrongemspan style ...
+				jobid = fields[0].trim();
 				title = fields[1].trim();
 				original_expected_titles = fields[2].trim();
 				expected_titles = toExpectedTitles(fields[2].trim());
