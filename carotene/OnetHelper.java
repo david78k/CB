@@ -50,6 +50,24 @@ public class OnetHelper {
 
 	public static void main(String[] args) throws ParserConfigurationException,
 		SAXException, IOException, XPathExpressionException {
+		OnetHelper helper = new OnetHelper();
+		String testfile = "jobs250_ONETs-EDITED.txt";
+		if (args.length > 0)
+			testfile = args[0];
+//		helper.test(testfile);	
+
+		String desc = "Tradesmen International is looking for sprinkler fitters, both journeymen and apprentices for potential upcoming work in the Jacksonville and Gainesville, Fl, areas.br / Must have valid driverscense, reliable transportation, and tools of the trade.br /";
+	//	System.out.println(helper.getONETCodes("SPRINKLER FITTERS", desc));
+		//System.out.println(utils.getONETCodesWithGetRequest("SPRINKLER FITTERS", desc));
+		//System.out.println(utils.checkWithONET("SPRINKLER FITTERS", desc, 47));
+/*
+		System.out.println(utils.checkWithONET("Tax Manager", "office", 13));
+		System.out.println(utils.checkWithONET("Surgeons", "", 29));
+		System.out.println(utils.checkWithONET("Physicians and Surgeons", "", 29));
+		System.out.println(utils.checkWithONET("Oral and Maxillofacial Surgeons", "", 29));
+*/
+		//System.out.println(utils.checkWithONET("Tax Manager", 13));
+
 	/*	BufferedReader reader = new BufferedReader(new FileReader(new File(
 				"datasets/input-categories.txt")));
 		String s = "";
@@ -66,23 +84,6 @@ public class OnetHelper {
 		long duration = endTime - startTime;
 		System.out.println("Time:=" + duration);
 		*/
-		OnetHelper helper = new OnetHelper();
-		String testfile = "jobs250_ONETs-EDITED.txt";
-		if (args.length > 0)
-			testfile = args[0];
-		helper.test(testfile);	
-
-		String desc = "Tradesmen International is looking for sprinkler fitters, both journeymen and apprentices for potential upcoming work in the Jacksonville and Gainesville, Fl, areas.br / Must have valid driverscense, reliable transportation, and tools of the trade.br /";
-	//	System.out.println(helper.getONETCodes("SPRINKLER FITTERS", desc));
-		//System.out.println(utils.getONETCodesWithGetRequest("SPRINKLER FITTERS", desc));
-		//System.out.println(utils.checkWithONET("SPRINKLER FITTERS", desc, 47));
-/*
-		System.out.println(utils.checkWithONET("Tax Manager", "office", 13));
-		System.out.println(utils.checkWithONET("Surgeons", "", 29));
-		System.out.println(utils.checkWithONET("Physicians and Surgeons", "", 29));
-		System.out.println(utils.checkWithONET("Oral and Maxillofacial Surgeons", "", 29));
-*/
-		//System.out.println(utils.checkWithONET("Tax Manager", 13));
 	}
 
 	private Set<Integer> parseXML(String xml) throws ParserConfigurationException,
@@ -161,7 +162,46 @@ public class OnetHelper {
 		return onet;
 	}
 
-	public void test(String file) {
+	/** test a file if path is file
+	* and multiple files if path is directory
+ 	*/
+	public void test(String path) {
+		String outfile = path + ".onet";
+		
+		System.out.println("Input file: " + path + "\tOutput file: " + outfile);
+
+		PrintWriter writer;
+		int i = 0;
+
+		try{
+			writer = new PrintWriter(outfile);
+
+			// read job data file with title and description and onet code
+			JobList joblist = new JobList(path, 0, Job.Mode.COLLECT);
+			System.out.println("JobList with " + joblist.size() + " jobs has been created.");
+			System.out.println("Start testing ...");	
+
+			long startTime = System.currentTimeMillis();
+			for(Job job: joblist) {
+				ONetResponse onets = getONETCodes(job.getTitle(), job.getDescription());
+				String original_onetcode = job.getONetCode();
+				writer.println(job.getJobId() + "\t" + job.getTitle() + "\t" + original_onetcode + "\t" + onets.getSOCListInOrderedSet() + "\t" + job.getDescription());
+				//writer.println(title + "\t" + description + "\t" + soclist);
+				writer.flush();	
+				i ++;
+				if(i % 100 == 0) 
+					System.out.println(i + " (" + (System.currentTimeMillis() - startTime)/1000 + "s)");
+			}	
+			System.out.println(i + " (" + (System.currentTimeMillis() - startTime)/1000 + "s)");
+			writer.close();
+		} catch(Exception e) {
+			e.printStackTrace();
+		} 
+			
+		System.out.println("Test complete.");
+	}
+
+	public void testFile(String file) {
 		String outfile = file + ".onet";
 		
 		System.out.println("Input file: " + file + "\tOutput file: " + outfile);

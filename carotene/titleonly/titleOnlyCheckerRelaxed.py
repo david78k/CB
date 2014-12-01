@@ -16,6 +16,7 @@ def main():
 	results = []
 	for root, dirs, files in os.walk(inputDir, topdown=False):
 		for name in files:
+			# soc11-categories.txt
 			if name.find("DS_Store") == -1 and name.find(".xml") == -1:
 				soc_lineno = 0
 				soc_corrects = 0
