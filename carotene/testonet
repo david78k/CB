@@ -1,5 +1,5 @@
 #prefix=Jobs500_distinct
-prefix=jobs250
+prefix=jobs250_ONETs-EDITED
 inputfile=$prefix.txt
 #testfile=$prefix.txt
 outfile=${prefix}_onet.txt

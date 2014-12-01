@@ -48,6 +48,8 @@ public class OnetHelper {
 	public static int ONET_DISAGREE = 2;
 	public static int ONET_NOTSURE = 0;
 
+	int matched, matchCount = 0, socMatchCount = 0, invalids = 0;
+
 	public static void main(String[] args) throws ParserConfigurationException,
 		SAXException, IOException, XPathExpressionException {
 		OnetHelper helper = new OnetHelper();
@@ -164,6 +166,7 @@ public class OnetHelper {
 
 	/** test a file if path is file
 	* and multiple files if path is directory
+	* produces soc accuracy and title accuracy
  	*/
 	public void test250(String path) {
 		String outfile = path + ".onet";
@@ -171,7 +174,8 @@ public class OnetHelper {
 		System.out.println("Input file: " + path + "\tOutput file: " + outfile);
 
 		PrintWriter writer;
-		int i = 0, matched, matchCount = 0, invalids = 0;
+		int i = 0;
+		matchCount = 0, socMatchCount = 0;
 
 		try{
 			writer = new PrintWriter(outfile);
@@ -191,17 +195,25 @@ public class OnetHelper {
 				for(Job job: joblist) {
 					ONetResponse onets = getONETCodes(job.getTitle(), job.getDescription());
 				//	String original_onetcode = job.getONetCode();
-					matched = 0;
+					matched = 0; socMatched = 0;
 					if(onets == null) invalids ++;
-					else if (job.getTitle().equalsIgnoreCase(onets.getTitles().get(0))) {
-						matched = 1;
-						matchCount ++;
+					else {
+						/*
+						if (job.getSoc().equalsIgnoreCase(onets.getSocs().get(0))) {
+							socMatched = 1;
+							socMatchCount ++;
+						} */
+						if (job.getTitle().equalsIgnoreCase(onets.getTitles().get(0))) {
+							matched = 1;
+							matchCount ++;
+						} 
 					}
 					writer.println(job.getJobId() + "\t" + job.getTitle() 
 						+ "\t" + job.getOriginalExpectedTitles() + "\t" + job.getExpectedTitles()
 						+ "\t" + (onets == null?"":onets.getTitles()) + "\t" + matched 
 						+ "\t" + (onets == null?"":onets.getSocs())
 						+ "\t" + (onets == null?"":onets.getSOCListInOrderedSet())
+						+ "\t" + socmatch
 						 + "\t" + job.getDescription());
 					//writer.println(title + "\t" + description + "\t" + soclist);
 					writer.flush();	
@@ -211,7 +223,8 @@ public class OnetHelper {
 				}	
 		//	}
 			System.out.println(i + " (" + (System.currentTimeMillis() - startTime)/1000 + "s)");
-			printAccuracy(writer, matchCount, invalids, i);
+			printAccuracy(i);
+			//printAccuracy(writer, matchCount, invalids, i);
 			writer.close();
 		} catch(Exception e) {
 			e.printStackTrace();
@@ -256,8 +269,8 @@ public class OnetHelper {
 		System.out.println("Test complete.");
 	}
  
-	//public void printAccuracy(PrintWriter writer, int matchCount, int totalCount) {
-	public void printAccuracy(PrintWriter writer, int matchCount, int invalids, int totalCount) {
+	//public void printAccuracy(PrintWriter writer, int matchCount, int socMatchCount, int invalids, int totalCount) {
+	public void printAccuracy(int totalCount) {
 		double accuracy = 100.0 * matchCount / (totalCount - invalids);
 		String accstr = "Total Count = " + totalCount + " (Invalids = " + invalids + ")";
 		System.out.println(accstr);
