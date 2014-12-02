@@ -1,9 +1,9 @@
 #prefix=run20_ec2_multisocs_itbf0.9f
 #prefix=run8_ec2_onet_ngrams_itbf0.9f_scorefloor50
 #prefix=run18_ec2_soc_match_qtbf4f_itbf0.9f_media_consultant
-prefix=run36_ec2_itbf0.5f_multisocs_thresh3_alpha1.0
+#prefix=run36_ec2_itbf0.5f_multisocs_thresh3_alpha1.0
 #prefix=run22_master_cbdr_itbf0.9f_socmatch
-#prefix=run2_onet_calibration_itbf0.5f
+prefix=run38_ec2_calibration_itbf0.5f
 
 input=jobs250_ONETs-EDITED.txt
 #input=input250.txt

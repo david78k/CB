@@ -56,13 +56,20 @@ public class ONetTest {
 		int onetCount = 0;
 		int onetInMatch = 0; // if soc is in onet socs
 		int onetInCount = 0;
-		int onetInvalids = 0;
+		int invalids = 0;
 
 		PrintWriter writer;
 
 		ArrayList<String> expectedTitles = null;
 		ArrayList<Integer> expectedSocs = null;
 		ArrayList<Integer> onetSocs = null;
+		ArrayList<String> onetTitles = null;
+		String onetID = null;
+		String onetTitle = null;
+		int caroteneSoc = -1;
+		double confidence = 0.0;
+		int titleMatch = 0;
+		int leafMatch = 0;
 
 		try {
 			//ArrayList<JobQuery> jobList = getJobsFromJSON(inputFile);
@@ -70,19 +77,16 @@ public class ONetTest {
 			int counter = jobList.size();
 			System.out.println(counter + " jobs are loaded.");
 			writer = new PrintWriter(outputFile, "UTF-8");
-			writer.println("File Name\tOriginal Title\tExptected Title\tCarotene Expected Title\tExpected SOCs\tONet Socs\tONet ID\tONet Title\tConfidence\tIn SOCs\tTitle Match\tDescription");
+			writer.println("File Name\tOriginal Title\tExptected Title\tCarotene Expected Title\tExpected SOCs\tONet Socs\tONet ID\tONet Title\tConfidence\tSOC Match\tIn SOCs\tTitle Match\tDescription");
 
 			long startTime = System.nanoTime();
 
 			for(Job job : jobList) {
-				String onetID = null;
-				String onetTitle = null;
-				int caroteneSoc = -1;
-				double confidence = 0.0;
-				int titleMatch = 0;
-				int leafMatch = 0;
-				socMatch = 0;
-				socIn = 0;
+				onetID = null;	onetTitle = null; 
+				caroteneSoc = -1;
+				confidence = 0.0;
+				titleMatch = 0; leafMatch = 0;
+				socMatch = 0;	socIn = 0;
 
 				String title = job.getTitle();
 				String description = job.getDescription();
@@ -90,29 +94,34 @@ public class ONetTest {
 
 				//String response = getResponse(caroteneURL, title, description, version);
 				onets = onetHelper.getONETCodes(title, description);	
-				if (onets ==  null) onetInvalids ++;	
+				if (onets ==  null) invalids ++;	
 				else {
+					//System.out.println(onets);
 					onetSocs = onets.getSocs();
-					
-					//onetTitle = onets.getTitles();
-/*
-				if (job.hasExpectedTitle(onetTitle)) {
-					titleMatch = 1;
-					matchCount ++;
-				}
-*/				
+					onetTitles = onets.getTitles();
+
+					// compare with the top title
+					if (job.hasExpectedTitle(onetTitles.get(0))) {
+						titleMatch = 1;
+						matchCount ++;
+					}
+				
 					expectedSocs = job.getExpectedSocs();
+					// compare with top socs
 					if(matchSocs(expectedSocs, onetSocs)) {
 						socIn = 1;
 						socInCount ++;		
+						if(matchSocs(expectedSocs, new ArrayList<Integer>(onetSocs.subList(0, 1)))) {
+							socMatch = 1;
+							socMatchCount ++;	
+						}
 					}
 				}
 				writer.println(version + "\t" + title 
 						+ "\t" + job.getOriginalExpectedTitles()
 						+ "\t" + expectedTitles + "\t" + expectedSocs 
-						+ "\t" + onetSocs + "\t" + onetID + "\t" + onetTitle + "\t" + confidence
-						+ "\t" + socIn
-						//+ "\t" + socMatch + "\t" + socIn
+						+ "\t" + onetSocs + "\t" + onetID + "\t" + onetTitles + "\t" + confidence
+						+ "\t" + socMatch + "\t" + socIn
 						+ "\t" + titleMatch
 						+ "\t" + description);
 						//+ "\t" + leafMatch + "\t" + description);
@@ -128,19 +137,22 @@ public class ONetTest {
 			writer.println("milliseconds/title: " + difference / 1000000f
 					/ (totalCounts));
 			
-			double accuracy = 100.0 * matchCount / totalCounts;
-			String accustr = "Accuracy (%): " + accuracy + " (" + matchCount + "/" + totalCounts + ")";
+			String stat = "Total Count: " + totalCounts + " (Invalids = " + invalids + ")";
+			writer.println(stat);
+			System.out.println(stat);
+
+			double accuracy = 100.0 * matchCount /( totalCounts - invalids);
+			String accustr = "Accuracy (%): " + accuracy + " (" + matchCount + "/" + (totalCounts - invalids) + ")";
 			writer.println(accustr);
 			System.out.println(accustr);
 
-			/*
-			accuracy = 100.0 * socMatchCount / totalCounts;
-			accustr = "Accuracy (%) for top SOC match: " + accuracy + " (" + socMatchCount + "/" + totalCounts + ")";
+			accuracy = 100.0 * socMatchCount / (totalCounts - invalids);
+			accustr = "Accuracy (%) for top SOC match: " + accuracy + " (" + socMatchCount + "/" + (totalCounts - invalids)+ ")";
 			writer.println(accustr);
 			System.out.println(accustr);
-			*/
-			accuracy = 100.0 * socInCount / totalCounts;
-			accustr = "Accuracy (%) for inSOCs: " + accuracy + " (" + socInCount + "/" + totalCounts + ")";
+			
+			accuracy = 100.0 * socInCount / (totalCounts - invalids);
+			accustr = "Accuracy (%) for inSOCs: " + accuracy + " (" + socInCount + "/" + (totalCounts - invalids) + ")";
 			writer.println(accustr);
 			System.out.println(accustr);
 
