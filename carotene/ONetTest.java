@@ -66,7 +66,7 @@ public class ONetTest {
 
 		try {
 			//ArrayList<JobQuery> jobList = getJobsFromJSON(inputFile);
-			JobList jobList = new JobList(inputFile, 1, Job.Mode.TEST250);
+			JobList jobList = new JobList(inputFile, 1, Job.Mode.TEST);
 			int counter = jobList.size();
 			System.out.println(counter + " jobs are loaded.");
 			writer = new PrintWriter(outputFile, "UTF-8");
