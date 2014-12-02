@@ -78,7 +78,7 @@ public class ONetTest {
 			int counter = jobList.size();
 			System.out.println(counter + " jobs are loaded.");
 			writer = new PrintWriter(outputFile, "UTF-8");
-			writer.println("File Name\tOriginal Title\tExptected Title\tONet Expected Title\tExpected SOCs\tONet Socs\tONet ID\tONet Title\tConfidence\tSOC Match\tIn SOCs\tTitle Match\tDescription");
+			writer.println("File Name\tOriginal Title\tExptected Title\tONet Expected Title\tExpected SOCs\tONet Title\tONet Socs\tONet ID\tConfidence\tSOC Match\tIn SOCs\tTitle Match\tDescription");
 
 			long startTime = System.nanoTime();
 
