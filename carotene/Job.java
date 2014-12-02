@@ -114,7 +114,8 @@ public class Job {
 			return true;
 		}
 		for(String title: expected_titles) {
-			if(title.trim().equalsIgnoreCase(caroteneTitle.trim()))
+			if(title.trim().equalsIgnoreCase(caroteneTitle.trim())
+			||(title.trim() + "s").equalsIgnoreCase(caroteneTitle.trim()))
 				return true;
 		}
 		return false;

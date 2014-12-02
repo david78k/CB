@@ -84,6 +84,10 @@ public class ONetResponse {
 		return set;
 	}
 
+	public ArrayList<ONetCode> getCodes() {
+		return codes;	
+	}
+
 	public void add(ONetCode code) {
 		codes.add(code);
 		titles.add(code.getTitle());

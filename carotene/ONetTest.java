@@ -33,7 +33,7 @@ public class ONetTest {
 	final static String version = "v2";
 				
 	public static void main(String[] args) {
-		System.out.println("Starting ClientTest ...");
+		System.out.println("Starting ONetTest ...");
 		String caroteneURL = "http://localhost:8080/CaroteneClassifier/gettitle";
 		//String caroteneURL = "http://ec2-184-73-68-184.compute-1.amazonaws.com:8080/CaroteneClassifier/gettitle";
 		if (args.length < 2) {
@@ -60,6 +60,7 @@ public class ONetTest {
 
 		PrintWriter writer;
 
+		ArrayList<ONetCode> onetCodes = null;
 		ArrayList<String> expectedTitles = null;
 		ArrayList<Integer> expectedSocs = null;
 		ArrayList<Integer> onetSocs = null;
@@ -77,7 +78,7 @@ public class ONetTest {
 			int counter = jobList.size();
 			System.out.println(counter + " jobs are loaded.");
 			writer = new PrintWriter(outputFile, "UTF-8");
-			writer.println("File Name\tOriginal Title\tExptected Title\tCarotene Expected Title\tExpected SOCs\tONet Socs\tONet ID\tONet Title\tConfidence\tSOC Match\tIn SOCs\tTitle Match\tDescription");
+			writer.println("File Name\tOriginal Title\tExptected Title\tONet Expected Title\tExpected SOCs\tONet Socs\tONet ID\tONet Title\tConfidence\tSOC Match\tIn SOCs\tTitle Match\tDescription");
 
 			long startTime = System.nanoTime();
 
@@ -99,9 +100,15 @@ public class ONetTest {
 					//System.out.println(onets);
 					onetSocs = onets.getSocs();
 					onetTitles = onets.getTitles();
+					onetTitle = onetTitles.get(0);
+					onetCodes = onets.getCodes();
+					onetID = onetCodes.get(0).getCode();
+					confidence = onetCodes.get(0).getScore();
 
 					// compare with the top title
-					if (job.hasExpectedTitle(onetTitles.get(0))) {
+					if (job.hasExpectedTitle(onetTitle) || title.equalsIgnoreCase(onetTitle)
+					//	|| job.hasExpectedTitle(onetTitle + "s") 
+					){
 						titleMatch = 1;
 						matchCount ++;
 					}
@@ -120,7 +127,7 @@ public class ONetTest {
 				writer.println(version + "\t" + title 
 						+ "\t" + job.getOriginalExpectedTitles()
 						+ "\t" + expectedTitles + "\t" + expectedSocs 
-						+ "\t" + onetSocs + "\t" + onetID + "\t" + onetTitles + "\t" + confidence
+						+ "\t" + onetTitles + "\t" + onetSocs + "\t" + onetID + "\t" + confidence
 						+ "\t" + socMatch + "\t" + socIn
 						+ "\t" + titleMatch
 						+ "\t" + description);
