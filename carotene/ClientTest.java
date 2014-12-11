@@ -92,7 +92,7 @@ public class ClientTest {
 				JSONObject obj1 = (JSONObject) parser.parse(response);
 				JSONArray array = (JSONArray) obj1.get("assignments");
 				if(array == null) {
-					System.out.println(job);	
+					System.out.println(title + " " + expectedTitles);
 					continue;
 				}
 				for (int itr = 0; itr < array.size(); itr++) {
