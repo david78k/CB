@@ -91,6 +91,10 @@ public class ClientTest {
 				String response = getResponse(caroteneURL, title, description, version);
 				JSONObject obj1 = (JSONObject) parser.parse(response);
 				JSONArray array = (JSONArray) obj1.get("assignments");
+				if(array == null) {
+					System.out.println(job);	
+					continue;
+				}
 				for (int itr = 0; itr < array.size(); itr++) {
 					JSONObject obj2 = (JSONObject) array.get(itr);
 					String gID = (String) obj2.get("groupId");
