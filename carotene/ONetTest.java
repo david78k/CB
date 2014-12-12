@@ -31,9 +31,37 @@ import org.xml.sax.SAXException;
 public class ONetTest {
 
 	final static String version = "v2";
+	int matchCount = 0;
+	int socMatchCount = 0;
+	int socMatch = 0;
+	int socInCount = 0;
+	int socIn = 0;
+	int totalCount = 0;
+	int validCount = 0;
+
+	OnetHelper onetHelper = new OnetHelper();
+	ONetResponse onets;
+	int onetMatch = 0;  // exact match with the top onet soc
+	int onetCount = 0;
+	int onetInMatch = 0; // if soc is in onet socs
+	int onetInCount = 0;
+	int invalids = 0;
+
+	ArrayList<ONetCode> onetCodes = null;
+	ArrayList<String> expectedTitles = null;
+	ArrayList<Integer> expectedSocs = null;
+	ArrayList<Integer> onetSocs = null;
+	ArrayList<String> onetTitles = null;
+	String onetID = null;
+	String onetTitle = null;
+	int caroteneSoc = -1;
+	double confidence = 0.0;
+	int titleMatch = 0;
+	int leafMatch = 0;
+
+	PrintWriter writer;
 				
 	public static void main(String[] args) {
-		System.out.println("Starting ONetTest ...");
 		String caroteneURL = "http://localhost:8080/CaroteneClassifier/gettitle";
 		//String caroteneURL = "http://ec2-184-73-68-184.compute-1.amazonaws.com:8080/CaroteneClassifier/gettitle";
 		if (args.length < 2) {
@@ -44,33 +72,12 @@ public class ONetTest {
 		String inputFile = args[0];
 		String outputFile = args[1];
 
-		int matchCount = 0;
-		int socMatchCount = 0;
-		int socMatch = 0;
-		int socInCount = 0;
-		int socIn = 0;
-
-		OnetHelper onetHelper = new OnetHelper();
-		ONetResponse onets;
-		int onetMatch = 0;  // exact match with the top onet soc
-		int onetCount = 0;
-		int onetInMatch = 0; // if soc is in onet socs
-		int onetInCount = 0;
-		int invalids = 0;
-
-		PrintWriter writer;
-
-		ArrayList<ONetCode> onetCodes = null;
-		ArrayList<String> expectedTitles = null;
-		ArrayList<Integer> expectedSocs = null;
-		ArrayList<Integer> onetSocs = null;
-		ArrayList<String> onetTitles = null;
-		String onetID = null;
-		String onetTitle = null;
-		int caroteneSoc = -1;
-		double confidence = 0.0;
-		int titleMatch = 0;
-		int leafMatch = 0;
+		ONetTest test = new ONetTest();
+		test.start(inputFile, outputFile);
+	}
+	
+	public void start(String inputFile, String outputFile) {
+		System.out.println("Starting ONetTest ...");
 
 		try {
 			//ArrayList<JobQuery> jobList = getJobsFromJSON(inputFile);
@@ -137,34 +144,15 @@ public class ONetTest {
 			long endTime = System.nanoTime();
 			long difference = endTime - startTime;
 
-			int totalCounts = counter;
+			totalCount = counter;
 			writer.println();
-			writer.println("Number of Titles: " + totalCounts);
+			writer.println("Number of Titles: " + totalCount);
 			writer.println("Elapsed milliseconds: " + difference / 1000000f);
 			writer.println("milliseconds/title: " + difference / 1000000f
-					/ (totalCounts));
+					/ (totalCount));
 			
-			printStats(totalCounts, invalids, matchCount, socMatchCount, socInCount);
-/*
-			String stat = "Total Count: " + totalCounts + " (Invalids = " + invalids + ")";
-			writer.println(stat);
-			System.out.println(stat);
+			printStats();
 
-			double accuracy = 100.0 * matchCount /( totalCounts - invalids);
-			String accustr = "Accuracy (%): " + accuracy + " (" + matchCount + "/" + (totalCounts - invalids) + ")";
-			writer.println(accustr);
-			System.out.println(accustr);
-
-			accuracy = 100.0 * socMatchCount / (totalCounts - invalids);
-			accustr = "Accuracy (%) for top SOC match: " + accuracy + " (" + socMatchCount + "/" + (totalCounts - invalids)+ ")";
-			writer.println(accustr);
-			System.out.println(accustr);
-			
-			accuracy = 100.0 * socInCount / (totalCounts - invalids);
-			accustr = "Accuracy (%) for inSOCs: " + accuracy + " (" + socInCount + "/" + (totalCounts - invalids) + ")";
-			writer.println(accustr);
-			System.out.println(accustr);
-*/
 			writer.close();
 
 		} catch (FileNotFoundException e) {
@@ -175,32 +163,41 @@ public class ONetTest {
 			e.printStackTrace();
 		}
 
-		System.out.println("END ClientTest");
+		System.out.println("END Test");
 	}
 
-	private static void printStats(int totalCounts, int invalids, int matchCount, int socMatchCount, int socInCount) {
-		String stat = "Total Count: " + totalCounts + " (Invalids = " + invalids + ")";
-		print(accustr);
+	//private void printStats(int totalCount, int invalids, int matchCount, int socMatchCount, int socInCount) {
+	private void printStats() {
+		String str = "Total Count: " + totalCount + " (Invalids = " + invalids + ")";
+		print(str);
 
-		double accuracy = 100.0 * matchCount /( totalCounts - invalids);
-		String accustr = "Accuracy (%): " + accuracy + " (" + matchCount + "/" + (totalCounts - invalids) + ")";
-		print(accustr);
+		validCount = totalCount - invalids;
+		double accuracy = 100.0 * matchCount /( totalCount - invalids);
+		//str = "Accuracy (%): " + accuracy + " (" + matchCount + "/" + (totalCount - invalids) + ")";
+		print("", matchCount);
 
-		accuracy = 100.0 * socMatchCount / (totalCounts - invalids);
-		accustr = "Top SOC Accuracy (%): " + accuracy + " (" + socMatchCount + "/" + (totalCounts - invalids)+ ")";
-		print(accustr);
+		accuracy = 100.0 * socMatchCount / (totalCount - invalids);
+		//str = "Top SOC Accuracy (%): " + accuracy + " (" + socMatchCount + "/" + (totalCount - invalids)+ ")";
+		print("TOP SOC ", socMatchCount);
 			
-		accuracy = 100.0 * socInCount / (totalCounts - invalids);
-		accustr = "SOC Accuracy (%): " + accuracy + " (" + socInCount + "/" + (totalCounts - invalids) + ")";
-		print(accustr);
+		accuracy = 100.0 * socInCount / (totalCount - invalids);
+		//str = "SOC Accuracy (%): " + accuracy + " (" + socInCount + "/" + (totalCount - invalids) + ")";
+		print("SOC ", socInCount);
 	}
 
-	private static void print(String str) {
+	// print stats in format
+	// accPrefix: "SOC" in "SOC Accuracy (%):"
+	private void print(String accPrefix, int metric) {
+		double accuracy = 100.0 * metric / validCount; 
+		print(accPrefix + "Accuracy (%): " + String.format("%.2f", accuracy) + " (" + metric + "/" + validCount + ")");
+	}
+
+	private void print(String str) {
 		writer.println(str);
 		System.out.println(str);
 	}
 
-	private static boolean matchSocs(ArrayList<Integer> expectedSocs, ArrayList<Integer> caroteneSocs) {
+	private boolean matchSocs(ArrayList<Integer> expectedSocs, ArrayList<Integer> caroteneSocs) {
 		boolean matched = false;
 
 		for(Integer esoc: expectedSocs) {
@@ -213,14 +210,14 @@ public class ONetTest {
 	}
 
 	// example gid: 41.67
-	private static void addSoc(ArrayList<Integer> socs, String gid) {
+	private void addSoc(ArrayList<Integer> socs, String gid) {
 		ArrayList<Integer> newsocs = new ArrayList<Integer>();
 		int newsoc = (int)(Double.parseDouble(gid));
 		if(!socs.contains(new Integer(newsoc)))	
 			socs.add(new Integer(newsoc));
 	}
 
-	private static ArrayList<String[]> getRowsFromCSV(String inputFile, String splitby)
+	private ArrayList<String[]> getRowsFromCSV(String inputFile, String splitby)
 			throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(inputFile));
 		ArrayList<String[]> titleList = new ArrayList<String[]>();
@@ -233,7 +230,7 @@ public class ONetTest {
 		return titleList;
 	}
 
-	private static ArrayList<String> getTitlesFromCSV(String inputFile, String splitby)
+	private ArrayList<String> getTitlesFromCSV(String inputFile, String splitby)
 			throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(inputFile));
 		ArrayList<String> titleList = new ArrayList<String>();
@@ -245,7 +242,7 @@ public class ONetTest {
 		return titleList;
 	}
 
-	private static String getResponse(String targetURL, String title,
+	private String getResponse(String targetURL, String title,
 			String description, String version) {
 
 		StringBuffer answer = new StringBuffer();
@@ -296,7 +293,7 @@ public class ONetTest {
 		return answer.toString();
 	}
 
-	private static String prepareText(String text) {
+	private String prepareText(String text) {
 		String preppedText = "";
 
 		try {

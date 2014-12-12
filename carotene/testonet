@@ -1,8 +1,8 @@
-prefix=Jobs750_onet-EDITED
+prefix=Jobs500_onet-EDITED
 #prefix=jobs250_ONETs-EDITED
 inputfile=$prefix.txt
 #testfile=$prefix.txt
-outfile=jobs750_onet.txt
+outfile=jobs500_onet.txt
 #outfile=${prefix}_onet.txt
 
 #rm OnetHelper.class JobList.class Job.class
