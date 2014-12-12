@@ -169,7 +169,7 @@ public class ClientTest {
 			System.out.println(accustr);
 			*/
 			accuracy = 100.0 * socInCount / totalCounts;
-			accustr = "Accuracy (%) for inSOCs: " + accuracy + " (" + socInCount + "/" + totalCounts + ")";
+			accustr = "SOC Accuracy (%): " + accuracy + " (" + socInCount + "/" + totalCounts + ")";
 			writer.println(accustr);
 			System.out.println(accustr);
 

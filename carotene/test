@@ -1,10 +1,10 @@
 #prefix=run8_ec2_onet_ngrams_itbf0.9f_scorefloor50
 #prefix=run62_j500_ec2_itbf0.5f_msocs2_alpha0.5_calib0.85
 #prefix=run64_j500_ec2_ssoc_itbf0.5f_calib0.85_enrich
-prefix=run66_j500_ec2_ssoc_itbf0.5f_calib0.85
+prefix=run67_j750_ec2_ssoc_itbf0.5f_calib0.85
 #prefix=run65_j500_ec2_ssoc_itbf0.5f
 
-input=Jobs500_onet-EDITED.txt
+input=Jobs750.txt
 #input=jobs250_ONETs-EDITED.txt
 #input=input250.txt
 output=$prefix.txt
