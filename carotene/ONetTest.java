@@ -144,6 +144,8 @@ public class ONetTest {
 			writer.println("milliseconds/title: " + difference / 1000000f
 					/ (totalCounts));
 			
+			printStats(totalCounts, invalids, matchCount, socMatchCount, socInCount);
+/*
 			String stat = "Total Count: " + totalCounts + " (Invalids = " + invalids + ")";
 			writer.println(stat);
 			System.out.println(stat);
@@ -162,22 +164,40 @@ public class ONetTest {
 			accustr = "Accuracy (%) for inSOCs: " + accuracy + " (" + socInCount + "/" + (totalCounts - invalids) + ")";
 			writer.println(accustr);
 			System.out.println(accustr);
-
+*/
 			writer.close();
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
-/*		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
-*/		} catch (Exception e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
 		System.out.println("END ClientTest");
+	}
+
+	private static void printStats(int totalCounts, int invalids, int matchCount, int socMatchCount, int socInCount) {
+		String stat = "Total Count: " + totalCounts + " (Invalids = " + invalids + ")";
+		print(accustr);
+
+		double accuracy = 100.0 * matchCount /( totalCounts - invalids);
+		String accustr = "Accuracy (%): " + accuracy + " (" + matchCount + "/" + (totalCounts - invalids) + ")";
+		print(accustr);
+
+		accuracy = 100.0 * socMatchCount / (totalCounts - invalids);
+		accustr = "Top SOC Accuracy (%): " + accuracy + " (" + socMatchCount + "/" + (totalCounts - invalids)+ ")";
+		print(accustr);
+			
+		accuracy = 100.0 * socInCount / (totalCounts - invalids);
+		accustr = "SOC Accuracy (%): " + accuracy + " (" + socInCount + "/" + (totalCounts - invalids) + ")";
+		print(accustr);
+	}
+
+	private static void print(String str) {
+		writer.println(str);
+		System.out.println(str);
 	}
 
 	private static boolean matchSocs(ArrayList<Integer> expectedSocs, ArrayList<Integer> caroteneSocs) {

@@ -158,9 +158,8 @@ public class ClientTest {
 					/ (totalCounts));
 			
 			double accuracy = 100.0 * matchCount / totalCounts;
-			String accustr = "Accuracy (%): " + accuracy + " (" + matchCount + "/" + totalCounts + ")";
-			writer.println(accustr);
-			System.out.println(accustr);
+			String accustr = "Accuracy (%): " + String.format("%.2f", accuracy) + " (" + matchCount + "/" + totalCounts + ")";
+			print(accustr);
 
 			/*
 			accuracy = 100.0 * socMatchCount / totalCounts;
@@ -169,9 +168,8 @@ public class ClientTest {
 			System.out.println(accustr);
 			*/
 			accuracy = 100.0 * socInCount / totalCounts;
-			accustr = "SOC Accuracy (%): " + accuracy + " (" + socInCount + "/" + totalCounts + ")";
-			writer.println(accustr);
-			System.out.println(accustr);
+			accustr = "SOC Accuracy (%): " + String.format("%.2f", accuracy) + " (" + socInCount + "/" + totalCounts + ")";
+			print(accustr);
 
 			writer.close();
 
@@ -190,6 +188,18 @@ public class ClientTest {
 		System.out.println("END ClientTest");
 	}
 
+	private static void print(String str) {
+		writer.println(str);
+		System.out.println(str);
+	}
+/*
+	private static void print(int totalCounts, int metric) {
+		double accuracy = 100.0 * socInCount / totalCounts;
+		String accustr = "SOC Accuracy (%): " + accuracy + " (" + socInCount + "/" + totalCounts + ")";
+		writer.println(accustr);
+		System.out.println(accustr);
+	}
+*/
 	private static boolean matchSocs(ArrayList<Integer> expectedSocs, ArrayList<Integer> caroteneSocs) {
 		boolean matched = false;
 
