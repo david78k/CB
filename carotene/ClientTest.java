@@ -31,6 +31,7 @@ import org.xml.sax.SAXException;
 public class ClientTest {
 
 	final static String version = "v2";
+	static PrintWriter writer;
 				
 	public static void main(String[] args) {
 		System.out.println("Starting ClientTest ...");
@@ -54,8 +55,6 @@ public class ClientTest {
 		int onetInMatch = 0; // if soc is in onet socs
 		int onetInCount = 0;
 		int onetInvalids = 0;
-
-		PrintWriter writer;
 
 		ArrayList<String> expectedTitles;
 		ArrayList<Integer> expectedSocs;
