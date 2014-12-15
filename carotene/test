@@ -1,6 +1,7 @@
 #prefix=run8_ec2_onet_ngrams_itbf0.9f_scorefloor50
-prefix=run69_j750_ec2_itbf0.5f_msocs2_alpha0.5_calib0.85
-#prefix=run64_j500_ec2_ssoc_itbf0.5f_calib0.85_enrich
+#prefix=run69_j750_ec2_msocs2_itbf0.5f_alpha0.5_calib0.85
+#prefix=run70_j750_ec2_msocs2_itbf0.5f_alpha1.0_calib0.85
+prefix=run71_j750_ec2_ssoc_itbf0.5f_calib0.85_enrich
 #prefix=run67_j750_ec2_ssoc_itbf0.5f_calib0.85
 #prefix=run68_j750_ec2_ssoc_itbf0.5f
 
