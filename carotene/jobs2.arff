@@ -1,0 +1,13 @@
+@RELATION jobs2
+
+@ATTRIBUTE class {'Food Service Manager','Payroll Administrator'}
+@ATTRIBUTE a1 NUMERIC
+@ATTRIBUTE a2 NUMERIC
+@ATTRIBUTE a3 NUMERIC
+@ATTRIBUTE a4 NUMERIC
+
+@DATA
+'Food Service Manager',0,0,1,1
+'Payroll Administrator',0,0,0,1
+%'Food Service Manager',?,?,1,1
+%'Payroll Administrator',?,?,?,1
