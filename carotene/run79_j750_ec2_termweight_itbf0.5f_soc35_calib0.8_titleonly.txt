@@ -1,0 +1,707 @@
+File Name	Original Title	Exptected Title	Carotene Expected Title	Expected SOCs	Carotene Socs	Carotene ID	Carotene Title	Confidence	In SOCs	Title Match	Description
+v2	Regional Sales Director-West	Sales Director	[sales director]	[11, 41]	[11]	11.21	Sales Director	0.57246995	1	1	
+v2	Territory Manager	Territory Manager	[territory manager]	[11, 41]	[11]	11.57	Territory Manager	1.0	1	1	
+v2	Production Director	Director of Operations	[director of operations]	[11]	[27]	27.12	Production Artist	1.0	0	0	
+v2	Chief Information Officer	"""Chief Information Officer"""	[chief information officer]	[11]	[11]	11.12	Vice President	0.542213	1	0	
+v2	Construction Project Manager	Assistant Construction Project Manager OR Project Manager OR Construction Manager	[assistant construction project manager, project manager, construction manager]	[11, 47]	[47]	47.156	Assistant Construction Project Manager	1.0	1	1	
+v2	Finance Manager	Finance Manager OR Financial Services Manager	[finance manager, financial services manager]	[11, 13]	[11]	11.20	Finance Manager	1.0	1	1	
+v2	Regional Manager - MA	Regional Service Manager or Sales Manager	[regional service manager, sales manager]	[11, 41]	[11]	11.31376	Regional Service Manager	0.41199753	1	1	
+v2	Regional Manager - AZ	Regional Service Manager or Sales Manager	[regional service manager, sales manager]	[11, 41]	[11]	11.31376	Regional Service Manager	0.38404995	1	1	
+v2	Marketing Program Manager	Marketing Manager	[marketing manager]	[11, 13]	[11]	11.7	Program Manager	0.5	1	0	
+v2	Human Resources Manager	Human Resources (HR) Manager	[human resources (hr) manager]	[11, 13]	[11]	11.11	Human Resources (HR) Manager	1.0	1	1	
+v2	VP of  Marketing	Vice President (VP) of Marketing	[vice president (vp) of marketing]	[11, 19]	[11]	11.196	Vice President (VP) of Marketing	1.0	1	1	
+v2	Director of Business Development	Business Development Director	[business development director]	[11]	[11]	11.48	Business Development Director	1.0	1	1	
+v2	Director of OR	"Medical Director OR Clinical Director OR ""Director of Operating Room (OR)"""	[medical director, clinical director, director of operating room (or)]	[11, 29]	[11]	11.15	Director of Nursing	0.4	1	0	
+v2	Medical Director	Medical Director	[medical director]	[11, 29]	[11]	11.27	Medical Director	1.0	1	1	
+v2	Clinical Nurse Specialist	Clinical Nurse	[clinical nurse]	[11, 29]	[11]	11.33	Nurse Manager	0.3338295	1	0	
+v2	Director of OB	"Clinical Director OR Medical Director OR ""Director of OB"""	[clinical director, medical director, director of ob]	[11, 29]	[29]	29.30660	Obstetrics (OB) Technician	1.0	1	0	
+v2	Director-Risk Management	Director of Risk Management	[director of risk management]	[11]	[11]	11.314	Director of Risk Management	0.9947736	1	1	
+v2	"Director, Business Health Services - Occupational"	Health Services Director	[health services director]	[11, 29]	[11]	11.54	Health Services Director	1.0	1	1	
+v2	"Director of Nursing,(7th Floor) - 7th Floor"	Director of Nursing	[director of nursing]	[29, 11]	[41]	41.30959	Floor Supervisor	1.0	0	0	
+v2	Asst Financial Manager	Financial Services Manager OR Finance Manager	[financial services manager, finance manager]	[11, 13]	[11]	11.85	Manager of Financial Analysis and Planning	0.33735642	1	0	
+v2	Product Manager	Product Manager	[product manager]	[11, 15]	[11]	11.6	Product Manager	1.0	1	1	
+v2	Channel Sales Manager	Channel Manager	[channel manager]	[11, 41]	[11]	11.0	Sales Manager	0.5	1	0	
+v2	Marketing Manager	Marketing Manager	[marketing manager]	[11]	[11]	11.5	Marketing Manager	1.0	1	1	
+v2	Sr. Product Marketing Manager	Marketing Manager	[marketing manager]	[11, 19]	[11]	11.6	Product Manager	0.5	1	0	
+v2	DIRECTOR PRODUCT DEVELOPMENT	Director of Product Development	[director of product development]	[11]	[11]	11.34	Director of Product Development	1.0	1	1	
+v2	District Sales Manager	District Manager	[district manager]	[11, 41]	[11]	11.0	Sales Manager	0.5	1	0	
+v2	CPA Firm Managers (& Staff & Seniors)	Audit Manager OR Tax Manager	[audit manager, tax manager]	[11, 13]	[11]	11.40	Audit Manager	0.63412035	1	1	
+v2	Sr Product Marketer- Enterprise Software	Product Manager	[product manager]	[11, 15]	[11]	11.6	Product Manager	0.5711027	1	1	
+v2	DISTRICT MANAGER	District Manager	[district manager]	[11]	[11]	11.10	District Manager	1.0	1	1	
+v2	Service / Restaurant Managers	Restaurant Manager	[restaurant manager]	[11, 35]	[35]	35.0	Restaurant Manager	0.5	1	1	
+v2	Design Build Project Manager - Field Operations	Project Manager	[project manager]	[11, 47]	[11]	11.95	Project Director	0.5126946	1	0	
+v2	DISTRICT MANAGER	District Manager	[district manager]	[11, 41]	[11]	11.10	District Manager	1.0	1	1	
+v2	STORE MANAGER	Store Manager	[store manager]	[11, 41]	[41]	41.15	Store Manager	0.9949655	1	1	
+v2	Marketing Manager/ Communications Mgr.	Marketing Manager	[marketing manager]	[11, 27]	[11]	11.5	Marketing Manager	0.66151834	1	1	
+v2	General Manager	General Manager	[general manager]	[11]	[11]	11.2	General Manager	1.0	1	1	
+v2	Assistant Direct Marketing Manager	Marketing Manager	[marketing manager]	[11, 13, 41]	[11]	11.5	Marketing Manager	1.0	1	1	
+v2	Regional Sales Manager	Sales Manager	[sales manager]	[11, 41]	[11]	11.0	Sales Manager	1.0	1	1	
+v2	VP Operations	Vice President(VP) of Operations	[vice president(vp) of operations]	[11]	[11]	11.177	Vice President (VP) of Operations	1.0	1	0	
+v2	MARKETING DIRECTOR	Marketing Director	[marketing director]	[11]	[11]	11.24	Marketing Director	1.0	1	1	
+v2	Regional Channel Sales Manager	Channel Manager	[channel manager]	[11, 41]	[11]	11.0	Sales Manager	0.5	1	0	
+v2	Regional Sales Manager	Sales Manager	[sales manager]	[11, 41]	[11]	11.0	Sales Manager	1.0	1	1	
+v2	Benefits and Compensation Manager	Benefits Manager OR Compensation Manager	[benefits manager, compensation manager]	[11]	[11]	11.127	Compensation Manager	0.46159798	1	1	
+v2	Regional Manager - SC	Regional Service Manager or Sales Manager	[regional service manager, sales manager]	[11, 41]	[49]	49.2	Maintenance Manager	1.0	0	0	
+v2	Accountant	Accountant	[accountant]	[13]	[13]	13.0	Accountant	1.0	1	1	
+v2	Instructor/Trainer/VB	Training Instructor OR Technical Trainer	[training instructor, technical trainer]	[13, 25, 39]	[13]	13.35	Technical Trainer	0.3345066	1	1	
+v2	"Cost Analyst - Estimating, Pricing"	Cost Analyst	[cost analyst]	[13]	[13]	13.34	Cost Analyst	0.8389951	1	1	
+v2	Print and Direct Mail Media Buyer	Senior Buyer	[senior buyer]	[13, 27, 11]	[13]	13.7	Senior Buyer	0.90436065	1	1	
+v2	Accounting Supervisor	"Accountant OR Account Supervisor OR ""Accounting Supervisor"""	[accountant, account supervisor, accounting supervisor]	[43, 13]	[13]	13.0	Accountant	1.0	1	1	
+v2	Director of Internal Audit	Audit Director	[audit director]	[13, 11]	[13]	13.143	Auditor	1.0	1	0	
+v2	SR ACCOUNTANT	Accountant	[accountant]	[13]	[13]	13.0	Accountant	1.0	1	1	
+v2	Senior Accountant	Accountant	[accountant]	[13]	[13]	13.0	Accountant	1.0	1	1	
+v2	STAFF ACCOUNTANT	Staff Accountant	[staff accountant]	[13]	[13]	13.30129	Staff Accountant	1.0	1	1	
+v2	SENIOR ACCOUNTANTS	Accountant	[accountant]	[13]	[13]	13.0	Accountant	1.0	1	1	
+v2	SENIOR COST ACCOUNTANT	Cost Accountant	[cost accountant]	[13]	[13]	13.30384	Cost Accountant	0.78890115	1	1	
+v2	"AUDITOR, SENIOR"	Auditor	[auditor]	[13]	[13]	13.143	Auditor	1.0	1	1	
+v2	AVP/ Technology Auditor	Auditor	[auditor]	[13, 15]	[13]	13.143	Auditor	1.0	1	1	
+v2	Senior Auditors	Auditor	[auditor]	[13]	[13]	13.143	Auditor	1.0	1	1	
+v2	Senior Accountant- Healthcare	Accountant	[accountant]	[13]	[13]	13.0	Accountant	1.0	1	1	
+v2	"ACCOUNTANT, PROJECT"	Accountant	[accountant]	[13]	[13]	13.0	Accountant	0.84069264	1	1	
+v2	Senior Tax Accountant	Tax Accountant	[tax accountant]	[13, 11]	[13]	13.30230	Tax Accountant	1.0	1	1	
+v2	Financial Analyst	Financial Analyst	[financial analyst]	[13]	[13]	13.3	Financial Analyst	1.0	1	1	
+v2	Corporate Tax Staff/Sr.	Tax Staff	[tax staff]	[13]	[13]	13.0	Accountant	0.5	1	0	
+v2	International Tax Manager	"""Tax Manager"""	[tax manager]	[11, 13]	[13]	13.64	Services Manager	0.55136025	1	0	
+v2	Accountant Auditor CPA Auditing Tax	Auditor OR Accountant	[auditor, accountant]	[13]	[13]	13.143	Auditor	0.7961422	1	1	
+v2	Cost   Accountant	Cost Accountant	[cost accountant]	[13]	[13]	13.30384	Cost Accountant	1.0	1	1	
+v2	LOAN OFFICER	Loan Officer	[loan officer]	[13]	[13]	13.8	Loan Officer	1.0	1	1	
+v2	Management Consultant	Management Consultant OR Consulting Manager	[management consultant, consulting manager]	[13]	[13]	13.30056	Managing Consultant	1.0	1	0	
+v2	SR. INTERNAL AUDITORS	Auditor	[auditor]	[13]	[13]	13.143	Auditor	0.9032816	1	1	
+v2	JR. ACCOUNTANT	Accountant	[accountant]	[13]	[13]	13.0	Accountant	1.0	1	1	
+v2	Buyer Planner	Buyer Planner	[buyer planner]	[13]	[13]	13.36	Buyer Planner	0.9932517	1	1	
+v2	Training Specialist	Training and Development Specialist	[training and development specialist]	[13, 25]	[13]	13.6	Training and Development Specialist	1.0	1	1	
+v2	Affiliate Business Accountant	Accountant	[accountant]	[13]	[13]	13.0	Accountant	0.8273287	1	1	
+v2	Staff Accountant (Expense)	Staff Accountant	[staff accountant]	[13]	[13]	13.30129	Staff Accountant	1.0	1	1	
+v2	Senior Staff Accountant (Revenue)	Staff Accoutant	[staff accoutant]	[13]	[13]	13.30129	Staff Accountant	0.79146826	1	0	
+v2	"Sr. Trainer/CABS, SAP"	Technical Trainer OR Technical Instructor OR Training and Development Specialist	[technical trainer, technical instructor, training and development specialist]	[13]	[13]	13.135	SAP Consultant	0.45290133	1	0	
+v2	Staff Accountant	Staff Accountant	[staff accountant]	[13]	[13]	13.30129	Staff Accountant	1.0	1	1	
+v2	General Ledger/Special Projects Acct.	General Ledger Accountant	[general ledger accountant]	[13]	[13]	13.11242	General Ledger Accountant	1.0	1	1	
+v2	Senior Localization Engineer	"""Localization Engineer"""	[localization engineer]	[15]	[11]	11.1	Project Manager	0.76415634	0	0	
+v2	JAVA DEVELOPER	Java Developer	[java developer]	[15]	[15]	15.2	Java Developer	1.0	1	1	
+v2	POWERBUILDER APPLICATION DEVELOPER	"Application Developer OR ""Powerbuilder Application Developer"""	[application developer, powerbuilder application developer]	[15]	[15]	15.2	Java Developer	0.38616815	1	0	
+v2	SYSTEM ANALYST	Systems Analyst	[systems analyst]	[15]	[15]	15.9	Systems Analyst	1.0	1	1	
+v2	Powerbuilder  Application Developer	"Application Developer OR ""Powerbuilder Application Developer"""	[application developer, powerbuilder application developer]	[15]	[15]	15.2	Java Developer	0.38616815	1	0	
+v2	Sr. Statistical Programmer	Statistical Programmer	[statistical programmer]	[15]	[15]	15.30858	Statistical Programmer	0.999504	1	1	
+v2	Database Administrator	Database Administrator	[database administrator]	[15]	[15]	15.10	Database Administrator	1.0	1	1	
+v2	UNIX Internet System Administrator	Unix Administrator OR Systems Administrator	[unix administrator, systems administrator]	[15]	[15]	15.48	Unix Administrator	0.5	1	1	
+v2	Internet/Web Developers	Web Developer	[web developer]	[15]	[15]	15.11	Web Developer	1.0	1	1	
+v2	AS/400 RPG Programmer	AS 400 RPG Programmer	[as 400 rpg programmer]	[15]	[15]	15.4	Programmer	1.0	1	0	
+v2	AS/400 Programmer/Analyst :Many openings	AS 400 RPG Programmer	[as 400 rpg programmer]	[15]	[15]	15.4	Programmer	1.0	1	0	
+v2	ORDBMS-JAVA Engineer	Java Developer OR Senior Java Software Engineer	[java developer, senior java software engineer]	[15]	[15]	15.118	Senior Java Software Engineer	1.0	1	1	
+v2	Principal Analyst	Information Technology (IT) Systems Analyst	[information technology (it) systems analyst]	[15]	[15]	15.9	Systems Analyst	1.0	1	0	
+v2	Java Developer	Java Developer	[java developer]	[15]	[15]	15.2	Java Developer	1.0	1	1	
+v2	Senior Consultant / Base24 Analyst	Senior IT Consultant	[senior it consultant]	[15]	[13]	13.17	Compensation Analyst	0.23713863	0	0	
+v2	Programmer (C/C++)	Programmer	[programmer]	[15]	[15]	15.4	Programmer	0.6966	1	1	
+v2	Systems Analyst	Systems Analyst	[systems analyst]	[15]	[15]	15.9	Systems Analyst	1.0	1	1	
+v2	Visual Basic Developer	Visual Basic Developer	[visual basic developer]	[15]	[15]	15.166	Visual Basic Developer	0.99874705	1	1	
+v2	DATABASE ADMINISTRATOR (ORACLE)	Database Administrator	[database administrator]	[15]	[15]	15.10	Database Administrator	1.0	1	1	
+v2	C/C++ Programmer/Analyst	"C Programmer OR Programmer OR ""C/C++ Programmer"""	[c programmer, programmer, c/c++ programmer]	[15]	[15]	15.4	Programmer	1.0	1	1	
+v2	Web Application Developers	Web Developer	[web developer]	[15]	[15]	15.2	Java Developer	0.50620073	1	0	
+v2	Senior AS/400 Programmer Analyst	AS 400 RPG Programmer	[as 400 rpg programmer]	[15]	[15]	15.4	Programmer	1.0	1	0	
+v2	Senior AS/400 Programmer Analyst	AS 400 RPG Programmer	[as 400 rpg programmer]	[15]	[15]	15.4	Programmer	1.0	1	0	
+v2	"OpenVMS Systems Administrator, Sr."	Systems Administrator	[systems administrator]	[15]	[15]	15.5	Systems Administrator	1.0	1	1	
+v2	Java Senior Software Engineer	Senior Java Software Engineer	[senior java software engineer]	[15]	[15]	15.0	Software Engineer	0.5	1	0	
+v2	Data Conversion Analyst	Data Conversion Developer	[data conversion developer]	[15]	[15]	15.17	Data Analyst	0.5	1	0	
+v2	Network Service Engineer	Network Engineer	[network engineer]	[15]	[41]	41.25	Sales Engineer	1.0	0	0	
+v2	Mainframe Programmer/Analyst	Programmer OR Programmer Analyst	[programmer, programmer analyst]	[15]	[15]	15.4	Programmer	0.6863964	1	1	
+v2	Technical Support Coordinator	Systems Support Coordinator	[systems support coordinator]	[15]	[15]	15.165	Systems Support Coordinator	1.0	1	1	
+v2	Visual C++ P/A with NT	C Developer	[c developer]	[15]	[11]	11.31469	Visual Manager	1.0	0	0	
+v2	"Software Developer, High Availability"	Software Engineer	[software engineer]	[15]	[15]	15.0	Software Engineer	0.5310222	1	1	
+v2	EDI Technical Specialist	EDI Analyst	[edi analyst]	[15]	[15]	15.28	Technical Lead	0.38605702	1	0	
+v2	AS400/RPG Programmer/Analyst	AS 400 RPG Programmer	[as 400 rpg programmer]	[15]	[15]	15.302	AS400 RPG Programmer	0.52673984	1	0	
+v2	Jr. SAS Programmer w. SQL	SAS Programmer	[sas programmer]	[15]	[15]	15.30550	SAS Programmer	1.0	1	1	
+v2	Web Developer	Web Developer	[web developer]	[15]	[15]	15.11	Web Developer	1.0	1	1	
+v2	Jr. Oracle DBA Consultant	Database Administrator OR Oracle Consultant	[database administrator, oracle consultant]	[15]	[15]	15.10	Database Administrator	1.0	1	1	
+v2	AS400 RPG P/A II	AS 400 RPG Programmer	[as 400 rpg programmer]	[15]	[15]	15.302	AS400 RPG Programmer	0.5299265	1	0	
+v2	Oracle Data Base Administrator	Database Administrator	[database administrator]	[15]	[15]	15.10	Database Administrator	1.0	1	1	
+v2	DB2 Database Administrator (Junior)	Database Administrator	[database administrator]	[15]	[15]	15.10	Database Administrator	1.0	1	1	
+v2	IT Project Manager	Project Manager	[project manager]	[15]	[15]	15.1	Project Manager	0.9994941	1	1	
+v2	AS400 RPG P/A III	AS 400 RPG Programmer	[as 400 rpg programmer]	[15]	[15]	15.302	AS400 RPG Programmer	0.52992654	1	0	
+v2	PC Technical Support Specialist	Client Support Specialist OR IT Support Specialist	[client support specialist, it support specialist]	[15]	[15]	15.116	Client Support Specialist	1.0	1	1	
+v2	NT or UNIX Internet System Administrator	Systems Administrator	[systems administrator]	[15]	[15]	15.5	Systems Administrator	0.5	1	1	
+v2	Real Time Embedded SW Engineer 1007	Software Engineer	[software engineer]	[15]	[15]	15.0	Software Engineer	0.84799194	1	1	
+v2	Principal Engineer	"""Principal Engineer"""	[principal engineer]	[15]	[17]	17.1	Mechanical Engineer	0.3529412	0	0	
+v2	Network Engineers	Network Engineer	[network engineer]	[15, 17]	[15]	15.8	Network Engineer	1.0	1	1	
+v2	Senior Application Developer	Application Developer	[application developer]	[15]	[15]	15.2	Java Developer	1.0	1	0	
+v2	Content Specialist	Content Specialist	[content specialist]	[27]	[15]	15.211	Web Specialist	1.0	0	0	
+v2	Desktop Engineer	Desktop Engineer	[desktop engineer]	[15]	[15]	15.80	Desktop Engineer	1.0	1	1	
+v2	Web Application Designer	Web Designer	[web designer]	[15]	[15]	15.42	Web Designer	0.34951174	1	1	
+v2	Sr. Unix Administrator	Unix Administrator	[unix administrator]	[15]	[15]	15.48	Unix Administrator	1.0	1	1	
+v2	"JavaScript, Web Site Developer"	Web Developer OR JavaScript Developer	[web developer, javascript developer]	[15]	[15]	15.11	Web Developer	0.58034486	1	1	
+v2	C/C++ PROGRAMMER/ANALYST	C Developer OR Programmer Analyst	[c developer, programmer analyst]	[15]	[15]	15.4	Programmer	1.0	1	0	
+v2	Programmer	Programmer	[programmer]	[15, 51]	[15]	15.4	Programmer	1.0	1	1	
+v2	Web Developer	Web Developer	[web developer]	[15]	[15]	15.11	Web Developer	1.0	1	1	
+v2	SAP Oracle database expert. (SAP)	Database Administrator	[database administrator]	[15]	[15]	15.10	Database Administrator	0.5753515	1	1	
+v2	HVAC/R Design Engineer	HVAC Engineer	[hvac engineer]	[17]	[17]	17.121	Design Engineer	0.6449334	1	0	
+v2	RF MICROWAVE ENGINEERS DESIGN TEST	Radio Frequency Engineer	[radio frequency engineer]	[17]	[17]	17.20	Radio Frequency Engineer	0.47300282	1	1	
+v2	Supplier Quality Engineer	Quality Engineer	[quality engineer]	[17]	[17]	17.30039	Quality Engineer	1.0	1	1	
+v2	Staff Mechanical Engineer	Mechanical Engineer	[mechanical engineer]	[17]	[17]	17.101	Staff Engineer	0.5	1	0	
+v2	Process Engineer	Process Engineer	[process engineer]	[17]	[17]	17.8	Process Engineer	1.0	1	1	
+v2	Circuit Design Engineer	Circuit Design Engineer	[circuit design engineer]	[17]	[17]	17.166	Circuit Design Engineer	0.9935736	1	1	
+v2	Quality Engineer - SMT TECHNOLOGY	Quality Engineer	[quality engineer]	[17]	[17]	17.5	Manufacturing Engineer	0.44583434	1	0	
+v2	Electronic Technician	Electronics Technician	[electronics technician]	[17, 49]	[17]	17.9	Electronics Technician	1.0	1	1	
+v2	Product /Acoustic Design Engineer	Product Engineer OR Design Engineer	[product engineer, design engineer]	[17, 27]	[17]	17.121	Design Engineer	0.5	1	1	
+v2	Mechanical Development Engineer	Mechanical Engineer	[mechanical engineer]	[17]	[17]	17.1	Mechanical Engineer	1.0	1	1	
+v2	Signal Integrity Design Engineer	Signal Processing Engineer	[signal processing engineer]	[17]	[17]	17.211	Signal Processing Engineer	0.4744057	1	1	
+v2	Mechanical Design Engineers	Mechanical Engineer OR Design Engineer	[mechanical engineer, design engineer]	[17]	[17]	17.121	Design Engineer	0.5	1	1	
+v2	Signal Integrity Design Engineer 1450	Signal Processing Engineer	[signal processing engineer]	[17]	[17]	17.211	Signal Processing Engineer	0.4744057	1	1	
+v2	Market Research Analyst	Research Analyst	[research analyst]	[13]	[19]	19.4	Research Analyst	1.0	0	1	
+v2	Marketing Analyst	Research Analyst	[research analyst]	[13]	[19]	19.211	Assistant Analyst	0.51254815	0	0	
+v2	MARKET ANALYST	Research Analyst	[research analyst]	[13]	[19]	19.4	Research Analyst	1.0	0	1	
+v2	Social Worker Msw	Social Worker	[social worker]	[21]	[21]	21.2	Social Worker	1.0	1	1	
+v2	Social Worker / MSW	Social Worker	[social worker]	[21]	[21]	21.2	Social Worker	1.0	1	1	
+v2	Community Support Specialist	Community Support Staff	[community support staff]	[21]	[21]	21.74	Community Support Staff	0.6555748	1	1	
+v2	Career Services Advisor - Culinary	Career Services Advisor	[career services advisor]	[21]	[21]	21.27	Career Services Advisor	1.0	1	1	
+v2	Family Preservation Coordinator	"""Family Preservation Coordinator"""	[family preservation coordinator]	[21]	[21]	21.46	Family Therapist	0.9050295	1	0	
+v2	Commercial Litigation Associate	Litigation Attorney	[litigation attorney]	[23]	[23]	23.6	Litigation Attorney	0.80511665	1	1	
+v2	Commercial Litigation Associate Attorney	Litigation Attorney	[litigation attorney]	[23]	[23]	23.6	Litigation Attorney	0.93732345	1	1	
+v2	Commercial Litigation Trial Attorney	Trial Attorney	[trial attorney]	[23]	[23]	23.22	Trial Attorney	0.73778236	1	1	
+v2	"Para Professional (Teaching Assistant) ESL, Spc Ed, Early Chldhd"	Teaching Assistant	[teaching assistant]	[25]	[25]	25.44	Teaching Assistant	1.0	1	1	
+v2	Elementary Reading Teacher	Reading Teacher	[reading teacher]	[25]	[25]	25.103	Reading Teacher	0.8542205	1	1	
+v2	Preschool Associate Teacher	Preschool Teacher	[preschool teacher]	[25]	[25]	25.1	Preschool Teacher	0.55760443	1	1	
+v2	Internet Graphic Designer	Graphic Designer	[graphic designer]	[27, 15]	[27]	27.1	Graphic Designer	1.0	1	1	
+v2	Public Relations Manager	Public Relations Manager	[public relations manager]	[11, 27]	[11]	11.31045	Public Relations Manager	1.0	1	1	
+v2	GRAPHIC DESIGNER	Graphic Designer	[graphic designer]	[27, 15]	[27]	27.1	Graphic Designer	1.0	1	1	
+v2	Media Planner	Media Planner	[media planner]	[27]	[27]	27.89	Media Planner	1.0	1	1	
+v2	Registered Nurse	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	RN - 4 Central	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	0.3258367	1	1	
+v2	RN - 4 South Tower Oncology	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	0.5971822	1	1	
+v2	RN - 5 Central	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	0.35714287	1	1	
+v2	RN - 5 South Tower	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	0.69666636	1	1	
+v2	Registered Nurse - 3 Central	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	0.8488761	1	1	
+v2	Registered Nurse - 3 Central	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	0.8488761	1	1	
+v2	RN- Emergency Services.	Emergency Room (ER) Nurse	[emergency room (er) nurse]	[29]	[29]	29.13	Emergency Room (ER) Nurse	0.8374465	1	1	
+v2	RN- Emergency Services.	Emergency Room (ER) Nurse	[emergency room (er) nurse]	[29]	[29]	29.13	Emergency Room (ER) Nurse	0.8374465	1	1	
+v2	"Registered Nurse - Perioperative Nursing, PACU"	Post-Anesthesia Care unit (PACU) Nurse	[post-anesthesia care unit (pacu) nurse]	[29]	[29]	29.66	Post-Anesthesia Care unit (PACU) Nurse	1.0	1	1	
+v2	Registered Nurse - NICU	Neonatal Intensive Care Unit (NICU) Nurse	[neonatal intensive care unit (nicu) nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	0	
+v2	Registered Nurse - Renal Dialysis	Dialysis Nurse	[dialysis nurse]	[29]	[29]	29.63	Dialysis Nurse	1.0	1	1	
+v2	Registered Nurse - Critical Care	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	Registered Nurse--Coronary Care	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	0.58130324	1	1	
+v2	Nurse Manager--Medical-Surgical	Medical-Surgical Nurse Manager	[medical-surgical nurse manager]	[11, 29]	[29]	29.31152	Medical-Surgical Nurse Manager	0.58754015	1	1	
+v2	STAFF REGISTERED NURSE/RECOVERY ROOM	Recovery Room Nurse	[recovery room nurse]	[29]	[29]	29.0	Registered Nurse	0.4661573	1	0	
+v2	STAFF REGISTERED/WILMED NURSING CARE CENTER	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	0.48244822	1	1	
+v2	Registered Nurse - Operating Room	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	"Charge Nurse - EMERGENCY CENTER ($5,000 sign-on bo"	Charge Nurse	[charge nurse]	[29]	[29]	29.40	Charge Nurse	0.89307827	1	1	
+v2	RN Shift Coordinator- SMHC	"""Nursing Shift Coordinator"""	[nursing shift coordinator]	[29]	[29]	29.78	Quality Improvement Nurse	0.23410289	1	0	
+v2	RN - Med/Surg	Medical-Surgical Nurse	[medical-surgical nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	0	
+v2	"RN-Endoscopy ($5,000 Sigh-on bonus offered to FT E"	Endoscopy Nurse	[endoscopy nurse]	[29]	[29]	29.139	Endoscopy Nurse	0.5829002	1	1	
+v2	Physical Therapist	Physical Therapist	[physical therapist]	[29]	[29]	29.1	Physical Therapist	1.0	1	1	
+v2	"RN-Post Anesthesia Care Unit ($5,000 Sign-on bonus"	Post-Anesthesia Care unit (PACU) Nurse	[post-anesthesia care unit (pacu) nurse]	[29]	[29]	29.66	Post-Anesthesia Care unit (PACU) Nurse	1.0	1	1	
+v2	"RN Med/Surg, Mercy Hospital Grayling - Grayling, M"	Medical-Surgical Nurse	[medical-surgical nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	0	
+v2	Registered Nurse - Emergency Room	Emergency Room (ER) Nurse	[emergency room (er) nurse]	[29]	[29]	29.0	Registered Nurse	0.5	1	0	
+v2	Registered Nurse- Medicine/Surgery (4th Flr)	Medical-Surgical Nurse	[medical-surgical nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	0	
+v2	Critical Care Unit - RN	Intensive Care Unit (ICU) Nurse	[intensive care unit (icu) nurse]	[29]	[29]	29.16	Intensive Care Unit (ICU) Nurse	0.7232452	1	1	
+v2	Cardiopulmonary Clinical Nurse Specialist	Clinical Nurse	[clinical nurse]	[29]	[11]	11.33	Nurse Manager	0.3338295	0	0	
+v2	OR Staff Nurse	Staff Nurse	[staff nurse]	[29]	[29]	29.12	Staff Nurse	1.0	1	1	
+v2	Labor & Delivery RN	Labor and Delivery Nurse	[labor and delivery nurse]	[29]	[29]	29.17	Labor and Delivery Nurse	0.6523734	1	1	
+v2	"Nurse Coordinator, Pain Center"	Nurse Coordinator	[nurse coordinator]	[29]	[29]	29.0	Registered Nurse	0.32137764	1	0	
+v2	RN-General Surgery	Surgical Unit Nurse	[surgical unit nurse]	[29]	[29]	29.18	Surgical Unit Nurse	0.65562665	1	1	
+v2	RN-General Surgery 11p -7:30a	Surgical Unit Nurse	[surgical unit nurse]	[29]	[29]	29.18	Surgical Unit Nurse	0.68097544	1	1	
+v2	Occupational Therapist	Occupational Therapist	[occupational therapist]	[29]	[29]	29.4	Occupational Therapist	1.0	1	1	
+v2	Charge Nurse - Med/Surg	Charge Nurse	[charge nurse]	[29]	[29]	29.40	Charge Nurse	0.6858486	1	1	
+v2	RN-Operating Room	Cardiovascular Operating Room (CVOR) Nurse	[cardiovascular operating room (cvor) nurse]	[29]	[29]	29.73	Cardiovascular Operating Room (CVOR) Nurse	1.0	1	1	
+v2	RN-PACU	Post-Anesthesia Care unit (PACU) Nurse	[post-anesthesia care unit (pacu) nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	0	
+v2	RN-PACU	Post-Anesthesia Care unit (PACU) Nurse	[post-anesthesia care unit (pacu) nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	0	
+v2	Pharmacist In Charge	Pharmacist	[pharmacist]	[29]	[29]	29.26	Pharmacist	0.96858376	1	1	
+v2	RRT OR CRTT - Respiratory Therapist	Respiratory Therapist	[respiratory therapist]	[29]	[29]	29.20	Respiratory Therapist	1.0	1	1	
+v2	Endoscopy RN	Endoscopy Nurse	[endoscopy nurse]	[29]	[29]	29.139	Endoscopy Nurse	0.5730598	1	1	
+v2	Pharmacist-Staff	Pharmacist	[pharmacist]	[29]	[29]	29.26	Pharmacist	1.0	1	1	
+v2	REGISTERED NURSE-Behavioral Health	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	Nurse Educator Maternal Child Health	Nurse Educator	[nurse educator]	[29]	[29]	29.137	Health and Wellness Director	0.4179307	1	0	
+v2	Respiratory Care	Respiratory Care Practitioner OR Respiratory Therapist	[respiratory care practitioner, respiratory therapist]	[29]	[29]	29.30483	Respiratory Care Practitioner	1.0	1	1	
+v2	Registered Nurse (s)	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	0.8968307	1	1	
+v2	RN - Endoscopy	Endoscopy Nurse	[endoscopy nurse]	[29]	[29]	29.139	Endoscopy Nurse	1.0	1	1	
+v2	Unit Coordinator - Emergency	Health Unit Coordinator	[health unit coordinator]	[29, 43]	[43]	43.10187	Unit Coordinator	0.473997	1	0	
+v2	RN-Obstetrics and/or Gynecology (3 POSITIONS AVAIL	Obstetrics Nurse	[obstetrics nurse]	[29]	[29]	29.0	Registered Nurse	0.33950776	1	0	
+v2	CERTIFIED RN FIRST ASSISTANT	Registered Nurse	[registered nurse]	[29]	[29]	29.126	Surgical Assistant	0.50603926	1	0	
+v2	Registered Nurse	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	Registered Nurse	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	Registered Nurse	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	Registered Nurse	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	Registered Nurse	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	Registered Nurse	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	Case Manager	Case Manager	[case manager]	[29, 21]	[21]	21.7	Case Manager	1.0	1	1	
+v2	RN - ICU	Intensive Care Unit (ICU) Nurse	[intensive care unit (icu) nurse]	[29]	[29]	29.16	Intensive Care Unit (ICU) Nurse	1.0	1	1	
+v2	RN - Emergency	Emergency Room (ER) Nurse	[emergency room (er) nurse]	[29]	[29]	29.13	Emergency Room (ER) Nurse	1.0	1	1	
+v2	LPN- Nursing	Licensed Practical Nurse (LPN)	[licensed practical nurse (lpn)]	[29]	[29]	29.3	Licensed Practical Nurse (LPN)	0.7808457	1	1	
+v2	LPN- Nursing	Licensed Practical Nurse (LPN)	[licensed practical nurse (lpn)]	[29]	[29]	29.3	Licensed Practical Nurse (LPN)	0.7808457	1	1	
+v2	RN	Registered Nurse	[registered nurse]	[29, 11]	[29]	29.0	Registered Nurse	0.8837164	1	1	
+v2	Licensed Practical Nurse (LPN)	Licensed Practical Nurse (LPN)	[licensed practical nurse (lpn)]	[29]	[29]	29.3	Licensed Practical Nurse (LPN)	1.0	1	1	
+v2	Medical Transcriptionist - Level II	Medical Transcriptionist	[medical transcriptionist]	[31]	[31]	31.15	Medical Transcriptionist	1.0	1	1	
+v2	Medical Assistant	Medical Assistant	[medical assistant]	[31]	[31]	31.1	Medical Assistant	1.0	1	1	
+v2	Certified Nurse Aide- 2200 - Med./Surg.	Nurse Aide	[nurse aide]	[31]	[31]	31.8	Nurse Aide	0.59561455	1	1	
+v2	Certified Nurse Aide- 1100 - Telemetry	Nurse Aide	[nurse aide]	[31]	[31]	31.8	Nurse Aide	0.67082685	1	1	
+v2	Certified Nurse Aide- Float	Nurse Aide	[nurse aide]	[31]	[31]	31.8	Nurse Aide	0.62786645	1	1	
+v2	Certified Nurse Aide- Skilled Nursing Facility	Nurse Aide	[nurse aide]	[31]	[31]	31.0	Certified Nursing Assistant (CNA)	0.6392323	1	0	
+v2	Certified Nurse Aide- Skilled Nursing	Nurse Aide	[nurse aide]	[31]	[31]	31.8	Nurse Aide	0.56803006	1	1	
+v2	CNA - Telemetry	Certified Nursing Assistant (CNA)	[certified nursing assistant (cna)]	[31]	[31]	31.0	Certified Nursing Assistant (CNA)	1.0	1	1	
+v2	Transportation Assistant	Transportation Aide	[transportation aide]	[31]	[53]	53.114	Assistant Transportation Manager	0.6094493	0	0	
+v2	Medical Assistant	Medical Assistant	[medical assistant]	[31]	[31]	31.1	Medical Assistant	1.0	1	1	
+v2	Certified Nurse Assistant	Certified Nursing Assistant (CNA)	[certified nursing assistant (cna)]	[31]	[31]	31.0	Certified Nursing Assistant (CNA)	1.0	1	1	
+v2	TRANSPORTATION OFFICER/Security Services	Transportation Security Officer (TSO)	[transportation security officer (tso)]	[33]	[33]	33.20	Security Manager	0.53271484	1	0	
+v2	Security Officer	Security Officer	[security officer]	[33]	[33]	33.0	Security Officer	1.0	1	1	
+v2	Safety & Security Officer	Safety and Security Officer	[safety and security officer]	[33]	[33]	33.46	Safety and Security Officer	1.0	1	1	
+v2	Safety & Security Officer	Safety and Security Officer	[safety and security officer]	[33]	[33]	33.46	Safety and Security Officer	1.0	1	1	
+v2	Security Officer -Security	Security Officer	[security officer]	[33]	[33]	33.0	Security Officer	0.90971565	1	1	
+v2	Restaurant Management	Restaurant Manager	[restaurant manager]	[35, 11]	[35]	35.0	Restaurant Manager	1.0	1	1	
+v2	Kitchen Manager	Kitchen Manager	[kitchen manager]	[11, 35]	[35]	35.6	Kitchen Manager	1.0	1	1	
+v2	Kitchen Manager	Kitchen Manager	[kitchen manager]	[11, 35]	[35]	35.6	Kitchen Manager	1.0	1	1	
+v2	Assistant Manager	Restaurant Manager	[restaurant manager]	[35, 11]	[35]	35.64	Speciality Coffee Assistant Manager	1.0	1	0	
+v2	Bar Manager	Bar Manager	[bar manager]	[35, 11]	[35]	35.48	Bar Manager	1.0	1	1	
+v2	Restaurant Management	Restaurant Manager	[restaurant manager]	[35, 11]	[35]	35.0	Restaurant Manager	1.0	1	1	
+v2	Dining Room Captain	Dining Room Manager	[dining room manager]	[35]	[35]	35.26	Dining Room Manager	1.0	1	1	
+v2	Wait Staff	Food Server OR Food Service Worker	[food server, food service worker]	[35]	[35]	35.2	Food Service Worker	0.35802472	1	1	
+v2	Assistant Banquet Manager	Banquet Manager OR Banquet Captain	[banquet manager, banquet captain]	[35]	[35]	35.56	Banquet Manager	0.90010506	1	1	
+v2	On - Call Banquet Server	Banquet Server	[banquet server]	[35]	[35]	35.21	Banquet Server	1.0	1	1	
+v2	Assistant Restaurant Manager - Full Service	Restaurant Manager	[restaurant manager]	[35]	[35]	35.0	Restaurant Manager	0.35748142	1	1	
+v2	Housekeeping Houseperson	Houseperson OR Housekeeper	[houseperson, housekeeper]	[37]	[37]	37.17	Houseperson	0.7667394	1	1	
+v2	Housekeeper / Room Attendant	Housekeeper OR Room Attendant	[housekeeper, room attendant]	[37]	[37]	37.0	Housekeeper	0.5	1	1	
+v2	Recreation Coordinator	Recreation Coordinator	[recreation coordinator]	[39]	[39]	39.46	Recreation Coordinator	0.99961966	1	1	
+v2	Seasonal Substitute Water Exercise Instructor	Group Fitness Instructor	[group fitness instructor]	[39]	[39]	39.27	Group Fitness Instructor	1.0	1	1	
+v2	ASSISTANT STORE MANAGER( MENSWEAR )	Assistant Store Manager	[assistant store manager]	[41]	[41]	41.3	Assistant Store Manager	0.5	1	1	
+v2	Store Manager/Assistant Manager	Assistant Store Manager	[assistant store manager]	[41]	[35]	35.19	Assistant General Manager	0.44761765	0	0	
+v2	Sales Engineer	Sales Engineer	[sales engineer]	[41]	[41]	41.25	Sales Engineer	1.0	1	1	
+v2	ASSISTANT STORE MANAGER( MENSWEAR )	Assistant Store Manager	[assistant store manager]	[41]	[41]	41.3	Assistant Store Manager	0.5	1	1	
+v2	ASSISTANT STORE MANAGER	Assistant Store Manager	[assistant store manager]	[41]	[41]	41.3	Assistant Store Manager	0.9957969	1	1	
+v2	Pre-sales Consultant	Sales Consultant	[sales consultant]	[41]	[41]	41.25	Sales Engineer	0.45657453	1	0	
+v2	Insurance Sales Representative	Insurance Sales Agent	[insurance sales agent]	[41]	[41]	41.4	Insurance Sales Agent	0.5	1	1	
+v2	SALES REPRESENTATIVE	Sales Representative	[sales representative]	[41]	[41]	41.2	Sales Representative	1.0	1	1	
+v2	Telemarketer	Sales Telemarketer	[sales telemarketer]	[41]	[41]	41.10779	Sales Telemarketer	0.7590656	1	1	
+v2	ACCOUNT EXECUTIVE ACCESSORIES	Account Executive	[account executive]	[41]	[41]	41.8	Account Executive	1.0	1	1	
+v2	Chemical Sales Representative	Sales Representative	[sales representative]	[41]	[41]	41.29	Technical Sales Representative	0.96522665	1	0	
+v2	PRE-SALES ENGINEER	Sales Engineer	[sales engineer]	[41]	[41]	41.25	Sales Engineer	1.0	1	1	
+v2	Store Manager	Store Manager	[store manager]	[41, 11]	[41]	41.15	Store Manager	0.9949655	1	1	
+v2	Retail Store Manager / Director - fast track	Store Manager	[store manager]	[41, 11]	[11]	11.2	General Manager	0.33295715	1	0	
+v2	Branch Financial Sales Consultan	Financial Sales Consultant	[financial sales consultant]	[41]	[41]	41.34	Financial Sales Consultant	1.0	1	1	
+v2	Retail Sales Specialist	Sales Specialist	[sales specialist]	[41]	[41]	41.17	Sales Specialist	0.5113032	1	1	
+v2	Outside Account Executive	Account Executive	[account executive]	[41]	[41]	41.8	Account Executive	1.0	1	1	
+v2	Financial Sales Consultant	Financial Sales Consultant	[financial sales consultant]	[41]	[41]	41.34	Financial Sales Consultant	1.0	1	1	
+v2	Financial Sales Consultant	Financial Sales Consultant	[financial sales consultant]	[41]	[41]	41.34	Financial Sales Consultant	1.0	1	1	
+v2	Senior Investment Consultant	Investment Consultant	[investment consultant]	[41, 13]	[13]	13.31057	Investment Consultant	1.0	1	1	
+v2	Financial Sales Consultant	Financial Sales Consultant	[financial sales consultant]	[41]	[41]	41.34	Financial Sales Consultant	1.0	1	1	
+v2	Sales Associate	Sales Associate	[sales associate]	[41]	[41]	41.5	Sales Associate	0.9950771	1	1	
+v2	Store Manager	Store Manager	[store manager]	[41, 11]	[41]	41.15	Store Manager	0.9949655	1	1	
+v2	In Store Sales Rep	Sales Representative	[sales representative]	[41]	[41]	41.2	Sales Representative	1.0	1	1	
+v2	Inside Sales Manager	Sales Manager	[sales manager]	[11, 41]	[41]	41.14	Inside Sales Representative	0.5	1	0	
+v2	GLOBAL ACCOUNT SALES ENGINEER	Sales Engineer	[sales engineer]	[41]	[41]	41.25	Sales Engineer	1.0	1	1	
+v2	TRAVEL AGENT - CORPORATE & LEISURE	Travel Agent	[travel agent]	[41]	[41]	41.76	Travel Agent	1.0	1	1	
+v2	Store Manager 11hh243	Store Manager	[store manager]	[11, 41]	[41]	41.67	Sales Manager	0.47572762	1	0	
+v2	"INSIDE SALES, MUSIC INDUSTRY!"	Inside Sales Representative	[inside sales representative]	[41]	[41]	41.14	Inside Sales Representative	0.703909	1	1	
+v2	Telemarketing	Sales Telemarketer	[sales telemarketer]	[41]	[41]	41.2	Sales Representative	1.0	1	0	
+v2	Large Group Sales Representative	Sales Representative	[sales representative]	[41]	[41]	41.2	Sales Representative	0.2915339	1	1	
+v2	Commercial Lines Account Executive	Account Executive	[account executive]	[41]	[41]	41.8	Account Executive	0.34642783	1	1	
+v2	Insurance Sales Representative	Insurance Sales Agent	[insurance sales agent]	[41]	[41]	41.4	Insurance Sales Agent	0.5	1	1	
+v2	Outside Sales Representatives	Sales Representative	[sales representative]	[41]	[41]	41.58	Outside Sales Media Consultant	1.0	1	0	
+v2	Specialty Sales Representative - Analgesic & Anti-Inflammatory	Sales Representative	[sales representative]	[41]	[41]	41.2	Sales Representative	1.0	1	1	
+v2	Insurance Agent	Insurance Sales Agent	[insurance sales agent]	[41, 43]	[41]	41.4	Insurance Sales Agent	1.0	1	1	
+v2	LICENSED INSURANCE AGENT - LEADS PROVIDED	Insurance Sales Agent	[insurance sales agent]	[41]	[41]	41.4	Insurance Sales Agent	1.0	1	1	
+v2	Outside Sales	Sales Representative	[sales representative]	[41]	[41]	41.58	Outside Sales Media Consultant	1.0	1	0	
+v2	Sales Manager - Excellent Opportunity with Established Company!!	Sales Manager	[sales manager]	[41, 11]	[11]	11.6	Product Manager	0.23344368	1	0	
+v2	Specialty Sales Representative - Analgesic & Anti-Inflammatory	Sales Representative	[sales representative]	[41]	[41]	41.2	Sales Representative	1.0	1	1	
+v2	Appointment Setting: AM and PM	Appointment Setter	[appointment setter]	[41]	[41]	41.84	B2B Sales Representative	0.44767317	1	0	
+v2	Sales Manager	Sales Manager	[sales manager]	[11, 41]	[11]	11.0	Sales Manager	1.0	1	1	
+v2	Store Managers	Store Manager	[store manager]	[41, 11]	[35]	35.0	Restaurant Manager	0.77639765	0	0	
+v2	Sales Engineer	Sales Engineer	[sales engineer]	[41]	[41]	41.25	Sales Engineer	1.0	1	1	
+v2	Personal Financial Representative Sr.1 (FT) - Palomar Airport (1	Personal Financial Representative	[personal financial representative]	[41, 43, 13]	[41]	41.30158	Personal Financial Representative	1.0	1	1	
+v2	Retail Store Manager Trainee - Automotive	Store Manager	[store manager]	[41, 11]	[41]	41.13	Sales Management Trainee	0.33333334	1	0	
+v2	Sales Specialist / Manager Trainee	Sales Specialist	[sales specialist]	[41, 11]	[41]	41.17	Sales Specialist	1.0	1	1	
+v2	Inside Sales – Family Service Counselor	Family Counselor	[family counselor]	[41, 21]	[21]	21.15	Family Counselor	0.9074478	1	1	
+v2	Regional Account Executive	Account Executive	[account executive]	[41]	[11]	11.31250	Regional Sales Executive	0.44338402	0	0	
+v2	Insurance Sales Agent	Insurance Sales Agent	[insurance sales agent]	[41]	[41]	41.4	Insurance Sales Agent	1.0	1	1	
+v2	Sales Manager	Sales Manager	[sales manager]	[41, 11]	[11]	11.0	Sales Manager	1.0	1	1	
+v2	AFSD-Retail Store Manager	Store Manager	[store manager]	[11, 41]	[41]	41.15	Store Manager	0.33333334	1	1	
+v2	Account Manager	Account Manager	[account manager]	[11, 41]	[11]	11.4	Account Manager	1.0	1	1	
+v2	Pharmaceutical Sales Representatives	Sales Representative	[sales representative]	[41]	[41]	41.2	Sales Representative	1.0	1	1	
+v2	Account Executive (entry to mid-level)	Account Executive	[account executive]	[41]	[41]	41.8	Account Executive	1.0	1	1	
+v2	Area Sales Supervisor	Sales Supervisor	[sales supervisor]	[41]	[41]	41.10	Sales Supervisor	0.74531853	1	1	
+v2	Retail Store Manager who loves working with kids!	Store Manager	[store manager]	[41, 11]	[41]	41.67	Sales Manager	0.3532799	1	0	
+v2	Women's Accessories Sales Associate	Retail Sales Associate	[retail sales associate]	[41]	[41]	41.1	Retail Sales Associate	0.3659203	1	1	
+v2	Sales Representative / Manager Trainee	Sales Manager OR Sales Representative	[sales manager, sales representative]	[41]	[41]	41.67	Sales Manager	0.49999997	1	1	
+v2	ACCOUNT EXECUTIVE -- Outside or Inside Sales Representative	Account Executive OR Inside Sales Representative	[account executive, inside sales representative]	[41]	[41]	41.8	Account Executive	0.42349777	1	1	
+v2	Accounting Clerk	Accounting Clerk	[accounting clerk]	[43]	[43]	43.30174	Accounting Clerk	1.0	1	1	
+v2	Accounts Payable-Purchasing Auditor	Accounts Payable Clerk	[accounts payable clerk]	[43]	[43]	43.9	Accounts Payable Clerk	0.23303935	1	1	
+v2	Executive Assistant to CEO	Executive Assistant	[executive assistant]	[43]	[43]	43.6	Executive Assistant	1.0	1	1	
+v2	Production Planner	Production Planner	[production planner]	[43, 51, 13, 17]	[43]	43.77	Production Planner	1.0	1	1	
+v2	Special Assistant	Executive Assistant	[executive assistant]	[43]	[43]	43.46	Project Assistant	0.40569043	1	0	
+v2	Executive Administrative Assistant	Executive Administrative Assistant	[executive administrative assistant]	[43]	[43]	43.1	Administrative Assistant	0.5	1	0	
+v2	Legal Secretary	Legal Secretary	[legal secretary]	[43]	[43]	43.18	Legal Secretary	1.0	1	1	
+v2	Payroll / Billing Clerk	Billing Clerk OR Payroll Clerk	[billing clerk, payroll clerk]	[43]	[43]	43.39	Billing Clerk	0.55811703	1	1	
+v2	Executive Assistant	Executive Assistant	[executive assistant]	[43]	[43]	43.6	Executive Assistant	1.0	1	1	
+v2	Unit Secretary	Unit Secretary	[unit secretary]	[43]	[43]	43.105	Unit Secretary	1.0	1	1	
+v2	Unit Secretary-4N (FT)	Unit Secretary	[unit secretary]	[43]	[43]	43.105	Unit Secretary	1.0	1	1	
+v2	Admitting Registrar	Emergency Room Registrar OR Registrar	[emergency room registrar, registrar]	[43, 29]	[43]	43.154	Emergency Room Registrar	1.0	1	1	
+v2	Patient Registrar/Admitting	Emergency Room Registrar OR Registrar	[emergency room registrar, registrar]	[43, 29]	[43]	43.154	Emergency Room Registrar	1.0	1	1	
+v2	ADMITTING REGISTRAR	Emergency Room Registrar OR Registrar	[emergency room registrar, registrar]	[43, 29]	[43]	43.154	Emergency Room Registrar	1.0	1	1	
+v2	SERVICE ASSOCIATE II-HOSPITALITY SERVICES(Benefits	Customer Service Associate	[customer service associate]	[43, 41]	[43]	43.194	Customer Service Associate	0.7596201	1	1	
+v2	Customer Service Representative	Customer Service Representative	[customer service representative]	[43, 41]	[43]	43.0	Customer Service Representative	1.0	1	1	
+v2	Template: Administrative Assistant	Administrative Assistant	[administrative assistant]	[43]	[43]	43.1	Administrative Assistant	1.0	1	1	
+v2	Accounts Payable-Purchasing Auditor	Accounts Payable Clerk	[accounts payable clerk]	[43]	[43]	43.9	Accounts Payable Clerk	0.23303935	1	1	
+v2	Professional Assistant/Office Manager	Office Manager	[office manager]	[43, 11]	[43]	43.14	Office Manager	0.30474523	1	1	
+v2	Customer Service Manager	Customer Service Manager	[customer service manager]	[43, 11]	[43]	43.30136	Customer Service Manager	1.0	1	1	
+v2	Executive Assistant	Executive Assistant	[executive assistant]	[43]	[43]	43.6	Executive Assistant	1.0	1	1	
+v2	Executive Administrative Assistant	Executive Administrative Assistant	[executive administrative assistant]	[43]	[43]	43.1	Administrative Assistant	0.5	1	0	
+v2	Medical Receptionist	Medical Receptionist	[medical receptionist]	[43]	[43]	43.35	Medical Receptionist	0.9942675	1	1	
+v2	a/r clerk	Accounts Payable Clerk OR Accounts Receivable Specialist	[accounts payable clerk, accounts receivable specialist]	[43]	[43]	43.3	Book Keeper	0.31454578	1	0	
+v2	Administrative Assistant	Administrative Assistant	[administrative assistant]	[43]	[43]	43.1	Administrative Assistant	1.0	1	1	
+v2	Executive Assistant	Executive Assistant	[executive assistant]	[43]	[43]	43.6	Executive Assistant	1.0	1	1	
+v2	Administrative Assistant	Administrative Assistant	[administrative assistant]	[43]	[43]	43.1	Administrative Assistant	1.0	1	1	
+v2	EXECUTIVE ASSISTANT	Executive Assistant	[executive assistant]	[43]	[43]	43.6	Executive Assistant	1.0	1	1	
+v2	Office Supervisor	Office Supervisor	[office supervisor]	[43]	[43]	43.168	Office Supervisor	1.0	1	1	
+v2	Commercial Credit and Collections	Credit Collections Analyst	[credit collections analyst]	[43, 13]	[13]	13.14	Credit Analyst	0.8499842	1	0	
+v2	Administrative Assistant Travel	Administrative Assistant	[administrative assistant]	[43]	[43]	43.1	Administrative Assistant	0.6425543	1	1	
+v2	Executive Assistant	Executive Assistant	[executive assistant]	[43]	[43]	43.6	Executive Assistant	1.0	1	1	
+v2	Administrative Assistant #4	Administrative Assistant	[administrative assistant]	[43]	[43]	43.1	Administrative Assistant	0.9996988	1	1	
+v2	entry level secretarial	Secretary	[secretary]	[43]	[43]	43.7	Data Entry Clerk	0.80000794	1	0	
+v2	Administrative Assistant #5	Administrative Assistant	[administrative assistant]	[43]	[43]	43.1	Administrative Assistant	1.0	1	1	
+v2	Executive Assistant to the CEO & Founder	Executive Assistant	[executive assistant]	[43]	[43]	43.6	Executive Assistant	1.0	1	1	
+v2	Sales Accounting Administrator	Sales Administrator	[sales administrator]	[43, 11]	[11]	11.10261	Sales Administrator	0.73846203	1	1	
+v2	Executive Assistant	Executive Assistant	[executive assistant]	[43]	[43]	43.6	Executive Assistant	1.0	1	1	
+v2	Human Resources Administative Assistant	Human Resources Assistant	[human resources assistant]	[43]	[43]	43.15	Human Resources Assistant	1.0	1	1	
+v2	Legal Secretary	Legal Secretary	[legal secretary]	[43]	[43]	43.18	Legal Secretary	1.0	1	1	
+v2	Administrative Assistant	Administrative Assistant	[administrative assistant]	[43]	[43]	43.1	Administrative Assistant	1.0	1	1	
+v2	Secretary Administrative-Non Profit	Administrative Secretary	[administrative secretary]	[43]	[43]	43.1	Administrative Assistant	1.0	1	0	
+v2	Administrative Assistant	Administrative Assistant	[administrative assistant]	[43]	[43]	43.1	Administrative Assistant	1.0	1	1	
+v2	Legal Secretary Trainee	Legal Secretary	[legal secretary]	[43]	[43]	43.18	Legal Secretary	1.0	1	1	
+v2	Office Administrator	Office Administrator	[office administrator]	[43, 11]	[43]	43.27	Office Administrator	1.0	1	1	
+v2	HR  Assistant	Human Resources Assistant	[human resources assistant]	[43]	[43]	43.52	Human Resources (HR) Coordinator	0.47709364	1	0	
+v2	Accountant/FC Bookkeeper**	Book Keeper OR Accountant	[book keeper, accountant]	[43, 13]	[43]	43.3	Book Keeper	0.9825354	1	1	
+v2	"Executive Assistant, bilingual"	Executive Assistant	[executive assistant]	[43, 31]	[43]	43.6	Executive Assistant	1.0	1	1	
+v2	Secretary Administrative - Global	Administrative Secretary	[administrative secretary]	[43]	[43]	43.170	Administrative Secretary	0.5834264	1	1	
+v2	Secretary Executive-Lower Bucks County	Executive Secretary	[executive secretary]	[43]	[43]	43.6	Executive Assistant	0.2598786	1	0	
+v2	SECRETARY MEDICAL	Medical Secretary	[medical secretary]	[43]	[43]	43.119	Medical Secretary	0.59908015	1	1	
+v2	ADMIN. ASST.	Administrative Assistant	[administrative assistant]	[43]	[11]	11.1	Project Manager	0.8235294	0	0	
+v2	Executive Secretary	Executive Secretary	[executive secretary]	[43]	[43]	43.31188	Executive Secretary	1.0	1	1	
+v2	Executive Assistant	Executive Assistant	[executive assistant]	[43]	[43]	43.6	Executive Assistant	1.0	1	1	
+v2	Administrative Assistant	Administrative Assistant	[administrative assistant]	[43]	[43]	43.1	Administrative Assistant	1.0	1	1	
+v2	Credit & Collections Specialists	Credit Collections Analyst	[credit collections analyst]	[43]	[43]	43.157	Credit Collections Analyst	1.0	1	1	
+v2	Customer Service	Customer Service Representative	[customer service representative]	[43, 41]	[43]	43.0	Customer Service Representative	1.0	1	1	
+v2	Payroll Specialist	Payroll Specialist	[payroll specialist]	[43, 15, 13]	[43]	43.23	Payroll Specialist	1.0	1	1	
+v2	General Hatchery Team Leader	General Supervisor	[general supervisor]	[45, 11]	[51]	51.29	Production Leader	1.0	0	0	
+v2	Estimator Heavy Highway Construction	Drywall Construction Estimator	[drywall construction estimator]	[47]	[47]	47.13	Construction Supervisor	0.451232	1	0	
+v2	Project Superintendent - Highway	Superintendent	[superintendent]	[47, 11]	[47]	47.30128	Superintendent	0.9082101	1	1	
+v2	Superintendent  Construction Manager Home Building   Florida	Construction Supervisor	[construction supervisor]	[11, 47]	[47]	47.13	Construction Supervisor	0.41081658	1	1	
+v2	Maintenance Superintendent	Maintenance Manager	[maintenance manager]	[49, 47, 51, 11]	[49]	49.2	Maintenance Manager	1.0	1	1	
+v2	Maintenance Technician	Maintenance Technician	[maintenance technician]	[49, 31, 37]	[49]	49.3	Maintenance Technician	1.0	1	1	
+v2	Maintenance Manager	Maintenance Manager	[maintenance manager]	[49, 51, 47, 11]	[49]	49.2	Maintenance Manager	1.0	1	1	
+v2	Facilities Maintenance Technician	Facility Maintenance Technician	[facility maintenance technician]	[49]	[49]	49.22	Facility Maintenance Technician	0.99230677	1	1	
+v2	Journeyman Maintenance Technician	Maintenance Technician	[maintenance technician]	[49]	[49]	49.0	Maintenance Mechanic	0.8421053	1	0	
+v2	Maintenance Supervisor	Maintenance Manager	[maintenance manager]	[49]	[49]	49.2	Maintenance Manager	0.56811094	1	1	
+v2	Facilities Maintenance Leader	Maintenance Leader	[maintenance leader]	[49, 11]	[49]	49.10405	Maintenance Leader	0.8723456	1	1	
+v2	Maintenance Supervisor-San Bern	Maintenance Manager	[maintenance manager]	[49, 11]	[49]	49.2	Maintenance Manager	0.7937826	1	1	
+v2	Facilities Maintenance Mechanic	Maintenance Mechanic	[maintenance mechanic]	[49]	[49]	49.0	Maintenance Mechanic	1.0	1	1	
+v2	MAINTENANCE TECHNICIAN (Plumbing)	Maintenance Technician	[maintenance technician]	[49]	[49]	49.3	Maintenance Technician	0.67431355	1	1	
+v2	Commercial HVAC Field Technician	HVAC Service Technician	[hvac service technician]	[49]	[49]	49.100	HVAC Refrigeration Technician	0.56583506	1	0	
+v2	Maintenance Supervisor - Million Square Feet!	Maintenance Manager	[maintenance manager]	[49, 11]	[49]	49.2	Maintenance Manager	0.56811094	1	1	
+v2	Automotive Technicians	Automotive Technician	[automotive technician]	[49]	[49]	49.30	Automotive Technician	1.0	1	1	
+v2	Line Manager	Line Supervisor OR Production Manager	[line supervisor, production manager]	[51, 11]	[51]	51.11	Production Manager	0.69130725	1	1	
+v2	Metal Fabrication Superintendent	Superintendent	[superintendent]	[51, 11]	[51]	51.57	Fabricator	1.0	1	0	
+v2	Finishing Manager	"""Finishing Manager"" "	[finishing manager]	[51, 11]	[51]	51.146	Finishing Operator	1.0	1	0	
+v2	Machine Shop Manager	Shop Supervisor	[shop supervisor]	[51, 49, 41, 11]	[51]	51.61	Shop Supervisor	0.87211156	1	1	
+v2	Production Lead	Production Leader	[production leader]	[51, 11]	[51]	51.29	Production Leader	0.99769974	1	1	
+v2	Operations Supervisor	Operations Supervisor	[operations supervisor]	[51, 11]	[51]	51.16	Operations Supervisor	1.0	1	1	
+v2	Production Manager	Production Manager	[production manager]	[11, 51]	[51]	51.11	Production Manager	1.0	1	1	
+v2	Production Manager	Production Manager	[production manager]	[11, 51]	[51]	51.11	Production Manager	1.0	1	1	
+v2	Distribution Center Supervisor	Distribution Supervisor	[distribution supervisor]	[53, 11]	[53]	53.30544	Distribution Supervisor	0.66004664	1	1	
+v2	Driver	Delivery Driver	[delivery driver]	[53]	[53]	53.0	Truck Driver	0.68905264	1	0	
+v2	Warehouse Workers Needed !	Warehouse Worker	[warehouse worker]	[53]	[53]	53.5	Warehouse Worker	1.0	1	1	
+v2	Executive Chauffeur	Chauffeur	[chauffeur]	[53]	[53]	53.11318	Chauffeur	1.0	1	1	
+v2	Bus Driver	Bus Driver	[bus driver]	[53]	[53]	53.9	Bus Driver	1.0	1	1	
+v2	Delivery Driver (RX & Floral)	Delivery Driver	[delivery driver]	[53]	[53]	53.2	Delivery Driver	1.0	1	1	
+v2	Support Services Courier Transportation Services	Courier	[courier]	[53]	[53]	53.30	Transportation Manager	0.36629304	1	0	
+v2	Senior Transportation Manager	Transportation Manager	[transportation manager]	[11, 53]	[53]	53.30	Transportation Manager	1.0	1	1	
+v2	PACKAGE HANDLER	Package Handler	[package handler]	[53]	[53]	53.6	Package Handler	1.0	1	1	
+v2	Material Handler - Warehouse	Material Handler	[material handler]	[53, 43]	[53]	53.3	Material Handler	0.782154	1	1	
+v2	PACKAGE HANDLER	Package Handler	[package handler]	[53]	[53]	53.6	Package Handler	1.0	1	1	
+v2	WAREHOUSE DISTRIBUTION MANAGER	Distribution Manager OR Distribution Center Manager OR Distribution Supervisor	[distribution manager, distribution center manager, distribution supervisor]	[53, 11, 51]	[11]	11.280	Distribution Manager	0.5	1	1	
+v2	Automotive Parts Delivery Driver	Delivery Driver	[delivery driver]	[53]	[53]	53.2	Delivery Driver	1.0	1	1	
+v2	Warehouse Forklift Driver	Forklift Driver	[forklift driver]	[53]	[53]	53.11	Forklift Driver	0.33277833	1	1	
+v2	Route Sales Merchandiser	Route Sales Representative	[route sales representative]	[53]	[53]	53.7	Route Sales Representative	1.0	1	1	
+v2	Mixer Driver	Truck Driver	[truck driver]	[53]	[53]	53.0	Truck Driver	0.98655903	1	1	
+v2	Warehouse/Material Handler	Material Handler	[material handler]	[53]	[53]	53.3	Material Handler	1.0	1	1	
+v2	Automotive Parts Delivery Driver	Delivery Driver	[delivery driver]	[53]	[53]	53.2	Delivery Driver	1.0	1	1	
+v2	Package Handler	Package Handler	[package handler]	[53]	[53]	53.6	Package Handler	1.0	1	1	
+v2	Transportation Supervisor	Transportation Supervisor	[transportation supervisor]	[53, 11]	[53]	53.21	Transportation Supervisor	1.0	1	1	
+v2	Warehouse worker	Warehouse Worker	[warehouse worker]	[53]	[53]	53.5	Warehouse Worker	1.0	1	1	
+v2	Truck Driver	Truck Driver	[truck driver]	[53]	[53]	53.0	Truck Driver	1.0	1	1	
+v2	Material Handler	Material Handler	[material handler]	[53]	[53]	53.3	Material Handler	1.0	1	1	
+v2	Warehouse Supervisor	Warehouse Supervisor	[warehouse supervisor]	[53, 11]	[53]	53.13	Warehouse Supervisor	1.0	1	1	
+v2	Retail Route Manager	Route Manager	[route manager]	[53, 11]	[53]	53.42	Route Manager	1.0	1	1	
+v2	Material Handler	Material Handler	[material handler]	[53]	[53]	53.3	Material Handler	1.0	1	1	
+v2	cdl truck driver	Truck Driver	[truck driver]	[53]	[53]	53.0	Truck Driver	0.5128951	1	1	
+v2	"Transportation Supervisor - Gaston, SC"	Transportation Supervisor	[transportation supervisor]	[53, 11]	[53]	53.21	Transportation Supervisor	1.0	1	1	
+v2	DRIVER	Delivery Driver	[delivery driver]	[53]	[53]	53.0	Truck Driver	0.68905264	1	0	
+v2	Material Handler	Material Handler	[material handler]	[53]	[53]	53.3	Material Handler	1.0	1	1	
+v2	Regional Tractor Trailer Driver	Tractor Trailer Driver	[tractor trailer driver]	[53]	[53]	53.17	Tractor Trailer Driver	1.0	1	1	
+v2	Part-time Delivery	Delivery Driver	[delivery driver]	[53]	[53]	53.2	Delivery Driver	1.0	1	1	
+v2	Valet Parker	Valet Attendant	[valet attendant]	[53]	[53]	53.77	Valet Attendant	1.0	1	1	
+v2	Driver	Truck Driver	[truck driver]	[53]	[53]	53.0	Truck Driver	0.68905264	1	1	
+v2	Delivery Driver (Part Time)	Delivery Driver	[delivery driver]	[53]	[53]	53.2	Delivery Driver	1.0	1	1	
+v2	Automotive Parts Delivery Driver	Delivery Driver	[delivery driver]	[53]	[53]	53.2	Delivery Driver	1.0	1	1	
+v2	Dock Supervisor Template	Dock Supervisor	[dock supervisor]	[53, 11]	[53]	53.78	Dock Supervisor	1.0	1	1	
+v2	Submarine Warfare Systems T&E Specialist	"""Submarine Warefare Systems T&E Specialist"""	[submarine warefare systems t&e specialist]	[55]	[15]	15.144	Computer Systems Specialist	0.9731034	0	0	
+v2	Human Resources Manager	Human Resources (HR) Manager	[human resources (hr) manager]	[11, 13]	[11]	11.11	Human Resources (HR) Manager	1.0	1	1	
+v2	Accountant	Accountant	[accountant]	[13, 43]	[13]	13.0	Accountant	1.0	1	1	
+v2	Oracle Systems Analyst	Systems Analyst	[systems analyst]	[15]	[15]	15.9	Systems Analyst	0.61417633	1	1	
+v2	HVAC/R Design Engineer	HVAC Engineer OR Design Engineer	[hvac engineer, design engineer]	[17]	[17]	17.121	Design Engineer	0.6449334	1	1	
+v2	Social Worker Msw	Social Worker	[social worker]	[21]	[21]	21.2	Social Worker	1.0	1	1	
+v2	Commercial Litigation Associate	Litigation Attorney	[litigation attorney]	[23]	[23]	23.6	Litigation Attorney	0.80511665	1	1	
+v2	"Para Professional (Teaching Assistant) ESL, Spc Ed, Early Chldhd"	Teaching Assistant	[teaching assistant]	[25]	[25]	25.44	Teaching Assistant	1.0	1	1	
+v2	Internet Graphic Designer	Graphic Designer	[graphic designer]	[27, 15]	[27]	27.1	Graphic Designer	1.0	1	1	
+v2	Registered Nurse	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	Medical Transcriptionist - Level II	Medical Transcriptionist	[medical transcriptionist]	[31]	[31]	31.15	Medical Transcriptionist	1.0	1	1	
+v2	TRANSPORTATION OFFICER/Security Services	Transportation Security Officer (TSO)	[transportation security officer (tso)]	[33]	[33]	33.20	Security Manager	0.53271484	1	0	
+v2	Restaurant Management	Restaurant Manager	[restaurant manager]	[35, 11]	[35]	35.0	Restaurant Manager	1.0	1	1	
+v2	Recreation Coordinator	Recreation Coordinator	[recreation coordinator]	[39, 11]	[39]	39.46	Recreation Coordinator	0.99961966	1	1	
+v2	ASSISTANT STORE MANAGER MENSWEAR	Assistant Store Manager	[assistant store manager]	[41, 11]	[41]	41.3	Assistant Store Manager	0.5	1	1	
+v2	Accounts Payable-Purchasing Auditor	Accounts Payable Clerk	[accounts payable clerk]	[43]	[43]	43.9	Accounts Payable Clerk	0.23303935	1	1	
+v2	Project Superintendent - Highway	Superintendent OR Construction Supervisor	[superintendent, construction supervisor]	[47, 11]	[47]	47.30128	Superintendent	0.9082101	1	1	
+v2	Maintenance Technician	Facility Maintenance Technician OR Maintenance Technician	[facility maintenance technician, maintenance technician]	[49, 37]	[49]	49.3	Maintenance Technician	1.0	1	1	
+v2	Line Manager	Line Supervisor OR Production Manager	[line supervisor, production manager]	[51, 11]	[51]	51.11	Production Manager	0.69130725	1	1	
+v2	Driver	Delivery Driver	[delivery driver]	[53]	[53]	53.0	Truck Driver	0.68905264	1	0	
+v2	Weapons Systems Technician - Cannon Crewmember	Weapons Technician	[weapons technician]	[55]	[55]	55.11	Weapons Technician	0.5433672	1	1	
+v2	Assistant Manager	Food Service Manager	[food service manager]	[35, 11]	[35]	35.64	Speciality Coffee Assistant Manager	1.0	1	0	
+v2	Payroll Administrator	Payroll Administrator	[payroll administrator]	[43, 11]	[43]	43.30	Payroll Administrator	1.0	1	1	
+v2	Financial Sales Professional - Entry Level or Experienced	Financial Sales Consultant	[financial sales consultant]	[41]	[41]	41.10	Sales Supervisor	0.637966	1	0	
+v2	Sr Database Developer	Database Developer	[database developer]	[15]	[15]	15.37	Database Developer	1.0	1	1	
+v2	Administrative Clerk	Administrative Clerk	[administrative clerk]	[43]	[43]	43.37	Administrative Clerk	1.0	1	1	
+v2	Full-Time Home Health Registered Nurse	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	Knitting Machine Operator	Machine Operator	[machine operator]	[51, 49]	[51]	51.1	Machine Operator	1.0	1	1	
+v2	MICROSOFT DYNAMICS AX FINANCIAL LEADER	Microsoft Dynamics Developer	[microsoft dynamics developer]	[11, 15]	[15]	15.167	Microsoft Dynamics Developer	1.0	1	1	
+v2	Fabrication Worker	Fabricator	[fabricator]	[51, 47]	[51]	51.57	Fabricator	0.74481153	1	1	
+v2	INDUSTRIAL - PROJECT - SUPERINTENDENTS	Superintendent	[superintendent]	[47, 11, 49, 51]	[47]	47.81	Project Administrator	0.4449011	1	0	
+v2	Staff Accountant	Staff Accountant	[staff accountant]	[13]	[13]	13.30129	Staff Accountant	1.0	1	1	
+v2	Accountant	Accountant	[accountant]	[13, 43]	[13]	13.0	Accountant	1.0	1	1	
+v2	Home Health Aides/ Waupaca	Home Health Aide (HHA)	[home health aide (hha)]	[31, 39]	[31]	31.5	Home Health Aide (HHA)	1.0	1	1	
+v2	Transmission Engineer	Transmission Engineer	[transmission engineer]	[17]	[17]	17.129	Transmission Engineer	1.0	1	1	
+v2	"Dietitian - Jackson PK - Chicago, IL"	Dietitian	[dietitian]	[29]	[29]	29.142	Dietitian	1.0	1	1	
+v2	"Business to Business, Outside Sales Representative"	B2B Sales Representative	[b2b sales representative]	[41]	[41]	41.2	Sales Representative	0.50481474	1	0	
+v2	Retail Sales Associate-Purchasing/Sales Representative (Selling)	Retail Sales Associate	[retail sales associate]	[41]	[41]	41.2	Sales Representative	0.5	1	0	
+v2	STAFF GEOLOGIST / ENVIRONMENTAL ENGINEER	Geologist	[geologist]	[17, 19]	[19]	19.46	Geologist	0.6632752	1	1	
+v2	Microbiologist	Microbiologist	[microbiologist]	[19]	[19]	19.34	Microbiologist	1.0	1	1	
+v2	Restaurant Management	Restaurant Manager	[restaurant manager]	[11, 35]	[35]	35.0	Restaurant Manager	1.0	1	1	
+v2	Credit Analyst	Credit Analyst	[credit analyst]	[13]	[13]	13.14	Credit Analyst	1.0	1	1	
+v2	Senior Engineering Technician	Engineering Technician	[engineering technician]	[17]	[17]	17.7	Engineering Technician	1.0	1	1	
+v2	A&P Helicopter Mechanic	Helicopter Mechanic	[helicopter mechanic]	[49]	[49]	49.0	Maintenance Mechanic	0.5	1	0	
+v2	FOOD SERVICE DIRECTOR	Food Service Director	[food service director]	[11]	[11]	11.119	Food Service Director	1.0	1	1	
+v2	"Private Duty Aide, CNA"	Certified Nursing Assistant (CNA)	[certified nursing assistant (cna)]	[39, 31]	[31]	31.0	Certified Nursing Assistant (CNA)	0.58126134	1	1	
+v2	Network/Contracts Manager - KY	Contracts Manager	[contracts manager]	[11, 15]	[13]	13.66	Contracts Manager	1.0	0	1	
+v2	"Sr. Operations and Maintenance Technician - Beaver, OK"	Operations Technician	[operations technician]	[49]	[49]	49.62	Operations Technician	0.9415254	1	1	
+v2	TRUCK DRIVER - CDL DRIVER TRAINING	Truck Driver	[truck driver]	[53]	[53]	53.0	Truck Driver	1.0	1	1	
+v2	PROJECT MANAGER	Project Manager	[project manager]	[11, 47, 15]	[15]	15.1	Project Manager	1.0	1	1	
+v2	RN-CLINICAL-FLOAT POOL (Full Time days) **premium pay**-12050219	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	0.66649944	1	1	
+v2	Store Management - Aeropostale Jackson Market	Store Manager	[store manager]	[41, 11]	[41]	41.67	Sales Manager	0.8886833	1	0	
+v2	Credit Analyst	Credit Analyst	[credit analyst]	[13]	[13]	13.14	Credit Analyst	1.0	1	1	
+v2	"Manager in Training, Now Accepting Applications for Future Openi"	Sales Manager	[sales manager]	[41, 11]	[41]	41.67	Sales Manager	1.0	1	1	
+v2	Senior Financial Systems Analyst	Systems Analyst	[systems analyst]	[15, 13]	[15]	15.9	Systems Analyst	0.76855224	1	1	
+v2	Senior Trainer - Sales Force Development	Senior Trainer	[senior trainer]	[13]	[13]	13.81	Senior Trainer	0.53833497	1	1	
+v2	"Supv, Network Maintenance"	Maintenance Manager	[maintenance manager]	[49, 15]	[49]	49.2	Maintenance Manager	1.0	1	1	
+v2	Systems Analyst	Systems Analyst	[systems analyst]	[15]	[15]	15.9	Systems Analyst	1.0	1	1	
+v2	"RN - Registered Nurse - 2nd shift - Durham, NC"	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	EXPRESS REPRESENTATIVE	Claims Examiner	[claims examiner]	[13, 43]	[13]	13.10888	Training Representative	0.7153303	1	0	
+v2	Ruby Tuesday ��� Technical Support Analyst ��� IT Department	IT Support Analyst	[it support analyst]	[15]	[15]	15.14	IT Support Analyst	0.5171912	1	1	
+v2	Compliance Consultant Job	Compliance Consultant	[compliance consultant]	[13, 11]	[13]	13.93	Compliance Consultant	1.0	1	1	
+v2	Temp Security Officer	Security Officer	[security officer]	[33]	[33]	33.0	Security Officer	1.0	1	1	
+v2	iSeries Developer	AS400 RPG Programmer	[as400 rpg programmer]	[15]	[15]	15.206	RPG Developer	0.543748	1	0	
+v2	Sr. Unica Campaign Analyst Job	Systems Analyst	[systems analyst]	[15, 19, 13]	[19]	19.4	Research Analyst	1.0	1	0	
+v2	Marketing Representative	Sales Representative	[sales representative]	[41]	[41]	41.2	Sales Representative	1.0	1	1	
+v2	Senior Financial Analyst-Healthcare required (Luv)	Financial Analyst	[financial analyst]	[13]	[13]	13.92	Healthcare Consultant	0.2561333	1	0	
+v2	Senior Quality Engineer	Quality Engineer	[quality engineer]	[15, 17]	[17]	17.30039	Quality Engineer	0.765286	1	1	
+v2	RN - Registry II	Registered Nurse	[registered nurse]	[29]	[29]	29.63	Dialysis Nurse	0.36641014	1	0	
+v2	Bank Teller- Banking Customer Service Representative	Customer Service Representative	[customer service representative]	[43]	[43]	43.0	Customer Service Representative	0.5	1	1	
+v2	SALES PROFESSIONAL	Sales Representative	[sales representative]	[41]	[41]	41.1	Retail Sales Associate	0.3888137	1	0	
+v2	At-home Team Manager	Customer Service Manager	[customer service manager]	[43, 11, 41]	[43]	43.30136	Customer Service Manager	0.51788133	1	1	
+v2	Electrical Engineer	Electrical Engineer	[electrical engineer]	[17]	[17]	17.134	Electrical Engineer	0.9995481	1	1	
+v2	TOYS'R'US EXPRESS - STORE SUPERVISOR	Store Supervisor	[store supervisor]	[41]	[41]	41.10	Sales Supervisor	0.5	1	0	
+v2	TRADITIONAL SECURITY OFFICER��� LOUISVILLE	Security Officer	[security officer]	[33]	[29]	29.22	Emergency Medical Technician (EMT)	1.0	0	0	
+v2	MANUFACTURING ENGINEER - COMPOSITES	Composite Engineer	[composite engineer]	[17]	[17]	17.181	Composite Engineer	0.42983398	1	1	
+v2	Sales Consultant	Sales Consultant	[sales consultant]	[41]	[41]	41.19	Sales Consultant	1.0	1	1	
+v2	LPN - Telephonic	Licensed Practical Nurse (LPN)	[licensed practical nurse (lpn)]	[29]	[29]	29.3	Licensed Practical Nurse (LPN)	1.0	1	1	
+v2	ENTRY LEVEL SALES / ACCOUNT EXECUTIVE	Account Executive	[account executive]	[41]	[41]	41.8	Account Executive	1.0	1	1	
+v2	PHARMACIST - prn-1205023336	Pharmacist	[pharmacist]	[29]	[29]	29.26	Pharmacist	1.0	1	1	
+v2	Gymnastics Director Experience Required	"""Gymnastics Director"""	[gymnastics director]	[11, 27]	[27]	27.11	Art Director	0.6196611	1	0	
+v2	Senior Network Contract Manager -- Telecommute	Contract Manager	[contract manager]	[11, 15]	[11]	11.39	Contract Manager	1.0	1	1	
+v2	HOME CARE AIDESFor Franklin &Fulton County	Home Health Aide (HHA)	[home health aide (hha)]	[31, 39]	[31]	31.5	Home Health Aide (HHA)	0.78730565	1	1	
+v2	TOYS'R'US - SALES TEAM MEMBER	Sales Team Member	[sales team member]	[41, 43]	[41]	41.30914	Sales Team Member	1.0	1	1	
+v2	Quality Manager (659-243)	Process Improvement Manager	[process improvement manager]	[11, 51, 17]	[51]	51.31	Manufacturing Manager	0.63243145	1	0	
+v2	Bilingual Rep-Retail Sales (Englishish Required)	Retail Sales Associate  OR Sales Representative	[retail sales associate, sales representative]	[41]	[41]	41.2	Sales Representative	0.5	1	1	
+v2	GIS ANALYST	GIS Analyst	[gis analyst]	[15, 19]	[15]	15.145	GIS Analyst	1.0	1	1	
+v2	Medical Sales-Tissue Graftiologics-Wound Care	Medical Sales Representative	[medical sales representative]	[41]	[41]	41.79	Medical Sales Representative	0.52721363	1	1	
+v2	Senior HR Manager(EPC)	Human Resources (HR) Manager	[human resources (hr) manager]	[11]	[11]	11.11	Human Resources (HR) Manager	1.0	1	1	
+v2	ENTRY LEVEL SALES/ACCOUNT EXECUTIVE	Account Executive	[account executive]	[41]	[41]	41.8	Account Executive	1.0	1	1	
+v2	Insurance Sales Producer	Insurance Sales Agent	[insurance sales agent]	[41]	[41]	41.4	Insurance Sales Agent	1.0	1	1	
+v2	Lasermax Sheeter Operator	Bindery Operator	[bindery operator]	[51]	[51]	51.1	Machine Operator	0.7787372	1	0	
+v2	Exp CDL-A Drivers Wanted 1 Year OTR exp CDL-A w/Haz/Tank	Commercial Driver's License (CDL) Driver	[commercial driver's license (cdl) driver]	[53]	[53]	53.15	Commercial Driver's License (CDL) Driver	0.91128105	1	1	
+v2	Corporate Accountant	Corporate Accountant	[corporate accountant]	[13, 11, 43]	[13]	13.10469	Corporate Accountant	1.0	1	1	
+v2	Linux Quality Assurance Engineer	Quality Assurance Engineer OR IT Quality Assurance Analyst	[quality assurance engineer, it quality assurance analyst]	[15]	[15]	15.234	IT Quality Assurance Analyst	0.5	1	1	
+v2	ROUTE SALES REPRESENTATIVE TRAINEE - FOOD SALES ASSOCIATE	Route Sales Representative	[route sales representative]	[41, 53]	[53]	53.7	Route Sales Representative	1.0	1	1	
+v2	Traditional Security Officer	Security Officer	[security officer]	[33, 11]	[33]	33.0	Security Officer	1.0	1	1	
+v2	Sterile Processing Manager	"Sterile Processing Technician OR ""Sterile Processing Manager"" "	[sterile processing technician, sterile processing manager]	[11, 31]	[51]	51.30490	Processing Supervisor	1.0	0	0	
+v2	Senior Electrical Designer***SPI/Intergraph***	Design Engineer OR Electrical and Instruments Designer	[design engineer, electrical and instruments designer]	[17]	[17]	17.19	Senior Electrical Engineer	0.52212435	1	0	
+v2	Rehabilitation Consultant	"Rehabilitation Aide OR ""Rehabilitation Consultant"""	[rehabilitation aide, rehabilitation consultant]	[29]	[29]	29.77	Clinical Nurse Consultant	1.0	1	0	
+v2	Customer Service / Restaurant / Retail Experience Preferred	Customer Service Associate	[customer service associate]	[43, 41, 35]	[35]	35.22	Bartender	0.57754296	1	0	
+v2	Field Relations Representative: $52-60k (Entry Level)	Sales Representative	[sales representative]	[41, 43]	[41]	41.2	Sales Representative	1.0	1	1	
+v2	Technical Lead	Technical Lead	[technical lead]	[15]	[15]	15.28	Technical Lead	1.0	1	1	
+v2	"Technical Services Operations Coordinator, Nephrology 1.0 -SJ"	Technical Supervisor	[technical supervisor]	[11, 19]	[13]	13.126	Operations Consultant	0.45549718	0	0	
+v2	AUTOMOTIVE TECHNICIAN / AUTOMOTIVE MECHANIC / ENTRY LEVEL TECH	Automotive Technician	[automotive technician]	[49]	[49]	49.0	Maintenance Mechanic	0.5	1	0	
+v2	AUTOMOTIVE TECHNICIAN / AUTOMOTIVE MECHANIC / FORD TECH	Automotive Technician	[automotive technician]	[49]	[49]	49.0	Maintenance Mechanic	0.5	1	0	
+v2	Technologist - MRI	MRI Technologist	[mri technologist]	[29]	[29]	29.53	MRI Technologist	0.93438137	1	1	
+v2	15 DIRECTV ENTRY LEVEL OPENINGS-MARKETING FIRM	Marketing Representative	[marketing representative]	[41]	[27]	27.155	Entry Level Technical Writer	0.52627736	0	0	
+v2	Enterprise Architect	Enterprise Architect	[enterprise architect]	[15]	[15]	15.54	Enterprise Architect	1.0	1	1	
+v2	Enterprise Solutions Architect	Enterprise Architect OR Solutions Architect	[enterprise architect, solutions architect]	[15]	[15]	15.54	Enterprise Architect	0.5	1	1	
+v2	Portfolio Accounting Intern	Accounting Analyst	[accounting analyst]	[13, 43]	[11]	11.77	Portfolio Manager	0.6763136	0	0	
+v2	DIGITAL SALES SPECIALIST	Sales Specialist	[sales specialist]	[41]	[41]	41.17	Sales Specialist	1.0	1	1	
+v2	Cisco Network Engineer	Cisco Engineer	[cisco engineer]	[15, 17]	[15]	15.281	Cisco Engineer	0.5	1	1	
+v2	Inpatient Coding Specialist II	Medical Coding Specialist OR Inpatient Coder	[medical coding specialist, inpatient coder]	[29, 43]	[29]	29.56	Medical Coding Specialist	1.0	1	1	
+v2	Software Developer (C/C++)	Software Engineer	[software engineer]	[15]	[15]	15.0	Software Engineer	0.47701895	1	1	
+v2	Development Electrical Engineer	Electrical Engineer	[electrical engineer]	[17]	[17]	17.134	Electrical Engineer	0.5945058	1	1	
+v2	Mortgage Fraud Analyst	Fraud Analyst	[fraud analyst]	[13]	[13]	13.70	Fraud Analyst	0.53381926	1	1	
+v2	"Juniper Networks - Sr. System Engineer - Seattle, WA"	Network Engineer OR Systems Engineer	[network engineer, systems engineer]	[15, 17]	[15]	15.8	Network Engineer	0.40175757	1	1	
+v2	REGISTERED NURSE	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	1.0	1	1	
+v2	Store Manager/Salesperson	Sales Manager	[sales manager]	[41]	[41]	41.67	Sales Manager	0.47973245	1	1	
+v2	Teacher	Teacher	[teacher]	[25, 11]	[25]	25.7	Teacher	1.0	1	1	
+v2	CDL TRUCK DRIVER ��� OWNER OPERATOR ��� TRANSPORTATION	Truck Driver	[truck driver]	[53]	[53]	53.0	Truck Driver	0.5	1	1	
+v2	"DSR, Individual Direct Sales (SFU) - Davie-70155900"	Direct Sales Representative	[direct sales representative]	[41]	[41]	41.30359	Direct Sales Representative	1.0	1	1	
+v2	Outside Sales Consultant - Residential	"""Outside Sales Consultant"" or Outside Sales Media Consultant (rename this cluster - remove Media)"	[outside sales consultant, outside sales media consultant]	[41]	[41]	41.58	Outside Sales Media Consultant	1.0	1	1	
+v2	Data Entry Clerks - Come and join the team!!!	Data Entry Clerk	[data entry clerk]	[43]	[43]	43.7	Data Entry Clerk	1.0	1	1	
+v2	Manufacturing Engineer	Manufacturing Engineer	[manufacturing engineer]	[17]	[17]	17.5	Manufacturing Engineer	1.0	1	1	
+v2	Regulatory Affairs Associate	Regulatory Analyst	[regulatory analyst]	[13]	[13]	13.250	Regulatory Analyst	0.9	1	1	
+v2	PHLEBOTOMIST-PART TIME	Phlebotomist	[phlebotomist]	[31]	[31]	31.10	Phlebotomist	1.0	1	1	
+v2	Compliance Specialist	Compliance Analyst	[compliance analyst]	[13]	[13]	13.143	Auditor	0.30807245	1	0	
+v2	Developer	SQL Developer OR Java Developer OR Business Objects Developer	[sql developer, java developer, business objects developer]	[15]	[15]	15.2	Java Developer	1.0	1	1	
+v2	Bid Manager - RS	"""Bid Manager"" or ""Construction Manager"" "	[bid manager, construction manager]	[11]	[15]	15.4	Programmer	0.23789538	0	0	
+v2	Speech Pathologist PRN	Speech Therapist	[speech therapist]	[29]	[29]	29.8	Speech Therapist	0.8426899	1	1	
+v2	"Sales Manager - Reno, NV  05614"	Sales Manager	[sales manager]	[41, 11]	[11]	11.0	Sales Manager	0.71688664	1	1	
+v2	Medical Device Sales - Orthopedic - Spine (TX)	Medical Sales Representative	[medical sales representative]	[41]	[11]	11.0	Sales Manager	0.34005007	0	0	
+v2	BABIES'R'US - PERSONAL REGISTRY ADVISOR	Sales Advisor	[sales advisor]	[41]	[43]	43.146	Personal Assistant	1.0	0	0	
+v2	RN Supervisor	Nurse Supervisor	[nurse supervisor]	[11, 29]	[29]	29.7	Nurse Supervisor	1.0	1	1	
+v2	Merchandising Administrative Assistant! 12/14/2012	Administrative Assistant	[administrative assistant]	[43]	[43]	43.1	Administrative Assistant	1.0	1	1	
+v2	VA Beach Bookkeeping Service Needs A Tax Preparer ASAP!	Seasonal Tax Prepayer	[seasonal tax prepayer]	[13]	[43]	43.3	Book Keeper	1.0	0	0	
+v2	Store Manager	Store Manager	[store manager]	[11, 41]	[41]	41.15	Store Manager	0.9949655	1	1	
+v2	Capital Equipment Sales Representative	Equipment Sales Representative	[equipment sales representative]	[41]	[41]	41.56	Equipment Sales Representative	0.4589749	1	1	
+v2	Documentation Associate II	Documentation Specialist	[documentation specialist]	[27]	[27]	27.18	Documentation Specialist	0.8431723	1	1	
+v2	",Net Developer"	.Net Developer	[.net developer]	[15]	[15]	15.7	.Net Developer	1.0	1	1	
+v2	AUTOMOTIVE SERVICE MANAGER	Automotive Service Manager	[automotive service manager]	[49, 11]	[49]	49.31216	Automotive Service Manager	1.0	1	1	
+v2	"Manager, HPN Information Systems"	IT Manager	[it manager]	[11, 15]	[11]	11.31427	Information Systems Manager	1.0	1	0	
+v2	Cashier night shift 5pm to 2am depends on the night	Cashier	[cashier]	[41, 35]	[41]	41.0	Cashier	1.0	1	1	
+v2	Insurance Sales -fe Insurance Agent / Agency	Insurance Sales Agent	[insurance sales agent]	[41]	[41]	41.4	Insurance Sales Agent	1.0	1	1	
+v2	Sharepoint 2010 developer	Sharepoint Developer	[sharepoint developer]	[15]	[15]	15.26	SharePoint Developer	0.6717875	1	1	
+v2	Senior Interactive Developer	Front-End Developer	[front-end developer]	[15]	[15]	15.7	.Net Developer	0.27971992	1	0	
+v2	Courier	Courier	[courier]	[43, 53]	[53]	53.72	Courier	1.0	1	1	
+v2	Loan Closer (Support)	Loan Closer	[loan closer]	[43, 13]	[43]	43.41	Loan Closer	0.5	1	1	
+v2	CDL Class A Truck Drivers with Experience!!	Commercial Driver's License (CDL) Driver	[commercial driver's license (cdl) driver]	[53]	[53]	53.0	Truck Driver	0.5	1	0	
+v2	Credit Analyst	Credit Analyst	[credit analyst]	[13, 41, 19]	[13]	13.14	Credit Analyst	1.0	1	1	
+v2	Senior Oracle Developer	Oracle Developer	[oracle developer]	[15]	[15]	15.39	Oracle Developer	1.0	1	1	
+v2	Contact Center Personal Banker	Personal Banker	[personal banker]	[43, 13]	[43]	43.31167	Contact Center Representative	1.0	1	0	
+v2	OVERNIGHT ASSISTANT STORE MANAGER	Assistant Store Manager	[assistant store manager]	[41, 11]	[41]	41.3	Assistant Store Manager	0.5	1	1	
+v2	Sales / Customer Service - Part Time / Full Time ��� Entry Level	Customer Service Representative	[customer service representative]	[43, 41]	[43]	43.0	Customer Service Representative	1.0	1	1	
+v2	Principal Systems Engineer ��� Enterprise Architect	Enterprise Architect	[enterprise architect]	[15, 17]	[15]	15.54	Enterprise Architect	0.33333334	1	1	
+v2	Funder/Doc Drawer	Mortgage Closer	[mortgage closer]	[13, 43]	[13]	13.4	Mortgage Underwriter	0.4016126	1	0	
+v2	UX Designer	User Experience Designer	[user experience designer]	[15]	[15]	15.52	User Experience Designer	1.0	1	1	
+v2	FINANCIAL ADVISOR/ FINANCIAL PLANNER	Financial Advisor	[financial advisor]	[13, 41]	[13]	13.10	Financial Advisor	1.0	1	1	
+v2	Director of Operations	Director of Operations	[director of operations]	[11]	[11]	11.17	Director of Operations	1.0	1	1	
+v2	Field Sales Engineer (Electronics Components)	Sales Engineer	[sales engineer]	[41, 17]	[41]	41.25	Sales Engineer	1.0	1	1	
+v2	Employment Specialist	Training and Development Specialist	[training and development specialist]	[13, 43]	[21]	21.37	Career Services Specialist	1.0	0	0	
+v2	Insurance Sales	Insurance Sales Agent	[insurance sales agent]	[41]	[41]	41.4	Insurance Sales Agent	1.0	1	1	
+v2	Immediate Interviews on Behalf of Verizon	Sales Representative	[sales representative]	[41]	[41]	41.2	Sales Representative	1.0	1	1	
+v2	PHYSICAL THERAPIST- Rehab - Per Diem-1205007977	Physical Therapist	[physical therapist]	[29]	[29]	29.1	Physical Therapist	1.0	1	1	
+v2	AREA REPRESENTATIVE / SALES & MARKETING / BUSINESS OPPORTUNITY	Sales Representative	[sales representative]	[41]	[11]	11.0	Sales Manager	0.18561652	0	0	
+v2	Associate Category Manager	Category Manager	[category manager]	[41, 13]	[11]	11.73	Category Manager	1.0	0	1	
+v2	Quality Engineer to $95K	Quality Engineer	[quality engineer]	[17]	[17]	17.0	Quality Assurance Engineer	0.61729944	1	0	
+v2	Registered Nurse - RN Family Planning	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	0.9168406	1	1	
+v2	Security Engineer	Security Engineer	[security engineer]	[15]	[15]	15.19	Security Engineer	1.0	1	1	
+v2	Purchasing Coordinator	Purchasing Agent	[purchasing agent]	[13, 43]	[13]	13.32	Purchasing Agent	0.6225024	1	1	
+v2	TOYS'R'US - ASSET PROTECTION SPECIALIST	Asset Protection Manager	[asset protection manager]	[33]	[33]	33.59	Asset Protection Manager	1.0	1	1	
+v2	Insurance Agent	Insurance Sales Agent	[insurance sales agent]	[41, 13, 43]	[41]	41.4	Insurance Sales Agent	1.0	1	1	
+v2	Performance Engineer Lead	Performance Engineer	[performance engineer]	[15]	[15]	15.66	Performance Engineer	1.0	1	1	
+v2	Experienced Satellite TV Installers Wanted!	Satellite TV Technician	[satellite tv technician]	[49]	[49]	49.8	Satellite TV Technician	1.0	1	1	
+v2	TOYS'R'USABIES'R'US - OFF HOURS STOCK CREW	Stockroom Associate	[stockroom associate]	[43, 53]	[43]	43.11	Stockroom Associate	1.0	1	1	
+v2	ACCOUNTEMPS STAFFING MANAGER	Staffing Manager	[staffing manager]	[11]	[11]	11.86	Staffing Manager	1.0	1	1	
+v2	Mechanical R&D Engineer	Research and Development (R&D) Engineer	[research and development (r&d) engineer]	[17]	[17]	17.30354	Research and Development (R&D) Engineer	0.7786968	1	1	
+v2	Sales Representative - Sales Associate - Sales Professional	Sales Representative	[sales representative]	[41]	[41]	41.2	Sales Representative	1.0	1	1	
+v2	"Executive Director of Club Horizon, Inc."	Executive Director	[executive director]	[11]	[11]	11.25	Executive Director	1.0	1	1	
+v2	RESTAURANT MANAGER	Restaurant Manager	[restaurant manager]	[11, 35]	[35]	35.0	Restaurant Manager	1.0	1	1	
+v2	LPN-Full Time-Inpatient Unit-Henry County-Days	Licensed Practical Nurse (LPN)	[licensed practical nurse (lpn)]	[29]	[29]	29.3	Licensed Practical Nurse (LPN)	0.51219016	1	1	
+v2	SENIOR ACCOUNTANT	General Ledger Accountant	[general ledger accountant]	[13]	[13]	13.0	Accountant	1.0	1	0	
+v2	Intern IT	IT Support Engineer	[it support engineer]	[15]	[17]	17.30039	Quality Engineer	0.25675154	0	0	
+v2	Online Media Coordinatorsuyers	Social Media Coordinator	[social media coordinator]	[27]	[11]	11.31000	Social Media Manager	0.3083188	0	0	
+v2	Senior HIM Coding Consultant - Travel Position	Medical Coding Specialist	[medical coding specialist]	[29]	[29]	29.6	Physician	0.44418648	1	0	
+v2	Dining Guest Services Manager / Registered Dietitian	Dining Services Manager	[dining services manager]	[11, 35, 43, 29, 39]	[35]	35.87	Dining Services Manager	0.5	1	1	
+v2	Senior Financial Analyst / SEC Reporting	Financial Analyst	[financial analyst]	[13, 11]	[13]	13.3	Financial Analyst	0.7611267	1	1	
+v2	TOYS'R'US - PRICING AND SIGNAGE TEAM MEMBER	Sales Team Member	[sales team member]	[41, 43]	[41]	41.30914	Sales Team Member	1.0	1	1	
+v2	AIX Hardware Engineer	Hardware Engineer	[hardware engineer]	[15, 17]	[17]	17.18	Hardware Engineer	1.0	1	1	
+v2	Booker with warehouse experience	"""Booker"" OR ""Warehouse Booker"""	[booker, warehouse booker]	[3]	[53]	53.8	Laborer	0.5592112	0	0	
+v2	Financial Analyst	Financial Analyst	[financial analyst]	[13]	[13]	13.3	Financial Analyst	1.0	1	1	
+v2	Safety Coordinator - San Antonio	Safety Coordinator	[safety coordinator]	[29, 17]	[17]	17.47	Safety Coordinator	1.0	1	1	
+v2	Business Analyst - NEEDED ASAP IN DOWNTOWN LOS ANGELES	Business Analyst	[business analyst]	[15, 13]	[13]	13.3	Financial Analyst	0.3405353	1	0	
+v2	"Software Dev Engineer- Java Developer, Web Application"	Java Developer	[java developer]	[15]	[15]	15.0	Software Engineer	0.32638678	1	0	
+v2	Entry Level Management Training - Sense of Humor Required	"""Manager In Training"""	[manager in training]	[41]	[27]	27.155	Entry Level Technical Writer	1.0	0	0	
+v2	*Mgr Pharmacy-1245756	Pharmacy Manager	[pharmacy manager]	[11, 29]	[29]	29.5	Pharmacy Technician	0.6504673	1	0	
+v2	Pharmacy Cashier	Cashier	[cashier]	[41, 31]	[41]	41.0	Cashier	1.0	1	1	
+v2	CareerBuilder National Account Manager (Staffing Industry)	Account Manager	[account manager]	[41, 11, 19, 99]	[11]	11.86	Staffing Manager	0.47156066	1	0	
+v2	Customer Support Specialist	IT Help Desk Specialist	[it help desk specialist]	[15, 43]	[15]	15.12	IT Help Desk Specialist	1.0	1	1	
+v2	Customer Service / Sales	Customer Service Representative	[customer service representative]	[43, 41]	[43]	43.0	Customer Service Representative	0.517779	1	1	
+v2	Sales Agent	Sales Representative	[sales representative]	[41, 43]	[41]	41.4	Insurance Sales Agent	1.0	1	0	
+v2	Quality Assurance Manager	Quality Assurance (QA) Manager	[quality assurance (qa) manager]	[11, 51]	[11]	11.46	Quality Assurance (QA) Manager	1.0	1	1	
+v2	Operations Systems Support Engineer	IT Support Engineer	[it support engineer]	[15]	[15]	15.30066	Support Engineer	0.2806988	1	0	
+v2	Occupational Therapist	Occupational Therapist	[occupational therapist]	[29]	[29]	29.4	Occupational Therapist	1.0	1	1	
+v2	Office Coordinator - Permanent opening in Cambridge!	Office Coordinator	[office coordinator]	[43, 11]	[43]	43.43	Office Coordinator	0.7387072	1	1	
+v2	Affiliate Sales Manager	Sales Manager	[sales manager]	[11, 41]	[11]	11.0	Sales Manager	1.0	1	1	
+v2	Unit Secretary FT 3-11	Unit Secretary	[unit secretary]	[43]	[43]	43.105	Unit Secretary	1.0	1	1	
+v2	Dispatcher (Customer Care Rep)	Customer Care Representative	[customer care representative]	[43, 49]	[43]	43.16	Customer Care Representative (CCR)	0.7207653	1	0	
+v2	Mortgage Loan Officer	Loan Officer	[loan officer]	[13]	[13]	13.8	Loan Officer	1.0	1	1	
+v2	"TRANSPORTATION SUPERVISOR IN CEDAR FALLS, IA"	Transportation Supervisor	[transportation supervisor]	[53]	[53]	53.21	Transportation Supervisor	1.0	1	1	
+v2	"BECOME AN ALLSTATE AGENT IN WICHITA, KS"	Insurance Sales Agent	[insurance sales agent]	[41]	[41]	41.30020	Retail Sales Consultant	0.5631285	1	0	
+v2	"Entry Level: Event Management, Event Planning, Marketing Reps"	Marketing Representative	[marketing representative]	[27, 11, 13, 41]	[27]	27.155	Entry Level Technical Writer	0.5877588	1	0	
+v2	8 Intern & Entry Level Openings- APPLY NOW!	Marketing Representative	[marketing representative]	[11, 27]	[27]	27.155	Entry Level Technical Writer	1.0	1	0	
+v2	VP of Emergency Services	Director of Emergency Services	[director of emergency services]	[11]	[11]	11.143	Director of Emergency Services	1.0	1	1	
+v2	DRIVERS	Commercial Driver's License (CDL) Driver	[commercial driver's license (cdl) driver]	[53]	[53]	53.0	Truck Driver	0.45978794	1	0	
+v2	SALES ��� INSURANCE SALES AGENT ��� SENIOR SALES REPRESENTATIVE	Insurance Sales Agent	[insurance sales agent]	[41]	[41]	41.4	Insurance Sales Agent	0.5	1	1	
+v2	Strategic Marketing Manager-Downstream-NPDP	Marketing Manager	[marketing manager]	[11, 13]	[11]	11.5	Marketing Manager	1.0	1	1	
+v2	Quality Manager and Engineers	Quality Assurance Engineer	[quality assurance engineer]	[17, 11]	[51]	51.31	Manufacturing Manager	0.63243145	0	0	
+v2	Business Office Manager	Office Manager	[office manager]	[43, 11]	[43]	43.14	Office Manager	1.0	1	1	
+v2	"Customer Service openings in New Hyde Park, New York"	Customer Service Representative	[customer service representative]	[43, 41]	[43]	43.2	Bank Teller	0.4603526	1	0	
+v2	Customer Service Representative	Customer Service Representative	[customer service representative]	[43, 41]	[43]	43.0	Customer Service Representative	1.0	1	1	
+v2	TOYS'R'USABIES'R'US - HUMAN RESOURCES DEPARTMENT SUPERVISOR	Human Resources (HR) Manager	[human resources (hr) manager]	[13, 43, 11]	[43]	43.15	Human Resources Assistant	0.713228	1	0	
+v2	"program manager, hardware development, Starbucks Hardware Design"	Program Manager	[program manager]	[11, 15, 17]	[11]	11.7	Program Manager	0.64586294	1	1	
+v2	Account Executive - Commercial Sales	Account Executive	[account executive]	[41, 11]	[41]	41.8	Account Executive	1.0	1	1	
+v2	Administrative Development Manager	Business Development Manager	[business development manager]	[43, 11]	[11]	11.13	Business Development Manager	1.0	1	1	
+v2	Bone Marrow Transplant Nurse - (BMT RN)	Registered Nurse	[registered nurse]	[29]	[29]	29.0	Registered Nurse	0.4865821	1	1	
+v2	Insurance Sales Agent	Insurance Sales Agent	[insurance sales agent]	[41]	[41]	41.4	Insurance Sales Agent	1.0	1	1	
+v2	AUTOMOTIVE TECHNICIAN / AUTOMOTIVE MECHANIC / GENERALNE	Automotive Technician	[automotive technician]	[49]	[49]	49.0	Maintenance Mechanic	0.5	1	0	
+v2	Lead Mechanic - 2nd Shift	Maintenance Manager	[maintenance manager]	[49]	[49]	49.0	Maintenance Mechanic	1.0	1	0	
+v2	GIS Analyst	GIS Analyst	[gis analyst]	[15, 17]	[15]	15.145	GIS Analyst	1.0	1	1	
+v2	Insurance Fraud Investigator	Fraud Investigator	[fraud investigator]	[33, 13]	[33]	33.34	Fraud Investigator	1.0	1	1	
+v2	*Accounting Operations Supervisor	Accounts Payable Supervisor	[accounts payable supervisor]	[13, 43, 11]	[51]	51.16	Operations Supervisor	1.0	0	0	
+v2	Financial Analyst I	Financial Analyst	[financial analyst]	[13, 43]	[13]	13.3	Financial Analyst	1.0	1	1	
+v2	Project Manager / Engagement Manager	Engagement Manager or Project Manager	[engagement manager, project manager]	[15, 11, 13]	[11]	11.130	Engagement Manager	1.0	1	1	
+v2	12-157: Mechanical Engineer II	Mechanical Engineer	[mechanical engineer]	[17]	[17]	17.1	Mechanical Engineer	1.0	1	1	
+v2	RESTAURANT MANAGER	Restaurant Manager	[restaurant manager]	[11, 35]	[35]	35.0	Restaurant Manager	1.0	1	1	
+v2	Quality Improvement Assistant	Quality Improvement Nurse	[quality improvement nurse]	[13, 17]	[11]	11.232	Director of Quality Improvement	1.0	0	0	
+v2	"PROJECT MANAGER, CORPORATE COMMUNICATIONS"	Communications Manager	[communications manager]	[11, 27]	[11]	11.55	Communications Manager	0.84847504	1	1	
+v2	Forklift Mechanic	Maintenance Mechanic	[maintenance mechanic]	[49, 47]	[49]	49.0	Maintenance Mechanic	1.0	1	1	
+v2	Sales / Customer Service - Part Time / Full Time ��� Entry Level	Customer Service Representative	[customer service representative]	[43, 41]	[43]	43.0	Customer Service Representative	1.0	1	1	
+v2	Behavioral Youth Counselor	Youth Counselor	[youth counselor]	[21]	[21]	21.53	Youth Counselor	1.0	1	1	
+v2	Subway Cashier / Clerk	Cashier	[cashier]	[41, 35]	[41]	41.0	Cashier	0.5	1	1	
+v2	ADMINISTRATIVE ASSISTANT/CREDENTIALING COORDINATOR	Administrative Assistant	[administrative assistant]	[43]	[43]	43.1	Administrative Assistant	0.55675924	1	1	
+v2	Automotive Sales Professionals	Automotive Sales Representatives	[automotive sales representatives]	[41]	[41]	41.9	Automotive Sales Representative	1.0	1	0	
+v2	Retail Personal Banker - Washington Shoppes	Personal Banker	[personal banker]	[13, 43]	[41]	41.1	Retail Sales Associate	0.5	0	0	
+v2	BABIES'R'US - SELLING SPECIALIST	Sales Specialist	[sales specialist]	[41]	[41]	41.17	Sales Specialist	1.0	1	1	
+v2	SALES - SALES MANAGEMENT (SALES AND MARKETING)	Sales Manager	[sales manager]	[11, 41]	[41]	41.13	Sales Management Trainee	0.5	1	0	
+v2	"Consumer Products: CNC Machinist ��� Model Maker [5660], St. Josep"	CNC Machinist	[cnc machinist]	[51]	[51]	51.0	CNC Machinist	0.846841	1	1	
+v2	TRUCK DRIVER CDL JOBS - DEDICATED REGIONAL	Truck Driver	[truck driver]	[53]	[53]	53.0	Truck Driver	1.0	1	1	
+v2	"Manager in Training, Now Accepting Applications - #4402 - Hickor"	"""Manager In Training"""	[manager in training]	[41, 11, 43]	[41]	41.67	Sales Manager	1.0	1	0	
+v2	Collections Representative	Collections Representative	[collections representative]	[43]	[43]	43.26	Collections Representative	1.0	1	1	
+v2	Driver/Yard	Yard Driver	[yard driver]	[53]	[53]	53.47	Yard Driver	1.0	1	1	
+v2	SPRINKLER FITTERS	Fire Sprinkler Fitter	[fire sprinkler fitter]	[47]	[47]	47.90	Fire Sprinkler Fitter	1.0	1	1	
+v2	Registered Nurse - RN - Labor and Delivery - L&D	Labor and Delivery Nurse	[labor and delivery nurse]	[29]	[29]	29.0	Registered Nurse	0.5	1	0	
+v2	Software Engineer	Software Engineer	[software engineer]	[15]	[15]	15.0	Software Engineer	1.0	1	1	
+v2	Customer Service / Sales / Trainee - Full Time - Entry Level	Customer Service Representative	[customer service representative]	[41, 43]	[43]	43.0	Customer Service Representative	1.0	1	1	
+v2	Network Services/Support	IT Support Engineer	[it support engineer]	[15, 49]	[15]	15.18	IT Support Engineer	1.0	1	1	
+v2	Nurse Consultant	Nurse Consultant OR Clinical Nurse Consultant	[nurse consultant, clinical nurse consultant]	[29]	[29]	29.10702	Nurse Consultant	0.9962775	1	1	
+v2	CAE ENGINEER	CAE Engineer	[cae engineer]	[17]	[17]	17.125	CAE Engineer	1.0	1	1	
+
+Number of Titles: 729
+Elapsed milliseconds: 25195.715
+milliseconds/title: 34.562023
+Accuracy (%): 72.29 (527/729)
+SOC Accuracy (%): 90.40 (659/729)

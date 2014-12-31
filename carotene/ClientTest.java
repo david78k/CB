@@ -82,7 +82,8 @@ public class ClientTest {
 				socIn = 0;
 
 				String title = job.getTitle();
-				String description = job.getDescription();
+				//String description = job.getDescription();
+				String description = ""; 
 				expectedTitles = job.getExpectedTitles();
 
 				caroteneSocs = new ArrayList<Integer>();

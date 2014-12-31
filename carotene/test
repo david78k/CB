@@ -1,8 +1,10 @@
-prefix=run75_j750_ec2_termweight_itbf0.5f_smallset
+prefix=run79_j750_ec2_termweight_itbf0.5f_soc35_calib0.8_titleonly
+#prefix=run78_j750_ec2_termweight_itbf0.5f_soc35_calib0.8
+#prefix=run76_j750_ec2_termweight_itbf0.5f_smallset
 #prefix=run69_j750_ec2_msocs2_itbf0.5f_alpha0.5_calib0.85
 #prefix=run70_j750_ec2_msocs2_itbf0.5f_alpha1.0_calib0.85
 #prefix=run71_j750_ec2_ssoc_itbf0.5f_calib0.85_enrich
-#prefix=run73_j750_ec2_ssoc_itbf0.5f_calib0.85
+#prefix=run79_j750_ec2_ssoc_itbf0.5f_calib0.85_titleonly
 #prefix=run68_j750_ec2_ssoc_itbf0.5f
 
 input=Jobs750_onet-EDITED.txt
